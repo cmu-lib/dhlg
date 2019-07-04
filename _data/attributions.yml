@@ -1,0 +1,17 @@
+- id: "cc"
+  name: "CC Attribution test name"
+  url: "http://www.cnn.com"
+  licensing: "Specific license information CC or MIT etc."
+  details: "This content .... "
+
+- id: "mit"
+  name: "MIT Attribution test name"
+  url: "http://www.cnn.com"
+  licensing: "Specific license information CC or MIT etc."
+  details: "This content .... "
+
+- id: "gnu"
+  name: "GNU Attribution test name"
+  url: "http://www.cnn.com"
+  licensing: "Specific license information CC or MIT etc."
+  details: "This content .... "

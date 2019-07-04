@@ -1,0 +1,114 @@
+---
+# Only the main Sass file needs front matter, rest is included from site.sass.sass_dir
+sitemap:
+  exclude: true
+---
+@charset "utf-8";
+
+$splashimageurl: "{{ site.url }}{{ site.baseurl }}{{ site.splashimage }}";
+$modulesplashimageurl: "{{ site.url }}{{ site.baseurl }}{{ site.modulesplashimage }}";
+
+@import "functions.scss";
+@import "01_settings_colors.scss";
+@import "02_settings_typography.scss";
+@import "03_settings_mixins_media_queries.scss";
+@import "04_settings_global.scss";
+@import "05_normalize.scss"; // normalize.css v3.0.2
+
+@import "foundation-components/top-bar";
+@import "foundation-components/accordion";
+@import "foundation-components/alert-boxes";
+@import "foundation-components/breadcrumbs";
+@import "foundation-components/block-grid";
+@import "foundation-components/button-groups";
+@import "foundation-components/buttons";
+@import "foundation-components/clearing";
+@import "foundation-components/dropdown";
+@import "foundation-components/dropdown-buttons";
+@import "foundation-components/flex-video";
+@import "foundation-components/forms";
+@import "foundation-components/grid";
+@import "foundation-components/inline-lists";
+@import "foundation-components/keystrokes";
+@import "foundation-components/panels";
+@import "foundation-components/reveal";
+@import "foundation-components/side-nav";
+@import "foundation-components/sub-nav";
+@import "foundation-components/tables";
+@import "foundation-components/thumbs";
+@import "foundation-components/top-bar";
+@import "foundation-components/type";
+@import "foundation-components/visibility";
+
+@import "06_typography.scss";
+@import "07_layout.scss";
+@import "foundation-components/grid";
+@import "09_elements.scss";
+
+{% if site.asciidoctor-enabled == true %}
+@import "10_asciidoc.scss";
+{% endif %}
+
+@import "11_syntax-highlighting.scss";
+.dropdown li:not(.has-form):not(.active) > a:not(.button)::after{
+  display: none;
+}
+.dropdown li:hover:not(.has-form):not(.active) > a:not(.button)::after{
+  display: inline-block;
+}
+.dropdown li:not(.has-form):not(.active) > span:not(.button)::after{
+  display: none;
+}
+.dropdown li:hover:not(.has-form):not(.active) > span:not(.button)::after{
+  display: inline-block;
+}
+
+.dropdown .dropdown li:not(.has-form):not(.active) > a:not(.button){
+  background-color: $grey-8;
+}
+.dropdown .dropdown li:not(.has-form):not(.active) > span:not(.button){
+  background-color: $grey-8;
+}
+#frontsplash{
+  #sitetitle {
+    max-width:10em;
+  }
+}
+
+blockquote{
+  border-left: solid 4px $grey-11;
+  margin: 0;
+  padding: 0.5em;
+  background: $grey-1;
+  &:before {
+    content:"";
+  }
+  &:after {
+    content:"";
+  }
+  p{
+    margin: 0;
+  }
+}
+
+#lunrsearchresults {
+  z-index: 40;
+  position: absolute;
+  top: $topbar-height;
+  background: $grey-1;
+  width: 100%;
+  p{
+    margin: $topbar-height/2 $topbar-height/2 0 $topbar-height/2;
+  }
+  ul {
+    list-style: none;
+    margin: $topbar-height/2;
+    li {
+      width: 100%;
+      padding: 1rem;
+      &:hover{
+        background: $white;
+      }
+    }
+  }
+}

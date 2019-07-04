@@ -1,0 +1,27 @@
+# Author details
+#
+# 1. Edit information below
+# 2. Change site author in config.yml
+# 3. Change default post/page authors in config.yml
+#
+# Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
+cmu-dh: # replace this with your info
+  name: "Carnegie Mellon - Digital Humanities"
+  siterole: "webmaster, developer, copywriter, designer"
+  uri: http://dsharp.library.cmu.edu/digital-humanities/
+  email:
+  twitter: "@cmu_dSHARP"
+
+author1: # replace this with your info
+  name: "Author 1 name"
+  siterole: "contributor"
+  uri: http://dsharp.library.cmu.edu/digital-humanities/
+  email:
+  twitter: "@cmu_dSHARP"
+
+author2: # replace this with your info
+  name: "Another author"
+  siterole: "editor, contributor"
+  uri: http://dsharp.library.cmu.edu/digital-humanities/
+  email:
+  twitter: "@cmu_dSHARP"
