@@ -6,6 +6,9 @@
 					{% if author %}
 					<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="pr20 icon-edit"><a href="{{ author.uri }}" target="_blank"> {{ author.name }}</a></span>
 				</span>
+				{% if author.bio != empty %}
+				{{ author.bio }}
+				{% endif %}
 				{% endif %}
 
 				{% if page.date %}
@@ -19,27 +22,66 @@
 			{% if page.source == "contribution" %}
 			<p>This page has been provided by a contributor</p>
 			{% endif %}
-			{% unless page.disciplines == empty%}
-				<p>
-				{% for discipline in page.disciplines %}
-					{% for controldiscipline in site.data.disciplines %}
-						{% if controldiscipline == discipline %}
-						<a href="">{{discipline}}</a>{% if forloop.last %}{% else %}, {% endif %}
-						{% endif %}
-					{% endfor %}
-				{% endfor %}
-				</p>
-			{% endunless %}
 			{% unless page.topics == empty%}
 				<p>
 				{% for topic in page.topics %}
 					{% for controltopic in site.topics %}
 						{% if controltopic.identifier == topic %}
-						<a href="">{{topic}}</a>{% if forloop.last %}{% else %}, {% endif %}
+						<a href="/topics/#topic_{{ controltopic.identifier }}">{{topic}}</a>{% if forloop.last %}{% else %}, {% endif %}
 						{% endif %}
 					{% endfor %}
 				{% endfor %}
 				</p>
+			{% endunless %}
+			{% unless page.disciplines == empty%}
+			{% assign matcheddisciplineprojects = site.emptyArray %}
+				<h3>Similar Projects by Discipline</h3>
+				<div>
+				{% for discipline in page.disciplines %}
+					{% for controldiscipline in site.data.disciplines %}
+						{% if controldiscipline == discipline %}
+							{% for finddisciplineprojects in site.projects %}
+								{% if finddisciplineprojects.disciplines contains controldiscipline %}
+									{% if finddisciplineprojects.identifier != page.identifier %}
+										{% unless matcheddisciplineprojects contains finddisciplineprojects.identifier %}
+											<div>
+												<h5><a href="{{ site.url }}{{ finddisciplineprojects.id }}">{{ finddisciplineprojects.title }}</a></h5>
+												<p>{{ finddisciplineprojects.teaser }}</p>
+											</div>
+											{% assign matcheddisciplineprojects = matcheddisciplineprojects | push: finddisciplineprojects.identifier %}
+										{% endunless %}
+									{% endif %}
+								{% endif %}
+							{% endfor %}
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+				</div>
+			{% endunless %}
+			{% unless page.topics == empty%}
+			{% assign matchedtopicprojects = site.emptyArray %}
+				<h3>Similar Projects by Topics</h3>
+				<div>
+				{% for topic in page.topics %}
+					{% for controltopic in site.topics %}
+						{% if controltopic.identifier == topic %}
+							{% for findtopicprojects in site.projects %}
+								{% if findtopicprojects.topics contains controltopic %}
+									{% if findtopicprojects.identifier != page.identifier %}
+										{% unless matchedtopicprojects contains findtopicprojects.identifier %}
+											<div>
+												<h5><a href="{{ site.url }}{{ findtopicprojects.id }}">{{ findtopicprojects.title }}</a></h5>
+												<p>{{ findtopicprojects.teaser }}</p>
+											</div>
+											{% assign matchedtopicproject = matchedtopicprojects | push: findtopicprojects.identifier %}
+										{% endunless %}
+									{% endif %}
+								{% endif %}
+							{% endfor %}
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+				</div>
 			{% endunless %}
 			{% if page.collection == "posts" %}
 			<div id="post-nav" class="row">

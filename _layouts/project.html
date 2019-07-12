@@ -13,7 +13,6 @@ format: video
 				<div class="medium-offset-2 medium-8 end columns">
 					<header>
 						{% if page.subheadline %}<p class="subheadline t30">{{ page.subheadline }}</p>{% endif %}
-						<h1 itemprop="name">{{ page.title }}</h1>
 					</header>
 
 					{% if page.video.thumbnailUrl %}<meta itemprop="thumbnailUrl" content="{{ page.video.thumbnailUrl }}" />{% endif %}
@@ -27,9 +26,7 @@ format: video
 					{% endif %}
 
 					{{ content }}
-					{% if page.show_meta == true %}
 					{% include _meta_information.html %}
-					{% endif %}
 				</div><!-- /.medium-8.columns -->
 			</div><!-- /.row -->
 		</article>
