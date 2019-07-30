@@ -5,4 +5,5 @@ title: "Search"
 sitemap: false
 ---
 
-{% include _google_search.html %}
+{% include _search-lunr.html %}
+{% include _search-lunr_results.html %}

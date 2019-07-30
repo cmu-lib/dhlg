@@ -3,16 +3,24 @@ layout: page
 title: "Interview 1"
 subheadline: "Templates"
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
-author: cmu-dh
+authors: 
+- name: Susan Grunewald
+  bio:
+  affiliation:
+  uri:
+- name: Scott Weingart
+  bio:
+  affiliation:
+  uri:
 identifier: interview1
 disciplines: 
-    - Discipline3
-    - Discipline5
+- Discipline3
+- Discipline5
 topics:
-    - Topic3
-    - Topic6
+- Topic3
+- Topic6
 source: core
-creationdate: July 1, 2019
+creationdate: 2019-07-01
 ---
 # Interview 1
 *Scott B. Weingart*

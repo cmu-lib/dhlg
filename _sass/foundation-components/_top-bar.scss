@@ -13,7 +13,7 @@
 $include-html-top-bar-classes: $include-html-classes !default;
 
 // Background color for the top bar
-$topbar-bg-color: $oil !default;
+$topbar-bg-color: $white !default;
 $topbar-bg: $topbar-bg-color !default;
 
 // Height and margin
@@ -33,11 +33,11 @@ $topbar-link-weight: $font-weight-normal !default;
 $topbar-link-font-size: rem-calc(13) !default;
 $topbar-link-hover-lightness: -10% !default; // Darken by 10%
 $topbar-link-bg: $topbar-bg !default;
-$topbar-link-bg-hover: $oil !default;
-$topbar-link-bg-color-hover: $charcoal !default;
+$topbar-link-bg-hover: $light-amber !default;
+$topbar-link-bg-color-hover: $light-amber !default;
 $topbar-link-bg-active: $primary-color !default;
 $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%) !default;
-$topbar-link-font-family: $body-font-family !default;
+$topbar-link-font-family: $font-family-monospace;
 $topbar-link-text-transform: none !default;
 $topbar-link-padding: ($topbar-height / 3) !default;
 $topbar-back-link-size: rem-calc(18) !default;
@@ -46,11 +46,11 @@ $topbar-button-font-size: 0.75rem !default;
 $topbar-button-top: 7px !default;
 
 // Style the top bar dropdown elements
-$topbar-dropdown-bg: $oil !default;
+$topbar-dropdown-bg: $light-amber !default;
 $topbar-dropdown-link-color: $white !default;
 $topbar-dropdown-link-color-hover: $topbar-link-color-hover !default;
-$topbar-dropdown-link-bg: $oil !default;
-$topbar-dropdown-link-bg-hover: $oil !default;
+$topbar-dropdown-link-bg: $light-amber !default;
+$topbar-dropdown-link-bg-hover: $light-amber !default;
 $topbar-dropdown-link-weight: $font-weight-normal !default;
 $topbar-dropdown-toggle-size: 5px !default;
 $topbar-dropdown-toggle-color: $white !default;
@@ -60,7 +60,7 @@ $topbar-dropdown-label-color: $monsoon !default;
 $topbar-dropdown-label-text-transform: uppercase !default;
 $topbar-dropdown-label-font-weight: $font-weight-bold !default;
 $topbar-dropdown-label-font-size: rem-calc(10) !default;
-$topbar-dropdown-label-bg: $oil !default;
+$topbar-dropdown-label-bg: $light-amber !default;
 
 // Top menu icon styles
 $topbar-menu-link-transform: uppercase !default;
@@ -312,7 +312,8 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       }
 
       ul li {
-        background: $topbar-dropdown-bg;
+        background: $topbar-bg;
+        position: relative;
         & > a {
           display: block;
           width: 100%;
@@ -356,14 +357,29 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           }
           color: $topbar-link-color-hover;
         }
-
+        &:not(.divider){
+          padding-left: 1em;
+        }
         // Apply the active link color when it has that class
         &.active > a {
-          background: $topbar-link-bg-active;
           color: $topbar-link-color-active;
           &:hover {
             background: $topbar-link-bg-active-hover;
             color: $topbar-link-color-active-hover;
+          }
+        }
+        &:not(.has-dropdown){
+          & > a {
+            &:before {
+              content: "\2014";
+              display: block;
+              width: 0;
+              height: 0;
+              position: absolute;
+              font-family: "Noto Mono";
+              left: 1.2em;
+              top: 0;
+            }
           }
         }
       }
@@ -376,15 +392,18 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         position: relative;
 
         & > a {
-          &:after {
+          &:before {
             @if ($topbar-arrows){
-              @include css-triangle($topbar-dropdown-toggle-size, rgba($topbar-dropdown-toggle-color, $topbar-dropdown-toggle-alpha), $default-float);
+              content: "\207A";
+              display: block;
+              width: 0;
+              height: 0;
             }
-            margin-#{$opposite-direction}: $topbar-link-padding;
-            margin-top: -($topbar-dropdown-toggle-size / 2) - 2;
+            font-size: 2.2em;
             position: absolute;
-            top: 50%;
-            #{$opposite-direction}: 0;
+            font-family: "Noto Mono";
+            left: 0.5em;
+            top: 0.15em;
           }
         }
 
@@ -411,6 +430,8 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         li {
           width: 100%;
           height: auto;
+          position: relative;
+          background: $topbar-dropdown-bg;
 
           a {
             font-weight: $topbar-dropdown-link-weight;
@@ -496,12 +517,12 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         }
 
         li {
+          position: relative;
+          &:hover {
+            background-color: $topbar-link-bg-color-hover;
+          }
           &.hover {
             > a:not(.button) {
-              background-color: $topbar-link-bg-color-hover;
-              @if ($topbar-link-bg-hover) {
-                background: $topbar-link-bg-hover;
-              }
               color: $topbar-link-color-hover;
             }
           }
@@ -509,13 +530,6 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
             a:not(.button) {
               padding: 0 $topbar-link-padding;
               line-height: $topbar-height;
-              background: $topbar-link-bg;
-              &:hover {
-                background-color: $topbar-link-bg-color-hover;
-                @if ($topbar-link-bg-hover) {
-                  background: $topbar-link-bg-hover;
-                }
-              }
             }
           }
           &.active:not(.has-form) {
@@ -523,11 +537,6 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
               padding: 0 $topbar-link-padding;
               line-height: $topbar-height;
               color: $topbar-link-color-active;
-              background: $topbar-link-bg-active;
-              &:hover {
-                background: $topbar-link-bg-active-hover;
-                color: $topbar-link-color-active-hover;
-              }
             }
           }
         }
@@ -536,10 +545,9 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           @if($topbar-arrows){
             & > a {
               padding-#{$opposite-direction}: $topbar-link-padding + $topbar-link-dropdown-padding !important;
-              &:after {
-                @include css-triangle($topbar-dropdown-toggle-size, rgba($topbar-dropdown-toggle-color, $topbar-dropdown-toggle-alpha), top);
-                margin-top: -($topbar-dropdown-toggle-size / 2);
-                top: ($topbar-height / 2);
+              &:before {
+                content: "\207A";
+                display: block;
               }
             }
           }
@@ -560,6 +568,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           }
 
           .dropdown li.has-dropdown {
+            position: relative;
             & > a {
               @if ($topbar-dropdown-arrows){
                 &:after {
@@ -582,26 +591,22 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           min-width: 100%;
 
           li {
+            position: relative;
             a {
               color: $topbar-dropdown-link-color;
               line-height: $topbar-height;
               white-space: nowrap;
               padding: 12px $topbar-link-padding;
-              background: $topbar-dropdown-link-bg;
+              background: transparent;
             }
 
             &:not(.has-form):not(.active) {
               & > a:not(.button) {
                 color: $topbar-dropdown-link-color;
-                background: $topbar-dropdown-link-bg;
               }
 
               &:hover > a:not(.button) {
                 color: $topbar-dropdown-link-color-hover;
-                background-color: $topbar-link-bg-color-hover;
-                @if ($topbar-dropdown-link-bg-hover) {
-                  background: $topbar-dropdown-link-bg-hover;
-                }
               }
             }
 

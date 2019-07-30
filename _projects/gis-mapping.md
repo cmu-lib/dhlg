@@ -4,31 +4,25 @@ show_meta: false
 title: "GIS Mapping"
 subheadline: "Templates"
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
-author: sgrunewald
+authors: 
+- name: Susan Grunewald
+  bio: Susan Grunewald is the Digital History Postdoctoral Fellow at the University of Pittsburgh’s World History Center. She received her PhD from Carnegie Mellon University, where she was a two-time A.W. Mellon Fellow in Digital Humanities. Her research focuses on Soviet history, particularly German prisoners of war in the USSR during and after the Second World War.
+  affiliation:
+  uri:
+- name: Scott Weingart
+  bio:
+  affiliation:
+  uri:
 identifier: gis-mapping
 disciplines: 
-    - History
-    - Discipline5
+- History
+- Discipline5
 topics:
-    - digitalhistory
-    - Topic4
-creationdate: July 3, 2019
+- digitalhistory
+- Topic4
+creationdate: 2019-07-03
 source: contribution
-iframe: "<iframe width='970' height='546' src='//www.youtube.com/embed/r32qwAENWng' frameborder='0' allowfullscreen></iframe>"
-#
-# These video settings are totally optional. It's only purpose
-# is SEO, so that videos show up in Google hopefully with a 
-# thumbnail.
-# More › https://developers.google.com/webmasters/videosearch/schema?hl=en&rd=1
-#
-# embedURL – A URL pointing to a player for the specific video.
-# contentURL – A URL pointing to the actual video media file
-# thumbnailUrl – A URL pointing to the video thumbnail image file.
-#
-video:
-    embedURL: "https://www.youtube.com/embed/r32qwAENWng"
-    contentURL: "http://www.youtube.com/watch?v=r32qwAENWng"
-    thumbnailUrl: "http://img.youtube.com/vi/r32qwAENWng/0.jpg"
+youtubeid: r32qwAENWng
 ---
 # GIS Digital Mapping
 *Susan Grunewald*

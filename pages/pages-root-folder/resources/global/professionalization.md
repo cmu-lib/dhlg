@@ -5,6 +5,15 @@ teaser: "Professionalization in DH"
 breadcrumb: true
 header:
 permalink: "/resources/global/professionalization/"
+authors: 
+- name: Susan Grunewald
+  bio:
+  affiliation:
+  uri:
+- name: Scott Weingart
+  bio:
+  affiliation:
+  uri:
 ---
 ## Professionalization
 

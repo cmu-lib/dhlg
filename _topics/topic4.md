@@ -5,12 +5,20 @@ title:  "Topic 4"
 teaser: "The default template for posts and pages aligns the page beautifully in the middle. <strong>But</strong> you can customize posts/pages easily via switches in the front matter to <em>get a sidebar</em> and/or to <em>turn off meta-information</em> at the end of the page like categories, tags and dates."
 meta_teaser: "This is an example of a beautiful aligned post in the middle. There is no sidebar to distract the reader. The difference to the Page-Template is, that you find meta-information at the bottom of the post."
 breadcrumb: false
-author: sgrunewald
+authors: 
+- name: Susan Grunewald
+  bio:
+  affiliation:
+  uri:
+- name: Scott Weingart
+  bio:
+  affiliation:
+  uri:
 identifier: Topic4
 disciplines: 
-    - Discipline2
-    - Discipline6
-creationdate: July 4, 2019
+- Discipline2
+- Discipline6
+creationdate: 2019-07-19
 ---
 # Topic 4
 *Susan Grunewald*

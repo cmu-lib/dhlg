@@ -25,7 +25,6 @@
 
 {% endcomment %}
       <ul class="right">
-          <li>{% include _search-lunr.html %}</li>
         {% for link in site.data.navigation %}
 
               {% if link.url contains 'http' %}
@@ -189,4 +188,3 @@
     </section>
   </nav>
 </div><!-- /#navigation -->
-{% include _search-lunr_results.html %}

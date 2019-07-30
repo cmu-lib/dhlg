@@ -15,6 +15,51 @@ $modulesplashimageurl: "{{ site.url }}{{ site.baseurl }}{{ site.modulesplashimag
 @import "04_settings_global.scss";
 @import "05_normalize.scss"; // normalize.css v3.0.2
 
+$font-family-sans-serif: "Noto Sans", Helvetica, Arial, sans-serif;
+$font-family-serif: "Noto Serif Condensed", Georgia, Times, serif;
+$font-family-monospace: "Noto Mono", Monaco, monospace;
+
+$body-font-family: $font-family-sans-serif;
+$body-font-weight: normal;
+$body-font-style: normal;
+
+$header-font-family: $font-family-serif;
+
+$fontsfolder: '../fonts';
+
+@mixin font-face($style-name, $file, $folder, $category:"",$weight:"") {
+  $filepath: $fontsfolder + "/" + $folder + "/" + $file;
+  @font-face {
+      font-family: "#{$style-name}";
+      src: url($filepath + $weight+"-webfont.eot");
+      src: url($filepath + $weight+"-webfont.eot?#iefix") format('embedded-opentype'), url($filepath + $weight+"-webfont.woff") format('woff'), url($filepath + $weight+".ttf")  format('truetype'), url($filepath + $weight+"-webfont.svg#" + $style-name + "") format('svg');
+      @if($weight == 'bold') {
+          font-weight: 700;
+      } 
+      @else {
+          font-weight: normal;
+      }
+  }
+  %#{$style-name} {
+      font: {
+          @if $category != "" {
+              family: "#{$style-name}", #{$category};
+          }
+          @else {
+              family: "#{$style-name}";
+          }
+      }
+  }
+}
+
+
+@include font-face("Noto Serif Condensed", "noto-serif-condensed", "noto-serif-condensed", "serif");
+@include font-face("Noto Serif Condensed Bold", "noto-serif-condensed", "noto-serif-condensed", "serif","bold");
+@include font-face("Noto Sans Light", "noto-sans-light", "noto-sans-light", "sans-serif");
+@include font-face("Noto Sans Light Italic", "noto-sans-light", "noto-sans-light", "sans-serif","italic");
+@include font-face("Noto Mono", "noto-mono", "noto-mono", "sans-serif");
+
+
 @import "foundation-components/top-bar";
 @import "foundation-components/accordion";
 @import "foundation-components/alert-boxes";
@@ -111,4 +156,16 @@ blockquote{
       }
     }
   }
+}
+
+.top-bar-section{
+  a{
+    text-decoration: underline;
+    &:hover{
+      color: $red;
+    }
+  }
+}
+#subfooter {
+  border-top: 2px $white solid;
 }

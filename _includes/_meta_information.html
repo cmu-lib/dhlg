@@ -1,18 +1,16 @@
 			<div id="page-meta" class="t30">
-				<p>
-					<!-- Look the author details up from the site config. -->
-					{% assign author = site.data.authors[page.author] %}
-					<!-- Output author details if some exist. -->
-					{% if author %}
-					<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="pr20 icon-edit"><a href="{{ author.uri }}" target="_blank"> {{ author.name }}</a></span>
-				</span>
-				{% if author.bio != empty %}
-				{{ author.bio }}
-				{% endif %}
-				{% endif %}
+				{% for author in page.authors %}
+					<p>
+						<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="pr20 icon-edit"><a href="{{ author.uri }}" target="_blank"> {{ author.name }}</a> ({{ author.affiliation }})</span>
+						</span>
+					</p>
+					{% if author.bio != empty %}
+						<p>{{ author.bio }}</p>
+					{% endif %}
+				{% endfor %}
 
 				{% if page.date %}
-				<time class="icon-calendar pr20" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"> {{ page.date | date: "%Y-%m-%d" }}</time>
+				<time class="icon-calendar pr20" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"> {{ page.date | date: "%B %-d, %Y" }}</time>
 				{% endif %}
 
 				{% if page.categories != empty %}<span class="icon-archive pr20"> {{ page.categories | join: ' · ' | upcase }}{% endif %}</span>
@@ -20,7 +18,7 @@
 				<span class="pr20">{% for tag in page.tags %}<span class="icon-price-tag pr10"> {{tag}}</span> {% endfor %}</span>
 			</p>
 			{% if page.source == "contribution" %}
-			<p>This page has been provided by a contributor</p>
+			<p>This page has been provided by a contributor.</p>
 			{% endif %}
 			{% unless page.topics == empty%}
 				<p>
@@ -88,7 +86,7 @@
 				{% if page.previous.url %}
 				<div class="small-5 columns"><a class="button small radius prev" href="{{ site.url }}{{ site.baseurl }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a></div><!-- /.small-4.columns -->
 				{% endif %}
-				<div class="small-2 columns text-center"><a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/blog/archive/" title="Blog {{ site.data.language.archive }}">{{ site.data.language.archive }}</a></div><!-- /.small-4.columns -->
+				<div class="small-2 columns text-center"><a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/blog/archive/" title="Blog Archive">Archive</a></div><!-- /.small-4.columns -->
 				{% if page.next.url %}
 				<div class="small-5 columns text-right"><a class="button small radius next" href="{{ site.url }}{{ site.baseurl }}{{page.next.url}}">{{page.next.title}} &raquo;</a></div><!-- /.small-4.columns -->
 				{% else %}

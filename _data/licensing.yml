@@ -1,0 +1,9 @@
+- id: "core"
+  name: "Core Content"
+  licensing: "This content is licensed by..."
+  details: "This content .... "
+
+- id: "contribution"
+  name: "Contributed Content"
+  licensing: "This content is licensed by..."
+  details: "This content .... "

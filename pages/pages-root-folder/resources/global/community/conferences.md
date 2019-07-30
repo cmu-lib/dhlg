@@ -5,7 +5,15 @@ meta_title: "Contact and use our contact form"
 subheadline: "Wufoo-powered contact forms"
 teaser: "List of Conferences"
 permalink: "/resources/global/community/conferences/"
-author: cmu-dh
+authors: 
+- name: Susan Grunewald
+  bio:
+  affiliation:
+  uri:
+- name: Scott Weingart
+  bio:
+  affiliation:
+  uri:
 show_meta: true
 ---
 ## Conferences

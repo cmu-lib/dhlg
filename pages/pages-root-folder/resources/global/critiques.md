@@ -5,6 +5,15 @@ teaser: "Critiques of DH"
 breadcrumb: true
 header:
 permalink: "/resources/global/critiques/"
+authors: 
+- name: Susan Grunewald
+  bio:
+  affiliation:
+  uri:
+- name: Scott Weingart
+  bio:
+  affiliation:
+  uri:
 ---
 ## Critiques
 

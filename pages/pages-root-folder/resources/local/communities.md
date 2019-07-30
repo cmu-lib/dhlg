@@ -5,7 +5,15 @@ meta_title: "Contact and use our contact form"
 subheadline: "Wufoo-powered contact forms"
 teaser: "List of Local Community Organizations"
 permalink: "/resources/local/communities/"
-author: cmu-dh
+authors: 
+- name: Susan Grunewald
+  bio:
+  affiliation:
+  uri:
+- name: Scott Weingart
+  bio:
+  affiliation:
+  uri:
 show_meta: true
 ---
 ## Communities

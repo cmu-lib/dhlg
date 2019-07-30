@@ -5,12 +5,20 @@ title:  "Digital History"
 teaser: "The default template for posts and pages aligns the page beautifully in the middle. <strong>But</strong> you can customize posts/pages easily via switches in the front matter to <em>get a sidebar</em> and/or to <em>turn off meta-information</em> at the end of the page like categories, tags and dates."
 meta_teaser: "This is an example of a beautiful aligned post in the middle. There is no sidebar to distract the reader. The difference to the Page-Template is, that you find meta-information at the bottom of the post."
 breadcrumb: false
-author: sweingart
+authors: 
+- name: Susan Grunewald
+  bio:
+  affiliation:
+  uri:
+- name: Scott Weingart
+  bio:
+  affiliation:
+  uri:
 identifier: digitalhistory
 disciplines: 
-    - History
-    - Discipline2
-creationdate: July 2, 2019
+- History
+- Discipline2
+creationdate: 2019-07-02
 ---
 # Digital History
 *Scott B. Weingart*

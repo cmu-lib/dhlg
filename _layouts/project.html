@@ -6,7 +6,7 @@ format: video
 	<div class="small-12 columns">
 		<article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
 			<div class="flex-video">
-				{{ page.iframe}}
+				<iframe width='970' height='546' src='//www.youtube.com/embed/{{ page.youtubeid }}' frameborder='0' allowfullscreen></iframe>
 			</div>
 
 			<div class="row">
@@ -15,9 +15,9 @@ format: video
 						{% if page.subheadline %}<p class="subheadline t30">{{ page.subheadline }}</p>{% endif %}
 					</header>
 
-					{% if page.video.thumbnailUrl %}<meta itemprop="thumbnailUrl" content="{{ page.video.thumbnailUrl }}" />{% endif %}
-					{% if page.video.contentURL %}<meta itemprop="contentURL" content="{{ page.video.contentURL }}" />{% endif %}
-					{% if page.video.embedURL %}<meta itemprop="embedURL" content="{{ page.video.embedURL }}" />{% endif %}
+					<meta itemprop="thumbnailUrl" content="http://img.youtube.com/vi/{{ page.youtubeid}}/0.jpg" />
+					<meta itemprop="contentURL" content="http://www.youtube.com/watch?v={{ page.youtubeid}}" />
+					<meta itemprop="embedURL" content="https://www.youtube.com/embed/{{ page.youtubeid}}" />
 
 					{% if page.teaser %}
 					<p class="teaser" itemprop="description">
