@@ -5,7 +5,7 @@
 *
 {% endcomment %}
 <div id="navigation" class="sticky">
-  <nav class="top-bar" role="navigation" data-topbar>
+  <nav class="top-bar row" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
       <h1 class="show-for-small-only"><a href="{{ site.url }}{{ site.baseurl }}" class="icon-tree"> {{ site.title }}</a></h1>
@@ -94,14 +94,14 @@
 
             {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
-              <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
+              <li class="{% if link.url == page.url %}active {% elsif page.homepage == true and link.url == '/' %}active {% endif %}{% if link.alternate == '?' %} alternateprefix{% endif %}"><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
               <li class="divider"></li>
 
             {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
             {% else %}
 
               <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
-                  {% if link.url=='#' %}<span {% else %} <a {% endif %} class="{% if link.class %}{{link.class}}{% endif %}" {% if link.url!='#' %}href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% endif %} {% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}{% if link.url=='#' %}</span> {% else %} </a> {% endif %}
+                  {% if link.url=='#' %}<span {% else %} <a {% endif %} class="{% if link.class %}{{link.class}}{% endif %} {% if link.alternate == '?' %} alternateprefix{% endif %}" {% if link.url!='#' %}href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% endif %} {% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}{% if link.url=='#' %}</span>{% else %}</a>{% endif %}
 
                   <ul class="dropdown">
                     {% for dropdown_link in link.dropdown %}
@@ -124,7 +124,7 @@
                         {% else %}
 
                           <li class="has-dropdown{% if dropdown_link.url == page.url %} active{% endif %}">
-                              {% if dropdown_link.url=='#' %}<span {% else %} <a {% endif %} class="{% if dropdown_link.class %}{{dropdown_link.class}}{% endif %}" {% if dropdown_link.url!='#' %}href="{{ domain }}{{ site.baseurl }}{{ dropdown_link.url }}"{% endif %} {% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title | escape }}{% if dropdown_link.url=='#' %}</span> {% else %} </a> {% endif %}
+                              {% if dropdown_link.url=='#' %}<span {% else %} <a {% endif %} class="{% if dropdown_link.class %}{{dropdown_link.class}}{% endif %}" {% if dropdown_link.url!='#' %}href="{{ domain }}{{ site.baseurl }}{{ dropdown_link.url }}"{% endif %} {% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title | escape }}{% if dropdown_link.url=='#' %}</span>{% else %}</a>{% endif %}
 
                               <ul class="dropdown">
                                 {% for subdropdown_link in dropdown_link.dropdown %}
@@ -147,7 +147,7 @@
                         {% else %}
 
                           <li class="has-dropdown{% if subdropdown_link.url == page.url %} active{% endif %}">
-                              {% if subdropdown_link.url=='#' %}<span {% else %} <a {% endif %} class="{% if subdropdown_link.class %}{{subdropdown_link.class}}{% endif %}" {% if subdropdown_link.url!='#' %}href="{{ domain }}{{ site.baseurl }}{{ subdropdown_link.url }}"{% endif %} {% if subdropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ subdropdown_link.title | escape }}{% if subdropdown_link.url=='#' %}</span> {% else %} </a> {% endif %}
+                              {% if subdropdown_link.url=='#' %}<span {% else %} <a {% endif %} class="{% if subdropdown_link.class %}{{subdropdown_link.class}}{% endif %}" {% if subdropdown_link.url!='#' %}href="{{ domain }}{{ site.baseurl }}{{ subdropdown_link.url }}"{% endif %} {% if subdropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ subdropdown_link.title | escape }}{% if subdropdown_link.url=='#' %}</span>{% else %}</a>{% endif %}
 
                               <ul class="dropdown">
                                 {% for subsubdropdown_link in subdropdown_link.dropdown %}
@@ -158,7 +158,7 @@
                                     {% assign domain = site.url %}
                                   {% endif %}
 
-                                    <li>{% if subsubdropdown_link.url=='#' %}<span {% else %} <a {% endif %} class="{% if subsubdropdown_link.class %}{{subsubdropdown_link.class}}{% endif %}" {% if subsubdropdown_link.url!='#' %}href="{{ domain }}{{ site.baseurl }}{{ subsubdropdown_link.url }}"{% endif %} {% if subsubdropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ subsubdropdown_link.title | escape }}{% if subsubdropdown_link.url=='#' %}</span> {% else %} </a> {% endif %}</li>
+                                    <li>{% if subsubdropdown_link.url=='#' %}<span {% else %} <a {% endif %} class="{% if subsubdropdown_link.class %}{{subsubdropdown_link.class}}{% endif %}" {% if subsubdropdown_link.url!='#' %}href="{{ domain }}{{ site.baseurl }}{{ subsubdropdown_link.url }}"{% endif %} {% if subsubdropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ subsubdropdown_link.title | escape }}{% if subsubdropdown_link.url=='#' %}</span>{% else %}</a>{% endif %}</li>
                                   {% endfor %}
                                 </ul>
 

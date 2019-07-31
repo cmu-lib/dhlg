@@ -18,11 +18,12 @@ $topbar-bg: $topbar-bg-color !default;
 
 // Height and margin
 $topbar-height: rem-calc(45) !default;
+$topbar-line-height: $topbar-height;
 $topbar-margin-bottom: 0 !default;
 
 // Controlling the styles for the title in the top bar
 $topbar-title-weight: $font-weight-normal !default;
-$topbar-title-font-size: rem-calc(17) !default;
+$topbar-title-font-size: ($topbar-height / 5) !default;
 
 // Set the link colors and styles for top-level nav
 $topbar-link-color: $white !default;
@@ -30,7 +31,7 @@ $topbar-link-color-hover: $white !default;
 $topbar-link-color-active: $white !default;
 $topbar-link-color-active-hover: $white !default;
 $topbar-link-weight: $font-weight-normal !default;
-$topbar-link-font-size: rem-calc(13) !default;
+$topbar-link-font-size: ($topbar-height / 5) !default;
 $topbar-link-hover-lightness: -10% !default; // Darken by 10%
 $topbar-link-bg: $topbar-bg !default;
 $topbar-link-bg-hover: $light-amber !default;
@@ -39,7 +40,7 @@ $topbar-link-bg-active: $primary-color !default;
 $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%) !default;
 $topbar-link-font-family: $font-family-monospace;
 $topbar-link-text-transform: none !default;
-$topbar-link-padding: ($topbar-height / 3) !default;
+$topbar-link-padding: ($topbar-line-height / 3) !default;
 $topbar-back-link-size: rem-calc(18) !default;
 $topbar-link-dropdown-padding: rem-calc(20) !default;
 $topbar-button-font-size: 0.75rem !default;
@@ -59,12 +60,12 @@ $topbar-dropdown-toggle-alpha: 0.4 !default;
 $topbar-dropdown-label-color: $monsoon !default;
 $topbar-dropdown-label-text-transform: uppercase !default;
 $topbar-dropdown-label-font-weight: $font-weight-bold !default;
-$topbar-dropdown-label-font-size: rem-calc(10) !default;
+$topbar-dropdown-label-font-size: ($topbar-height / 5) !default;
 $topbar-dropdown-label-bg: $light-amber !default;
 
 // Top menu icon styles
 $topbar-menu-link-transform: uppercase !default;
-$topbar-menu-link-font-size: rem-calc(13) !default;
+$topbar-menu-link-font-size: ($topbar-height / 4) !default;
 $topbar-menu-link-weight: $font-weight-bold !default;
 $topbar-menu-link-color: $white !default;
 $topbar-menu-icon-color: $white !default;
@@ -144,15 +145,15 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         // Ensure you can scroll the menu on small screens
         .top-bar-section {
           z-index: 98;
-          margin-top: $topbar-height;
+          margin-top: $topbar-line-height;
         }
       }
     }
 
     .top-bar {
       overflow: hidden;
-      height: $topbar-height;
-      line-height: $topbar-height;
+      height: $topbar-line-height;
+      line-height: $topbar-line-height;
       position: relative;
       background: $topbar-bg;
       margin-bottom: $topbar-margin-bottom;
@@ -197,12 +198,12 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       }
 
       .name {
-        height: $topbar-height;
+        height: $topbar-line-height;
         margin: 0;
         font-size: $rem-base;
 
         h1, h2, h3, h4, p, span {
-          line-height: $topbar-height;
+          line-height: $topbar-line-height;
           font-size: $topbar-title-font-size;
           margin: 0;
           a {
@@ -229,8 +230,8 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           position: relative;
           display: block;
           padding: 0 $topbar-link-padding;
-          height: $topbar-height;
-          line-height: $topbar-height;
+          height: $topbar-line-height;
+          line-height: $topbar-line-height;
         }
 
         // Adding the class "menu-icon" will add the 3-line icon people love and adore.
@@ -321,12 +322,12 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           padding: 12px 0 12px 0;
           padding-#{$default-float}: $topbar-link-padding;
           font-family: $topbar-link-font-family;
-          font-size: $topbar-link-font-size;
+          font-size: ($topbar-height/5);
           font-weight: $topbar-link-weight;
           text-transform: $topbar-link-text-transform;
 
           &.button {
-            font-size: $topbar-link-font-size;
+            font-size: ($topbar-height/5);
             padding-#{$opposite-direction}: $topbar-link-padding;
             padding-#{$default-float}: $topbar-link-padding;
             @include button-style($bg:$primary-color);
@@ -338,7 +339,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         }
 
         > button {
-          font-size: $topbar-link-font-size;
+          font-size: ($topbar-height/5);
           padding-#{$opposite-direction}: $topbar-link-padding;
           padding-#{$default-float}: $topbar-link-padding;
           @include button-style($bg:$primary-color);
@@ -351,20 +352,17 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
 
         // Apply the hover link color when it has that class
         &:hover:not(.has-form) > a {
-          background-color: $topbar-link-bg-color-hover;
+          background-color: $light-amber;
           @if ($topbar-link-bg-hover) {
-            background: $topbar-link-bg-hover;
+            background: $light-amber;
           }
           color: $topbar-link-color-hover;
-        }
-        &:not(.divider){
-          padding-left: 1em;
         }
         // Apply the active link color when it has that class
         &.active > a {
           color: $topbar-link-color-active;
           &:hover {
-            background: $topbar-link-bg-active-hover;
+            background: $light-amber;
             color: $topbar-link-color-active-hover;
           }
         }
@@ -377,13 +375,24 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
               height: 0;
               position: absolute;
               font-family: "Noto Mono";
-              left: 1.2em;
+              left: 0.3rem;
               top: 0;
             }
           }
         }
+        &.alternateprefix { 
+          & > a {
+            &:before {
+              content: "\003F";
+            }
+          }
+        }
       }
-
+      &>ul{
+        &>li{
+          background:url('/assets/img/circle-pale-cobalt.svg') no-repeat -2px 2px;
+        }
+      }
       // Add some extra padding for list items contains buttons
       .has-form { padding: $topbar-link-padding; }
 
@@ -402,7 +411,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
             font-size: 2.2em;
             position: absolute;
             font-family: "Noto Mono";
-            left: 0.5em;
+            left: 0.3rem;
             top: 0.15em;
           }
         }
@@ -528,14 +537,14 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           }
           &:not(.has-form) {
             a:not(.button) {
-              padding: 0 $topbar-link-padding;
-              line-height: $topbar-height;
+              padding: 0 ($topbar-height / 5) 0 $topbar-link-padding;
+              line-height: $topbar-line-height;
             }
           }
           &.active:not(.has-form) {
             a:not(.button) {
-              padding: 0 $topbar-link-padding;
-              line-height: $topbar-height;
+              padding: 0 ($topbar-height / 5) 0 $topbar-link-padding;
+              line-height: $topbar-line-height;
               color: $topbar-link-color-active;
             }
           }
@@ -544,7 +553,6 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         .has-dropdown {
           @if($topbar-arrows){
             & > a {
-              padding-#{$opposite-direction}: $topbar-link-padding + $topbar-link-dropdown-padding !important;
               &:before {
                 content: "\207A";
                 display: block;
@@ -573,7 +581,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
               @if ($topbar-dropdown-arrows){
                 &:after {
                   border: none;
-                  content: "\00bb";
+                  content: "\003e";
                   top: 1rem;
                   margin-top: -1px;
                   #{$opposite-direction}: 5px;
@@ -594,7 +602,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
             position: relative;
             a {
               color: $topbar-dropdown-link-color;
-              line-height: $topbar-height;
+              line-height: $topbar-line-height;
               white-space: nowrap;
               padding: 12px $topbar-link-padding;
               background: transparent;
@@ -629,14 +637,14 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           border-top: none;
           border-#{$opposite-direction}: $topbar-divider-border-bottom;
           clear: none;
-          height: $topbar-height;
+          height: $topbar-line-height;
           width: 0;
         }
 
         .has-form {
           background: $topbar-link-bg;
           padding: 0 ($topbar-height / 3);
-          height: $topbar-height;
+          height: $topbar-line-height;
         }
 
         // Position overrides for ul.right and ul.left
@@ -691,4 +699,26 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       }
     }
   }
+}
+
+.dropdown li:not(.has-form):not(.active) > a:not(.button)::after{
+  visibility: hidden;
+}
+.dropdown li:hover:not(.has-form):not(.active) > a:not(.button)::after{
+  display: inline-block;
+  visibility: visible;
+}
+.dropdown li:not(.has-form):not(.active) > span:not(.button)::after{
+  visibility: hidden;
+}
+.dropdown li:hover:not(.has-form):not(.active) > span:not(.button)::after{
+  display: inline-block;
+  visibility: visible;
+}
+
+.dropdown .dropdown li:not(.has-form):not(.active) > a:not(.button){
+  background-color: $light-amber;
+}
+.dropdown .dropdown li:not(.has-form):not(.active) > span:not(.button){
+  background-color: $light-amber;
 }

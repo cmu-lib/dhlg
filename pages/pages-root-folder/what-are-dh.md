@@ -1,12 +1,20 @@
 ---
 layout: page
 title: "What are Digital Humanities?"
-meta_title: "Contact and use our contact form"
-subheadline: "Wufoo-powered contact forms"
-teaser: "Get in touch with me? Use the contact form."
+meta_title: "meta title"
+subheadline: "this is a subheadline"
+teaser: "teaser"
+breadcrumb: true
 permalink: "/what-are-dh/"
-author: cmu-dh
-show_meta: true
+authors: 
+- name: Susan Grunewald
+  bio:
+  affiliation:
+  uri:
+- name: Scott Weingart
+  bio:
+  affiliation:
+  uri:
 ---
 ## What are Digital Humanities?
 

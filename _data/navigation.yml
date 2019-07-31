@@ -1,29 +1,31 @@
-- title: Home
-  url: "/"
-  side: left
-
 - title: What are DH?
   url: "/what-are-dh/"
   side: left
+  alternate:
 
 - title: "Topics in DH"
   url: "/topics/"
   side: left
+  alternate:
 
 - title: "Scholarly Project Videos"
   url: "/projects/"
   side: left
+  alternate:
 
 - title: "Hiring Digital Humanists"
   url: "/hiring/"
   side: left
+  alternate:
 
 - title: "Global Resources"
   url: "/resources/global/"
   side: left
+  alternate:
   dropdown:
   - title: "Educational Resources"
     url: "/resources/global/educational/"
+    alternate:
     dropdown:
     - title: "Instructional blogs / misc"
       url: "/resources/global/educational/instructional-blogs"
@@ -37,6 +39,7 @@
       url: "/resources/global/educational/programs/"
   - title: "DH Community"
     url: "/resources/global/community/"
+    alternate:
     dropdown:
     - title: "Conferences"
       url: "/resources/global/community/conferences/"
@@ -53,6 +56,7 @@
   - title: "Funding Sources"
     url: "/resources/global/funding/"
     dropdown:
+    alternate:
     - title: "Grants"
       url: "/resources/global/funding/grants/"
     - title: "Fellowships"
@@ -68,6 +72,7 @@
 - title: "Local Resources"
   url: "/resources/local/"
   side: left
+  alternate:
   dropdown: 
   - title: Getting Involved
     url: "/resources/local/getting-involved/"
@@ -90,3 +95,4 @@
 - title: "Search"
   url: "/search/"
   side: left
+  alternate: "?"
