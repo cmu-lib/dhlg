@@ -5,3 +5,4 @@ vendor
 .bundle
 _config_dev.yml
 /_config_dev.yml
+.vscode/
