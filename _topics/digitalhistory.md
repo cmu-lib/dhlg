@@ -6,23 +6,15 @@ teaser: "The default template for posts and pages aligns the page beautifully in
 meta_teaser: "This is an example of a beautiful aligned post in the middle. There is no sidebar to distract the reader. The difference to the Page-Template is, that you find meta-information at the bottom of the post."
 breadcrumb: false
 authors: 
-- name: Susan Grunewald
+- name: Scott B. Weingart
   bio:
-  affiliation:
-  uri:
-- name: Scott Weingart
-  bio:
-  affiliation:
+  affiliation: Carnegie Mellon University
   uri:
 identifier: digitalhistory
 disciplines: 
 - History
-- Discipline2
-creationdate: 2019-07-02
+creationdate: 2019-07-31
 ---
-# Digital History
-*Scott B. Weingart*
-
 Digital history is as multifaceted as history itself, but often aligns itself with one of a few varieties:
 
  - Using the web, mobile apps, and other digital media to engage the public with history. See also [Digital Public History](#DigitalPublicHistory).

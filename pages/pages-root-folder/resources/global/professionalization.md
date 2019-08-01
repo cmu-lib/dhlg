@@ -1,20 +1,3 @@
----
-layout: page
-title: "Global Resources - Professionalization"
-teaser: "Professionalization in DH"
-breadcrumb: true
-header:
-permalink: "/resources/global/professionalization/"
-authors: 
-- name: Susan Grunewald
-  bio:
-  affiliation:
-  uri:
-- name: Scott Weingart
-  bio:
-  affiliation:
-  uri:
----
-## Professionalization
+# Professionalization
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+In addition to continuing to develop literacy in assocaited methods, tools, and projects as well as participating in local and global associations, communities, and conferences, practitioners of digital humanities are encouraged to undertake a few other forms of professionalization. Largely, this means building up a web presence in a few main ways. The first is to create and maintain an active [Twitter](https://twitter.com/) account as a means to engage with fellow scholars, self-promote, and discover new projects, tools, and techniques. Having an account on [GitHub](https://github.com/github) is also useful. GitHub allows users to maintain online repositories of code or text files, for example, that others can download or access. GitHub also allows for the easy and free building of collaborative projects and websites. It is also useful to develop and maintain a personal professional website or a more professional website for specific projects. Some information on the various options for hosts such as Wordpress, Wix, or Jekyll and domains can be found [here](https://townsendcenter.berkeley.edu/blog/personal-academic-webpages-update-how-to%E2%80%99s-and-tips-2015) and [here](https://www.insidehighered.com/blogs/gradhacker/where-begin-building-website).

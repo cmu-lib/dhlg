@@ -11,6 +11,7 @@ permalink: "topics/"
 			{% assign topics = site.topics | sort: 'title' %}
 			{% for topic in topics limit:1000 %}
 				<div id="topic_{{ topic.identifier }}" class="content">
+					<h2>{{ topic.title | markdownify }}</h2>
 					<p>{{ topic.content | markdownify }}</p>
 				</div>
 			{% endfor %}
