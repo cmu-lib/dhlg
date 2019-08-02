@@ -7,7 +7,7 @@ header:
 permalink: "topics/"
 ---
 <div class="row">
-	<div class="small-12 columns t30">
+	<div class="small-8 small-offset-2 columns t30">
 			{% assign topics = site.topics | sort: 'title' %}
 			{% for topic in topics limit:1000 %}
 				<div id="topic_{{ topic.identifier }}" class="content">
@@ -15,5 +15,5 @@ permalink: "topics/"
 					<p>{{ topic.content | markdownify }}</p>
 				</div>
 			{% endfor %}
-	</div><!-- /.small-12.columns -->
+	</div><!-- /.small-8 small-offset-2.columns -->
 </div><!-- /.row -->

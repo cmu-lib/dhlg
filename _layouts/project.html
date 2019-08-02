@@ -3,10 +3,10 @@ layout: default
 format: video
 ---
 <div class="row">
-	<div class="small-12 columns">
+	<div class="small-8 small-offset-2 columns">
 		<article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
 			<div class="row">
-				<div class="small-12 columns">
+				<div class="small-8 small-offset-2 columns">
 					<header>
 						<div itemprop="name">
 							{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
@@ -30,7 +30,7 @@ format: video
 			</div>
 
 			<div class="row">
-				<div class="small-12 columns">
+				<div class="small-8 small-offset-2 columns">
 					<meta itemprop="thumbnailUrl" content="http://img.youtube.com/vi/{{ page.youtubeid}}/0.jpg" />
 					<meta itemprop="contentURL" content="http://www.youtube.com/watch?v={{ page.youtubeid}}" />
 					<meta itemprop="embedURL" content="https://www.youtube.com/embed/{{ page.youtubeid}}" />
@@ -41,5 +41,5 @@ format: video
 			</div><!-- /.row -->
 		</article>
 
-	</div><!-- /.small-12.columns -->
+	</div><!-- /.small-8 small-offset-2.columns -->
 </div><!-- /.row -->
