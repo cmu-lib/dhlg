@@ -6,3 +6,4 @@ vendor
 _config_dev.yml
 /_config_dev.yml
 .vscode/
+/_site_local
