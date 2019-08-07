@@ -10,11 +10,11 @@
 $include-html-nav-classes: $include-html-classes !default;
 
 // We use this to set the background color for the breadcrumb container.
-$crumb-bg: scale-color($secondary-color, $lightness: 55%) !default;
+$crumb-bg: $white;
 
 // We use these to set the padding around the breadcrumbs.
 $crumb-padding: rem-calc(0) !default;
-$crumb-side-padding: rem-calc(0) !default;
+$crumb-side-padding: rem-calc(3) !default;
 
 // We use these to control border styles.
 $crumb-function-factor: -10% !default;
@@ -33,7 +33,7 @@ $crumb-link-decor: none !default;
 
 // We use these to control the slash between breadcrumbs
 $crumb-slash-color: $base !default;
-$crumb-slash: "/" !default;
+$crumb-slash: " > " !default;
 
 //
 // Breadcrumb Mixins
