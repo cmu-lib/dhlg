@@ -1,0 +1,11 @@
+- name: GitHub
+  url: http://github.com/dSHARP-CMU
+  title: "CMU dSHARP"
+
+- name: YouTube
+  url: http://www.youtube.com/
+  title: "Videos"
+
+- name: Twitter
+  url: http://twitter.com/cmu_dSHARP
+  title: "CMU Digital Humanities on Twitter"

@@ -37,29 +37,17 @@ $fontsfolder: '../fonts';
   }
 }
 
-@import "01_settings_colors.scss";
-@import "02_settings_typography.scss";
-
-$font-family-sans-serif: "Noto Sans", Helvetica, Arial, sans-serif;
-$font-family-serif: "Noto Serif Condensed", Georgia, Times, serif;
-$font-family-monospace: "Noto Mono", Monaco, monospace;
-
-$body-font-family: $font-family-sans-serif;
-$body-font-weight: normal;
-$body-font-style: normal;
-
-$header-font-family: $font-family-serif;
-
 @include font-face("Noto Serif Condensed", "noto-serif-condensed", "noto-serif-condensed", "serif");
 @include font-face("Noto Serif Condensed Bold", "noto-serif-condensed", "noto-serif-condensed", "serif","bold");
 @include font-face("Noto Sans Light", "noto-sans-light", "noto-sans-light", "sans-serif");
 @include font-face("Noto Sans Light Italic", "noto-sans-light", "noto-sans-light", "sans-serif","italic");
 @include font-face("Noto Mono", "noto-mono", "noto-mono", "sans-serif");
 
+@import "01_settings_colors.scss";
+@import "02_settings_typography.scss";
 @import "03_settings_mixins_media_queries.scss";
 @import "04_settings_global.scss";
 @import "05_normalize.scss"; // normalize.css v3.0.2
-
 
 @import "foundation-components/top-bar";
 @import "foundation-components/accordion";
@@ -149,6 +137,41 @@ blockquote{
     }
   }
 }
+#footer{
+  color: $white;
+  a {
+    color: $white;
+    text-decoration: underline;
+    &:hover{
+      color: $grey;
+    }
+  }
+  h5{
+    font-family: $font-family-monospace;
+    text-transform: capitalize;
+  }
+  p{
+    font-size: $font-size-p*0.6;
+  }
+}
 #subfooter {
   border-top: 2px $white solid;
+  padding: 1.25rem 0;
+  font-family: $font-family-sans-serif;
+  a {
+    color: $white;
+    text-decoration: underline;
+    &:hover{
+      color: $grey;
+    }
+  }
+  ul{
+    margin: 0;
+    li {
+      margin-left: 0;
+      margin-right: 0.5rem;
+      height: 2rem;
+      line-height: 2rem;
+    }
+  }
 }
