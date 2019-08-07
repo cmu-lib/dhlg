@@ -1,0 +1,28 @@
+/**
+ * @file
+ * Font-face definition mixin
+ * Must be accompanied by web fonts in the specified location path).
+ *
+ * Usage: +font-noto-sans($optional_path). Defaults to ../fonts
+ *
+ * Noto Sans
+ * 
+ */
+ 
+=font-noto-sans($path:'../fonts')
+
+  /* noto-sans - latin */
+  @font-face
+    font-family: 'Noto Sans'
+    font-style: normal
+    font-weight: 400
+    src: url('#{$path}/noto-sans/noto-sans-regular.eot') 
+    src: local('Noto Sans Regular'), url('#{$path}/noto-sans/noto-sans-regular.eot?#iefix') format('embedded-opentype'), url('#{$path}/noto-sans/noto-sans-regular.woff2') format('woff2'),  url('#{$path}/noto-sans/noto-sans-regular.woff') format('woff'), url('#{$path}/noto-sans/noto-sans-regular.ttf') format('truetype'),url('#{$path}/noto-sans/noto-sans-regular.svg#Noto-Sans') format('svg')
+  
+  /* noto-sans-italic - latin */
+  @font-face
+    font-family: 'Noto Sans'
+    font-style: italic
+    font-weight: 400
+    src: url('#{$path}/noto-sans/noto-sans-italic.eot') 
+    src: local('Noto Sans Italic'), url('#{$path}/noto-sans/noto-sans-italic.eot?#iefix') format('embedded-opentype'), url('#{$path}/noto-sans/noto-sans-italic.woff2') format('woff2'),  url('#{$path}/noto-sans/noto-sans-italic.woff') format('woff'), url('#{$path}/noto-sans/noto-sans-italic.ttf') format('truetype'),url('#{$path}/noto-sans/noto-sans-italic.svg#Noto-Sans') format('svg')
