@@ -1,0 +1,28 @@
+/**
+ * @file
+ * Font-face definition mixin
+ * Must be accompanied by web fonts in the specified location path).
+ *
+ * Usage: +font-noto-serif-condensed($optional_path). Defaults to ../fonts
+ *
+ * Noto Serif Condensed
+ * 
+ */
+ 
+=font-noto-serif-condensed($path:'../fonts')
+
+  /* noto-serif-condensed - latin */
+  @font-face
+    font-family: 'Noto Serif Condensed'
+    font-style: normal
+    font-weight: 400
+    src: url('#{$path}/noto-serif-condensed/noto-serif-condensed-webfont.eot') 
+    src: local('Noto Serif Condensed'), url('#{$path}/noto-serif-condensed/noto-serif-condensed-webfont.eot?#iefix') format('embedded-opentype'), url('#{$path}/noto-serif-condensed/noto-serif-condensed-webfont.woff2') format('woff2'),  url('#{$path}/noto-serif-condensed/noto-serif-condensed-webfont.woff') format('woff'), url('#{$path}/noto-serif-condensed/noto-serif-condensed-webfont.ttf') format('truetype'),url('#{$path}/noto-serif-condensed/noto-serif-condensed-webfont.svg#Noto-Serif-Condensed') format('svg')
+  
+  /* noto-serif-condenseditalic-webfont - latin */
+  @font-face
+    font-family: 'Noto Serif Condensed'
+    font-style: italic
+    font-weight: 400
+    src: url('#{$path}/noto-serif-condensed/noto-serif-condenseditalic-webfont.eot') 
+    src: local('Noto Serif Condensed Italic'), url('#{$path}/noto-serif-condensed/noto-serif-condenseditalic-webfont.eot?#iefix') format('embedded-opentype'), url('#{$path}/noto-serif-condensed/noto-serif-condenseditalic-webfont.woff2') format('woff2'),  url('#{$path}/noto-serif-condensed/noto-serif-condenseditalic-webfont.woff') format('woff'), url('#{$path}/noto-serif-condensed/noto-serif-condenseditalic-webfont.ttf') format('truetype'),url('#{$path}/noto-serif-condensed/noto-serif-condenseditalic-webfont.svg#Noto-Serif-Condensed') format('svg')
