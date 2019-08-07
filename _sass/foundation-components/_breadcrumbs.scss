@@ -13,23 +13,23 @@ $include-html-nav-classes: $include-html-classes !default;
 $crumb-bg: scale-color($secondary-color, $lightness: 55%) !default;
 
 // We use these to set the padding around the breadcrumbs.
-$crumb-padding: rem-calc(9 14 9) !default;
-$crumb-side-padding: rem-calc(12) !default;
+$crumb-padding: rem-calc(0) !default;
+$crumb-side-padding: rem-calc(0) !default;
 
 // We use these to control border styles.
 $crumb-function-factor: -10% !default;
-$crumb-border-size: 1px !default;
-$crumb-border-style: solid !default;
+$crumb-border-size: 0 !default;
+$crumb-border-style: none !default;
 $crumb-border-color: scale-color($crumb-bg, $lightness: $crumb-function-factor) !default;
 $crumb-radius: $global-radius !default;
 
 // We use these to set various text styles for breadcrumbs.
 $crumb-font-size: rem-calc(11) !default;
-$crumb-font-color: $primary-color !default;
+$crumb-font-color: $red !default;
 $crumb-font-color-current: $oil !default;
 $crumb-font-color-unavailable: $aluminum !default;
-$crumb-font-transform: uppercase !default;
-$crumb-link-decor: underline !default;
+$crumb-font-transform: none !default;
+$crumb-link-decor: none !default;
 
 // We use these to control the slash between breadcrumbs
 $crumb-slash-color: $base !default;
@@ -69,6 +69,7 @@ $crumb-slash: "/" !default;
 
   a {
     color: $crumb-font-color;
+    text-decoration: underline;
   }
 
   // Current is for the link of the current page
