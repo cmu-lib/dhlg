@@ -136,6 +136,19 @@ blockquote{
       color: $red;
     }
   }
+  ul{
+    &.right{
+      margin-right: 0.75rem;
+    }
+    &.left{
+      margin-left: 0.75rem;
+    }
+    li{
+      &.divider:last-of-type {
+        width: 0!important;
+      }
+    }
+  }
 }
 #footer{
   color: $white;
@@ -150,6 +163,8 @@ blockquote{
     font-family: $font-family-monospace;
     text-transform: capitalize;
     font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
   }
 }
 #subfooter {
@@ -172,4 +187,115 @@ blockquote{
       line-height: 2rem;
     }
   }
+}
+
+#dhlg-logo {
+  display: block;
+  margin: auto;
+}
+.logo{
+  width: 13rem;
+}
+#cmu-logo{
+  margin-top: 1rem;
+}
+.morse{
+  font-size: 3rem;
+  font-family: "Raleway";
+  color: $brilliant-amber !important;
+  margin-top: 0;
+  line-height: 3.2rem;
+}
+
+#sidenav{
+  position:fixed;
+  width: 30%;
+  h4{
+    font-family: $font-family-sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+  }
+  ul{
+    margin:0;
+  }
+  li{
+    font-family: $font-family-monospace;
+    list-style: none;
+    font-size: rem-calc(14);
+    &:before {
+      content: "\2014";
+      display: inline-block;
+      width: 1rem;
+      font-family: $font-family-monospace;
+      top:0;
+    }
+  }
+}
+#listprojects{
+  .projectbox{
+    .button{
+      color: $black;
+      background: $white;
+      border: solid 1px $black;
+      font-weight: bold;
+      font-size: 0.9rem;
+      &:hover{
+        color: $white;
+        background: $black;
+      }
+    }
+  }
+}
+
+@media #{$small-only} {
+
+}
+
+@media #{$medium-up} {
+  #dhlg-logo {
+    width: 60%;
+    max-height: 7rem;
+  }
+  #cmu-logo{
+    margin-top: 0;
+  }
+  h1.title {
+    margin-top: 2rem;
+  }
+  #main{
+    background: url(/assets/img/circle-pale-amber.svg) no-repeat -10px -10px;
+    background-size: 320px 320px;
+    min-height: 340px;
+  }
+  .projectbox{
+    min-height: 35rem;
+  }
+}
+
+@media #{$large-up} {
+  #dhlg-logo {
+    max-height: unset;
+  }
+  #navigation {
+    background: #FFFFFF;
+    margin-top: 2rem;
+  }
+  .top-bar-section{
+    ul li{
+      &:not(.has-dropdown):not(.logo){
+        & > a {
+          &:before {
+            top: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$xlarge-up} {
+
 }

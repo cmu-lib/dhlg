@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Networks and Medieval Schoolbooks"
-subheadline: "Templates"
+breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
 authors: 
 - name: Elizabeth Archibald

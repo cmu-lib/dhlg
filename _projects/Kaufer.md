@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "DocuScope: Computer Support for Close Reading and Textual Analysis in the Digital Humanities"
-subheadline: "Templates"
+breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
 authors: 
 - name: David Kaufer

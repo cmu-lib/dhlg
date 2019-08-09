@@ -1,20 +1,18 @@
-<aside>
-	<div class="panel radius">
-		{% if page.title == "Projects" %}
-		<h3>Projects</h3>
+<aside id="sidenav">
+	<div class="panel">
+		<p class="morse">{{ page.title }}</p>
+		<h4>Table of Contents</h4>
 		<ul>
-		{% for project in site.projects limit:1000 %}
+		{% if page.title == "Projects" %}
+			{% for project in site.projects limit:1000 %}
 				<li data-projectid="{{ project.identifier }}">{{ project.title }}</li>
 			{% endfor %}
-		</ul>
 		{% endif %}
 		{% if page.title == "Topics" %}
-		<h3>Topics</h3>
-		<ul>
-		{% for topic in site.topics limit:1000 %}
+			{% for topic in site.topics limit:1000 %}
 				<li data-projectid="{{ topic.identifier }}">{{ topic.title }}</li>
 			{% endfor %}
-		</ul>
 		{% endif %}
+		</ul>
 	</div>
 </aside>

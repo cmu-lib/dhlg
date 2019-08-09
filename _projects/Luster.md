@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Archives, Museums & the Digital Humanities"
-subheadline: "Templates"
+breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
 authors: 
 - name: Dominique Luster

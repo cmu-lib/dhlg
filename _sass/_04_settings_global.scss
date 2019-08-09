@@ -413,7 +413,7 @@ $crumb-border-color: $grey-1;
 $crumb-radius: 0;
 
 // We use these to set various text styles for breadcrumbs.
-// $crumb-font-size: rem-calc(11);
+$crumb-font-size: rem-calc(16);
 // $crumb-font-color: $primary-color;
 // $crumb-font-color-current: $oil;
 // $crumb-font-color-unavailable: $aluminum;
@@ -422,7 +422,7 @@ $crumb-radius: 0;
 
 // We use these to control the slash between breadcrumbs
 // $crumb-slash-color: $base;
-$crumb-slash: "/";
+$crumb-slash: "\00a0\003e\00a0";
 
 // 05. Buttons
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -441,24 +441,24 @@ $crumb-slash: "/";
 
 // We use these to control button text styles.
 // $button-font-family: $body-font-family;
-// $button-font-color: $white;
+ $button-font-color: $black;
 // $button-font-color-alt: $oil;
 // $button-font-tny: rem-calc(11);
 // $button-font-sml: rem-calc(13);
 // $button-font-med: rem-calc(16);
 // $button-font-lrg: rem-calc(20);
-// $button-font-weight: $font-weight-normal;
+$button-font-weight: $font-weight-normal;
 // $button-font-align: center;
 
 // We use these to control various hover effects.
 // $button-function-factor: -20%;
 
 // We use these to control button border and hover styles.
-// $button-border-width: 0px;
-// $button-border-style: solid;
-// $button-bg-color: $primary-color;
-// $button-bg-hover: scale-color($button-bg-color, $lightness: $button-function-factor);
-// $button-border-color: $button-bg-hover;
+$button-border-width: 1px;
+$button-border-style: solid;
+$button-bg-color: $white;
+$button-bg-hover: $black;
+$button-border-color: $button-bg-hover;
 // $secondary-button-bg-hover: scale-color($secondary-color, $lightness: $button-function-factor);
 // $secondary-button-border-color: $secondary-button-bg-hover;
 // $success-button-bg-hover: scale-color($success-color, $lightness: $button-function-factor);
@@ -467,7 +467,7 @@ $crumb-slash: "/";
 // $alert-button-border-color: $alert-button-bg-hover;
 
 // We use this to set the default radius used throughout the core.
-// $button-radius: $global-radius;
+$button-radius: $global-radius;
 // $button-round: $global-rounded;
 
 // We use this to set default opacity and cursor for disabled buttons.

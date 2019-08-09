@@ -276,7 +276,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
 
         .toggle-topbar {
           a { color: $topbar-menu-link-color-toggled;
-      span::after {
+            span::after {
               // Shh, don't tell, but box-shadows create the menu icon :)
               // Change the color of the bars when the menu is expanded, using given thickness from hamburger() above
               box-shadow: 0 0 0 1px $topbar-menu-icon-color-toggled,
@@ -351,7 +351,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         }
 
         // Apply the hover link color when it has that class
-        &:hover:not(.has-form) > a {
+        &:hover:not(.has-form):not(.logo) > a {
           background-color: $pale-amber;
           @if ($topbar-link-bg-hover) {
             background: $pale-amber;
@@ -361,12 +361,12 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         // Apply the active link color when it has that class
         &.active > a {
           color: $topbar-link-color-active;
-          &:hover {
+          &:hover:not(.logo) {
             background: $pale-amber;
             color: $topbar-link-color-active-hover;
           }
         }
-        &:not(.has-dropdown){
+        &:not(.has-dropdown):not(.logo){
           & > a {
             &:before {
               content: "\2014";
@@ -374,22 +374,22 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
               width: 0;
               height: 0;
               position: absolute;
-              font-family: "Noto Mono";
+              font-family: $font-family-monospace;
               left: 0.3rem;
-              top: 0;
+              top: 0.7rem;
             }
           }
         }
         &.alternateprefix { 
           & > a {
             &:before {
-              content: "\003F";
+              content: "\003F" !important;
             }
           }
         }
       }
       &>ul{
-        &>li{
+        &>li:not(.logo):not(.divider){
           background:url('/assets/img/circle-10pblack.svg') no-repeat -2px 2px;
         }
       }
@@ -410,7 +410,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
             }
             font-size: 2.2em;
             position: absolute;
-            font-family: "Noto Mono";
+            font-family: $font-family-monospace;
             left: 0.3rem;
             top: 0.15em;
           }
@@ -527,7 +527,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
 
         li {
           position: relative;
-          &:hover {
+          &:not(.logo):hover {
             background-color: $topbar-link-bg-color-hover;
           }
           &.hover {
@@ -537,13 +537,13 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           }
           &:not(.has-form) {
             a:not(.button) {
-              padding: 0 ($topbar-height / 5) 0 $topbar-link-padding;
+              padding: 0 ($topbar-height / 5) 0 1rem;
               line-height: $topbar-line-height;
             }
           }
           &.active:not(.has-form) {
             a:not(.button) {
-              padding: 0 ($topbar-height / 5) 0 $topbar-link-padding;
+              padding: 0 ($topbar-height / 5) 0 1rem;
               line-height: $topbar-line-height;
               color: $topbar-link-color-active;
             }

@@ -46,12 +46,6 @@ $crumb-slash: " > " !default;
   overflow: hidden;
   margin-#{$default-float}: 0;
   list-style: none;
-  border-style: $crumb-border-style;
-  border-width: $crumb-border-size;
-
-  // We control which background color and border come through.
-  background-color: $crumb-bg;
-  border-color: $crumb-border-color;
 }
 
 // We use this mixin to create breadcrumb styles from list items.
@@ -61,24 +55,23 @@ $crumb-slash: " > " !default;
   margin: 0;
   float: $default-float;
   font-size: $crumb-font-size;
-  line-height: $crumb-font-size;
   text-transform: $crumb-font-transform;
   color: $crumb-font-color;
+  font-family: $font-family-monospace;
 
   &:hover a, &:focus a { text-decoration: $crumb-link-decor; }
 
   a {
     color: $crumb-font-color;
-    text-decoration: underline;
   }
 
   // Current is for the link of the current page
   &.current {
     cursor: $cursor-default-value;
-    color: $crumb-font-color-current;
+    color: $crumb-font-color;
     a {
       cursor: $cursor-default-value;
-      color: $crumb-font-color-current;
+      color: $crumb-font-color;
     }
 
     &:hover, &:hover a,
@@ -123,11 +116,15 @@ $crumb-slash: " > " !default;
       &>* {
         @include crumbs;
       }
+      a{
+        text-decoration: underline;
+        font-weight: normal;
+      }
     }
   }
 }
 
 /* Accessibility - hides the forward slash */
 [aria-label="breadcrumbs"] [aria-hidden="true"]:after {
-  content: "/";
+  content: " > ";
   }

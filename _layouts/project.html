@@ -2,35 +2,28 @@
 layout: default
 format: video
 ---
-<div class="row">
+<div class="row t60" id="main">
 	<div class="small-8 small-offset-2 columns">
 		<article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
 			<div class="row">
-				<div class="small-8 small-offset-2 columns">
+				<div class="small-10 small-offset-1 columns">
 					<header>
 						<div itemprop="name">
-							{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
-							<h1>{{ page.title }}</h1>
+							<h1 class="title">{{ page.title }}</h1>
 						</div>
 						{% if page.breadcrumb == true %}
 							{% include _breadcrumb.html %}
-						{% endif %}
-
-						{% if page.teaser %}
-						<p class="teaser" itemprop="description">
-							{{ page.teaser }}
-						</p>
 						{% endif %}
 					</header>
 				</div>
 			</div>
 
-			<div class="flex-video">
+			<div class="flex-video t30">
 				<iframe width='970' height='546' src='//www.youtube.com/embed/{{ page.youtubeid }}' frameborder='0' allowfullscreen></iframe>
 			</div>
 
-			<div class="row">
-				<div class="small-8 small-offset-2 columns">
+			<div class="row t30">
+				<div class="small-10 small-offset-1 columns">
 					<meta itemprop="thumbnailUrl" content="http://img.youtube.com/vi/{{ page.youtubeid}}/0.jpg" />
 					<meta itemprop="contentURL" content="http://www.youtube.com/watch?v={{ page.youtubeid}}" />
 					<meta itemprop="embedURL" content="https://www.youtube.com/embed/{{ page.youtubeid}}" />

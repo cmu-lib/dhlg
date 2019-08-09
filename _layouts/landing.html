@@ -2,7 +2,7 @@
 layout: default
 format: page
 ---
-<div class="row t60" {% if page.sidebar == NULL %}id="main"{% endif %}>
+<div class="row t60">
 	{% if page.sidebar == "left" %}
 	<div class="large-4 small-12 columns">
 		{% include _sidebar.html %}
@@ -11,12 +11,17 @@ format: page
 		
 	<div class="large-8 small-12 columns{% if page.sidebar == NULL %} large-offset-2 {% endif %}{% if page.sidebar == "left" %} {% endif %}">
 		<article itemscope itemtype="http://schema.org/Article">
-			<header {% if page.title == "Projects" %}class="row"{% endif %}>
-				<div itemprop="name" {% if page.title == "Projects" %}class="small-8 small-offset-2 columns"{% endif %}>
+			<header class="row">
+				<div itemprop="name" class="small-8 small-offset-2 columns">
 					<h1 class="title">{{ page.title }}</h1>
 					{% if page.breadcrumb == true %}
 						{% include _breadcrumb.html %}
 					{% endif %}
+					<div class="row">
+						<div class="large-8 small-12 columns t30">
+							<p>{{ page.description }}</p>
+						</div>
+					</div>
 				</div>
 			</header>
 
@@ -27,7 +32,7 @@ format: page
 	</div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
 <div id="up-to-top" class="row">
-	<div class="large-8 large-offset-2 columns" style="text-align: right;">
+	<div class="small-12 columns" style="text-align: right;">
 		<a class="iconfont" href="#top-of-page">&#xf108;</a>
 	</div><!-- /.small-8 small-offset-2.columns -->
 </div><!-- /.row -->

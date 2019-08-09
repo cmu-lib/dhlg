@@ -47,7 +47,6 @@ body.video cite {  }
 
 #navigation {
     background: $white;
-    margin-top: 2rem;
     [class^='icon-']:before, [class*=' icon-']:before {
         margin-right: rem-calc(8);
     }
@@ -208,7 +207,7 @@ body.video cite {  }
     border-bottom: 1px solid scale-color($grey-1, $lightness: 45%);
 }
 .breadcrumbs>.current {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 

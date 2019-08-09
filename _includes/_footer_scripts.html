@@ -6,7 +6,14 @@ $('audio,video').mediaelementplayer();
 
 <script src="{{ url }}/assets/js/morse.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/javascript.js"></script>
-
+<script>
+  $('.morse').each(function(){
+    var str=$(this).text();
+    $(this).text(encodeMorse(str));
+  });
+  var sidenavwidth=$('#sidenav').parent().outerWidth()-20;
+  $('#sidenav').css('width',sidenavwidth);
+</script>
 
 {% if page.header.image_fullwidth %}
 <script>

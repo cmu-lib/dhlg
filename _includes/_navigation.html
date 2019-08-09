@@ -8,10 +8,10 @@
   <nav class="top-bar row" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="{{ site.url }}{{ site.baseurl }}" class="icon-tree"> {{ site.title }}</a></h1>
+      <h1 class="show-for-small-only"><a href="{{ site.url }}{{ site.baseurl }}"> {{ site.title }}</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-      <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>&nbsp;</span></a></li>
     </ul>
     <section class="top-bar-section">
 {% comment %}
@@ -25,6 +25,7 @@
 
 {% endcomment %}
       <ul class="right">
+        <li class="logo"><a href="{{ site.url }}{{ site.baseurl }}" title="home"><img src='/assets/img/marks/dhlg_logotype_horizontal.svg' id="dhlg-menu-logo"></a></li>
         {% for link in site.data.navigation %}
 
               {% if link.url contains 'http' %}
