@@ -2,7 +2,7 @@
 	<div class="panel">
 		<p class="morse">{{ page.title }}</p>
 		<h4>Table of Contents</h4>
-		<ul>
+		<ul id="toc">
 		{% if page.title == "Projects" %}
 			{% for project in site.projects limit:1000 %}
 				<li data-projectid="{{ project.identifier }}">{{ project.title }}</li>

@@ -11,8 +11,35 @@ $('audio,video').mediaelementplayer();
     var str=$(this).text();
     $(this).text(encodeMorse(str));
   });
-  var sidenavwidth=$('#sidenav').parent().outerWidth()-20;
+  var sidenavwidth=$('#sidenav').parent().outerWidth()-26;
   $('#sidenav').css('width',sidenavwidth);
+  $('#toc').css('max-height',$(window).innerHeight()-$('.morse:first-of-type','#sidenav').outerHeight(true)-$('h4:first-of-type','#sidenav').outerHeight(true)-30);
+  $(window).scroll(function (){
+    var top_of_element = $("#pagetitle").offset().top;
+    var bottom_of_element = $("#pagetitle").offset().top + $("#pagetitle").outerHeight();
+    var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+    var top_of_screen = $(window).scrollTop();
+    if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+      $('#sidenav').css({'position':'relative','top':'unset','bottom':'unset'});
+    } else {
+      var footertop_of_element = $("#footer").offset().top;
+      var footerbottom_of_element = $("#footer").offset().top + $("#footer").outerHeight();
+      var viewablefooter=bottom_of_screen-footertop_of_element+30;
+      if ((bottom_of_screen > footertop_of_element) && (top_of_screen < footerbottom_of_element)){
+
+        $('#sidenav').css({'position':'fixed','top':'unset','bottom':viewablefooter});
+      } else {
+        $('#sidenav').css({'position':'fixed','top':'0','bottom':'unset'});
+      }
+    }
+  });
+  $('#toc li').each(function(){
+    $(this).click(function(){
+      $('html, body').animate({
+        scrollTop: ($('#project_'+$(this).data('projectid')).offset().top)
+      },500);
+    });
+  });
 </script>
 
 {% if page.header.image_fullwidth %}

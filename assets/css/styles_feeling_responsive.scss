@@ -208,8 +208,6 @@ blockquote{
 }
 
 #sidenav{
-  position:fixed;
-  width: 30%;
   h4{
     font-family: $font-family-sans-serif;
     font-size: 1.4rem;
@@ -218,30 +216,61 @@ blockquote{
     margin-bottom: 2rem;
     font-weight: 900;
   }
-  ul{
+  ul#toc{
     margin:0;
+    overflow-y: auto;
   }
   li{
     font-family: $font-family-monospace;
     list-style: none;
     font-size: rem-calc(14);
+    cursor: pointer;
     &:before {
       content: "\2014";
       display: inline-block;
       width: 1rem;
       font-family: $font-family-monospace;
       top:0;
+      cursor: pointer;
+      pointer-events: none;
     }
   }
 }
 #listprojects{
   .projectbox{
+    p{
+      font-size: 0.8rem;
+      line-height: 1.6rem;
+      letter-spacing: 0.03rem;
+      margin: 1rem 2rem;
+      &.source_disciplines{
+        font-family: $font-family-monospace;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        img {
+          height: 18px;
+        }
+        span {
+          text-decoration: underline;
+        }
+      }
+    }
+    h4{
+      font-family: $font-family-sans-serif;
+      text-transform: uppercase;
+      line-height: 1.4rem;
+      font-size: 1.1rem;
+      margin: 1rem 2rem;
+      font-weight: bold;
+    }
     .button{
       color: $black;
       background: $white;
       border: solid 1px $black;
-      font-weight: bold;
       font-size: 0.9rem;
+      padding: 0.75rem 1rem;
+      font-weight: normal;
+      font-family: $font-family-sans-light;
       &:hover{
         color: $white;
         background: $black;
