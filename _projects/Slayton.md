@@ -14,10 +14,10 @@ authors:
   uri:
 identifier: dataviz
 disciplines: 
-- History
-- English
-- ModernLanguages
-- Psychology
+- history
+- english
+- modernlanguages
+- psychology
 topics:
 - digitalhistory
 - datavisualization

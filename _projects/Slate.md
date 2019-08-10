@@ -14,7 +14,7 @@ authors:
   uri:
 identifier: socialchange
 disciplines: 
-- History
+- history
 topics:
 - digitalhistory
 - digitalpedagogy

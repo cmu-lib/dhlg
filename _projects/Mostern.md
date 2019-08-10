@@ -14,10 +14,10 @@ authors:
   uri:
 identifier: gazetteer
 disciplines: 
-- History
+- history
 topics:
 - digitalhistory
-- HGIS
+- hgis
 creationdate: 2019-07-03
 source: contribution
 youtubeid: R8x5vUYKe3g

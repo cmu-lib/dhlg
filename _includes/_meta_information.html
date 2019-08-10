@@ -40,14 +40,16 @@
 				<div class="row">
 				{% for discipline in page.disciplines %}
 					{% for controldiscipline in site.data.disciplines %}
-						{% if controldiscipline == discipline.identifier %}
+						{% if controldiscipline.identifier == discipline %}
 							{% for finddisciplineprojects in site.projects %}
-								{% if finddisciplineprojects.disciplines contains controldiscipline %}
+								{% if finddisciplineprojects.disciplines contains controldiscipline.identifier %}
 									{% if finddisciplineprojects.identifier != page.identifier %}
 										{% unless matcheddisciplineprojects contains finddisciplineprojects.identifier %}
-											<div class="medium-4 columns">
-												<h5><a href="{{ site.url }}{{ finddisciplineprojects.id }}">{{ finddisciplineprojects.title }}</a></h5>
-												<p>{{ finddisciplineprojects.teaser }}</p>
+											<div id="project_{{ project.identifier }}" class="medium-4 columns projectbox">
+												<img src="http://img.youtube.com/vi/{{ finddisciplineprojects.youtubeid}}/0.jpg">
+												<h4>{{ finddisciplineprojects.title }}</h4>
+												{% if finddisciplineprojects.teaser %}<p>{{ finddisciplineprojects.teaser }}</p>{% endif %}
+												<p><a href="{{ site.url }}{{ site.baseurl }}{{ finddisciplineprojects.url }}" class="button radius" title="Play {{ finddisciplineprojects.title | escape_once }}">Play Video&nbsp;›</a></p>
 											</div>
 											{% assign matcheddisciplineprojects = matcheddisciplineprojects | push: finddisciplineprojects.identifier %}
 										{% endunless %}
@@ -69,7 +71,7 @@
 					{% for controltopic in site.topics %}
 						{% if controltopic.identifier == topic %}
 							{% for findtopicprojects in site.projects %}
-								{% if findtopicprojects.topics contains controltopic %}
+								{% if findtopicprojects.topics contains controltopic.identifier %}
 									{% if findtopicprojects.identifier != page.identifier %}
 										{% unless matchedtopicprojects contains findtopicprojects.identifier %}
 											<div class="medium-4 columns">

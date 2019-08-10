@@ -14,8 +14,8 @@ authors:
   uri:
 identifier: capitalismanddemo
 disciplines: 
-- History
-- Social and Deciscion Sciences
+- history
+- socialanddeciscionsciences
 topics:
 - digitalhistory
 - distantreading

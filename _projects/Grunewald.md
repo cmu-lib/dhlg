@@ -14,10 +14,10 @@ authors:
   uri:
 identifier: gis-mapping
 disciplines: 
-- History
+- history
 topics:
 - digitalhistory
-- HGIS
+- hgis
 creationdate: 2019-07-03
 source: contribution
 youtubeid: r32qwAENWng

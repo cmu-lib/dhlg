@@ -14,7 +14,7 @@ authors:
   uri:
 identifier: TEI
 disciplines: 
-- Literature
+- literature
 topics:
 - textualencoding
 creationdate: 2019-07-03

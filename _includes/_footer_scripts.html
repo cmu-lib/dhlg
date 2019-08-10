@@ -11,6 +11,7 @@ $('audio,video').mediaelementplayer();
     var str=$(this).text();
     $(this).text(encodeMorse(str));
   });
+  {% if page.layout=="landing" %}
   var sidenavwidth=$('#sidenav').parent().outerWidth()-26;
   $('#sidenav').css('width',sidenavwidth);
   $('#toc').css('max-height',$(window).innerHeight()-$('.morse:first-of-type','#sidenav').outerHeight(true)-$('h4:first-of-type','#sidenav').outerHeight(true)-30);
@@ -40,6 +41,7 @@ $('audio,video').mediaelementplayer();
       },500);
     });
   });
+  {% endif %}
 </script>
 
 {% if page.header.image_fullwidth %}

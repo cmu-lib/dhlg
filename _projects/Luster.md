@@ -14,8 +14,8 @@ authors:
   uri:
 identifier: museumdh
 disciplines: 
-- History
-- PublicHistory
+- history
+- publichistory
 topics:
 - digitalhistory
 - onlinearchive

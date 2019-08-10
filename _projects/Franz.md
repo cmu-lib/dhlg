@@ -14,7 +14,7 @@ authors:
   uri:
 identifier: klannetwork
 disciplines: 
-- History
+- history
 topics:
 - digitalhistory
 - networkanalysis

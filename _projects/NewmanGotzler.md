@@ -14,7 +14,7 @@ authors:
   uri:
 identifier: tvmegatext
 disciplines: 
-- English
+- english
 - culturalstudies
 topics:
 - distantreading

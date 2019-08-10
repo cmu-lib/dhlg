@@ -14,7 +14,7 @@ authors:
   uri:
 identifier: networkanalysis
 disciplines: 
-- History
+- history
 topics:
 - digitalhistory
 - networkanalysis

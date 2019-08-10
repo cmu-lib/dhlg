@@ -14,7 +14,7 @@ authors:
   uri:
 identifier: distantreading
 disciplines: 
-- English
+- english
 - literature
 topics:
 - distantreading

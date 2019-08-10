@@ -14,7 +14,7 @@ authors:
   uri:
 identifier: oralhistory
 disciplines: 
-- History
+- history
 topics:
 - digitalhistory
 - oralhistory

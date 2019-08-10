@@ -14,7 +14,7 @@ authors:
   uri:
 identifier: structurednetworks
 disciplines: 
-- NetworkScience
+- networkscience
 topics:
 - networkanalysis
 - datamanagement

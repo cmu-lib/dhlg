@@ -15,7 +15,7 @@ authors:
 identifier: logisticregression
 disciplines: 
 - literature
-- English
+- english
 topics:
 - machinelearning
 creationdate: 2019-07-03

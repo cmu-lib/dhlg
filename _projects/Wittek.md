@@ -14,8 +14,8 @@ authors:
   uri:
 identifier: shakespearevr
 disciplines: 
-- English
-- Literature
+- english
+- literature
 topics:
 - virtualreality
 creationdate: 2019-07-03
