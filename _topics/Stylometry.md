@@ -16,9 +16,9 @@ authors:
   uri:
 identifier: stylometry
 disciplines: 
-- Literature
-- English
-- LCS
+- literature
+- english
+- lcs
 creationdate: 2019-07-31
 ---
 

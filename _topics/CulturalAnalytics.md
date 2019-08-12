@@ -16,10 +16,10 @@ authors:
   uri:
 identifier: culturalanalytics
 disciplines: 
-- English
-- LCS
-- CulturalStudies
-- ArtHistory
+- english
+- lcs
+- culturalstudies
+- arthistory
 creationdate: 2019-07-31
 ---
 Cultural analytics is the study of large-scale visual data sets. The field was largely developed by Lev Manovich. It is largely a branch of visual analytics. Practitioners generally mine large sets of cultural data such as library catalogs, collections of images, or social networks. Software tools scan a corpus of either still or moving images to extract data for further study and analysis.

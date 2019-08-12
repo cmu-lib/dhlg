@@ -16,11 +16,11 @@ authors:
   uri:
 identifier: textualencoding
 disciplines: 
-- English
-- Literature
-- History
-- LCS
-- ModernLanguages
+- english
+- literature
+- history
+- lcs
+- modernlanguages
 creationdate: 2019-07-31
 ---
 

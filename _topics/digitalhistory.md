@@ -12,7 +12,7 @@ authors:
   uri:
 identifier: digitalhistory
 disciplines: 
-- History
+- history
 creationdate: 2019-07-31
 ---
 Digital history is as multifaceted as history itself, but often aligns itself with one of a few varieties:

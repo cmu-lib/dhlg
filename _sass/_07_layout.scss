@@ -215,31 +215,31 @@ body.video cite {  }
 ------------------------------------------------------------------- */
 
 #page-meta, #page-meta a {
-    color: $grey-5;
+  color: $grey-5;
 }
 
 #page-meta .button {
-    background: $grey-5;
-    border: 0;
+  background: $white;
 }
 #page-meta .button {
-    color: #fff;
+ color: $black;
 }
 #page-meta .button:hover {
-    background: $primary-color;
+  background: $black;
+  color: $white;
 }
 .meta-info p {
   font-size: rem-calc(13);
   color: scale-color($grey-1, $lightness: 40%);
 }
-  .meta-info a {
-    text-decoration: underline;
-    color: scale-color($grey-1, $lightness: 40%);
-  }
-  .meta-info a:hover {
-    text-decoration: none;
-    color: $secondary-color;
-  }
+.meta-info a:not(.button) {
+  text-decoration: underline;
+  color: scale-color($grey-1, $lightness: 40%);
+}
+.meta-info a:not(.button):hover {
+  text-decoration: none;
+  color: $secondary-color;
+}
 
 
 

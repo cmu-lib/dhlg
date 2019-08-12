@@ -16,9 +16,9 @@ authors:
   uri:
 identifier: digitaleditions
 disciplines: 
-- Literature
-- ModernLanguages
-- English
+- literature
+- modernlanguages
+- english
 creationdate: 2019-07-31
 ---
 

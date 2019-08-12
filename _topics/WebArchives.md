@@ -16,10 +16,10 @@ authors:
   uri:
 identifier: webarchives
 disciplines: 
-- History
-- Literature
-- LCS
-- Psychology
+- history
+- literature
+- lcs
+- psychology
 creationdate: 2019-07-31
 ---
 

@@ -236,45 +236,43 @@ blockquote{
     }
   }
 }
-#listprojects{
-  .projectbox{
-    p{
-      font-size: 0.8rem;
-      line-height: 1.6rem;
-      letter-spacing: 0.03rem;
-      margin: 1rem 2rem;
-      &.source_disciplines{
-        font-family: $font-family-monospace;
-        text-transform: uppercase;
-        font-size: 0.75rem;
-        img {
-          height: 18px;
-        }
-        span {
-          text-decoration: underline;
-        }
-      }
-    }
-    h4{
-      font-family: $font-family-sans-serif;
+.projectbox{
+  p{
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.03rem;
+    margin: 1rem 2rem;
+    &.source_disciplines{
+      font-family: $font-family-monospace;
       text-transform: uppercase;
-      line-height: 1.4rem;
-      font-size: 1.1rem;
-      margin: 1rem 2rem;
-      font-weight: bold;
-    }
-    .button{
-      color: $black;
-      background: $white;
-      border: solid 1px $black;
-      font-size: 0.9rem;
-      padding: 0.75rem 1rem;
-      font-weight: normal;
-      font-family: $font-family-sans-light;
-      &:hover{
-        color: $white;
-        background: $black;
+      font-size: 0.75rem;
+      img {
+        height: 18px;
       }
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+  h4{
+    font-family: $font-family-sans-serif;
+    text-transform: uppercase;
+    line-height: 1.4rem;
+    font-size: 1.1rem;
+    margin: 1rem 2rem;
+    font-weight: bold;
+  }
+  .button{
+    color: $black;
+    background: $white;
+    border: solid 1px $black;
+    font-size: 0.9rem;
+    padding: 0.75rem 1rem;
+    font-weight: normal;
+    font-family: $font-family-sans-light;
+    &:hover{
+      color: $white;
+      background: $black;
     }
   }
 }
@@ -288,19 +286,29 @@ blockquote{
     width: 60%;
     max-height: 7rem;
   }
-  #cmu-logo{
+  #cmu-logo {
     margin-top: 0;
   }
   h1.title {
     margin-top: 2rem;
   }
-  #main{
+  #main {
     background: url(/assets/img/circle-pale-amber.svg) no-repeat -10px -10px;
     background-size: 320px 320px;
     min-height: 340px;
   }
-  .projectbox{
+  .projectbox {
     min-height: 35rem;
+  }
+  .similarprojects {
+    .projectbox {
+      h4 {
+        margin: 1rem 0;
+      }
+      p {
+        margin: 1rem 0;
+      }
+    }
   }
 }
 
@@ -312,7 +320,7 @@ blockquote{
     background: #FFFFFF;
     margin-top: 2rem;
   }
-  .top-bar-section{
+  .top-bar-section {
     ul li{
       &:not(.has-dropdown):not(.logo){
         & > a {

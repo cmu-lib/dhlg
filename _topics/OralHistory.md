@@ -16,9 +16,9 @@ authors:
   uri:
 identifier: oralhistory
 disciplines: 
-- History
-- MuseumStudies
-- PublicHistory
+- history
+- museumstudies
+- publichistory
 creationdate: 2019-07-31
 ---
 Oral history is the practice of collecting oral testimonials about individuals on either audio or video through the process of interviews. Oral history seeks to collect and preserve information that is often not found in traditional written sources such as government documents, news publications, or memoirs. Not only can oral history contribute to traditional historical research, but it can also reach a wider audience than traditional scholarly publications due to its accessible and personal nature. Oral history can work well with [Digital History]().

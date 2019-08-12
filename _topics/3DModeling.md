@@ -14,11 +14,11 @@ authors:
   bio:
   affiliation:
   uri:
-identifier: 3DModeling
+identifier: 3dmodeling
 disciplines: 
-- History
-- CulturalStudies
-- Archaeology
+- history
+- culturalstudies
+- archaeology
 creationdate: 2019-07-31
 ---
 

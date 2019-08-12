@@ -16,11 +16,11 @@ authors:
   uri:
 identifier: digitalpedagogy
 disciplines: 
-- History
-- English
-- Psychology
-- ModernLanguages
-- Literature
+- history
+- english
+- psychology
+- modernlanguages
+- literature
 creationdate: 2019-07-31
 ---
 

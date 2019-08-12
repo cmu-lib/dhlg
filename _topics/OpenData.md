@@ -16,10 +16,10 @@ authors:
   uri:
 identifier: opendata
 disciplines: 
-- History
-- Literature
-- Psychology
-- PublicPolicy
+- history
+- literature
+- psychology
+- publicpolicy
 creationdate: 2019-07-31
 ---
 

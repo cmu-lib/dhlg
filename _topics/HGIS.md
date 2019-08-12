@@ -14,9 +14,9 @@ authors:
   bio:
   affiliation:
   uri:
-identifier: HGIS
+identifier: hgis
 disciplines: 
-- History
+- history
 creationdate: 2019-07-31
 ---
 HGIS stands for historical geographic information system. Most often, this means using mapping software to display or analyze geographic data in order to answer historical questions. Altough most often used for environmental history, HGIS lends well to a variety of historical methodologies such as social and economic history. HGIS is a form of [Digital History](). 

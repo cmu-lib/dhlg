@@ -16,9 +16,9 @@ authors:
   uri:
 identifier: digitalforensics
 disciplines: 
-- History
-- English
-- Literature
+- history
+- english
+- literature
 creationdate: 2019-07-31
 ---
 

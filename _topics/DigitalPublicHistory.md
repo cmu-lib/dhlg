@@ -16,7 +16,7 @@ authors:
   uri:
 identifier: digitalpublichistory
 disciplines: 
-- History
+- history
 creationdate: 2019-07-31
 ---
 
