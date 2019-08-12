@@ -3,9 +3,10 @@ layout: project
 title: "Networks and Medieval Schoolbooks"
 breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
-authors: 
+authors:
 - name: Elizabeth Archibald
-  bio: "Elizabeth P. Archibald is a Lecturer in the Department of History at the University of Pittsburgh. Her research focuses on the history of education in medieval Europe and the history of the book, and she is the author of articles and chapters on these subjects as well as Ask the Past: Pertinent and Impertinent Advice from Yesteryear (2015)."
+  bio: |
+    Elizabeth P. Archibald is a Lecturer in the Department of History at the University of Pittsburgh. Her research focuses on the history of education in medieval Europe and the history of the book, and she is the author of articles and chapters on these subjects as well as _Ask the Past: Pertinent and Impertinent Advice from Yesteryear_ (2015).
   affiliation: University of Pittsburgh
   uri:
 - name: Scott Weingart
