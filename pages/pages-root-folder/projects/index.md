@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: landing
+sidebar: left
 title: "Projects"
 teaser: "Look at all the scholarly project videos"
 breadcrumb: true
@@ -8,12 +9,29 @@ permalink: "projects/"
 ---
 <div class="row">
 	<div class="small-12 columns t30">
+		<div class="row" id="listprojects">
 			{% for project in site.projects limit:1000 %}
-				<div id="project_{{ project.identifier }}" class="content">
-                    <h4><a href="{{ site.url }}{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h4>
-					{% if project.meta_description %}{{ project.meta_description | strip_html | escape }}{% elsif project.teaser %}{{ project.teaser | strip_html | escape }}{% endif %}
-					<a href="{{ site.url }}{{ site.baseurl }}{{ project.url }}" title="Read {{ project.title | escape_once }}"><strong>Read More&nbsp;›</strong></a><br><br>
+				<div id="project_{{ project.identifier }}" class="medium-4 columns projectbox">
+					<img src="http://img.youtube.com/vi/{{ project.youtubeid}}/0.jpg">
+					<h4>{{ project.title }}</h4>
+					{% if project.teaser %}<p>{{ project.teaser }}</p>{% endif %}
+					<p class="source_disciplines">{% if project.source == 'contribution' %}<img src="/assets/img/circle-cobalt.svg">{% else %}<img src="/assets/img/circle-brilliant-amber.svg">{% endif %}
+					{% assign matcheddisciplines = site.emptyArray %}
+					{% unless project.disciplines == empty%}
+						{% for discipline in project.disciplines %}
+							{% for controldiscipline in site.data.disciplines %}
+								{% if controldiscipline.identifier == discipline %}
+									{% assign matcheddisciplines = matcheddisciplines | push: controldiscipline.name %}
+								{% endif %}
+							{% endfor %}
+						{% endfor %}
+					{% endunless %}
+					{% for discipline in matcheddisciplines %}
+					<span>{{discipline}}</span>{% if forloop.last %}{% else %}, {% endif %}
+					{% endfor %}</p>
+					<p><a href="{{ site.url }}{{ site.baseurl }}{{ project.url }}" class="button radius" title="Play {{ project.title | escape_once }}">Play Video&nbsp;›</a></p>
 				</div>
 			{% endfor %}
-	</div><!-- /.small-12.columns -->
+		</div>
+	</div><!-- /.small-8 small-offset-2.columns -->
 </div><!-- /.row -->

@@ -88,7 +88,7 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-grid-classes: $include-html-classes;
 // $include-xl-html-grid-classes: false;
 
-// $row-width: rem-calc(1000);
+$row-width: rem-calc(1366);
 // $total-columns: 12;
 // $column-gutter: rem-calc(30);
 
@@ -96,13 +96,13 @@ $include-html-global-classes: $include-html-classes;
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
-// $font-family-sans-serif: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-// $font-family-serif: "Volkhov", Georgia, Times, serif;
-// $font-family-monospace: "Lucida Console", Monaco, monospace;
+$font-family-sans-serif: "Noto Sans", Helvetica, Arial, sans-serif;
+$font-family-serif: "Noto Serif Condensed", Georgia, Times, serif;
+$font-family-monospace: "Noto Mono", Monaco, monospace;
 
 // We use these to define default font weights
-// $font-weight-normal: normal !default;
-// $font-weight-bold: bold !default;
+$font-weight-normal: normal !default;
+$font-weight-bold: bold !default;
 
 // $white       : #FFFFFF;
 // $ghost       : #FAFAFA;
@@ -135,9 +135,9 @@ $include-html-global-classes: $include-html-classes;
 // We use these to control various global styles
 // $body-bg: $white;
 // $body-font-color: $jet;
-// $body-font-family: $font-family-sans-serif;
-// $body-font-weight: $font-weight-normal;
-// $body-font-style: normal;
+$body-font-family: $font-family-sans-serif;
+$body-font-weight: $font-weight-normal;
+$body-font-style: normal;
 
 // We use this to control font-smoothing
 // $font-smoothing: antialiased;
@@ -204,7 +204,7 @@ $global-radius: 3px;
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
-// $header-font-family: $font-family-serif;
+$header-font-family: $font-family-serif;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
 // $header-font-color: $jet;
@@ -264,8 +264,8 @@ $global-radius: 3px;
 // We use these to style anchors
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
-// $anchor-font-color: $primary-color;
-// $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
+$anchor-font-color: $red;
+$anchor-font-color-hover: scale-color($red, $lightness: -14%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
@@ -413,7 +413,7 @@ $crumb-border-color: $grey-1;
 $crumb-radius: 0;
 
 // We use these to set various text styles for breadcrumbs.
-// $crumb-font-size: rem-calc(11);
+$crumb-font-size: rem-calc(16);
 // $crumb-font-color: $primary-color;
 // $crumb-font-color-current: $oil;
 // $crumb-font-color-unavailable: $aluminum;
@@ -422,7 +422,7 @@ $crumb-radius: 0;
 
 // We use these to control the slash between breadcrumbs
 // $crumb-slash-color: $base;
-$crumb-slash: "/";
+$crumb-slash: "\00a0\003e\00a0";
 
 // 05. Buttons
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -441,24 +441,24 @@ $crumb-slash: "/";
 
 // We use these to control button text styles.
 // $button-font-family: $body-font-family;
-// $button-font-color: $white;
+ $button-font-color: $black;
 // $button-font-color-alt: $oil;
 // $button-font-tny: rem-calc(11);
 // $button-font-sml: rem-calc(13);
 // $button-font-med: rem-calc(16);
 // $button-font-lrg: rem-calc(20);
-// $button-font-weight: $font-weight-normal;
+$button-font-weight: $font-weight-normal;
 // $button-font-align: center;
 
 // We use these to control various hover effects.
 // $button-function-factor: -20%;
 
 // We use these to control button border and hover styles.
-// $button-border-width: 0px;
-// $button-border-style: solid;
-// $button-bg-color: $primary-color;
-// $button-bg-hover: scale-color($button-bg-color, $lightness: $button-function-factor);
-// $button-border-color: $button-bg-hover;
+$button-border-width: 1px;
+$button-border-style: solid;
+$button-bg-color: $white;
+$button-bg-hover: $black;
+$button-border-color: $button-bg-hover;
 // $secondary-button-bg-hover: scale-color($secondary-color, $lightness: $button-function-factor);
 // $secondary-button-border-color: $secondary-button-bg-hover;
 // $success-button-bg-hover: scale-color($success-color, $lightness: $button-function-factor);
@@ -467,7 +467,7 @@ $crumb-slash: "/";
 // $alert-button-border-color: $alert-button-bg-hover;
 
 // We use this to set the default radius used throughout the core.
-// $button-radius: $global-radius;
+$button-radius: $global-radius;
 // $button-round: $global-rounded;
 
 // We use this to set default opacity and cursor for disabled buttons.
@@ -960,9 +960,9 @@ $crumb-slash: "/";
 // $include-html-panel-classes: $include-html-classes;
 
 // We use these to control the background and border styles
-$panel-bg: $grey-1;
-// $panel-border-style: solid;
-// $panel-border-size: 1px;
+$panel-bg: $pale-amber;
+$panel-border-style: none;
+$panel-border-size: 0;
 
 // We use this % to control how much we darken things on hover
 // $panel-function-factor: -11%;
@@ -973,7 +973,7 @@ $panel-bg: $grey-1;
 // $panel-padding: rem-calc(20);
 
 // We use these to set default font colors
-// $panel-font-color: $oil;
+$panel-font-color: $black;
 // $panel-font-color-alt: $white;
 
 // $panel-header-adjust: true;
@@ -1396,7 +1396,7 @@ $topbar-title-font-size: rem-calc(19);
 // $topbar-link-color-active: #000;
 // $topbar-link-color-active-hover: #000;
 // $topbar-link-weight: $font-weight-normal;
-$topbar-link-font-size: rem-calc(15);
+$topbar-link-font-size: ($topbar-height / 4);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg: $topbar-bg;
 // $topbar-link-bg-color-hover: #ff0;

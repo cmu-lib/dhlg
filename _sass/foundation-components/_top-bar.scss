@@ -34,8 +34,8 @@ $topbar-link-weight: $font-weight-normal !default;
 $topbar-link-font-size: ($topbar-height / 5) !default;
 $topbar-link-hover-lightness: -10% !default; // Darken by 10%
 $topbar-link-bg: $topbar-bg !default;
-$topbar-link-bg-hover: $light-amber !default;
-$topbar-link-bg-color-hover: $light-amber !default;
+$topbar-link-bg-hover: $pale-amber !default;
+$topbar-link-bg-color-hover: $pale-amber !default;
 $topbar-link-bg-active: $primary-color !default;
 $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%) !default;
 $topbar-link-font-family: $font-family-monospace;
@@ -47,11 +47,11 @@ $topbar-button-font-size: 0.75rem !default;
 $topbar-button-top: 7px !default;
 
 // Style the top bar dropdown elements
-$topbar-dropdown-bg: $light-amber !default;
+$topbar-dropdown-bg: $pale-amber !default;
 $topbar-dropdown-link-color: $white !default;
 $topbar-dropdown-link-color-hover: $topbar-link-color-hover !default;
-$topbar-dropdown-link-bg: $light-amber !default;
-$topbar-dropdown-link-bg-hover: $light-amber !default;
+$topbar-dropdown-link-bg: $pale-amber !default;
+$topbar-dropdown-link-bg-hover: $pale-amber !default;
 $topbar-dropdown-link-weight: $font-weight-normal !default;
 $topbar-dropdown-toggle-size: 5px !default;
 $topbar-dropdown-toggle-color: $white !default;
@@ -61,7 +61,7 @@ $topbar-dropdown-label-color: $monsoon !default;
 $topbar-dropdown-label-text-transform: uppercase !default;
 $topbar-dropdown-label-font-weight: $font-weight-bold !default;
 $topbar-dropdown-label-font-size: ($topbar-height / 5) !default;
-$topbar-dropdown-label-bg: $light-amber !default;
+$topbar-dropdown-label-bg: $pale-amber !default;
 
 // Top menu icon styles
 $topbar-menu-link-transform: uppercase !default;
@@ -276,7 +276,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
 
         .toggle-topbar {
           a { color: $topbar-menu-link-color-toggled;
-      span::after {
+            span::after {
               // Shh, don't tell, but box-shadows create the menu icon :)
               // Change the color of the bars when the menu is expanded, using given thickness from hamburger() above
               box-shadow: 0 0 0 1px $topbar-menu-icon-color-toggled,
@@ -322,12 +322,12 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           padding: 12px 0 12px 0;
           padding-#{$default-float}: $topbar-link-padding;
           font-family: $topbar-link-font-family;
-          font-size: ($topbar-height/5);
+          font-size: $topbar-link-font-size;
           font-weight: $topbar-link-weight;
           text-transform: $topbar-link-text-transform;
 
           &.button {
-            font-size: ($topbar-height/5);
+            font-size: $topbar-link-font-size;
             padding-#{$opposite-direction}: $topbar-link-padding;
             padding-#{$default-float}: $topbar-link-padding;
             @include button-style($bg:$primary-color);
@@ -339,7 +339,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         }
 
         > button {
-          font-size: ($topbar-height/5);
+          font-size: $topbar-link-font-size;
           padding-#{$opposite-direction}: $topbar-link-padding;
           padding-#{$default-float}: $topbar-link-padding;
           @include button-style($bg:$primary-color);
@@ -351,22 +351,22 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         }
 
         // Apply the hover link color when it has that class
-        &:hover:not(.has-form) > a {
-          background-color: $light-amber;
+        &:hover:not(.has-form):not(.logo) > a {
+          background-color: $pale-amber;
           @if ($topbar-link-bg-hover) {
-            background: $light-amber;
+            background: $pale-amber;
           }
           color: $topbar-link-color-hover;
         }
         // Apply the active link color when it has that class
         &.active > a {
           color: $topbar-link-color-active;
-          &:hover {
-            background: $light-amber;
+          &:hover:not(.logo) {
+            background: $pale-amber;
             color: $topbar-link-color-active-hover;
           }
         }
-        &:not(.has-dropdown){
+        &:not(.has-dropdown):not(.logo){
           & > a {
             &:before {
               content: "\2014";
@@ -374,23 +374,23 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
               width: 0;
               height: 0;
               position: absolute;
-              font-family: "Noto Mono";
+              font-family: $font-family-monospace;
               left: 0.3rem;
-              top: 0;
+              top: 0.7rem;
             }
           }
         }
         &.alternateprefix { 
           & > a {
             &:before {
-              content: "\003F";
+              content: "\003F" !important;
             }
           }
         }
       }
       &>ul{
-        &>li{
-          background:url('/assets/img/circle-pale-cobalt.svg') no-repeat -2px 2px;
+        &>li:not(.logo):not(.divider){
+          background:url('/assets/img/circle-10pblack.svg') no-repeat -2px 2px;
         }
       }
       // Add some extra padding for list items contains buttons
@@ -403,14 +403,13 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         & > a {
           &:before {
             @if ($topbar-arrows){
-              content: "\207A";
+              content: "\FF0B";
               display: block;
               width: 0;
               height: 0;
             }
-            font-size: 2.2em;
             position: absolute;
-            font-family: "Noto Mono";
+            font-family: $font-family-monospace;
             left: 0.3rem;
             top: 0.15em;
           }
@@ -527,7 +526,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
 
         li {
           position: relative;
-          &:hover {
+          &:not(.logo):hover {
             background-color: $topbar-link-bg-color-hover;
           }
           &.hover {
@@ -537,13 +536,13 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           }
           &:not(.has-form) {
             a:not(.button) {
-              padding: 0 ($topbar-height / 5) 0 $topbar-link-padding;
+              padding: 0 ($topbar-height / 5) 0 1rem;
               line-height: $topbar-line-height;
             }
           }
           &.active:not(.has-form) {
             a:not(.button) {
-              padding: 0 ($topbar-height / 5) 0 $topbar-link-padding;
+              padding: 0 ($topbar-height / 5) 0 1rem;
               line-height: $topbar-line-height;
               color: $topbar-link-color-active;
             }
@@ -554,7 +553,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           @if($topbar-arrows){
             & > a {
               &:before {
-                content: "\207A";
+                content: "\FF0B";
                 display: block;
               }
             }
@@ -569,6 +568,13 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           &.hover, &.not-click:hover {
             & > .dropdown {
               @include topbar-show-dropdown();
+              padding-top: rem-calc(5);
+              &>.has-dropdown{
+                &>.dropdown {
+                  padding-top: 0;
+                  padding-left: rem-calc(5);
+                }
+              }
             }
           }
           > a:focus + .dropdown {
@@ -638,7 +644,8 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           border-#{$opposite-direction}: $topbar-divider-border-bottom;
           clear: none;
           height: $topbar-line-height;
-          width: 0;
+          width: 1rem;
+          background: $white;
         }
 
         .has-form {
@@ -717,8 +724,8 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
 }
 
 .dropdown .dropdown li:not(.has-form):not(.active) > a:not(.button){
-  background-color: $light-amber;
+  background-color: $pale-amber;
 }
 .dropdown .dropdown li:not(.has-form):not(.active) > span:not(.button){
-  background-color: $light-amber;
+  background-color: $pale-amber;
 }

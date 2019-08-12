@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "The Marraige (and Divorce) of Capitalism & Democracy"
-subheadline: "Templates"
+breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
 authors: 
 - name: Simon DeDeo
@@ -14,8 +14,8 @@ authors:
   uri:
 identifier: capitalismanddemo
 disciplines: 
-- History
-- Social and Deciscion Sciences
+- history
+- socialanddeciscionsciences
 topics:
 - digitalhistory
 - distantreading

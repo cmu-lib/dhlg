@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "How to grow data forests with XML trees"
-subheadline: "Templates"
+breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
 authors: 
 - name: Elisa Besher-Bondar
@@ -14,7 +14,7 @@ authors:
   uri:
 identifier: TEI
 disciplines: 
-- Literature
+- literature
 topics:
 - textualencoding
 creationdate: 2019-07-03

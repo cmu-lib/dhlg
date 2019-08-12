@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Structure-based Network Analysis"
-subheadline: "Templates"
+breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
 authors: 
 - name: S.E. Hackney
@@ -14,7 +14,7 @@ authors:
   uri:
 identifier: structurednetworks
 disciplines: 
-- NetworkScience
+- networkscience
 topics:
 - networkanalysis
 - datamanagement

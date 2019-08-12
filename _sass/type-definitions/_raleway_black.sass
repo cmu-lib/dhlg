@@ -1,0 +1,28 @@
+/**
+ * @file
+ * Font-face definition mixin
+ * Must be accompanied by web fonts in the specified location path).
+ *
+ * Usage: +font-raleway-black($optional_path). Defaults to ../fonts
+ *
+ * Raleway
+ * 
+ */
+ 
+=font-raleway-black($path:'../fonts')
+
+  /* raleway - latin */
+  @font-face
+    font-family: 'Raleway'
+    font-style: normal
+    font-weight: 900
+    src: url('#{$path}/raleway-black/raleway-900-webfont.eot') 
+    src: local('Raleway Regular'), url('#{$path}/raleway-black/raleway-900-webfont.eot?#iefix') format('embedded-opentype'), url('#{$path}/raleway-black/raleway-900-webfont.woff2') format('woff2'),  url('#{$path}/raleway-black/raleway-900-webfont.woff') format('woff'), url('#{$path}/raleway-black/raleway-900-webfont.ttf') format('truetype'),url('#{$path}/raleway-black/raleway-900-webfont.svg#Raleway') format('svg')
+  
+  /* raleway-900italic-webfont - latin */
+  @font-face
+    font-family: 'Raleway'
+    font-style: italic
+    font-weight: 900
+    src: url('#{$path}/raleway-black/raleway-900italic-webfont.eot') 
+    src: local('Raleway Italic'), url('#{$path}/raleway-black/raleway-900italic-webfont.eot?#iefix') format('embedded-opentype'), url('#{$path}/raleway-black/raleway-900italic-webfont.woff2') format('woff2'),  url('#{$path}/raleway-black/raleway-900italic-webfont.woff') format('woff'), url('#{$path}/raleway-black/raleway-900italic-webfont.ttf') format('truetype'),url('#{$path}/raleway-black/raleway-900italic-webfont.svg#Raleway') format('svg')

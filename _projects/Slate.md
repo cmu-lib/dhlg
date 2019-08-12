@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "SocialChange101.org"
-subheadline: "Templates"
+breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
 authors: 
 - name: Nico Slate
@@ -14,7 +14,7 @@ authors:
   uri:
 identifier: socialchange
 disciplines: 
-- History
+- history
 topics:
 - digitalhistory
 - digitalpedagogy

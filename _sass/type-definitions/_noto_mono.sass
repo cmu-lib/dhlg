@@ -1,0 +1,20 @@
+/**
+ * @file
+ * Font-face definition mixin
+ * Must be accompanied by web fonts in the specified location path).
+ *
+ * Usage: +font-noto-mono($optional_path). Defaults to ../fonts
+ *
+ * Noto Mono
+ * 
+ */
+ 
+=font-noto-mono($path:'../fonts')
+
+  /* noto-mono */
+  @font-face 
+    font-family: 'Noto Mono'
+    font-style: normal
+    font-weight: 400
+    src: url('#{$path}/noto-mono/noto-mono-webfont.eot') 
+    src: local('Noto Mono Regular'), local('Noto Mono'), url('#{$path}/noto-mono/noto-mono-webfont.eot?#iefix') format('embedded-opentype'), url('#{$path}/noto-mono/noto-mono-webfont.woff2') format('woff2'),  url('#{$path}/noto-mono/noto-mono-webfont.woff') format('woff'), url('#{$path}/noto-mono/noto-mono-webfont.ttf') format('truetype'),url('#{$path}/noto-mono/noto-mono-webfont.svg#Noto-Mono') format('svg')

@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Shakespeare-VR"
-subheadline: "Templates"
+breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
 authors: 
 - name: Stephen Wittek
@@ -14,8 +14,8 @@ authors:
   uri:
 identifier: shakespearevr
 disciplines: 
-- English
-- Literature
+- english
+- literature
 topics:
 - virtualreality
 creationdate: 2019-07-03

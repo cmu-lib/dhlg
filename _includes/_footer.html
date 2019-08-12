@@ -1,75 +1,70 @@
-    <div id="up-to-top" class="row">
-      <div class="small-12 columns" style="text-align: right;">
-        <a class="iconfont" href="#top-of-page">&#xf108;</a>
-      </div><!-- /.small-12.columns -->
-    </div><!-- /.row -->
-
-
     <footer id="footer-content" class="bg-grau">
       <div id="footer">
         <div class="row">
-          <div class="medium-6 large-5 columns">
-            <h5 class="shadow-black">About This Site</h5>
+            <div class="large-2 small-3 columns">
+              <img src='/assets/img/marks/dhlg_logotype_vertical_rev.svg' id="dhlg-logo">
+            </div><!-- /.large-6.columns -->
 
-            <p class="shadow-black">
+          <div class="large-3 small-9 columns">
+            <h5>The DH Literacy Guidebook</h5>
+            <p>
               {{ site.description }}
-              <a href="{{ site.url }}{{ site.baseurl }}/info/">More ›</a>
             </p>
           </div><!-- /.large-6.columns -->
 
-
-          <div class="small-6 medium-3 large-3 large-offset-1 columns">
-            {% for service_item in site.data.services %}
-              {% if forloop.first == true %}
-                <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
-              {% endif %}
-            {% endfor %}
-
-              <ul class="no-bullet shadow-black">
-              {% for service_item in site.data.services %}
-                {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
-                  <li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
-                    <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
-                  </li>
-              {% endfor %}
-              </ul>
+          <div class="large-3 medium-4 small-12 columns">
+            <h5>Content Attribution</h5>
+            <div class="row">
+              <div class="small-3 columns">
+                  <img src='/assets/img/circle-brilliant-amber.svg' id="core-marker">
+              </div>
+              <div class="small-9 columns">
+                <p>{{ site.corecontent }}</p>
+              </div>
+            </div>
+            <div class="row">
+                <div class="small-3 columns">
+                    <img src='/assets/img/circle-cobalt.svg' id="contributed-marker">
+                </div>
+                <div class="small-9 columns">
+                  <p>{{ site.contributedcontent }}</p>
+                </div>
+              </div>
           </div><!-- /.large-4.columns -->
 
 
-          <div class="small-6 medium-3 large-3 columns">
-            {% for network_item in site.data.network %}
-              {% if forloop.first == true %}
-                <h5 class="shadow-black">{{ network_item.menu_name }}</h5>
-              {% endif %}
-            {% endfor %}
-
-            <ul class="no-bullet shadow-black">
-            {% for network_item in site.data.network %}
-              {% if network_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
-                <li {% if network_item.class %}class="{{ network_item.class }}" {% endif %}>
-                  <a href="{{ domain }}{{ network_item.url }}" {% if network_item.url contains 'http' %}target="_blank" {% endif %} title="{{ network_item.title }}">{{ network_item.name }}</a>
+          <div class="large-2 medium-4 small-6 columns">
+            <h5>Links</h5>
+            <ul class="no-bullet">
+            {% for link in site.data.footerlinks %}
+              {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
+                <li>
+                  <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" {% endif %} title="{{ link.title }}">{{ link.name }}</a>
                 </li>
             {% endfor %}
             </ul>
           </div><!-- /.large-3.columns -->
+          <div class="large-2 medium-4 small-6 columns">
+            <img src='/assets/img/mellon-logo-small.svg' id="mellon-logo">
+            </div>
         </div><!-- /.row -->
 
       </div><!-- /#footer -->
 
 
       <div id="subfooter">
-        <nav class="row">
-          <section id="subfooter-left" class="small-12 medium-6 columns credits">
-            {{ site.credits }}
-          </section>
+        <div class="row">
+          <div id="subfooter-left" class="medium-9 columns">
+            <ul class="inline-list">
+              {% for link in site.data.subfooterlinks %}
+                <li><a href="{{ link.url }}" target="_blank" title="{{ link.title }}">{{ link.name }}</a></li>
+              {% endfor %}
+              </ul>
+          </div>
 
-          <section id="subfooter-right" class="small-12 medium-6 columns">
-            <ul class="inline-list social-icons">
-            {% for social_item in site.data.socialmedia %}
-              <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
-            {% endfor %}
-            </ul>
-          </section>
-        </nav>
+          <div id="subfooter-right" class="medium-3 columns">
+            <img src='/assets/img/CMU_wordmark_1500px-min_white.png' id="cmu-logo">
+          </div>
+        </div>
       </div><!-- /#subfooter -->
     </footer>

@@ -10,30 +10,30 @@
 $include-html-nav-classes: $include-html-classes !default;
 
 // We use this to set the background color for the breadcrumb container.
-$crumb-bg: scale-color($secondary-color, $lightness: 55%) !default;
+$crumb-bg: $white;
 
 // We use these to set the padding around the breadcrumbs.
-$crumb-padding: rem-calc(9 14 9) !default;
-$crumb-side-padding: rem-calc(12) !default;
+$crumb-padding: rem-calc(0) !default;
+$crumb-side-padding: rem-calc(3) !default;
 
 // We use these to control border styles.
 $crumb-function-factor: -10% !default;
-$crumb-border-size: 1px !default;
-$crumb-border-style: solid !default;
+$crumb-border-size: 0 !default;
+$crumb-border-style: none !default;
 $crumb-border-color: scale-color($crumb-bg, $lightness: $crumb-function-factor) !default;
 $crumb-radius: $global-radius !default;
 
 // We use these to set various text styles for breadcrumbs.
 $crumb-font-size: rem-calc(11) !default;
-$crumb-font-color: $primary-color !default;
+$crumb-font-color: $red !default;
 $crumb-font-color-current: $oil !default;
 $crumb-font-color-unavailable: $aluminum !default;
-$crumb-font-transform: uppercase !default;
-$crumb-link-decor: underline !default;
+$crumb-font-transform: none !default;
+$crumb-link-decor: none !default;
 
 // We use these to control the slash between breadcrumbs
 $crumb-slash-color: $base !default;
-$crumb-slash: "/" !default;
+$crumb-slash: " > " !default;
 
 //
 // Breadcrumb Mixins
@@ -46,12 +46,6 @@ $crumb-slash: "/" !default;
   overflow: hidden;
   margin-#{$default-float}: 0;
   list-style: none;
-  border-style: $crumb-border-style;
-  border-width: $crumb-border-size;
-
-  // We control which background color and border come through.
-  background-color: $crumb-bg;
-  border-color: $crumb-border-color;
 }
 
 // We use this mixin to create breadcrumb styles from list items.
@@ -61,9 +55,9 @@ $crumb-slash: "/" !default;
   margin: 0;
   float: $default-float;
   font-size: $crumb-font-size;
-  line-height: $crumb-font-size;
   text-transform: $crumb-font-transform;
   color: $crumb-font-color;
+  font-family: $font-family-monospace;
 
   &:hover a, &:focus a { text-decoration: $crumb-link-decor; }
 
@@ -74,10 +68,10 @@ $crumb-slash: "/" !default;
   // Current is for the link of the current page
   &.current {
     cursor: $cursor-default-value;
-    color: $crumb-font-color-current;
+    color: $crumb-font-color;
     a {
       cursor: $cursor-default-value;
-      color: $crumb-font-color-current;
+      color: $crumb-font-color;
     }
 
     &:hover, &:hover a,
@@ -122,11 +116,15 @@ $crumb-slash: "/" !default;
       &>* {
         @include crumbs;
       }
+      a{
+        text-decoration: underline;
+        font-weight: normal;
+      }
     }
   }
 }
 
 /* Accessibility - hides the forward slash */
 [aria-label="breadcrumbs"] [aria-hidden="true"]:after {
-  content: "/";
+  content: " > ";
   }

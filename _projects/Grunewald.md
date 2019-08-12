@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "GIS Mapping"
-subheadline: "Templates"
+breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
 authors: 
 - name: Susan Grunewald
@@ -14,10 +14,10 @@ authors:
   uri:
 identifier: gis-mapping
 disciplines: 
-- History
+- history
 topics:
 - digitalhistory
-- HGIS
+- hgis
 creationdate: 2019-07-03
 source: contribution
 youtubeid: r32qwAENWng

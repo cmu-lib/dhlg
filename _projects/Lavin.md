@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Logistic Regression"
-subheadline: "Templates"
+breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
 authors: 
 - name: Matthew J. Lavin
@@ -15,7 +15,7 @@ authors:
 identifier: logisticregression
 disciplines: 
 - literature
-- English
+- english
 topics:
 - machinelearning
 creationdate: 2019-07-03

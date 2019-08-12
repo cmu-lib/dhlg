@@ -37,29 +37,17 @@ $fontsfolder: '../fonts';
   }
 }
 
-@import "01_settings_colors.scss";
-@import "02_settings_typography.scss";
-
-$font-family-sans-serif: "Noto Sans", Helvetica, Arial, sans-serif;
-$font-family-serif: "Noto Serif Condensed", Georgia, Times, serif;
-$font-family-monospace: "Noto Mono", Monaco, monospace;
-
-$body-font-family: $font-family-sans-serif;
-$body-font-weight: normal;
-$body-font-style: normal;
-
-$header-font-family: $font-family-serif;
-
 @include font-face("Noto Serif Condensed", "noto-serif-condensed", "noto-serif-condensed", "serif");
 @include font-face("Noto Serif Condensed Bold", "noto-serif-condensed", "noto-serif-condensed", "serif","bold");
 @include font-face("Noto Sans Light", "noto-sans-light", "noto-sans-light", "sans-serif");
 @include font-face("Noto Sans Light Italic", "noto-sans-light", "noto-sans-light", "sans-serif","italic");
 @include font-face("Noto Mono", "noto-mono", "noto-mono", "sans-serif");
 
+@import "01_settings_colors.scss";
+@import "02_settings_typography.scss";
 @import "03_settings_mixins_media_queries.scss";
 @import "04_settings_global.scss";
 @import "05_normalize.scss"; // normalize.css v3.0.2
-
 
 @import "foundation-components/top-bar";
 @import "foundation-components/accordion";
@@ -148,7 +136,195 @@ blockquote{
       color: $red;
     }
   }
+  ul{
+    &.right{
+      margin-right: 0.75rem;
+    }
+    &.left{
+      margin-left: 0.75rem;
+    }
+    li{
+      &.divider:last-of-type {
+        width: 0!important;
+      }
+    }
+  }
+}
+#footer{
+  color: $white;
+  a {
+    color: $white;
+    text-decoration: underline;
+    &:hover{
+      color: $grey;
+    }
+  }
+  h5{
+    font-family: $font-family-monospace;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
 }
 #subfooter {
   border-top: 2px $white solid;
+  padding: 1.25rem 0;
+  font-family: $font-family-sans-serif;
+  a {
+    color: $white;
+    text-decoration: underline;
+    &:hover{
+      color: $grey;
+    }
+  }
+  ul{
+    margin: 0;
+    li {
+      margin-left: 0;
+      margin-right: 0.5rem;
+      height: 2rem;
+      line-height: 2rem;
+    }
+  }
+}
+
+#dhlg-logo {
+  display: block;
+  margin: auto;
+}
+.logo{
+  width: 13rem;
+}
+#cmu-logo{
+  margin-top: 1rem;
+}
+.morse{
+  font-size: 3rem;
+  font-family: "Raleway";
+  color: $brilliant-amber !important;
+  margin-top: 0;
+  line-height: 3.2rem;
+}
+
+#sidenav{
+  h4{
+    font-family: $font-family-sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+  }
+  ul#toc{
+    margin:0;
+    overflow-y: auto;
+  }
+  li{
+    font-family: $font-family-monospace;
+    list-style: none;
+    font-size: rem-calc(14);
+    cursor: pointer;
+    &:before {
+      content: "\2014";
+      display: inline-block;
+      width: 1rem;
+      font-family: $font-family-monospace;
+      top:0;
+      cursor: pointer;
+      pointer-events: none;
+    }
+  }
+}
+#listprojects{
+  .projectbox{
+    p{
+      font-size: 0.8rem;
+      line-height: 1.6rem;
+      letter-spacing: 0.03rem;
+      margin: 1rem 2rem;
+      &.source_disciplines{
+        font-family: $font-family-monospace;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        img {
+          height: 18px;
+        }
+        span {
+          text-decoration: underline;
+        }
+      }
+    }
+    h4{
+      font-family: $font-family-sans-serif;
+      text-transform: uppercase;
+      line-height: 1.4rem;
+      font-size: 1.1rem;
+      margin: 1rem 2rem;
+      font-weight: bold;
+    }
+    .button{
+      color: $black;
+      background: $white;
+      border: solid 1px $black;
+      font-size: 0.9rem;
+      padding: 0.75rem 1rem;
+      font-weight: normal;
+      font-family: $font-family-sans-light;
+      &:hover{
+        color: $white;
+        background: $black;
+      }
+    }
+  }
+}
+
+@media #{$small-only} {
+
+}
+
+@media #{$medium-up} {
+  #dhlg-logo {
+    width: 60%;
+    max-height: 7rem;
+  }
+  #cmu-logo{
+    margin-top: 0;
+  }
+  h1.title {
+    margin-top: 2rem;
+  }
+  #main{
+    background: url(/assets/img/circle-pale-amber.svg) no-repeat -10px -10px;
+    background-size: 320px 320px;
+    min-height: 340px;
+  }
+  .projectbox{
+    min-height: 35rem;
+  }
+}
+
+@media #{$large-up} {
+  #dhlg-logo {
+    max-height: unset;
+  }
+  #navigation {
+    background: #FFFFFF;
+    margin-top: 2rem;
+  }
+  .top-bar-section{
+    ul li{
+      &:not(.has-dropdown):not(.logo){
+        & > a {
+          &:before {
+            top: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$xlarge-up} {
+
 }

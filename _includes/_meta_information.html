@@ -1,4 +1,5 @@
-			<div id="page-meta" class="t30">
+			<div id="page-meta" class="row t30 b60">
+				<div class="small-12 columns">
 				{% for author in page.authors %}
 					<p>
 						<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="pr20 icon-edit"><a href="{{ author.uri }}" target="_blank"> {{ author.name }}</a> ({{ author.affiliation }})</span>
@@ -31,20 +32,24 @@
 				{% endfor %}
 				</p>
 			{% endunless %}
+			</div>
 			{% unless page.disciplines == empty%}
 			{% assign matcheddisciplineprojects = site.emptyArray %}
+			<div class="small-12 columns">
 				<h3>Similar Projects by Discipline</h3>
-				<div>
+				<div class="row">
 				{% for discipline in page.disciplines %}
 					{% for controldiscipline in site.data.disciplines %}
-						{% if controldiscipline == discipline %}
+						{% if controldiscipline.identifier == discipline %}
 							{% for finddisciplineprojects in site.projects %}
-								{% if finddisciplineprojects.disciplines contains controldiscipline %}
+								{% if finddisciplineprojects.disciplines contains controldiscipline.identifier %}
 									{% if finddisciplineprojects.identifier != page.identifier %}
 										{% unless matcheddisciplineprojects contains finddisciplineprojects.identifier %}
-											<div>
-												<h5><a href="{{ site.url }}{{ finddisciplineprojects.id }}">{{ finddisciplineprojects.title }}</a></h5>
-												<p>{{ finddisciplineprojects.teaser }}</p>
+											<div id="project_{{ project.identifier }}" class="medium-4 columns projectbox">
+												<img src="http://img.youtube.com/vi/{{ finddisciplineprojects.youtubeid}}/0.jpg">
+												<h4>{{ finddisciplineprojects.title }}</h4>
+												{% if finddisciplineprojects.teaser %}<p>{{ finddisciplineprojects.teaser }}</p>{% endif %}
+												<p><a href="{{ site.url }}{{ site.baseurl }}{{ finddisciplineprojects.url }}" class="button radius" title="Play {{ finddisciplineprojects.title | escape_once }}">Play Video&nbsp;›</a></p>
 											</div>
 											{% assign matcheddisciplineprojects = matcheddisciplineprojects | push: finddisciplineprojects.identifier %}
 										{% endunless %}
@@ -55,19 +60,21 @@
 					{% endfor %}
 				{% endfor %}
 				</div>
+			</div>
 			{% endunless %}
 			{% unless page.topics == empty%}
 			{% assign matchedtopicprojects = site.emptyArray %}
+			<div class="small-12 columns">
 				<h3>Similar Projects by Topics</h3>
-				<div>
+				<div class="row">
 				{% for topic in page.topics %}
 					{% for controltopic in site.topics %}
 						{% if controltopic.identifier == topic %}
 							{% for findtopicprojects in site.projects %}
-								{% if findtopicprojects.topics contains controltopic %}
+								{% if findtopicprojects.topics contains controltopic.identifier %}
 									{% if findtopicprojects.identifier != page.identifier %}
 										{% unless matchedtopicprojects contains findtopicprojects.identifier %}
-											<div>
+											<div class="medium-4 columns">
 												<h5><a href="{{ site.url }}{{ findtopicprojects.id }}">{{ findtopicprojects.title }}</a></h5>
 												<p>{{ findtopicprojects.teaser }}</p>
 											</div>
@@ -80,6 +87,7 @@
 					{% endfor %}
 				{% endfor %}
 				</div>
+			</div>
 			{% endunless %}
 			{% if page.collection == "posts" %}
 			<div id="post-nav" class="row">

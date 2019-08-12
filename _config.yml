@@ -19,9 +19,8 @@ description: "An ongoing resource for locals and the world to get introduced to 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>A <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> site designed by <a href="http://www.agilehumanities.ca">Agile Humanities</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
 
-# Main author of the website
-# See > authors.yml
-author: cmu-dh
+corecontent: 'Content marked in amber is contributed by CMU and is offered under a <a href="" target="_blank">Creative Commons Licence</a>.'
+contributedcontent: 'Content marked in blue is contributed by the community and offered under <a href="" target="_blank">The Same Creative Commons License</a>.'
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
@@ -39,7 +38,6 @@ improve_content:
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
 urlimg: 'images/'
-
 
 # Logo size is 600x80 pixels
 logo: "logo.png"

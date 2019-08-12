@@ -10,6 +10,7 @@ Modular Scale › http://www.modularscale.com//?16,36&px&1.25&web&table
 */
 
 @import "functions"; // Allows the use of rem-calc() or lower-bound() in your settings
+@import "type-definitions/index";
 
 
 
@@ -21,10 +22,22 @@ $rem-base: $base-font-size;
 // $base-line-height is 24px while $base-font-size is 16px
 $base-line-height: 1.5 !default;
 
+@include font-noto-mono();
+@include font-noto-sans-bold();
+@include font-noto-sans-light();
+@include font-noto-serif-condensed();
+@include font-noto-serif-condensed-bold();
+@include font-raleway-black();
+
 
 $font-family-sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-serif: "Volkhov", Georgia, Times, serif;
 $font-family-monospace: "Lucida Console", Monaco, monospace;
+
+$font-family-morse: "Raleway";
+$font-weight-morse: 900;
+
+$font-family-sans-light: "Noto Sans Light", Arial, sans-serif;
 
 $body-font-family: $font-family-sans-serif;
 $body-font-weight: normal;

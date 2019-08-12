@@ -1983,7 +1983,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
             placeholder.attr(self.add_namespace('data-magellan-expedition-clone'),'');
             expedition.before(placeholder);
           }
-          expedition.css({position:'fixed', top: settings.fixed_top}).addClass('fixed');
+          //expedition.css({position:'fixed', top: settings.fixed_top}).addClass('fixed');
         } else {
           expedition.prev('[' + self.add_namespace('data-magellan-expedition-clone') + ']').remove();
           expedition.attr('style',styles).css('position','').css('top','').removeClass('fixed');
@@ -2120,7 +2120,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
         self.add_custom_rule('.f-topbar-fixed { padding-top: ' + topbar.data('height') + 'px }');
 
         if (topbarContainer.hasClass('fixed')) {
-          self.S('body').addClass('f-topbar-fixed');
+          //self.S('body').addClass('f-topbar-fixed');
         }
       });
 
@@ -2182,15 +2182,15 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
       if (settings.scrolltop) {
         if (!topbar.hasClass('expanded')) {
           if (topbar.hasClass('fixed')) {
-            topbar.parent().addClass('fixed');
-            topbar.removeClass('fixed');
-            self.S('body').addClass('f-topbar-fixed');
+            //topbar.parent().addClass('fixed');
+            //topbar.removeClass('fixed');
+            //self.S('body').addClass('f-topbar-fixed');
           }
         } else if (topbar.parent().hasClass('fixed')) {
           if (settings.scrolltop) {
-            topbar.parent().removeClass('fixed');
-            topbar.addClass('fixed');
-            self.S('body').removeClass('f-topbar-fixed');
+            //topbar.parent().removeClass('fixed');
+            //topbar.addClass('fixed');
+            //self.S('body').removeClass('f-topbar-fixed');
 
             window.scrollTo(0,0);
           } else {
@@ -2199,7 +2199,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
         }
       } else {
         if (self.is_sticky(topbar, topbar.parent(), settings)) {
-          topbar.parent().addClass('fixed');
+          //topbar.parent().addClass('fixed');
         }
 
         if (topbar.parent().hasClass('fixed')) {
@@ -2208,9 +2208,9 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
             topbar.parent().removeClass('expanded');
             self.update_sticky_positioning();
           } else {
-            topbar.addClass('fixed');
-            topbar.parent().addClass('expanded');
-            self.S('body').addClass('f-topbar-fixed');
+            //topbar.addClass('fixed');
+            //topbar.parent().addClass('expanded');
+            //self.S('body').addClass('f-topbar-fixed');
           }
         }
       }
@@ -2488,8 +2488,8 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
         if (!self.S(klass).hasClass('expanded')) {
           if ($window.scrollTop() > (distance)) {
             if (!self.S(klass).hasClass('fixed')) {
-              self.S(klass).addClass('fixed');
-              self.S('body').addClass('f-topbar-fixed');
+              //self.S(klass).addClass('fixed');
+              //self.S('body').addClass('f-topbar-fixed');
             }
           } else if ($window.scrollTop() <= distance) {
             if (self.S(klass).hasClass('fixed')) {

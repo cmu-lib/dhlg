@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Data Visualization: Tableau"
-subheadline: "Templates"
+breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
 authors: 
 - name: Emma Slayton
@@ -14,10 +14,10 @@ authors:
   uri:
 identifier: dataviz
 disciplines: 
-- History
-- English
-- ModernLanguages
-- Psychology
+- history
+- english
+- modernlanguages
+- psychology
 topics:
 - digitalhistory
 - datavisualization

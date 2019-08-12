@@ -1,0 +1,28 @@
+/**
+ * @file
+ * Font-face definition mixin
+ * Must be accompanied by web fonts in the specified location path).
+ *
+ * Usage: +font-noto-sans-light($optional_path). Defaults to ../fonts
+ *
+ * Noto Sans Light
+ * 
+ */
+ 
+=font-noto-sans-light($path:'../fonts')
+
+  /* noto-sans-light - latin */
+  @font-face
+    font-family: 'Noto Sans'
+    font-style: normal
+    font-weight: 300
+    src: url('#{$path}/noto-sans-light/noto-sans-light-webfont.eot') 
+    src: local('Noto Sans Regular'), url('#{$path}/noto-sans-light/noto-sans-light-webfont.eot?#iefix') format('embedded-opentype'), url('#{$path}/noto-sans-light/noto-sans-light-webfont.woff2') format('woff2'),  url('#{$path}/noto-sans-light/noto-sans-light-webfont.woff') format('woff'), url('#{$path}/noto-sans-light/noto-sans-light-webfont.ttf') format('truetype'),url('#{$path}/noto-sans-light/noto-sans-light-webfont.svg#Noto-Sans') format('svg')
+  
+  /* noto-sans-italic - latin */
+  @font-face
+    font-family: 'Noto Sans'
+    font-style: italic
+    font-weight: 300
+    src: url('#{$path}/noto-sans-light/noto-sans-lightitalic-webfont.eot') 
+    src: local('Noto Sans Italic'), url('#{$path}/noto-sans-light/noto-sans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'), url('#{$path}/noto-sans-light/noto-sans-lightitalic-webfont.woff2') format('woff2'),  url('#{$path}/noto-sans-light/noto-sans-lightitalic-webfont.woff') format('woff'), url('#{$path}/noto-sans-light/noto-sans-lightitalic-webfont.ttf') format('truetype'),url('#{$path}/noto-sans-light/noto-sans-lightitalic-webfont.svg#Noto-Sans') format('svg')
