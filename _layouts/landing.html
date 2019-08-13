@@ -4,12 +4,12 @@ format: page
 ---
 <div class="row t60">
 	{% if page.sidebar == "left" %}
-	<div class="large-4 small-12 columns">
+	<div class="large-4 columns">
 		{% include _sidebar.html %}
 	</div><!-- /.medium-4.columns -->
 	{% endif %}
 		
-	<div class="large-8 small-12 columns{% if page.sidebar == NULL %} large-offset-2 {% endif %}{% if page.sidebar == "left" %} {% endif %}">
+	<div class="large-8 columns{% if page.sidebar == NULL %} large-offset-2 {% endif %}{% if page.sidebar == "left" %} {% endif %}">
 		<article itemscope itemtype="http://schema.org/Article">
 			<header class="row">
 				<div itemprop="name" class="large-8 large-offset-2 columns">
@@ -17,13 +17,13 @@ format: page
 					{% if page.breadcrumb == true %}
 						{% include _breadcrumb.html %}
 					{% endif %}
-					{% if page.description !=empty %}
+					{% unless page.description ==NULL %}
 					<div class="row">
-						<div class="large-8 small-12 columns t30">
+						<div class="large-8 columns t30">
 							<p>{{ page.description | markdownify }}</p>
 						</div>
 					</div>
-					{% endif %}
+					{% endunless %}
 				</div>
 			</header>
 

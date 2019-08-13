@@ -319,7 +319,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           display: block;
           width: 100%;
           color: $topbar-link-color;
-          padding: 12px 0 12px 0;
+          padding: 15px 0 15px 0;
           padding-#{$default-float}: $topbar-link-padding;
           font-family: $topbar-link-font-family;
           font-size: $topbar-link-font-size;
@@ -411,7 +411,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
             position: absolute;
             font-family: $font-family-monospace;
             left: 0.3rem;
-            top: 0.15em;
+            top: 1.2em;
           }
         }
 

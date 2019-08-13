@@ -344,6 +344,36 @@ h1.title {
   color: red;
 }
 
+
+
+.top-bar-section{
+  .has-dropdown {
+    ul li{
+      &:not(.has-dropdown):not(.logo){
+        &>a:before{
+          left: 0.6em;
+          top: 1.2em;
+        }
+      }
+      li{
+        a.parent-link:before {
+          content: "\2014";
+          top: 0.5em;
+          left: 0.5em;
+        }
+      }
+      &.has-dropdown{
+        li{
+          a:before {
+            content: "\2014";
+            top: 0.5em;
+            left: 0.3em;
+          }
+        }
+      }
+    }
+  }
+}
 @media #{$small-only} {
 
 }
@@ -383,7 +413,6 @@ h1.title {
   }
   #sidenav{
     transition: all 0.5s ease 0s;
-    z-index: -1;
     .morse{
       display: block;
     }
@@ -413,7 +442,7 @@ h1.title {
   }
 }
 
-@media #{$large-up} {
+@media #{$large-up} { 
   #sidemorse{
     overflow: hidden;
     display: block;
@@ -444,6 +473,9 @@ h1.title {
             top: 0;
           }
         }
+      }
+      & > a{
+        padding: 12px 0 12px 0;
       }
     }
   }

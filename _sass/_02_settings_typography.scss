@@ -30,9 +30,9 @@ $base-line-height: 1.5 !default;
 @include font-raleway-black();
 
 
-$font-family-sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-serif: "Volkhov", Georgia, Times, serif;
-$font-family-monospace: "Lucida Console", Monaco, monospace;
+$font-family-sans-serif: "Noto Sans", Helvetica, Arial, sans-serif;
+$font-family-serif: "Noto Serif Condensed", Georgia, Times, serif;
+$font-family-monospace: "Noto Mono", Monaco, monospace;
 
 $font-family-morse: "Raleway";
 $font-weight-morse: 900;

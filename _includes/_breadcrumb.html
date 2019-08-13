@@ -7,9 +7,10 @@
 <nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
     <span><a href="{{ site.url }}{{ site.baseurl }}">Home</a>&nbsp;&gt;&nbsp;</span>
      {% assign crumbs = page.url | split: '/' %}
-     {% for crumb in crumbs offset: 1 %}
+     {% assign lastcrumb = crumbs.size | minus: 2 %}
+     {% for crumb in crumbs %}
        {% unless forloop.last %}
-       <span><a href="{{ site.url }}{{ site.baseurl }}/{% assign crumb_limit = forloop.index | plus: 1 %}{% for nextcrumb in crumbs limit: crumb_limit %}{{ nextcrumb }}/{% endfor %}">{{ crumb | replace:'-',' ' }}</a>&nbsp;&gt;&nbsp;</span>
+       <span><a href="{{ site.url }}{{ site.baseurl }}/{% assign crumb_limit = forloop.index | plus: 1 %}{% for nextcrumb in crumbs limit: crumb_limit %}{{ nextcrumb }}/{% endfor %}">{{ crumb | replace:'-',' ' }}</a>{% unless crumbs[lastcrumb] %}&nbsp;&gt;&nbsp;{% endunless %}</span>
        {% endunless %}
      {% endfor %}
    </nav>
