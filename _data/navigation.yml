@@ -4,92 +4,94 @@
   alternate:
 
 - title: "Topics in DH"
-  url: "/topics/"
+  url: "/topics-in-dh/"
   side: left
   alternate:
 
 - title: "Scholarly Project Videos"
-  url: "/projects/"
+  url: "/scholarly-project-videos/"
   side: left
   alternate:
 
 - title: "Hiring Digital Humanists"
-  url: "/hiring/"
+  url: "/hiring-digital-humanists/"
   side: left
   alternate:
 
 - title: "Global Resources"
-  url: "/resources/global/"
+  url: "/global-resources/"
   side: left
   alternate:
   dropdown:
   - title: "Educational Resources"
-    url: "/resources/global/educational/"
+    url: "/global-resources/educational-resources/"
     alternate:
     dropdown:
     - title: "Instructional blogs / misc"
-      url: "/resources/global/educational/instructional-blogs"
+      url: "/global-resources/educational-resources/instructional-blogs"
     - title: "Textbooks"
-      url: "/resources/global/educational/textbooks/"
+      url: "/global-resources/educational-resources/textbooks/"
     - title: "MOOCs and other online courses"
-      url: "/resources/global/educational/online-courses/"
+      url: "/global-resources/educational-resources/moocs/"
     - title: "Short institutes & workshops"
-      url: "/resources/global/educational/workshops/"
+      url: "/global-resources/educational-resources/short-institutes-and-workshops/"
     - title: "MA/PhD programs"
-      url: "/resources/global/educational/programs/"
+      url: "/global-resources/educational-resources/ma-phd-programs/"
   - title: "DH Community"
-    url: "/resources/global/community/"
+    url: "/global-resources/dhcommunity/"
     alternate:
     dropdown:
     - title: "Conferences"
-      url: "/resources/global/community/conferences/"
+      url: "/global-resources/dh-community/conferences/"
     - title: "Journals"
-      url: "/resources/global/community/journals/"
+      url: "/global-resources/dh-community/journals/"
     - title: "Scholarly organizations"
-      url: "/resources/global/community/scholarly/"
+      url: "/global-resources/dh-community/scholarly/"
     - title: "Regional organizations"
-      url: "/resources/global/community/regional/"
+      url: "/global-resources/dh-community/regional-organizations/"
     - title: "Online communities"
-      url: "/resources/global/community/online/"
+      url: "/global-resources/dh-community/online-organizations/"
     - title: "Job Boards"
-      url: "/resources/global/community/jobs/"
+      url: "/global-resources/dh-community/job-boards/"
   - title: "Funding Sources"
-    url: "/resources/global/funding/"
+    url: "/global-resources/funding-sources/"
     dropdown:
     alternate:
     - title: "Grants"
-      url: "/resources/global/funding/grants/"
+      url: "/global-resources/funding-sources/grants/"
     - title: "Fellowships"
-      url: "/resources/global/funding/fellowships/"
+      url: "/global-resources/funding-sources/fellowships/"
     - title: "Misc"
-      url: "/resources/global/funding/misc/"
+      url: "/global-resources/funding-sources/misc/"
   - title: "Professionalization"
-    url: "/resources/global/professionalization/"
+    url: "/global-resources/professionalization/"
+  - title: "DH Job Markets"
+    url: "/global-resources/dh-job-markets/"
   - title: "Notable Critiques"
-    url: "/resources/global/critiques/"
+    url: "/global-resources/notable-critiques/"
 
 
 - title: "Local Resources"
-  url: "/resources/local/"
+  url: "/local-resources/"
   side: left
   alternate:
   dropdown: 
   - title: Getting Involved
-    url: "/resources/local/getting-involved/"
+    url: "/local-resources/getting-involved/"
   - title: Universities
-    url: "/resources/local/universities/"
+    url: "/local-resources/universities/"
   - title: Communities
-    url: "/resources/local/communities/"
+    url: "/local-resources/communities/"
   - title: Programs
-    url: "/resources/local/programs/"
+    url: "/local-resources/programs/"
   - title: Courses
-    url: "/resources/local/courses/"
+    url: "/local-resources/courses/"
   - title: Projects
-    url: "/resources/local/projects/"
+    url: "/local-resources/projects/"
   - title: People
-    url: "/resources/local/people/"
+    url: "/local-resources/people/"
   - title: Events
-    url: "/resources/local/events/"
+    url: "/local-resources/events/"
 
 
 - title: "Search"

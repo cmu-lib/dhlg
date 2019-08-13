@@ -33,7 +33,7 @@ $crumb-link-decor: none !default;
 
 // We use these to control the slash between breadcrumbs
 $crumb-slash-color: $base !default;
-$crumb-slash: " > " !default;
+$crumb-slash: "" !default;
 
 //
 // Breadcrumb Mixins

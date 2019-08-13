@@ -54,10 +54,10 @@ collections:
     permalink: /topics/:path/
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /scholarly-project-videos/:path/
   interviews:
     output: true
-    permalink: /hiring/:path/
+    permalink: /hiring-digital-humanists/:path/
 
 
 # Theme works best with Kramdown (using the table of contents function)
@@ -163,16 +163,16 @@ defaults:
 
 favicon-32x32:                          'favicon-32x32.png'
 touch-icon-192x192:                     'touch-icon-192x192.png'
-apple-touch-icon-180x180-precomposed:   'apple-touch-icon-180x180-precomposed.png'
-apple-touch-icon-152x152-precomposed:   'apple-touch-icon-152x152-precomposed.png'
-apple-touch-icon-144x144-precomposed:   'apple-touch-icon-144x144-precomposed.png'
-apple-touch-icon-120x120-precomposed:   'apple-touch-icon-120x120-precomposed.png'
-apple-touch-icon-114x114-precomposed:   'apple-touch-icon-114x114-precomposed.png'
-apple-touch-icon-76x76-precomposed:     'apple-touch-icon-76x76-precomposed.png'
-apple-touch-icon-72x72-precomposed:     'apple-touch-icon-72x72-precomposed.png'
-apple-touch-icon-precomposed:           'apple-touch-icon-precomposed.png'
-msapplication_tileimage:                'msapplication_tileimage.png'               # Size 144x144
-msapplication_tilecolor:                '#fabb00'
+apple-touch-icon-180x180-precomposed:   'apple-icon-180x180.png'
+apple-touch-icon-152x152-precomposed:   'apple-icon-152x152.png'
+apple-touch-icon-144x144-precomposed:   'apple-icon-144x144.png'
+apple-touch-icon-120x120-precomposed:   'apple-icon-120x120.png'
+apple-touch-icon-114x114-precomposed:   'apple-icon-114x114.png'
+apple-touch-icon-76x76-precomposed:     'apple-icon-76x76.png'
+apple-touch-icon-72x72-precomposed:     'apple-icon-72x72.png'
+apple-touch-icon-precomposed:           'apple-icon-precomposed.png'
+msapplication_tileimage:                'ms-icon-144x144.png'               # Size 144x144
+msapplication_tilecolor:                '#ffffff'
 
 
 #       ______                __                __
@@ -181,7 +181,7 @@ msapplication_tilecolor:                '#fabb00'
 #    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
-og_image:                           'http://images.phlow.de/phlow/phlow_de-logo-512x.png'
+og_image:                           ''
 og_locale:                          'en_EN'
 og_type:                            'website'
 

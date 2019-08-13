@@ -5,7 +5,8 @@ breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
 authors: 
 - name: Patrick Juola
-  bio: Patrick Juola (who hates writing about himself in the third person) is a computational linguist, stylometrist, digital humanist and forensic scientist.  He is currently Professor of Computer Science at Duquesne University.  He is best known for his identification of J.K. Rowling as the true author of Robert Galbraith's *The Cuckoo's Calling*, but was also principal violist of the Holmdel Symphony Orchestra in Holmdel, NJ.
+  bio: |
+    Patrick Juola (who hates writing about himself in the third person) is a computational linguist, stylometrist, digital humanist and forensic scientist.  He is currently Professor of Computer Science at Duquesne University.  He is best known for his identification of J.K. Rowling as the true author of Robert Galbraith's *The Cuckoo's Calling*, but was also principal violist of the Holmdel Symphony Orchestra in Holmdel, NJ.
   affiliation: Duquesne University
   uri:
 - name: Scott Weingart

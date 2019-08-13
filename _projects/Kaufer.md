@@ -5,7 +5,8 @@ breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
 authors: 
 - name: David Kaufer
-  bio: David Kaufer is Paul Mellon Distinguished Professor of English at Carnegie Mellon. His research interests are rhetorical theory, theories of language, writing, and writing education in the humanities and STEM areas.
+  bio: |
+    David Kaufer is Paul Mellon Distinguished Professor of English at Carnegie Mellon. His research interests are rhetorical theory, theories of language, writing, and writing education in the humanities and STEM areas.
   affiliation: Carnegie Mellon University
   uri:
 - name: Scott Weingart

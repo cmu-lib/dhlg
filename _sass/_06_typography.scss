@@ -87,30 +87,39 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $header-font-family;
     font-weight: normal;
     padding: 0;
+    margin-top: 0;
 }
 
 h1 {
     font-size: $font-size-h1;
-    margin-top: 0;
 }
 h2 {
     font-size: $font-size-h2;
-    margin: 1.563em 0 0 0;
+    font-family: $font-family-sans-serif;
+    font-weight: bold;
 }
     .blog-index h2 {
         margin-top: 0;
     }
 h3 {
     font-size: $font-size-h3;
-    margin: 1.152em 0 0 0;
+    font-family: $font-family-sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 h4 {
     font-size: $font-size-h4;
-    margin: 1.152em 0 0 0;
+    font-style: italic;
 }
 h5 {
     font-size: $font-size-h5;
-    margin: 1em 0 0 0;
+    font-family: $font-family-monospace;
+    text-decoration: underline;
+}
+h6 {
+    font-size: $font-size-h3;
+    font-family: $font-family-sans-serif;
+    font-weight: bold;
 }
 
 

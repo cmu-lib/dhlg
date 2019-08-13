@@ -37,10 +37,32 @@ $('audio,video').mediaelementplayer();
   $('#toc li').each(function(){
     $(this).click(function(){
       $('html, body').animate({
+        {% if page.title == "Scholarly Video Projects" %}
         scrollTop: ($('#project_'+$(this).data('projectid')).offset().top)
+        {% endif %}
+        {% if page.title == "Topics in DH" %}
+        scrollTop: ($('#topic_'+$(this).data('topicid')).offset().top)
+        {% endif %}
       },500);
+      {% if page.title == "Topics in DH" %}
+      $('.content','#topics').removeClass('selectedtopic');
+      $('li','#toc').removeClass('selectedtocitem');
+      $(this).addClass('selectedtocitem');
+      $('#topic_'+$(this).data('topicid')).addClass('selectedtopic');
+      {% endif %}
     });
   });
+  {% endif %}
+  {% if page.layout=="page" %}
+  {% if page.sidebar == NULL %}
+  var contentheight=$('#contents').outerHeight();
+  $('#sidemorse').css('height',contentheight);
+  var sidemorsecount=Math.ceil(contentheight/850);
+  for(i = 0; i == sidemorsecount; i++) { 
+    var str=encodeMorse('what are dh?');
+    $('#sidemorse').append('<p class="morse">'+str+'</p>');
+  }
+	{% endif %}
   {% endif %}
 </script>
 

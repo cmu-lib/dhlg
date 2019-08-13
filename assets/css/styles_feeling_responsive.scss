@@ -108,22 +108,30 @@ blockquote{
 }
 
 #lunrsearchresults {
-  z-index: 40;
-  position: absolute;
-  top: $topbar-height;
-  background: $grey-1;
   width: 100%;
   p{
-    margin: $topbar-height/2 $topbar-height/2 0 $topbar-height/2;
+    margin: $topbar-height/2 0 0;
   }
   ul {
     list-style: none;
-    margin: $topbar-height/2;
+    margin: $topbar-height/2 0;
     li {
       width: 100%;
-      padding: 1rem;
-      &:hover{
-        background: $white;
+      padding: 1rem 0;
+      font-weight: normal;
+      span{
+        display:block;
+        width:100%;
+      }
+      .title{
+        font-size: 1.3rem;
+      }
+      a{
+        color: $red;
+        font-weight: bold;
+        &:hover{
+          
+        }
       }
     }
   }
@@ -165,6 +173,10 @@ blockquote{
     font-size: 1.1rem;
     margin-top: 0;
     margin-bottom: 0.5rem;
+    text-decoration: none;
+  }
+  #dhlogobox {
+    float: right;
   }
 }
 #subfooter {
@@ -189,9 +201,34 @@ blockquote{
   }
 }
 
+.breadcrumbs {
+  margin-bottom: 2rem;
+  &>*{
+    text-transform: capitalize;
+    &:before{
+      content: unset;
+    }
+    &:first-child:before{
+      content: unset;
+    }
+  }
+}
+
+[aria-label="breadcrumbs"] [aria-hidden="true"]:after {
+  content: "";
+}
+
 #dhlg-logo {
   display: block;
   margin: auto;
+}
+#dhlg-menu-logo {
+  max-height: 2.6rem;
+  margin: 0.5em auto 0.5em 0;
+}
+.show-for-small-only {
+  width: 70%;
+  float: left;
 }
 .logo{
   width: 13rem;
@@ -200,11 +237,15 @@ blockquote{
   margin-top: 1rem;
 }
 .morse{
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-family: "Raleway";
   color: $brilliant-amber !important;
   margin-top: 0;
-  line-height: 3.2rem;
+  line-height: 2.6rem;
+  margin-bottom: 4rem;
+}
+#sidemorse{
+  display: none;
 }
 
 #sidenav{
@@ -234,6 +275,12 @@ blockquote{
       cursor: pointer;
       pointer-events: none;
     }
+    &:hover{
+      color: $red;
+    }
+  }
+  .morse{
+    display: none;
   }
 }
 .projectbox{
@@ -261,6 +308,7 @@ blockquote{
     font-size: 1.1rem;
     margin: 1rem 2rem;
     font-weight: bold;
+    font-style: normal;
   }
   .button{
     color: $black;
@@ -277,6 +325,25 @@ blockquote{
   }
 }
 
+#pagetitle {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+h1.title {
+  font-size: 3em;
+  font-weight: bold;
+}
+#main {
+  margin-top: 60px;
+  h2{
+    font-family: $font-family-sans-serif;
+  }
+}
+.selectedtocitem{
+  color: red;
+}
+
 @media #{$small-only} {
 
 }
@@ -291,6 +358,7 @@ blockquote{
   }
   h1.title {
     margin-top: 2rem;
+    margin-bottom: 0;
   }
   #main {
     background: url(/assets/img/circle-pale-amber.svg) no-repeat -10px -10px;
@@ -310,9 +378,57 @@ blockquote{
       }
     }
   }
+  .breadcrumbs{
+    margin-bottom: 2rem;
+  }
+  #sidenav{
+    transition: all 0.5s ease 0s;
+    z-index: -1;
+    .morse{
+      display: block;
+    }
+  }
+  #topics{
+    .content{
+      &:before {
+        visibility: hidden;
+        content: "\002A";
+        top: 3.7rem;
+        left: -2.2rem;
+        position: relative;
+        color: $red;
+        font-weight: bold;
+        font-size: 3rem;
+        font-family: $font-family-sans-serif;
+      }
+      &.selectedtopic:before {
+        visibility: visible;
+      }
+    }
+  }
+  #footer{
+    #dhlogobox {
+      float: left;
+    }
+  }
 }
 
 @media #{$large-up} {
+  #sidemorse{
+    overflow: hidden;
+    display: block;
+    .morse{
+      color: $pale-amber !important;
+      text-align: right;
+      width: 55%;
+      float: right;
+      opacity: 0.5;
+      font-size: 2.7rem;
+      line-height: 3rem;
+      opacity: 0.5;
+      margin-top: 600px;
+    }
+  }
   #dhlg-logo {
     max-height: unset;
   }

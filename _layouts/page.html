@@ -2,14 +2,18 @@
 layout: default
 format: page
 ---
-<div class="row t60" {% if page.sidebar == NULL %}id="main"{% endif %}>
+<div class="row" {% if page.sidebar == NULL %}id="main"{% endif %}>
 	{% if page.sidebar == "left" %}
 	<div class="large-4 small-12 columns">
 		{% include _sidebar.html %}
 	</div><!-- /.medium-4.columns -->
 	{% endif %}
+	{% if page.sidebar == NULL %}
+	<div id="sidemorse" class="large-2 small-12 columns">
+	</div>
+	{% endif %}
 		
-	<div class="large-8 small-12 columns{% if page.sidebar == NULL %} large-offset-2 {% endif %}{% if page.sidebar == "left" %} {% endif %}">
+	<div id="contents" class="large-8 small-12 columns {% if page.sidebar == "left" %} {% endif %}">
 		<article itemscope itemtype="http://schema.org/Article">
 			<header {% if page.title == "Projects" %}class="row"{% endif %}>
 				<div itemprop="name" {% if page.title == "Projects" %}class="small-8 small-offset-2 columns"{% endif %}>
@@ -25,6 +29,10 @@ format: page
 			</div>
 		</article>
 	</div><!-- /.medium-8.columns -->
+	{% if page.sidebar == NULL %}
+	<div class="large-2 small-12 columns">
+	</div>
+	{% endif %}
 </div><!-- /.row -->
 <div id="up-to-top" class="row">
 	<div class="large-8 large-offset-2 columns" style="text-align: right;">

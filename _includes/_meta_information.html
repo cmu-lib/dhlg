@@ -6,7 +6,7 @@
 						</span>
 					</p>
 					{% if author.bio != empty %}
-						<p>{{ author.bio | markdownify }}</p>
+						<div>{{ author.bio | markdownify }}</div>
 					{% endif %}
 				{% endfor %}
 

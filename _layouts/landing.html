@@ -12,16 +12,18 @@ format: page
 	<div class="large-8 small-12 columns{% if page.sidebar == NULL %} large-offset-2 {% endif %}{% if page.sidebar == "left" %} {% endif %}">
 		<article itemscope itemtype="http://schema.org/Article">
 			<header class="row">
-				<div itemprop="name" class="small-8 small-offset-2 columns">
+				<div itemprop="name" class="large-8 large-offset-2 columns">
 					<h1 id="pagetitle">{{ page.title }}</h1>
 					{% if page.breadcrumb == true %}
 						{% include _breadcrumb.html %}
 					{% endif %}
+					{% if page.description !=empty %}
 					<div class="row">
 						<div class="large-8 small-12 columns t30">
-							<p>{{ page.description }}</p>
+							<p>{{ page.description | markdownify }}</p>
 						</div>
 					</div>
+					{% endif %}
 				</div>
 			</header>
 

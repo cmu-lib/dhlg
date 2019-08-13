@@ -5,12 +5,9 @@ breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
 authors: 
 - name: Matthew Lincoln
-  bio: Dr. Matthew Lincoln is the Digital Humanities Developer at dSHARP, the digital scholarship center at Carnegie Mellon University, where he focuses on computational and data-driven approaches to the study of history and culture. His current book project with Getty Publications, co-authored with Dr. Sandra van Ginhoven, uses data-driven modeling, network analysis, and textual analysis to mine the Getty Provenance Index Databases for insights into the history of collecting and the art market. He earned his PhD in Art History at the University of Maryland, College Park, and has held positions at the Getty Research Institute and the National Gallery of Art. He is an editorial board member of *The Programming Historian*.
+  bio: |
+    Dr. Matthew Lincoln is the Digital Humanities Developer at dSHARP, the digital scholarship center at Carnegie Mellon University, where he focuses on computational and data-driven approaches to the study of history and culture. His current book project with Getty Publications, co-authored with Dr. Sandra van Ginhoven, uses data-driven modeling, network analysis, and textual analysis to mine the Getty Provenance Index Databases for insights into the history of collecting and the art market. He earned his PhD in Art History at the University of Maryland, College Park, and has held positions at the Getty Research Institute and the National Gallery of Art. He is an editorial board member of *The Programming Historian*.
   affiliation: Carnegie Mellon University
-  uri:
-- name: Scott Weingart
-  bio:
-  affiliation:
   uri:
 identifier: artnetworks
 disciplines: 
