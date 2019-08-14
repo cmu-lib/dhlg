@@ -46,7 +46,7 @@
 									{% if finddisciplineprojects.identifier != page.identifier %}
 										{% unless matcheddisciplineprojects contains finddisciplineprojects.identifier %}
 											<div id="disciplineproject_{{ finddisciplineprojects.identifier }}" class="medium-4 columns projectbox">
-												<img src="https://img.youtube.com/vi/{{ finddisciplineprojects.youtubeid}}/0.jpg">
+												<img src="https://img.youtube.com/vi/{{ finddisciplineprojects.youtubeid}}/mqdefault.jpg">
 												<h4>{{ finddisciplineprojects.title }}</h4>
 												{% if finddisciplineprojects.teaser %}<p>{{ finddisciplineprojects.teaser }}</p>{% endif %}
 												<p><a href="{{ site.url }}{{ site.baseurl }}{{ finddisciplineprojects.url }}" class="button radius" title="Play {{ finddisciplineprojects.title | escape_once }}">Play Video&nbsp;›</a></p>
@@ -75,7 +75,7 @@
 									{% if findtopicprojects.identifier != page.identifier %}
 										{% unless matchedtopicprojects contains findtopicprojects.identifier %}
 											<div id="topicproject_{{ findtopicprojects.identifier }}" class="medium-4 columns projectbox">
-												<img src="https://img.youtube.com/vi/{{ findtopicprojects.youtubeid}}/0.jpg">
+												<img src="https://img.youtube.com/vi/{{ findtopicprojects.youtubeid}}/mqdefault.jpg">
 												<h4>{{ findtopicprojects.title }}</h4>
 												{% if findtopicprojects.teaser %}<p>{{ findtopicprojects.teaser }}</p>{% endif %}
 												<p><a href="{{ site.url }}{{ site.baseurl }}{{ findtopicprojects.url }}" class="button radius" title="Play {{ findtopicprojects.title | escape_once }}">Play Video&nbsp;›</a></p>
