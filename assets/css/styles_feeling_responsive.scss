@@ -344,36 +344,6 @@ h1.title {
   color: red;
 }
 
-
-
-.top-bar-section{
-  .has-dropdown {
-    ul li{
-      &:not(.has-dropdown):not(.logo){
-        &>a:before{
-          left: 0.6em;
-          top: 1.2em;
-        }
-      }
-      li{
-        a.parent-link:before {
-          content: "\2014";
-          top: 0.5em;
-          left: 0.5em;
-        }
-      }
-      &.has-dropdown{
-        li{
-          a:before {
-            content: "\2014";
-            top: 0.5em;
-            left: 0.3em;
-          }
-        }
-      }
-    }
-  }
-}
 @media #{$small-only} {
 
 }
