@@ -7,13 +7,13 @@ layout: compress
 	{% include _head.html %}
 </head>
 <body id="top-of-page" class="{{ layout.format }}">
-	{% unless page.skip_boilerplate %}
+	{% unless page.skip_navigation %}
 	{% include _navigation.html %}
 	{% endunless %}
 
 	{{ content }}
 
-	{% unless page.skip_boilerplate %}
+	{% unless page.skip_footer %}
 	{% include _footer.html %}
 	{% endunless %}
 

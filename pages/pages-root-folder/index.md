@@ -1,52 +1,117 @@
 ---
-#
-# Use the widgets beneath and the content will be
-# inserted automagically in the webpage. To make
-# this work, you have to use › layout: frontpage
-#
 layout: frontpage
-header:
-  image_fullwidth: header_unsplash_12.jpg
-widget1:
-  title: "Blog & Portfolio"
-  url: 'http://phlow.github.io/feeling-responsive/blog/'
-  image: widget-1-302x182.jpg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
-widget2:
-  title: "Why use this theme?"
-  url: 'http://phlow.github.io/feeling-responsive/info/'
-  text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
-widget3:
-  title: "Download Theme"
-  url: 'https://github.com/Phlow/feeling-responsive'
-  image: widget-github-303x182.jpg
-  text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. Grab the <a href="https://github.com/Phlow/feeling-responsive/tree/bare-bones-version">Bare-Bones-Version</a> for a fresh start or learn how to use it with the <a href="https://github.com/Phlow/feeling-responsive/tree/gh-pages">education-version</a> with sample posts and images. Then tell me via Twitter <a href="http://twitter.com/phlow">@phlow</a>.'
-#
-# Use the call for action to show a button on the frontpage
-#
-# To make internal links, just use a permalink like this
-# url: /getting-started/
-#
-# To style the button in different colors, use no value
-# to use the main color or success, alert or secondary.
-# To change colors see sass/_01_settings_colors.scss
-#
-callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
-  style: alert
-permalink: /index.html
-#
-# This is a nasty hack to make the navigation highlight
-# this page as active in the topbar navigation
-#
-homepage: true
+title: "The Digital Humanities Literacy Guidebook"
+meta_title: "The Digital Humanities Literacy Guidebook"
+breadcrumb: false
+permalink: "/"
+skip_navigation: true
 ---
+<div class="medium-8 columns">
+<img src="/assets/img/marks/dhlg_logotype_full.png" id="frontpage_logo">
+</div>
+<div class="medium-4 columns">
+<ul id="frontmenu" class="left">
+        {% for link in site.data.navigation %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% elsif link.url == '#' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = site.url %}
+              {% endif %}
 
-<div id="videoModal" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <a class="close-reveal-modal">&#215;</a>
+          {% comment %}   If there are links for left side begin   {% endcomment %}
+          {% if link.side == 'left' %}
+
+            {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
+            {% if link.dropdown == nil %}
+              <li class="{% if link.url == page.url %}active {% elsif page.homepage == true and link.url == '/' %}active {% endif %}{% if link.alternate == '?' %} alternateprefix{% endif %}"><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
+              
+
+            {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
+            {% else %}
+
+              <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
+                  {% if link.url=='#' %}<span {% else %} <a {% endif %} class="{% if link.class %}{{link.class}}{% endif %} {% if link.alternate == '?' %} alternateprefix{% endif %}" {% if link.url!='#' %}href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% endif %} {% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}{% if link.url=='#' %}</span>{% else %}</a>{% endif %}
+
+                  <ul class="dropdown">
+                    {% for dropdown_link in link.dropdown %}
+
+                      {% if dropdown_link.url contains 'http' %}
+                        {% assign domain = '' %}
+                        {% else %}
+                        {% assign domain = site.url %}
+                      {% endif %}
+                    
+                      {% comment %}  START of SUBMENU If there are links for left side begin   {% endcomment %}
+    
+
+                        {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
+                        {% if dropdown_link.dropdown == nil %}
+                          <li{% if dropdown_link.url == page.url %} class="active"{% elsif page.homepage == true and dropdown_link.url == '/' %} class="active"{% endif %}><a {% if dropdown_link.class %}class="{{dropdown_link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title | escape }}</a></li>
+                          
+
+                        {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
+                        {% else %}
+
+                          <li class="has-dropdown{% if dropdown_link.url == page.url %} active{% endif %}">
+                              {% if dropdown_link.url=='#' %}<span {% else %} <a {% endif %} class="{% if dropdown_link.class %}{{dropdown_link.class}}{% endif %}" {% if dropdown_link.url!='#' %}href="{{ domain }}{{ site.baseurl }}{{ dropdown_link.url }}"{% endif %} {% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title | escape }}{% if dropdown_link.url=='#' %}</span>{% else %}</a>{% endif %}
+
+                              <ul class="dropdown">
+                                {% for subdropdown_link in dropdown_link.dropdown %}
+
+                                  {% if subdropdown_link.url contains 'http' %}
+                                    {% assign domain = '' %}
+                                    {% else %}
+                                    {% assign domain = site.url %}
+                                  {% endif %}
+
+                                  {% comment %}  START of SUBSUBMENU If there are links for left side begin   {% endcomment %}
+    
+
+                        {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
+                        {% if subdropdown_link.dropdown == nil %}
+                          <li{% if subdropdown_link.url == page.url %} class="active"{% elsif page.homepage == true and subdropdown_link.url == '/' %} class="active"{% endif %}><a {% if subdropdown_link.class %}class="{{subdropdown_link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ subdropdown_link.url }}"{% if subdropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ subdropdown_link.title | escape }}</a></li>
+                          
+
+                        {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
+                        {% else %}
+
+                          <li class="has-dropdown{% if subdropdown_link.url == page.url %} active{% endif %}">
+                              {% if subdropdown_link.url=='#' %}<span {% else %} <a {% endif %} class="{% if subdropdown_link.class %}{{subdropdown_link.class}}{% endif %}" {% if subdropdown_link.url!='#' %}href="{{ domain }}{{ site.baseurl }}{{ subdropdown_link.url }}"{% endif %} {% if subdropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ subdropdown_link.title | escape }}{% if subdropdown_link.url=='#' %}</span>{% else %}</a>{% endif %}
+
+                              <ul class="dropdown">
+                                {% for subsubdropdown_link in subdropdown_link.dropdown %}
+
+                                  {% if subsubdropdown_link.url contains 'http' %}
+                                    {% assign domain = '' %}
+                                    {% else %}
+                                    {% assign domain = site.url %}
+                                  {% endif %}
+
+                                    <li>{% if subsubdropdown_link.url=='#' %}<span {% else %} <a {% endif %} class="{% if subsubdropdown_link.class %}{{subsubdropdown_link.class}}{% endif %}" {% if subsubdropdown_link.url!='#' %}href="{{ domain }}{{ site.baseurl }}{{ subsubdropdown_link.url }}"{% endif %} {% if subsubdropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ subsubdropdown_link.title | escape }}{% if subsubdropdown_link.url=='#' %}</span>{% else %}</a>{% endif %}</li>
+                                  {% endfor %}
+                                </ul>
+                            </li>
+                            
+             
+                        {% endif %}
+                      {% comment %}  end of SUBsub menu {% endcomment %}    
+                                {% endfor %}
+                              </ul>
+
+                            </li>
+                            
+             
+                        {% endif %}
+                      {% comment %}  end of sub menu {% endcomment %}
+                    {% endfor %}
+                  </ul>
+
+              </li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% comment %}   Second loop finished   {% endcomment %}
+      </ul>
 </div>

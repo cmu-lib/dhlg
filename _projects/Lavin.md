@@ -3,15 +3,12 @@ layout: project
 title: "Logistic Regression"
 breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
+meta_title: "Logistic Regression"
 authors: 
 - name: Matthew J. Lavin
   bio: |
     Matt Lavin is a Clinical Assistant Professor of English at the University of Pittsburgh, and Director of the department's Digital Media Lab. His scholarship has appeared in *Studies in the Novel*, *Literary and Linguistic Computing*, *Auto|Biography Studies*, and *The Programming Historian*.
   affiliation: University of Pittsburgh
-  uri:
-- name: Scott Weingart
-  bio:
-  affiliation:
   uri:
 identifier: logisticregression
 disciplines: 

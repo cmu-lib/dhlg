@@ -344,6 +344,160 @@ h1.title {
   color: red;
 }
 
+#frontpage{
+  div.columns{
+    height: 50em;
+    padding: 5em 0;
+  }
+}
+
+#frontpage_logo {
+  display: block;
+  margin: auto;
+}
+
+#frontmenu {
+  #{$default-float}: 0;
+  position: relative;
+  width: auto;
+  @include single-transition($default-float, $topbar-transition-speed);
+
+  padding: 0;
+  height: auto;
+  display: block;
+  font-size: $rem-base;
+  margin: 0;
+  list-style: none;
+
+  li {
+    background: transparent;
+    position: relative;
+    height: $topbar-line-height;
+    & > a {
+      display: block;
+      width: 100%;
+      color: $topbar-link-color;
+      padding: 1rem 0 1rem 0;
+      padding-#{$default-float}: $topbar-link-padding;
+      font-family: $topbar-link-font-family;
+      font-size: 1rem;
+      font-weight: $topbar-link-weight;
+      text-transform: $topbar-link-text-transform;
+    }
+
+    // Apply the hover link color when it has that class
+    &:hover:not(.has-form):not(.logo) > a {
+      background:url('/assets/img/circle-brilliantamber.svg') no-repeat -2px 2px;
+      @if ($topbar-link-bg-hover) {
+        background:url('/assets/img/circle-brilliantamber.svg') no-repeat -2px 2px;
+      }
+      color: $topbar-link-color-hover;
+    }
+    // Apply the active link color when it has that class
+    &.active > a {
+      color: $topbar-link-color-active;
+      &:hover:not(.logo) {
+        background:url('/assets/img/circle-brilliantamber.svg') no-repeat -2px 2px;
+        color: $topbar-link-color-active-hover;
+      }
+    }
+    &:not(.has-dropdown):not(.logo){
+      & > a {
+        &:before {
+          content: "\2014";
+          display: block;
+          width: 0;
+          height: 0;
+          position: absolute;
+          font-family: $font-family-monospace;
+          left: 0.2rem;
+          top: 0.9rem;
+        }
+      }
+    }
+    &.alternateprefix { 
+      & > a {
+        &:before {
+          content: "\003F" !important;
+        }
+      }
+    }
+  }
+  &>li:not(.logo):not(.divider){
+    background:url('/assets/img/circle-paleamber.svg') no-repeat -2px 2px;
+  }
+
+  // Styling for list items that have a dropdown within them.
+  .has-dropdown {
+    position: relative;
+
+    & > a {
+      &:before {
+        @if ($topbar-arrows){
+          content: "\FF0B";
+          display: block;
+          width: 0;
+          height: 0;
+        }
+        position: absolute;
+        font-family: $font-family-monospace;
+        left: 0.2rem;
+        top: 1em;
+      }
+    }
+
+    &.moved { position: static;
+      & > .dropdown {
+        @include topbar-show-dropdown();
+        width: 100%;
+      }
+      & > a:after {
+        display: none;
+      }
+    }
+  }
+
+  // Styling elements inside of dropdowns
+  .dropdown {
+    padding: 0;
+    position: absolute;
+    #{$default-float}: 100%;
+    top: 0;
+    z-index: 99;
+    @include topbar-hide-dropdown();
+
+    li {
+      width: 100%;
+      height: auto;
+      position: relative;
+      background: $topbar-dropdown-bg;
+
+      a {
+        font-weight: $topbar-dropdown-link-weight;
+        padding: 8px $topbar-link-padding;
+        &.parent-link {
+          font-weight: $topbar-link-weight;
+        }
+      }
+
+      &.title h5, &.parent-link {
+        // Back Button
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: $topbar-back-link-size;
+        a {
+          color: $topbar-link-color;
+          // line-height: ($topbar-height / 2);
+          display: block;
+          &:hover { background:none; }
+        }
+      }
+      &.has-form { padding: 8px $topbar-link-padding; }
+      .button, button { top: auto; }
+    }
+  }
+}
+
 @media #{$small-only} {
 
 }

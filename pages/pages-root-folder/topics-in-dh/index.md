@@ -5,7 +5,6 @@ title: "Topics in DH"
 breadcrumb: true
 meta_title: "Topics in DH"
 permalink: "topics-in-dh/"
-description: 
 ---
 <div class="row" id="topics">
 	<div class="large-10 small-12 large-offset-1 columns t30">

@@ -1,6 +1,6 @@
 <aside id="sidenav">
 	<div class="panel">
-		<p class="morse">{{ page.title }}</p>
+		<p class="morse">{% if page.title == "Scholarly Video Projects" %}projects{% endif %}{% if page.title == "Topics in DH" %}topics{% endif %}</p>
 		<h3>Table of Contents</h3>
 		<ul id="toc">
 		{% if page.title == "Scholarly Video Projects" %}
