@@ -387,9 +387,9 @@ h1.title {
 
     // Apply the hover link color when it has that class
     &:hover:not(.has-form):not(.logo) > a {
-      background:url('/assets/img/circle-brilliantamber.svg') no-repeat -2px 2px;
+      background:url('/assets/img/circle-brilliant-amber.svg') no-repeat -2px 2px;
       @if ($topbar-link-bg-hover) {
-        background:url('/assets/img/circle-brilliantamber.svg') no-repeat -2px 2px;
+        background:url('/assets/img/circle-brilliant-amber.svg') no-repeat -2px 2px;
       }
       color: $topbar-link-color-hover;
     }
@@ -397,7 +397,7 @@ h1.title {
     &.active > a {
       color: $topbar-link-color-active;
       &:hover:not(.logo) {
-        background:url('/assets/img/circle-brilliantamber.svg') no-repeat -2px 2px;
+        background:url('/assets/img/circle-brilliant-amber.svg') no-repeat -2px 2px;
         color: $topbar-link-color-active-hover;
       }
     }
@@ -424,7 +424,7 @@ h1.title {
     }
   }
   &>li:not(.logo):not(.divider){
-    background:url('/assets/img/circle-paleamber.svg') no-repeat -2px 2px;
+    background:url('/assets/img/circle-pale-amber.svg') no-repeat -2px 2px;
   }
 
   // Styling for list items that have a dropdown within them.
