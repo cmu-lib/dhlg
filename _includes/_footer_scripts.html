@@ -54,16 +54,27 @@ $('audio,video').mediaelementplayer();
   });
   {% endif %}
   {% if page.layout=="page" %}
-  {% if page.sidebar == NULL %}
-  var contentheight=$('#contents').outerHeight();
-  $('#sidemorse').css('height',contentheight);
-  var sidemorsecount=Math.ceil(contentheight/850);
-  for(i = 0; i == sidemorsecount; i++) { 
-    var str=encodeMorse('what are dh?');
-    $('#sidemorse').append('<p class="morse">'+str+'</p>');
-  }
-	{% endif %}
+    {% if page.sidebar == NULL %}
+    var contentheight=$('#contents').outerHeight();
+    $('#sidemorse').css('height',contentheight);
+    var sidemorsecount=Math.ceil(contentheight/850);
+    for(i = 0; i == sidemorsecount; i++) { 
+      var str=encodeMorse('what are dh?');
+      $('#sidemorse').append('<p class="morse">'+str+'</p>');
+    }
+    {% endif %}
   {% endif %}
+  {% if page.layout=="frontpage" %}
+  $('.top-bar-section,.dropdown').hide();
+  $('#navigation').css('margin-top','0');
+  {% endif %}
+  $('.has-dropdown','#frontmenu').hover(function(){
+    $(this).css('height','unset');
+    $(this).children('.dropdown').show();
+  },function(){
+    $(this).css('height','');
+    $(this).children('.dropdown').hide();
+  });
 </script>
 
 {% if page.header.image_fullwidth %}
