@@ -2,19 +2,16 @@
 layout: project
 title: "Improving Access to Video Oral Histories"
 breadcrumb: true
-teaser: "If you want to show videos in a large manner, the video template is the right choice."
+teaser: "This video explores video oral history projects."
 authors: 
 - name: Michael Christel
   bio: Mike Christel has worked at Carnegie Mellon University over 32 years, the last 13 at the Entertainment Technology Center where he is now a Teaching Professor.  His research spans multimedia information processing and interface research to transformational games for health and education.  He has worked for over a decade with The HistoryMakers on data processing and interfaces into their significant 150,000 (and growing) African American video oral history stories, promoting general use and digital humanities scholarship.
   affiliation: Carnegie Mellon University
   uri:
-- name: Scott Weingart
-  bio:
-  affiliation:
-  uri:
 identifier: oralhistory
 disciplines: 
 - history
+- publichistory
 topics:
 - digitalhistory
 - oralhistory
