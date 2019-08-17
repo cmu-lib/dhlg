@@ -5,17 +5,18 @@ breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
 authors: 
 - name: Bob Gradeck
-  bio: The Western Pennsylvania Regional Data Center provides a shared, inclusive legal and technological infrastructure for open data in Western Pennsylvania. The Regional Data Center is designed to provide open access to civic information, and help people use it to understand their communities, influence policy, and support decision-making processes. Founded in 2015, the Regional Data Center is a partnership of the University of Pittsburgh, Allegheny County, and the City of Pittsburgh. Bob Gradeck manages the Western Pennsylvania Regional Data Center at the University of Pittsburgh’s University Center for Social and Urban Research. Prior to joining the University of Pittsburgh, Bob worked at the Carnegie Mellon University Center for Economic Development for ten years, where he helped to found the Pittsburgh Neighborhood and Community Information System. Bob started his career at the Atlanta Project, where he helped lay the foundation of one of the nation’s first neighborhood information systems. Bob received a Bachelor’s degree in Urban Studies from the University of Pittsburgh, and a Masters of City Planning from the Georgia Institute of Technology.
+  bio: Bob Gradeck manages the Western Pennsylvania Regional Data Center at the University of Pittsburgh’s University Center for Social and Urban Research. Prior to joining the University of Pittsburgh, Bob worked at the Carnegie Mellon University Center for Economic Development for ten years, where he helped to found the Pittsburgh Neighborhood and Community Information System. Bob started his career at the Atlanta Project, where he helped lay the foundation of one of the nation’s first neighborhood information systems. Bob received a Bachelor’s degree in Urban Studies from the University of Pittsburgh, and a Masters of City Planning from the Georgia Institute of Technology.
   affiliation: University of Pittsburgh
   uri:
-- name: Scott Weingart
-  bio:
-  affiliation:
+- name: The Western Pennsylvania Regional Data Center 
+  bio: The Western Pennsylvania Regional Data Center provides a shared, inclusive legal and technological infrastructure for open data in Western Pennsylvania. The Regional Data Center is designed to provide open access to civic information, and help people use it to understand their communities, influence policy, and support decision-making processes. Founded in 2015, the Regional Data Center is a partnership of the University of Pittsburgh, Allegheny County, and the City of Pittsburgh.
+  affiliation: University of Pittsburgh
   uri:
 identifier: civicdata
 disciplines: 
-- opendata
 - history
+- socialanddecisionsciences
+- journalism
 topics:
 - digitalhistory
 - opendata
