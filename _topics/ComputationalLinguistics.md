@@ -14,7 +14,7 @@ disciplines:
 - english
 - literature
 - lcs
--modernlanguages
+- modernlanguages
 creationdate: 2019-07-31
 ---
 
