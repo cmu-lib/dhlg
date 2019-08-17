@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Computational History"
-meta_title: "Computational History'
+meta_title:  "Computational History'
 breadcrumb: false
 authors: 
 - name: Susan Grunewald
