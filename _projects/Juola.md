@@ -3,6 +3,7 @@ layout: project
 title: "Stylometry and Authorship Analysis"
 breadcrumb: true
 teaser: "This video explains stylometry and authorship attribution."
+meta_title: "Stylometry and Authorship Analysis"
 authors: 
 - name: Patrick Juola
   bio: |
