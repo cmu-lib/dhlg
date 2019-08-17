@@ -3,6 +3,7 @@ layout: project
 title: "The Marraige (and Divorce) of Capitalism & Democracy"
 breadcrumb: true
 teaser: "This video shows how well digital humanities methods lead to interdisciplinary studies and results."
+meta_title: "The Marraige (and Divorce) of Capitalism & Democracy"
 authors: 
 - name: Simon DeDeo
   bio: Simon DeDeo is an assistant professor in the Department of Social and Decision Sciences, and external faculty at the Santa Fe Institute. He leads the Laboratory for Social Minds.
