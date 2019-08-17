@@ -3,6 +3,7 @@ layout: project
 title: "Networks and Medieval Schoolbooks"
 breadcrumb: true
 teaser: "This video discusses network analysis in the context of the history."
+meta_title: "Networks and Medieval Schoolbooks"
 authors:
 - name: Elizabeth Archibald
   bio: |
