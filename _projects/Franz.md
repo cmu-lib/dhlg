@@ -2,8 +2,8 @@
 layout: project
 title: "Finding the Klan with Network Analysis"
 breadcrumb: true
-teaser: "
-This video discusses historical network analysis."
+teaser: "This video discusses historical network analysis."
+meta_title: "Finding the Klan with Network Analysis"
 authors: 
 - name: Elaine Franz
   bio: Elaine Frantz is a Professor of History at Kent State University. She has published articles in academic journals including the *Journal of American History*, the *Journal of Southern History*, *Reviews in American History*, and the *Journal of Social History*. She is currently working on a book project on the history of paid violence work in Pittsburgh.
