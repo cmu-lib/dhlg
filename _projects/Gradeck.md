@@ -3,6 +3,7 @@ layout: project
 title: "Civic Data Intermediaries"
 breadcrumb: true
 teaser: "If you want to show videos in a large manner, the video template is the right choice."
+meta_title: "Civic Data Intermediaries"
 authors: 
 - name: Bob Gradeck
   bio: Bob Gradeck manages the Western Pennsylvania Regional Data Center at the University of Pittsburgh’s University Center for Social and Urban Research. Prior to joining the University of Pittsburgh, Bob worked at the Carnegie Mellon University Center for Economic Development for ten years, where he helped to found the Pittsburgh Neighborhood and Community Information System. Bob started his career at the Atlanta Project, where he helped lay the foundation of one of the nation’s first neighborhood information systems. Bob received a Bachelor’s degree in Urban Studies from the University of Pittsburgh, and a Masters of City Planning from the Georgia Institute of Technology.
