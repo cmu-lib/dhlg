@@ -2,7 +2,7 @@
 layout: project
 title: "The Latin American Comics Archive (LACA)"
 breadcrumb: true
-teaser: "If you want to show videos in a large manner, the video template is the right choice."
+teaser: "The video discusses creating an online arhive of Latin American comics in comic book markup language."
 meta_title: "The Latin American Comics Archive (LACA)"
 authors: 
 - name: Felipe Gómez
@@ -21,8 +21,7 @@ source: contribution
 youtubeid: iiuX5DGIvIE
 ---
 
-
-The video discusses creating an online arhive of Latin American comics in comic book markup language published with [Omeka](https://omeka.org/). The project allows students, teachers, and scholars to research and annotate comics. The video discusses how the project was made and how users can benefit from its dynamic interface. 
+The video discusses creating an online arhive of Latin American comics in comic book markup language published with [Omeka](https://omeka.org/). The project allows students, teachers, and scholars to research and annotate comics. The video discusses how the project was made and how users can benefit from its dynamic interface.
 
 ## Further Reading and Resources
 
