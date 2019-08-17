@@ -2,20 +2,18 @@
 layout: project
 title: "Shakespeare-VR"
 breadcrumb: true
-teaser: "If you want to show videos in a large manner, the video template is the right choice."
+teaser: "This video discusses building immersive VR projects."
+meta_title: "Shakespeare-VR"
 authors: 
 - name: Stephen Wittek
   bio: "Dr. Stephen Wittek is Assistant Professor of Shakespeare studies in the Literary and Cultural Studies division of the CMU English dept. His research interests focus on early modern drama, media theory, and digital humanities. He is the author of *The Media Players: Shakespeare, Middleton, Jonson, and the Idea of News* (University of Michigan Press, 2015). His current research focuses on theater and the culture of religious conversion in post-Reformation England. Other projects of note include a volume of essays entitled *Performing Conversion: Urbanism, Theatre, and the Transformation of the Early Modern World* (co-edited with José R. Jouve-Martin), a new edition of *The Merchant of Venice* for Internet Shakespeare Editions (co-edited with Janelle Jenstad), the virtual reality education project, Shakepeare-VR, and DREaM, a digital platform for performing textual analytics on a massive corpus of early modern texts (with Matthew Milner and Stéfan Sinclair)."
   affiliation: Carnegie Mellon University
   uri:
-- name: Scott Weingart
-  bio:
-  affiliation:
-  uri:
 identifier: shakespearevr
 disciplines: 
 - english
 - literature
+- lcs
 topics:
 - virtualreality
 creationdate: 2019-07-03
