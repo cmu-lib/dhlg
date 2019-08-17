@@ -9,14 +9,11 @@ authors:
     David Kaufer is Paul Mellon Distinguished Professor of English at Carnegie Mellon. His research interests are rhetorical theory, theories of language, writing, and writing education in the humanities and STEM areas.
   affiliation: Carnegie Mellon University
   uri:
-- name: Scott Weingart
-  bio:
-  affiliation:
-  uri:
 identifier: docuscope
 disciplines: 
 - literature
 - modernlanguages
+- english
 topics:
 - corpusanalysis
 creationdate: 2019-07-03
