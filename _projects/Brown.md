@@ -2,17 +2,13 @@
 layout: project
 title: "Building your own data set: A Journalist's approach"
 breadcrumb: true
-teaser: "If you want to show videos in a large manner, the video template is the right choice."
+teaser: "The video explores DH tools from the perspective of journalism."
 authors: 
 - name: AmyJo Brown
   bio: AmyJo Brown's excitement for city and county budgets, committee meetings and dusty shelves of public records is matched only by her happiness in the day's first cup of coffee. An editor with more than 15 years experience as an investigative journalist, she is the principal and founder of War Streets Media, an information design firm that offers expertise in data and other nonfiction storytelling.
   affiliation: War Streets Media
   uri:
-- name: Scott Weingart
-  bio:
-  affiliation:
-  uri:
-identifier: gis-mapping
+identifier: journalism
 disciplines: 
 - journalism
 topics:
