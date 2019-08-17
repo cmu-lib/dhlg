@@ -2,20 +2,17 @@
 layout: project
 title: "Archives, Museums & the Digital Humanities"
 breadcrumb: true
-teaser: "If you want to show videos in a large manner, the video template is the right choice."
+teaser: "This video shows how DH methods can be used in public history museum projects."
 authors: 
 - name: Dominique Luster
   bio: Dominique Luster is the endowed Charles “Teenie” Harris Archivist at the Carnegie Museum of Art. Teenie Harris was a self-taught African-American photographer whose record of Pittsburgh life in the mid-20th century consists of almost 80,000 images. Luster’s work with the Harris Archive includes innovative uses of information and computational archival science for public engagement. Additionally, Luster’s research looks at various historiographical approaches to culturally competent, racially conscious archival practices.
   affiliation: Carnegie Museum of Art
   uri:
-- name: Scott Weingart
-  bio:
-  affiliation:
-  uri:
 identifier: museumdh
 disciplines: 
 - history
 - publichistory
+- museums
 topics:
 - digitalhistory
 - onlinearchive
