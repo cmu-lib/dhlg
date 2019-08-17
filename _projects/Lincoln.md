@@ -2,7 +2,7 @@
 layout: project
 title: "Measuring Art Historical Networks"
 breadcrumb: true
-teaser: "If you want to show videos in a large manner, the video template is the right choice."
+teaser: "This video discusses network analysis in the context of art history."
 authors: 
 - name: Matthew Lincoln
   bio: |
@@ -13,6 +13,7 @@ identifier: artnetworks
 disciplines: 
 - arthistory
 - history
+- networkscience
 topics:
 - digitalarthistory
 - networkanalysis
