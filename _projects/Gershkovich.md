@@ -3,6 +3,7 @@ layout: project
 title: "Beyond the Ant Brotherhood"
 breadcrumb: true
 teaser: "This project explores dynamic digital archives of writings and timelines."
+meta_title: "Beyond the Ant Brotherhood"
 authors: 
 - name: Tatyana Gershkovich
   bio: Tatyana Gershkovich is an Assistant Professor of Russian studies at Carnegie Mellon University. She has published essays on Tolstoy and Nabokov in *PMLA* and *The Journal of the History of Ideas*, and is currently completing a monograph that examines why and how these authors seek to set rules for the reception of their works. She is also the creator of *Beyond the Ant Brotherhood*, a dynamic digital archive of Tolstoy’s diaries and letters.
