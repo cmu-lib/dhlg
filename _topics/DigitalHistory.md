@@ -17,17 +17,15 @@ creationdate: 2019-07-31
 ---
 Digital history is as multifaceted as history itself, but often aligns itself with one of a few varieties:
 
- - Using the web, mobile apps, and other digital media to engage the public with history. See also [Digital Public History](#DigitalPublicHistory).
- - Using computational techniques, including statistical and visual, to augment traditional research practices. See also [Computational History](#ComputationalHistory) and [Cultural Analytics](#CulturalAnalytics).
- - Using scanners, cameras, photogrammetry, modeling software, etc. to construct flat or 3D models of historical documents, artefacts, and buildings. Models might be used for archival, public, or research purposes. See also [3D Modeling](#3DModeling) and [Digital Editions](#DigitalEditions).
- - Creating complex and deep maps of the past for public or research purposes. See also [Historical GIS](#HistoricalGIS).
- - Using digital teaching methods and assigning the creation of multimedia objects like websites, podcasts, and videos for students of history. See also [Digital Pedagogy](#DigitalPedagogy).
+ - Using the web, mobile apps, and other digital media to engage the public with history. See also [Digital Public History](/_topics/DigitalPublicHistory.md).
+ - Using computational techniques, including statistical and visual, to augment traditional research practices. See also [Computational History](/_topics/ComputationalHistory.md) and [Cultural Analytics](/_topics/CulturalAnalytics.md).
+ - Using scanners, cameras, photogrammetry, modeling software, etc. to construct flat or 3D models of historical documents, artefacts, and buildings. Models might be used for archival, public, or research purposes. See also [3D Modeling](/_topics/3dModeling.md) and [Digital Editions](/_topics/DigitalEditions.md).
+ - Creating complex and deep maps of the past for public or research purposes. See also [Historical GIS](/_topics/HGIS.md).
+ - Using digital teaching methods and assigning the creation of multimedia objects like websites, podcasts, and videos for students of history. See also [Digital Pedagogy](/_topics/DigitalPedagogy.md).
 
 More information can be found in these sources:
 
- - The Historian's Macroscope by Shawn Graham, Ian Milligan, and Scott B. Weingart
- - Wikipedia | Digital History
- - ...
- - ...
+ - [The Historian's Macroscope](https://books.google.com/books?id=r-U7DQAAQBAJ&printsec=frontcover&dq=historians+macroscope&hl=en&sa=X&ved=2ahUKEwiWlJbyxIrkAhVkxFkKHRSLAvQQ6AEwAHoECAMQAg#v=onepage&q=historians%20macroscope&f=false) (2015)  by Shawn Graham, Ian Milligan, and Scott B. Weingart.
+ - [Wikipedia /| Digital History](https://en.wikipedia.org/wiki/Digital_history).
 
 
