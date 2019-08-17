@@ -24,7 +24,7 @@ This video discusses eXtensible Markup Language (XML), which is a markup languag
 
 ## Further Reading and Resources
 
-  - [Annotated PowerPoint of the above video for download.](https://github.com/dSHARP-CMU/dh-literacy-staging/blob/master/ScholarlyProjectVideos/BesheroBondar.pptx)
+  - [Annotated PowerPoint of the above video for download.](/assets/files/BesheroBondar.pptx)
   - [Text Encoding Initiative (TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html) P5 Guidelines for Electronic Text Encoding and Interchange.
   - Course materials on the XML family of languages [here](https://dh.newtfire.org) and [here](http://dh.obdurodon.org). 
   - [An introduction to network analysis and cytoscape for XML coders](http://ebeshero.github.io/thalaba/cytosc.html).
