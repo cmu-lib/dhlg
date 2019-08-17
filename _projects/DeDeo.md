@@ -2,20 +2,16 @@
 layout: project
 title: "The Marraige (and Divorce) of Capitalism & Democracy"
 breadcrumb: true
-teaser: "If you want to show videos in a large manner, the video template is the right choice."
+teaser: "This video shows how well digital humanities methods lead to interdisciplinary studies and results."
 authors: 
 - name: Simon DeDeo
   bio: Simon DeDeo is an assistant professor in the Department of Social and Decision Sciences, and external faculty at the Santa Fe Institute. He leads the Laboratory for Social Minds.
   affiliation: Carnegie Mellon University
   uri:
-- name: Scott Weingart
-  bio:
-  affiliation:
-  uri:
 identifier: capitalismanddemo
 disciplines: 
 - history
-- socialanddeciscionsciences
+- socialanddecisionsciences
 topics:
 - digitalhistory
 - distantreading
@@ -31,4 +27,4 @@ This video discusses a project that explored the historical, social, and cultura
   - The project itself is written up [here](https://blog.oup.com/2017/04/capitalism-democracy-newspaper-coverage/).
   - [Bayesian Reasoning for Intelligent People](http://santafe.edu/~simon/br.pdf).
   - [Information Theory for Intelligent People](http://santafe.edu/~simon/br.pdf).
-  - [Practical Principles of Data Science for Social and Cultural Analysis](https://github.com/dSHARP-CMU/dh-literacy-staging/blob/master/ScholarlyProjectVideos/DeDeoPracticalPrinciplesofData.pdf)
+  - [Practical Principles of Data Science for Social and Cultural Analysis](/assets/files/DeDeoPracticalPrinciplesofData.pdf).
