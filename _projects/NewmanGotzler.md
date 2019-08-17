@@ -2,7 +2,7 @@
 layout: project
 title: "The Historical TV Guide: using digitized text to study television history"
 breadcrumb: true
-teaser: "If you want to show videos in a large manner, the video template is the right choice."
+teaser: "This video explores digitizing texts and then exploring them with distant reading."
 authors: 
 - name: Kathy M. Newman
   bio: "Kathy M. Newman is Associate Professor of English/Literary and Cultural Studies at CMU. Her current book, in progress, is titled: *How the Fifties Worked: Mass Culture and the Decade the Unions Made*. Newman's areas of expertise include American Literature, Media Studies, and the relationship between class, politics and cultural forms."
@@ -15,7 +15,7 @@ authors:
 identifier: tvmegatext
 disciplines: 
 - english
-- culturalstudies
+- lcs
 topics:
 - distantreading
 - corpusanalysis
