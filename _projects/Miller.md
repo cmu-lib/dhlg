@@ -2,15 +2,11 @@
 layout: project
 title: "Metadata Heatmaps for Distant Reading"
 breadcrumb: true
-teaser: "If you want to show videos in a large manner, the video template is the right choice."
+teaser: "This video explores distant reading of a textual corpus."
 authors: 
 - name: Benjamin Miller
   bio: "Benjamin Miller is an Assistant Professor of English at the University of Pittsburgh, focusing on digital research and pedagogy. He is the author of “Mapping the Methods of Composition/Rhetoric Dissertations: A ‘Landscape Plotted and Pieced,’ ” an article drawing on data visualization of several thousand documents, published in College Composition and Communication. Ben received a CCCC Emergent Research/er Grant in 2017 for work toward his multimodal book project, “Distant Readings of Disciplinarity: Knowing and Doing in Composition/Rhetoric Dissertations.”"
   affiliation: University of Pittsburgh
-  uri:
-- name: Scott Weingart
-  bio:
-  affiliation:
   uri:
 identifier: distantreading
 disciplines: 
