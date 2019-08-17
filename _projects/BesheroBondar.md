@@ -2,19 +2,16 @@
 layout: project
 title: "How to grow data forests with XML trees"
 breadcrumb: true
-teaser: "If you want to show videos in a large manner, the video template is the right choice."
+teaser: "This video discusses eXtensible Markup Language (XML)."
 authors: 
 - name: Elisa Besher-Bondar
   bio: Elisa Beshero-Bondar directs Pitt-Greensburg's [Center for the Digital Text](https://www.greensburg.pitt.edu/digital-humanities/center-digital-text), which supports many [student and faculty-initiated DH projects](https://newtfire.org/). At Pitt-Greensburg and internationally through the Digital Humanities Summer Institutes and through the TEI, she teaches coding courses and workshops and trains students and colleagues in the use of computer coding and markup languages to research and design archives of literary and cultural resources. An active member of the [Text Encoding Initiative (TEI)](https://tei-c.org/), she has been elected twice since 2016 to serve on the [TEI Technical Council](https://tei-c.org/Activities/Council/), an eleven-member international committee that supervises amendments to the TEI Guidelines.
   affiliation: University of Pittsburgh
   uri:
-- name: Scott Weingart
-  bio:
-  affiliation:
-  uri:
 identifier: TEI
 disciplines: 
 - literature
+- english
 topics:
 - textualencoding
 creationdate: 2019-07-03
