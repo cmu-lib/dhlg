@@ -2,20 +2,16 @@
 layout: project
 title: "Topic Modeling Subreddits"
 breadcrumb: true
-teaser: "If you want to show videos in a large manner, the video template is the right choice."
+teaser: "This video uses computational techniques and close reading of internet groups."
 authors: 
 - name: Chloe Perry
   bio: Chloe Perry is a Predoctoral Fellow in The Laboratory for Social Minds, run by Professor Simon DeDeo. She has a Master's Degree in Literary and Cultural Studies from Carnegie Mellon University. She is interested in digital humanities, information studies, global literature and interdisciplinary approaches to cultural analysis.
   affiliation: Carnegie Mellon University
   uri:
-- name: Scott Weingart
-  bio:
-  affiliation:
-  uri:
 identifier: reddittopicmodeling
 disciplines: 
 - psychology
-- socialanddecisionscience
+- socialanddecisionsciences
 topics:
 - topicmodeling
 - corpusanalysis
