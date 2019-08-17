@@ -2,7 +2,7 @@
 layout: project
 title: "Logistic Regression"
 breadcrumb: true
-teaser: "If you want to show videos in a large manner, the video template is the right choice."
+teaser: "This video explains logistic regression for literary analysis."
 meta_title: "Logistic Regression"
 authors: 
 - name: Matthew J. Lavin
