@@ -19,7 +19,7 @@ Digital history is as multifaceted as history itself, but often aligns itself wi
 
  - Using the web, mobile apps, and other digital media to engage the public with history. See also [Digital Public History](/_topics/DigitalPublicHistory.md).
  - Using computational techniques, including statistical and visual, to augment traditional research practices. See also [Computational History](/_topics/ComputationalHistory.md) and [Cultural Analytics](/_topics/CulturalAnalytics.md).
- - Using scanners, cameras, photogrammetry, modeling software, etc. to construct flat or 3D models of historical documents, artefacts, and buildings. Models might be used for archival, public, or research purposes. See also [3D Modeling](/_topics/3dModeling.md) and [Digital Editions](/_topics/DigitalEditions.md).
+ - Using scanners, cameras, photogrammetry, modeling software, etc. to construct flat or 3D models of historical documents, artifacts, and buildings. Models might be used for archival, public, or research purposes. See also [3D Modeling](/_topics/3dModeling.md) and [Digital Editions](/_topics/DigitalEditions.md).
  - Creating complex and deep maps of the past for public or research purposes. See also [Historical GIS](/_topics/HGIS.md).
  - Using digital teaching methods and assigning the creation of multimedia objects like websites, podcasts, and videos for students of history. See also [Digital Pedagogy](/_topics/DigitalPedagogy.md).
 
