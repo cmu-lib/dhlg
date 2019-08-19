@@ -11,8 +11,8 @@ description:
 	<div class="small-12 columns t30">
 		<div class="row" id="listprojects">
 			{% for project in site.projects limit:1000 %}
-				<div id="project_{{ project.identifier }}" class="medium-4 columns projectbox">
-					<img src="https://img.youtube.com/vi/{{ project.youtubeid}}/mqdefault.jpg">
+				<div id="project_{{ project.identifier }}" class="large-4 medium-6 columns projectbox">
+					<img src="https://img.youtube.com/vi/{{ project.youtubeid}}/mqdefault.jpg" class="videothumbnail">
 					<h4>{{ project.title }}</h4>
 					{% if project.teaser %}<p>{{ project.teaser }}</p>{% endif %}
 					<p class="source_disciplines">{% if project.source == 'contribution' %}<img src="/assets/img/circle-cobalt.svg">{% else %}<img src="/assets/img/circle-brilliant-amber.svg">{% endif %}

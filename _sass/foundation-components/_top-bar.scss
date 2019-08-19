@@ -58,13 +58,13 @@ $topbar-dropdown-toggle-color: $white !default;
 $topbar-dropdown-toggle-alpha: 0.4 !default;
 
 $topbar-dropdown-label-color: $monsoon !default;
-$topbar-dropdown-label-text-transform: uppercase !default;
+$topbar-dropdown-label-text-transform: none !default;
 $topbar-dropdown-label-font-weight: $font-weight-bold !default;
 $topbar-dropdown-label-font-size: ($topbar-height / 5) !default;
 $topbar-dropdown-label-bg: $pale-amber !default;
 
 // Top menu icon styles
-$topbar-menu-link-transform: uppercase !default;
+$topbar-menu-link-transform: none !default;
 $topbar-menu-link-font-size: ($topbar-height / 4) !default;
 $topbar-menu-link-weight: $font-weight-bold !default;
 $topbar-menu-link-color: $white !default;
@@ -351,7 +351,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         }
 
         // Apply the hover link color when it has that class
-        &:hover:not(.has-form):not(.logo) > a {
+        &:hover:not(.has-form):not(.logo):not(.divider) > a {
           background-color: $pale-amber;
           @if ($topbar-link-bg-hover) {
             background: $pale-amber;
@@ -366,7 +366,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
             color: $topbar-link-color-active-hover;
           }
         }
-        &:not(.has-dropdown):not(.logo){
+        &:not(.has-dropdown):not(.logo):not(.divider){
           & > a {
             &:before {
               content: "\2014";
@@ -375,8 +375,6 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
               height: 0;
               position: absolute;
               font-family: $font-family-monospace;
-              left: 0.3rem;
-              top: 0.7rem;
             }
           }
         }
@@ -384,13 +382,13 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           & > a {
             &:before {
               content: "\003F" !important;
+              display: block;
+              width: 0;
+              height: 0;
+              position: absolute;
+              font-family: $font-family-monospace;
             }
           }
-        }
-      }
-      &>ul{
-        &>li:not(.logo):not(.divider){
-          background:url('/assets/img/circle-10pblack.svg') no-repeat -2px 2px;
         }
       }
       // Add some extra padding for list items contains buttons
@@ -488,7 +486,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
 
         .toggle-topbar { display: none; }
 
-        .title-area { float: $default-float; }
+        .title-area { float: $default-float; display: none; }
         .name h1 a { width: auto; }
 
         input,
@@ -512,7 +510,13 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       .top-bar-section {
         @include single-transition(none,0,0);
         #{$default-float}: 0 !important;
-
+        &>ul{
+          &>li{
+            &>a{
+              text-transform: uppercase;
+            }
+          }
+        }
         ul {
           width: auto;
           height: auto !important;
@@ -526,7 +530,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
 
         li {
           position: relative;
-          &:not(.logo):hover {
+          &:not(.logo):not(.divider):hover {
             background-color: $topbar-link-bg-color-hover;
           }
           &.hover {
@@ -668,7 +672,9 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
             #{$opposite-direction}: auto;
             #{$default-float}: 0;
 
-            li .dropdown { #{$default-float}: 100%; }
+            li .dropdown { #{$default-float}: 100%; 
+              margin-top: 1rem;
+            }
           }
         }
       }

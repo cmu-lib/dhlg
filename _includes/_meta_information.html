@@ -1,37 +1,34 @@
-			<div id="page-meta" class="row t30 b60">
-				<div class="small-12 columns">
+		<div id="page-meta" class="row t30 b60">
+			<div class="small-12 columns" id="contributor">
+				<p class="sourceinfo">{% if page.source == 'contribution' %}<img src="/assets/img/circle-cobalt.svg">{% else %}<img src="/assets/img/circle-brilliant-amber.svg">{% endif %} 
+				{% if page.creationdate %}
+				<time class="pr20" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"> {{ page.creationdate | date: "%B %-d, %Y" }}.</time>
+				{% endif %}
+				{% unless page.topics == empty%}
+				{% assign matchedtopics = site.emptyArray %}
+					{% for topic in page.topics %}
+						{% for controltopic in site.topics %}
+							{% if controltopic.identifier == topic %}
+							{% assign matchedtopics = matchedtopics | push: controltopic %}
+							
+							{% endif %}
+						{% endfor %}
+					{% endfor %}
+					{% for topic in matchedtopics %}
+						<a href="/topics/#topic_{{ topic.identifier }}">{{topic.title}}</a>{% if forloop.last %}{% else %}, {% endif %}
+					{% endfor %}
+				{% endunless %}
+				</p>
 				{% for author in page.authors %}
-					<p>
-						<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="pr20 icon-edit"><a href="{{ author.uri }}" target="_blank"> {{ author.name }}</a> ({{ author.affiliation }})</span>
+				<p>
+						<span class="authorname" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="pr20">posted by <a href="{{ author.uri }}" target="_blank"> {{ author.name }}</a> ({{ author.affiliation }})</span>
 						</span>
-					</p>
+						</p>
 					{% if author.bio != empty %}
-						<div>{{ author.bio | markdownify }}</div>
+						<p class="authorbio">{{ author.bio | markdownify }}</p>
 					{% endif %}
 				{% endfor %}
-
-				{% if page.date %}
-				<time class="icon-calendar pr20" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"> {{ page.date | date: "%B %-d, %Y" }}</time>
-				{% endif %}
-
-				{% if page.categories != empty %}<span class="icon-archive pr20"> {{ page.categories | join: ' · ' | upcase }}{% endif %}</span>
-				<br />
-				<span class="pr20">{% for tag in page.tags %}<span class="icon-price-tag pr10"> {{tag}}</span> {% endfor %}</span>
-			</p>
-			{% if page.source == "contribution" %}
-			<p>This page has been provided by a contributor.</p>
-			{% endif %}
-			{% unless page.topics == empty%}
-				<p>
-				{% for topic in page.topics %}
-					{% for controltopic in site.topics %}
-						{% if controltopic.identifier == topic %}
-						<a href="/topics/#topic_{{ controltopic.identifier }}">{{controltopic.name}}</a>{% if forloop.last %}{% else %}, {% endif %}
-						{% endif %}
-					{% endfor %}
-				{% endfor %}
-				</p>
-			{% endunless %}
+				
 			</div>
 			{% unless page.disciplines == empty%}
 			{% assign matcheddisciplineprojects = site.emptyArray %}

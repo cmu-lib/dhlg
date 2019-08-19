@@ -1,7 +1,6 @@
 ---
 layout: default
-format: frontpage
-skip_boilerplate: true
+format: page
 ---
 <div id="header-home">
     <div class="row">
@@ -16,7 +15,7 @@ skip_boilerplate: true
 * First check, if widget is empty or not by checking if there is a title
 *
 {% endcomment %}
-<div class="row t60">
+<div class="row" id="main">
 	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
 		{% include _frontpage-widget.html widget=page.widget1 %}
 	{% endif %}
@@ -58,5 +57,7 @@ skip_boilerplate: true
 {% endcomment %}
 
 <div class="row">
+    <div class="columns">
     {{ content }}
+    </div>
 </div><!-- /.row -->

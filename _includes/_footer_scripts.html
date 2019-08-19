@@ -12,36 +12,60 @@ $('audio,video').mediaelementplayer();
     $(this).text(encodeMorse(str));
   });
   {% if page.layout=="landing" %}
+  var sidenavfooterspace=90;
+  var sidenavheaderspace=90;
+  if(window.matchMedia("(min-width: 40.063em)").matches){
+
+	}else if(window.matchMedia("(min-width: 64.063em)").matches){
+  
+  }else if(window.matchMedia("(min-width: 90.063em)").matches){
+    sidenavfooterspace=30;
+    sidenavheaderspace=0;
+  }else if(window.matchMedia("(min-width: 120.063em)").matches){
+    sidenavfooterspace=30;
+    sidenavheaderspace=0;
+	}
+
   var sidenavwidth=$('#sidenav').parent().outerWidth()-26;
   $('#sidenav').css('width',sidenavwidth);
   $('#toc').css('max-height',$(window).innerHeight()-$('.morse:first-of-type','#sidenav').outerHeight(true)-$('h4:first-of-type','#sidenav').outerHeight(true)-30);
   $(window).scroll(function (){
-    var top_of_element = $("#pagetitle").offset().top;
-    var bottom_of_element = $("#pagetitle").offset().top + $("#pagetitle").outerHeight();
+    var top_of_element = $("header").offset().top;
+    var bottom_of_element = $("header").offset().top + $("header").outerHeight();
     var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
     var top_of_screen = $(window).scrollTop();
     if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
-      $('#sidenav').css({'position':'relative','top':'unset','bottom':'unset'});
+      $('#sidenav').css({'top':'unset','bottom':'unset'});
+      if(window.matchMedia("(min-width: 64.063em)").matches){
+        $('#sidenav').css({'position':'relative'});
+      }
     } else {
       var footertop_of_element = $("#footer").offset().top;
       var footerbottom_of_element = $("#footer").offset().top + $("#footer").outerHeight();
       var viewablefooter=bottom_of_screen-footertop_of_element+30;
       if ((bottom_of_screen > footertop_of_element) && (top_of_screen < footerbottom_of_element)){
-
         $('#sidenav').css({'position':'fixed','top':'unset','bottom':viewablefooter});
       } else {
         $('#sidenav').css({'position':'fixed','top':'0','bottom':'unset'});
       }
     }
   });
+  $('#tocheader').click(function(){
+    $('#toc').toggle();
+    if($('#toc').is(":visible")){
+      $('#tocheader').addClass('opentoc');
+    }else{
+      $('#tocheader').removeClass('opentoc');
+    }
+  });
   $('#toc li').each(function(){
     $(this).click(function(){
       $('html, body').animate({
         {% if page.title == "Scholarly Video Projects" %}
-        scrollTop: ($('#project_'+$(this).data('projectid')).offset().top)
+        scrollTop: ($('#project_'+$(this).data('projectid')).offset().top-sidenavheaderspace)
         {% endif %}
         {% if page.title == "Topics in DH" %}
-        scrollTop: ($('#topic_'+$(this).data('topicid')).offset().top)
+        scrollTop: ($('#topic_'+$(this).data('topicid')).offset().top-sidenavheaderspace)
         {% endif %}
       },500);
       {% if page.title == "Topics in DH" %}
@@ -50,7 +74,15 @@ $('audio,video').mediaelementplayer();
       $(this).addClass('selectedtocitem');
       $('#topic_'+$(this).data('topicid')).addClass('selectedtopic');
       {% endif %}
+      if($('#tocheader').css('pointer-events')=='auto'){
+        $('#tocheader').trigger('click');
+      }
     });
+  });
+  $(window).resize(function() {
+    var sidenavwidth=$('#sidenav').parent().outerWidth()-26;
+    $('#sidenav').css('width',sidenavwidth);
+    $('#toc').css('max-height',$(window).innerHeight()-$('.morse:first-of-type','#sidenav').outerHeight(true)-$('h4:first-of-type','#sidenav').outerHeight(true)-sidenavfooterspace);
   });
   {% endif %}
   {% if page.layout=="page" %}
@@ -65,8 +97,9 @@ $('audio,video').mediaelementplayer();
     {% endif %}
   {% endif %}
   {% if page.layout=="frontpage" %}
-  $('.top-bar-section,.dropdown').hide();
-  $('#navigation').css('margin-top','0');
+  if(!$('#frontmenu').is(':visible')){
+    $('#navigation .top-bar').css('visibility','visible');
+  }
   {% endif %}
   $('.has-dropdown','#frontmenu').hover(function(){
     $(this).css('height','unset');
@@ -75,6 +108,7 @@ $('audio,video').mediaelementplayer();
     $(this).css('height','');
     $(this).children('.dropdown').hide();
   });
+  $('.back.js-generated','.top-bar-section ul').html('&#xf106;');
 </script>
 
 {% if page.header.image_fullwidth %}

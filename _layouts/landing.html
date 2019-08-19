@@ -2,7 +2,7 @@
 layout: default
 format: page
 ---
-<div class="row t60">
+<div class="row" id="main">
 	{% if page.sidebar == "left" %}
 	<div class="large-4 columns">
 		{% include _sidebar.html %}
@@ -13,7 +13,7 @@ format: page
 		<article itemscope itemtype="http://schema.org/Article">
 			<header class="row">
 				<div itemprop="name" class="large-8 large-offset-2 columns">
-					<h1 id="pagetitle">{{ page.title }}</h1>
+					<h1 id="pagetitle" class="landing">{{ page.title }}</h1>
 					{% if page.breadcrumb == true %}
 						{% include _breadcrumb.html %}
 					{% endif %}
@@ -32,9 +32,4 @@ format: page
 			</div>
 		</article>
 	</div><!-- /.medium-8.columns -->
-</div><!-- /.row -->
-<div id="up-to-top" class="row">
-	<div class="small-12 columns" style="text-align: right;">
-		<a class="iconfont" href="#top-of-page">&#xf108;</a>
-	</div><!-- /.small-8 small-offset-2.columns -->
 </div><!-- /.row -->

@@ -2076,7 +2076,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
       index : 0,
       sticky_class : 'sticky',
       custom_back_text: true,
-      back_text: 'Back',
+      back_text: "&Csqu;",
       mobile_show_parent_link: true,
       is_hover: true,
       scrolltop : true, // jump to top when sticky nav menu toggle is clicked
@@ -2431,9 +2431,9 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
         if (!$dropdown.find('.title.back').length) {
 
           if (settings.mobile_show_parent_link == true && url) {
-            $titleLi = $('<li class="title back js-generated"><h5><a href="javascript:void(0)"></a></h5></li><li class="parent-link hide-for-large-up"><a class="parent-link js-generated" href="' + url + '">' + $link.html() +'</a></li>');
+            $titleLi = $('<li class="title back js-generated"><a href="javascript:void(0)"></a></li><li class="parent-link hide-for-large-up"><a class="parent-link js-generated" href="' + url + '">' + $link.html() +'</a></li>');
           } else {
-            $titleLi = $('<li class="title back js-generated"><h5><a href="javascript:void(0)"></a></h5>');
+            $titleLi = $('<li class="title back js-generated"><a href="javascript:void(0)"></a></li>');
           }
 
           // Copy link to subnav

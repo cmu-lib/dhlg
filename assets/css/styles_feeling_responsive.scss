@@ -85,26 +85,23 @@ $fontsfolder: '../fonts';
 
 @import "11_syntax-highlighting.scss";
 
+.hide{
+  display: none;
+}
 #frontsplash{
   #sitetitle {
     max-width:10em;
   }
 }
 
-blockquote{
-  border-left: solid 4px $grey-11;
-  margin: 0;
-  padding: 0.5em;
-  background: $grey-1;
-  &:before {
-    content:"";
-  }
-  &:after {
-    content:"";
-  }
-  p{
-    margin: 0;
-  }
+p{
+  line-height: 1.8rem;
+  padding: 0.5em 0;
+}
+code{
+  background-color: unset;
+  background: unset;
+  border: none;
 }
 
 #lunrsearchresults {
@@ -138,6 +135,8 @@ blockquote{
 }
 
 .top-bar-section{
+  z-index: 4;
+  width: 100%;
   a{
     text-decoration: underline;
     &:hover{
@@ -145,19 +144,66 @@ blockquote{
     }
   }
   ul{
-    &.right{
-      margin-right: 0.75rem;
-    }
-    &.left{
-      margin-left: 0.75rem;
-    }
+    background-color: $pale-amber;
     li{
+      background-color: $pale-amber;
       &.divider:last-of-type {
         width: 0!important;
+      }
+      & > a{
+        font-size: 1.2rem;
+      }
+      &:not(.has-dropdown):not(.logo):not(.alternateprefix){
+        & > a {
+          &:before {
+            left: 0.3rem;
+            top: 0.7rem;
+          }
+        }
+      }
+      &.alternateprefix{
+        & > a{
+          &:before{
+            left: 0.2rem;
+            top: 0.95rem;
+          }
+        }
+      }
+    }
+  }
+  .dropdown{
+    li{
+      background-color: $pale-amber;
+      a{
+        padding: 15px 0 15px 1.0416666667rem;
+      }
+      &.back{
+        padding: 5px 0 5px 0;
+        font-family: iconfont;
+        font-size: 2rem;
+        font-weight: bold;
+        a{
+          font-family: iconfont;
+          text-decoration: none;
+          font-size: 2rem;
+          font-weight: bold;
+          &:before{
+            content: unset!important;
+          }
+        }
+      }
+    }
+  }
+  .has-dropdown {
+    & > a {
+      &:before {
+        left: 0;
+        top: 1rem;
       }
     }
   }
 }
+
 #footer{
   color: $white;
   a {
@@ -217,14 +263,16 @@ blockquote{
 [aria-label="breadcrumbs"] [aria-hidden="true"]:after {
   content: "";
 }
-
+#page-meta, #page-meta a {
+  color: $black;
+}
 #dhlg-logo {
   display: block;
   margin: auto;
 }
 #dhlg-menu-logo {
-  max-height: 2.6rem;
-  margin: 0.5em auto 0.5em 0;
+  height: 100%;
+  padding: 0.5em 1em;
 }
 .show-for-small-only {
   width: 70%;
@@ -250,17 +298,31 @@ blockquote{
 }
 
 #sidenav{
-  h4{
+  z-index: 4;
+  position: fixed;
+  #tocheader{
+    margin-bottom: 0;
     font-family: $font-family-sans-serif;
     font-size: 1.4rem;
     text-transform: uppercase;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
     font-weight: 900;
+    pointer-events: auto;
+    &:after {
+      content: "\f107";
+      float: right;
+      cursor: pointer;
+      font-family: iconfont;
+    }
+    &.opentoc{
+      &:after {
+        transform: rotate(90deg);
+      }
+    }
   }
   ul#toc{
-    margin:0;
+    margin:1rem 0 0 0;
     overflow-y: auto;
+    display: none;
   }
   li{
     font-family: $font-family-monospace;
@@ -285,8 +347,12 @@ blockquote{
   }
 }
 .projectbox{
+  .videothumbnail {
+    display: block;
+    margin: auto;
+  }
   p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1.6rem;
     letter-spacing: 0.03rem;
     margin: 1rem 2rem;
@@ -314,7 +380,7 @@ blockquote{
 }
 .button{
   color: $black!important;
-  background: $white!important;
+  background-color: $white!important;
   border: solid 1px $black!important;
   font-size: 0.9rem;
   padding: 0.75rem 1rem;
@@ -322,13 +388,21 @@ blockquote{
   font-family: $font-family-sans-light;
   &:hover{
     color: $white;
-    background: $black;
+    background-color: $black;
   }
 }
 
 #pagetitle {
   font-size: 3em;
   font-weight: bold;
+  &.landing{
+    margin-top: 5rem;
+  }
+}
+
+.circlebg{
+  background: url(/assets/img/circle-pale-amber.svg) no-repeat -10px -10px;
+  background-size: 320px 320px;
 }
 
 h1.title {
@@ -336,13 +410,40 @@ h1.title {
   font-weight: bold;
 }
 #main {
-  margin-top: 60px;
+  min-height: 300px;
   h2{
     font-family: $font-family-sans-serif;
   }
 }
+
+#up-to-top{
+  padding: 60px 0 10px 0;
+}
 .selectedtocitem{
   color: red;
+}
+#contributor{
+  text-transform: uppercase;
+  font-family: $font-family-monospace;
+  margin-bottom: 5rem;
+  .sourceinfo{
+    img{
+      height: 1.5rem;
+      width: 1.5rem;
+      vertical-align: middle;
+    }
+  }
+  .authorbio{
+    text-transform: unset;
+  }
+  a{
+    font-weight:normal;
+    text-decoration: underline;
+  }
+  p{
+    margin-bottom: 0.5em;
+    padding: 0;
+  }
 }
 
 #frontpage{
@@ -365,130 +466,111 @@ h1.title {
   max-height: 25em;
 }
 
-#frontmenu {
-  #{$default-float}: 0;
-  position: relative;
-  width: auto;
-  @include single-transition($default-float, $topbar-transition-speed);
+#frontmenu{
+  display: none;
+}
 
-  padding: 10em 0 0;
-  height: auto;
-  display: block;
-  font-size: $rem-base;
-  margin: 0;
-  list-style: none;
-  &>li{
-    background:url('/assets/img/circle-pale-amber.svg') no-repeat -2px 2px;
-    padding-left: 1rem;
-    &:hover{
-      transition: none;
-      background:url('/assets/img/circle-brilliant-amber.svg') no-repeat -2px 2px;
+blockquote {
+  margin: 0.5em 0;
+  padding: 1.5em 0;
+  background-color: $white;
+  border: none;
+  &:before{
+    content: unset;
+  }
+  &:after{
+    content: unset;
+  }
+  p {
+    border-bottom: solid 2px $cobalt;
+    border-top: solid 2px $cobalt;
+    margin: 2em 0;
+    font-family: $font-family-monospace;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 2em;
+    line-height: 2rem;
+    letter-spacing: 0.03em;
+    color: $cobalt;
+    font-size: 1rem;
+    &:before{
+      display:inline;
+      content:"\201C";
+      color: $cobalt;
     }
-    & > a {
-      &:before {
-        content: "\2014";
-        display: block;
-        width: 0;
-        height: 0;
-        position: absolute;
-        font-family: $font-family-monospace;
-        left: 1.2rem;
-        top: 0.9rem;
-      }
-    }
-    &.has-dropdown{
-      & > a {
-        &:before {
-          content: "\FF0B";
-          top: 1rem;
-        }
-      }
+    &:after{
+      display:inline;
+      content:"\201D";
+      color: $cobalt;
     }
   }
-  li {
-    position: relative;
-    & > a {
-      display: block;
-      color: $topbar-link-color;
-      padding: 1rem 0 1rem 0;
-      padding-#{$default-float}: $topbar-link-padding;
-      font-family: $topbar-link-font-family;
-      font-size: 1rem;
-      font-weight: $topbar-link-weight;
-      text-transform: $topbar-link-text-transform;
-      text-decoration: underline;
-    }
-
-    // Apply the hover link color when it has that class
-    &:hover:not(.has-form) > a {
-      color: $topbar-link-color-hover;
-    }
-    // Apply the active link color when it has that class
-    &.active > a {
-      color: $topbar-link-color-active;
-      &:hover:not(.logo) {
-        color: $topbar-link-color-active-hover;
-      }
-    }
-    
-    &.alternateprefix { 
-      & > a {
-        &:before {
-          content: "\003F" !important;
-          top: 1rem!important;
-        }
-      }
-    }
+}
+blockquote.tip {
+  background-color: $light-amber;
+  margin: 1rem;
+  padding: 2rem 1.5rem;
+  >*:first-child{
+    font-family: "Noto Serif Condensed", Georgia, Times, serif!important;
+    font-weight: bold;
+    font-size: 2.6rem;
+    text-align: center;
+    color: $black;
+    width: 100%;
   }
-
-  // Styling for list items that have a dropdown within them.
-  .has-dropdown {
-    position: relative;
-
-    
-  }
-
-  // Styling elements inside of dropdowns
-  .dropdown {
+  p {
+    border: none;
+    text-align: center;
     padding: 0;
-    list-style: none;
-    @include single-transition($default-float, $topbar-transition-speed);
-    li {
+    margin: 1rem 0;
+    &.morse{
       width: 100%;
-      height: auto;
-      position: relative;
-
-      a {
-        padding: 0.75rem 1rem;
-      }
-      & > a {
-        &:before {
-          content: "\2014";
-          display: block;
-          width: 0;
-          height: 0;
-          position: absolute;
-          font-family: $font-family-monospace;
-          left: 0.3rem;
-          top: 0.7rem;
-        }
-      }
-      &.has-dropdown{
-        & > a {
-          &:before {
-            content: "\FF0B";
-            top: 0.8rem;
-            left: 0.2rem;
-          }
-        }
-      }
+      color: $brilliant-amber;
+      font-size: 2rem;
+      line-height: 2rem;
     }
-    .dropdown{
-      li{
-        &>a{
-          background-color: transparent;
-        }
-      }
+    &.tiptext{
+      width: 100%;
+      font-size: 0.9rem;
+      letter-spacing: unset;
+      line-height: 1.3rem;
+      color: $black;
+      padding: 0;
+      text-transform: unset;
+    }
+    &:after{
+      content: unset;
+    }
+    &:before{
+      content: unset;
+    }
+  }
+}
+
+body.frontpage{
+	#dhlg-menu-logo{
+		display:none;
+	}
+	#navigation{
+		margin-top:0;
+		.top-bar{
+			visibility:hidden;
+		}
+	}
+}
+#topics{
+  .content{
+    &:before {
+      visibility: hidden;
+      content: "\002A";
+      display:inline;
+      color: $red;
+      font-weight: bold;
+      font-size: 3rem;
+      line-height: 1em;
+      font-family: $font-family-sans-serif;
+    }
+    &.selectedtopic:before {
+      visibility: visible;
     }
   }
 }
@@ -510,12 +592,137 @@ h1.title {
     margin-bottom: 0;
   }
   #main {
-    background: url(/assets/img/circle-pale-amber.svg) no-repeat -10px -10px;
-    background-size: 320px 320px;
     min-height: 340px;
   }
+  #frontmenu {
+    #{$default-float}: 0;
+    position: relative;
+    width: auto;
+    @include single-transition($default-float, $topbar-transition-speed);
+  
+    padding: 10em 0 0;
+    height: auto;
+    display: block;
+    font-size: $rem-base;
+    margin: 0;
+    list-style: none;
+    &>li{
+      background:url('/assets/img/circle-pale-amber.svg') no-repeat -2px 2px;
+      padding-left: 1rem;
+      &:hover{
+        transition: none;
+        background:url('/assets/img/circle-brilliant-amber.svg') no-repeat -2px 2px;
+      }
+      & > a {
+        &:before {
+          content: "\2014";
+          display: block;
+          width: 0;
+          height: 0;
+          position: absolute;
+          font-family: $font-family-monospace;
+          left: 1.2rem;
+          top: 0.9rem;
+        }
+      }
+      &.has-dropdown{
+        & > a {
+          &:before {
+            content: "\FF0B";
+            top: 1rem;
+          }
+        }
+      }
+    }
+    li {
+      position: relative;
+      & > a {
+        display: block;
+        color: $topbar-link-color;
+        padding: 1rem 0 1rem 0;
+        padding-#{$default-float}: $topbar-link-padding;
+        font-family: $topbar-link-font-family;
+        font-size: 1rem;
+        font-weight: $topbar-link-weight;
+        text-transform: $topbar-link-text-transform;
+        text-decoration: underline;
+      }
+  
+      // Apply the hover link color when it has that class
+      &:hover:not(.has-form) > a {
+        color: $topbar-link-color-hover;
+      }
+      // Apply the active link color when it has that class
+      &.active > a {
+        color: $topbar-link-color-active;
+        &:hover:not(.logo) {
+          color: $topbar-link-color-active-hover;
+        }
+      }
+      
+      &.alternateprefix { 
+        & > a {
+          &:before {
+            content: "\003F" !important;
+            top: 1rem!important;
+          }
+        }
+      }
+    }
+  
+    // Styling for list items that have a dropdown within them.
+    .has-dropdown {
+      position: relative;
+  
+      
+    }
+  
+    // Styling elements inside of dropdowns
+    .dropdown {
+      padding: 0;
+      list-style: none;
+      @include single-transition($default-float, $topbar-transition-speed);
+      li {
+        width: 100%;
+        height: auto;
+        position: relative;
+  
+        a {
+          padding: 0.75rem 1rem;
+        }
+        & > a {
+          &:before {
+            content: "\2014";
+            display: block;
+            width: 0;
+            height: 0;
+            position: absolute;
+            font-family: $font-family-monospace;
+            left: 0.3rem;
+            top: 0.7rem;
+          }
+        }
+        &.has-dropdown{
+          & > a {
+            &:before {
+              content: "\FF0B";
+              top: 0.8rem;
+              left: 0.2rem;
+            }
+          }
+        }
+      }
+      .dropdown{
+        li{
+          &>a{
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
   .projectbox {
-    min-height: 35rem;
+    min-height: 38rem;
   }
   .similarprojects {
     .projectbox {
@@ -530,29 +737,26 @@ h1.title {
   .breadcrumbs{
     margin-bottom: 2rem;
   }
-  #sidenav{
-    transition: all 0.5s ease 0s;
-    .morse{
-      display: block;
+  blockquote {
+    p {
+      padding: 2em 4em;
     }
   }
-  #topics{
-    .content{
-      &:before {
-        visibility: hidden;
-        content: "\002A";
-        top: 3.7rem;
-        left: -2.2rem;
-        position: relative;
-        color: $red;
-        font-weight: bold;
-        font-size: 3rem;
-        font-family: $font-family-sans-serif;
+  blockquote.tip {
+    margin: 1rem 8rem;
+    p {
+      display: inline-block;
+      &.morse{
+        width: 24%;
       }
-      &.selectedtopic:before {
-        visibility: visible;
+      &.tiptext{
+        width: 74%;
+        padding: 0 2rem;
       }
     }
+  }
+  #sidenav{
+    transition: all 0.5s ease 0s;
   }
   #footer{
     #dhlogobox {
@@ -561,7 +765,11 @@ h1.title {
   }
 }
 
-@media #{$large-up} { 
+@media #{$large-up} {
+  .circlebg{
+    background: url(/assets/img/circle-pale-amber.svg) no-repeat 80px 10px;
+    background-size: 320px 320px;
+  }
   #sidemorse{
     overflow: hidden;
     display: block;
@@ -577,29 +785,110 @@ h1.title {
       margin-top: 600px;
     }
   }
+  #main {
+    margin-top: 2rem;
+  }
   #dhlg-logo {
     max-height: unset;
+  }
+  #sidenav{
+    z-index: unset;
+    #tocheader{
+      pointer-events: none;
+      &:after {
+        visibility: hidden;
+      }
+    }
+    .morse{
+      display: block;
+      padding-top: 0;
+      margin-bottom: 1rem;
+    }
+    ul#toc{
+      display: block;
+    }
+  }
+  #pagetitle{
+    &.landing{
+      margin-top: 0;
+    }
   }
   .logo{
     display:inline-block;
   }
   #navigation {
-    background: #FFFFFF;
+    background-color: $white;
     margin-top: 2rem;
   }
+
   .top-bar-section {
+    ul{
+      background-color: $white;
+      &.right{
+        margin-right: 0.75rem;
+      }
+      &.left{
+        margin-left: 0.75rem;
+      }
+      li{
+        & >a{
+          font-size: $topbar-link-font-size;
+        }
+      }
+    }
     ul li{
-      &:not(.has-dropdown):not(.logo){
+      background-color: $white;
+      &:not(.has-dropdown):not(.logo):not(.alternateprefix){
         & > a {
           &:before {
-            top: 0;
+            top:0;
           }
         }
       }
       & > a{
         padding: 12px 0 12px 0;
       }
+      &.alternateprefix{
+        & > a{
+          &:before{
+            left: 0.3rem;
+            top: 0;
+          }
+        }
+      }
     }
+    & > ul{
+      & > li:not(.logo):not(.divider){
+        background: $white url(/assets/img/circle-10pblack.svg) no-repeat -2px 2px;
+      }
+    }
+    .has-dropdown{
+      & > a{
+        &:before{
+          left: 0.3em;
+          top: 0.1em;
+        }
+      }
+    }
+  }
+
+  left: 0.3rem;
+    top: 0.7rem;
+
+  #topics{
+    .content{
+      &:before {
+        top: 3rem;
+        left: -2.2rem;
+        position: relative;
+      }
+      &.selectedtopic:before {
+        visibility: visible;
+      }
+    }
+  }
+  #up-to-top{
+    padding: 160px 0 10px 0;
   }
 }
 

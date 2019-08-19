@@ -2,7 +2,7 @@
 layout: default
 format: page
 ---
-<div class="row" {% if page.sidebar == NULL %}id="main"{% endif %}>
+<div class="row {% if page.sidebar == NULL %}circlebg{% endif %}" id="main">
 	{% if page.sidebar == "left" %}
 	<div class="large-4 small-12 columns">
 		{% include _sidebar.html %}
@@ -33,9 +33,4 @@ format: page
 	<div class="large-2 small-12 columns">
 	</div>
 	{% endif %}
-</div><!-- /.row -->
-<div id="up-to-top" class="row">
-	<div class="large-8 large-offset-2 columns" style="text-align: right;">
-		<a class="iconfont" href="#top-of-page">&#xf108;</a>
-	</div><!-- /.small-8 small-offset-2.columns -->
 </div><!-- /.row -->
