@@ -15,7 +15,7 @@ disciplines:
 creationdate: 2019-08-05
 ---
 
-Critical code studies is a broad field that brings together digital humaniies, software studies, cultural studies, computer science, and human-computer interaction. The main focus of the field is to study the cultural importance of computer code. The idea is to examine a piece of code with the same emphasis on nuance and understanding as examining a piece of literature. 
+Critical code studies is a broad field that brings together digital humanities, software studies, cultural studies, computer science, and human-computer interaction. The main focus of the field is to study the cultural importance of computer code. The idea is to examine a piece of code with the same emphasis on nuance and understanding as examining a piece of literature. 
 
 For more information see:
  -  [Critical Code Studies](http://electronicbookreview.com/essay/critical-code-studies/) Mark C. Marino, *electronic book review* December 4, 2006. 
