@@ -5,4 +5,5 @@ breadcrumb: true
 header:
 permalink: "global-resources/funding-sources/misc/"
 ---
-# Misc.
+
+Lorem

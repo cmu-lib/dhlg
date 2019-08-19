@@ -139,6 +139,7 @@ code{
   width: 100%;
   a{
     text-decoration: underline;
+    text-transform: none;
     &:hover{
       color: $red;
     }
@@ -600,7 +601,7 @@ body.frontpage{
     width: auto;
     @include single-transition($default-float, $topbar-transition-speed);
   
-    padding: 10em 0 0;
+    padding: 5em 0 0;
     height: auto;
     display: block;
     font-size: $rem-base;
@@ -673,20 +674,18 @@ body.frontpage{
     // Styling for list items that have a dropdown within them.
     .has-dropdown {
       position: relative;
-  
-      
     }
   
     // Styling elements inside of dropdowns
     .dropdown {
       padding: 0;
       list-style: none;
+      display: none;
       @include single-transition($default-float, $topbar-transition-speed);
       li {
         width: 100%;
         height: auto;
         position: relative;
-  
         a {
           padding: 0.75rem 1rem;
         }

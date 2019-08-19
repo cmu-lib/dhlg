@@ -100,14 +100,16 @@ $('audio,video').mediaelementplayer();
   if(!$('#frontmenu').is(':visible')){
     $('#navigation .top-bar').css('visibility','visible');
   }
-  {% endif %}
-  $('.has-dropdown','#frontmenu').hover(function(){
+  $('#frontmenu li.has-dropdown').hover(function(){
     $(this).css('height','unset');
     $(this).children('.dropdown').show();
   },function(){
     $(this).css('height','');
     $(this).children('.dropdown').hide();
+    $(this).parent('.dropdown').css('height','unset');
+    $(this).parent('.dropdown').show();
   });
+  {% endif %}
   $('.back.js-generated','.top-bar-section ul').html('&#xf106;');
 </script>
 
