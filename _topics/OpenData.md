@@ -19,7 +19,7 @@ disciplines:
 creationdate: 2019-07-31
 ---
 
-Open Data is data that is free for anyone to access, modify, and share. The concept of open data comes from the movement to release a variety of other open things such as open source or open access. Open data has a variety of sponsors, but one of the most frequent forms of open data is civic data. Once downloaded, scholars can run this information through a variety of other websites or programs to produce historical, policy, evironmental, etc. findings. Open Data works well for [Digital History](/_topics/DigitalHistory.md). 
+Open Data is data that is free for anyone to access, modify, and share. The concept of open data comes from the movement to release a variety of other open things such as open source or open access. Open data has a variety of sponsors, but one of the most frequent forms of open data is civic data. Once downloaded, scholars can run this information through a variety of other websites or programs to produce historical, policy, environmental, etc. findings. Open Data works well for [Digital History](/_topics/DigitalHistory.md). 
 
 Further information can be found at:
  -  [Wikipedia Open Data](https://en.wikipedia.org/wiki/Open_data).
