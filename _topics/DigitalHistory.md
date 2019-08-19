@@ -5,13 +5,13 @@ title:  "Digital History"
 teaser: "The default template for posts and pages aligns the page beautifully in the middle. <strong>But</strong> you can customize posts/pages easily via switches in the front matter to <em>get a sidebar</em> and/or to <em>turn off meta-information</em> at the end of the page like categories, tags and dates."
 meta_teaser: "This is an example of a beautiful aligned post in the middle. There is no sidebar to distract the reader. The difference to the Page-Template is, that you find meta-information at the bottom of the post."
 breadcrumb: false
-authors: 
+authors:
 - name: Scott B. Weingart
   bio:
   affiliation: Carnegie Mellon University
   uri:
 identifier: digitalhistory
-disciplines: 
+disciplines:
 - history
 creationdate: 2019-07-31
 ---
@@ -26,6 +26,6 @@ Digital history is as multifaceted as history itself, but often aligns itself wi
 More information can be found in these sources:
 
  - [The Historian's Macroscope](https://books.google.com/books?id=r-U7DQAAQBAJ&printsec=frontcover&dq=historians+macroscope&hl=en&sa=X&ved=2ahUKEwiWlJbyxIrkAhVkxFkKHRSLAvQQ6AEwAHoECAMQAg#v=onepage&q=historians%20macroscope&f=false) (2015)  by Shawn Graham, Ian Milligan, and Scott B. Weingart.
- - [Wikipedia /| Digital History](https://en.wikipedia.org/wiki/Digital_history).
+ - [Wikipedia \| Digital History](https://en.wikipedia.org/wiki/Digital_history).
 
 

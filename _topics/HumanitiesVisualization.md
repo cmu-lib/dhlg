@@ -3,13 +3,13 @@ layout: page
 title:  "Humanities Visualization"
 meta_title:  "Humanities Visualization"
 breadcrumb: false
-authors: 
+authors:
 - name: Susan Grunewald
   bio: Susan Grunewald is the Digital History Postdoctoral Fellow at the University of Pittsburgh’s World History Center. She received her PhD from Carnegie Mellon University, where she was a two-time A.W. Mellon Fellow in Digital Humanities. Her research focuses on Soviet history, particularly German prisoners of war in the USSR during and after the Second World War.
   affiliation: University of Pittsburgh
   uri:
 identifier: humanitiesvisualization
-disciplines: 
+disciplines:
 - history
 - english
 - literature
@@ -24,5 +24,5 @@ As humanists borrow more techniques from the social and natural sciences for res
 
 For more information see:
  -  [Graphical Approaches to the Digital Humanities](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118680605.ch17) (2015) Johanna Drucker.
- -  [Humanities Approaches to Graphical Display](http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html) Johanna Drucker, *digital humanities quarterly* 5, no. 1 (2015). 
- -  [Data by Design] (http://lklein.com/data-by-design/) (forthcoming) Lauren F. Klein.
+ -  [Humanities Approaches to Graphical Display](http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html) Johanna Drucker, *digital humanities quarterly* 5, no. 1 (2015).
+ -  [Data by Design](http://lklein.com/data-by-design/) (forthcoming) Lauren F. Klein.
