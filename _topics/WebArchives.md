@@ -17,7 +17,7 @@ disciplines:
 creationdate: 2019-07-31
 ---
 
-Web archiving is the act of creating an archive of information stored on the World Wide Web. Web archives frequently automatically access and download full copies of publically accessible websites through the process of web crawling. The idea is to perserve information stored on the web for research purposes. Scholars interested in web archiving may use it for the purposes of [Digital History](/_topics/DigitalHistory.md) or [Cultural Analytics](/_topics/CulturalAnalytics.md).
+Web archiving is the act of creating an archive of information stored on the World Wide Web. Web archives frequently automatically access and download full copies of publicly accessible websites through the process of web crawling. The idea is to preserve information stored on the web for research purposes. Scholars interested in web archiving may use it for the purposes of [Digital History](/_topics/DigitalHistory.md) or [Cultural Analytics](/_topics/CulturalAnalytics.md).
 
 More information can b found in these sources:
 -  [The Internet Archive](https://archive.org/).
