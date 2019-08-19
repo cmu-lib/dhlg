@@ -24,7 +24,7 @@ youtubeid: REZPC9J7LEI
 ---
 
 
-This video discusses network analysis in the context of art history. It shows how network analysis was used to examine networks of Dutch printmaking collabortions to study change in the industry decade by decade. The video notes that a number of other digital humanities tools and methods were used to build the dataset before it could be studied with network analysis software, such as web scraping of museum websites to gather information about pieces of art and using [R](https://www.r-project.org/) to manipulate and analyze the data.
+This video discusses network analysis in the context of art history. It shows how network analysis was used to examine networks of Dutch printmaking collaborations to study change in the industry decade by decade. The video notes that a number of other digital humanities tools and methods were used to build the dataset before it could be studied with network analysis software, such as web scraping of museum websites to gather information about pieces of art and using [R](https://www.r-project.org/) to manipulate and analyze the data.
 
 ## Further Reading and Resources
 
