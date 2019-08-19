@@ -43,4 +43,4 @@ This video discusses the question of authorship attribution and shows how stylom
 
 [Binongo, Jose Nilo G.  Who Wrote the 15th Book of Oz? An Application of Multivariate Analysis to Authorship Attribution, 16 CHANCE 9 (2003).](http://dh.obdurodon.org/Binongo-Chance.pdf)
 
-Coulthard, Malcolm. Powerful Evidence for the Defence: An Exercise in Forensic Discourse Analysis, in LANGUAGE AND THE LAW 414 (John Gibbons ed., 1994).
+Coulthard, Malcolm. Powerful Evidence for the Defense: An Exercise in Forensic Discourse Analysis, in LANGUAGE AND THE LAW 414 (John Gibbons ed., 1994).
