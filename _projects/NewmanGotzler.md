@@ -26,7 +26,7 @@ youtubeid: lGHtq0XkMGY
 ---
 
 
-This video explores digitizing texts to build a database to perform a distant reading study of 1950s American television. It explains how to use DH methods such as webscraping, OCR, SQL, database building, and data cleaning to both sort through vast quantities of information (in this case hundreds of thousands of hours of television programs) and work around problematic sources (lack of preserved or very poor quality TV recordings) to challenge conventional understandings of American culture.
+This video explores digitizing texts to build a database to perform a distant reading study of 1950s American television. It explains how to use DH methods such as web scraping, OCR, SQL, database building, and data cleaning to both sort through vast quantities of information (in this case hundreds of thousands of hours of television programs) and work around problematic sources (lack of preserved or very poor quality TV recordings) to challenge conventional understandings of American culture.
 
 ## Further Reading and Resources
 
