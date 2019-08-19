@@ -4,13 +4,13 @@ title: "Finding the Klan with Network Analysis"
 breadcrumb: true
 teaser: "This video discusses historical network analysis."
 meta_title: "Finding the Klan with Network Analysis"
-authors: 
+authors:
 - name: Elaine Franz
   bio: Elaine Frantz is a Professor of History at Kent State University. She has published articles in academic journals including the *Journal of American History*, the *Journal of Southern History*, *Reviews in American History*, and the *Journal of Social History*. She is currently working on a book project on the history of paid violence work in Pittsburgh.
   affiliation: Kent State University
   uri:
 identifier: klannetwork
-disciplines: 
+disciplines:
 - history
 - networkscience
 topics:
@@ -21,7 +21,7 @@ source: contribution
 youtubeid: wQI6ajxCuV8
 ---
 
-This video discusses historical network analysis with the tools [Gephi](https://gephi.org/) and [Pajek](http://mrvar.fdv.uni-lj.si/pajek/). It explains the basics of network analysis and relational data including when to use network analysis and what types of questions you need to be able to ask and answer about your data for use in network analysis. It walks through the steps to make a similar project such as building a databse, data cleaning, and using the network analysis tool.  
+This video discusses historical network analysis with the tools [Gephi](https://gephi.org/) and [Pajek](http://mrvar.fdv.uni-lj.si/pajek/). It explains the basics of network analysis and relational data including when to use network analysis and what types of questions you need to be able to ask and answer about your data for use in network analysis. It walks through the steps to make a similar project such as building a database, data cleaning, and using the network analysis tool.
 
 ## Further Reading and Resources
 
