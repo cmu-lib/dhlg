@@ -11,7 +11,7 @@ authors:
   affiliation: University of Pittsburgh
   uri:
 identifier: networkanalysis
-disciplines: 
+disciplines:
 - history
 - networkscience
 topics:
@@ -31,6 +31,6 @@ This video discusses network analysis in the context of the history of education
 
 [Carolingian Networks](https://digitalhumanities.duke.edu/projects/carolingian-networks)
 
-[Barbara Bordalejo, "The Texts we See and the Works We Imagine: The Shift of Focus of Textual Scholarship in the Digital Age," Ecdotica 10 (2013): 64-73.](https://www.fundacionaquae.org/wp-content/uploads/2017/09/Ecdotica1.pdf)
+[Barbara Bordalejo, "The Texts we See and the Works We Imagine: The Shift of Focus of Textual Scholarship in the Digital Age," _Ecdotica_ 10 (2013): 64-73.](https://www.fundacionaquae.org/wp-content/uploads/2017/09/Ecdotica1.pdf)
 
-[Barbara Bordalejo, "The Genealogy of Texts: Manuscript Traditions and Textual Traditions," Digital Scholarship in the Humanities 31:3 (2016) 563-77.](https://zenodo.org/record/2564257)
+[Barbara Bordalejo, "The Genealogy of Texts: Manuscript Traditions and Textual Traditions," _Digital Scholarship in the Humanities_ 31:3 (2016) 563-77.](https://zenodo.org/record/2564257)
