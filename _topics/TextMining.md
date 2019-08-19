@@ -17,7 +17,7 @@ disciplines:
 creationdate: 2019-08-05
 ---
 
-Text mining is the process of deriving information by way of statistical pattern learning from text. Text is formatted in a structured fashion and then a computer program dervies patterns from the text, which can then in turn be evaluated and interpreted in the process of [Text analytics](/_topics/TextAnalytics.md). Text mining can be carried out with a variety of commerical and open source programs and companies.
+Text mining is the process of deriving information by way of statistical pattern learning from text. Text is formatted in a structured fashion and then a computer program derives patterns from the text, which can then in turn be evaluated and interpreted in the process of [Text analytics](/_topics/TextAnalytics.md). Text mining can be carried out with a variety of commercial and open source programs and companies.
 
 Additional information can be found at:
  -  [Wikipedia Text Mining](https://en.wikipedia.org/wiki/Text_mining).
