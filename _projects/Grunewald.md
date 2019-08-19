@@ -4,13 +4,13 @@ title: "GIS Mapping"
 breadcrumb: true
 teaser: "This video examines GIS mapping with an emphasis on history projects."
 meta_title: "GIS Mapping"
-authors: 
+authors:
 - name: Susan Grunewald
   bio: Susan Grunewald is the Digital History Postdoctoral Fellow at the University of Pittsburgh’s World History Center. She received her PhD from Carnegie Mellon University, where she was a two-time A.W. Mellon Fellow in Digital Humanities. Her research focuses on Soviet history, particularly German prisoners of war in the USSR during and after the Second World War.
   affiliation: University of Pittsburgh
   uri:
 identifier: gis-mapping
-disciplines: 
+disciplines:
 - history
 topics:
 - digitalhistory
@@ -21,7 +21,7 @@ youtubeid: r32qwAENWng
 ---
 
 
-This video covers the basics for learning geographic information system (GIS) mapping. It includes information about different software options and data sources. Finally, it shows what results one can achieve in a historical GIS project through the author’s work mapping German prisoner of war camps in the Sovie Union during and after the Second World War. 
+This video covers the basics for learning geographic information system (GIS) mapping. It includes information about different software options and data sources. Finally, it shows what results one can achieve in a historical GIS project through the author’s work mapping German prisoner of war camps in the Soviet Union during and after the Second World War.
 
 ## Further Reading and Resources
 
