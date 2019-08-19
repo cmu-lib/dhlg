@@ -19,7 +19,7 @@ disciplines:
 creationdate: 2019-07-31
 ---
 
-Data visualization, or DataViz, concerns the visual representation of data in a varitey of ways including graphs, plots, [maps](/_topics/HGIS.md), and other graphics like and illustration of a [network](/_topics/NetworkAnalysis.md). There are a variety of best practices to follow when visualizing data that can help readers better grasp what the author is trying to covey by means of the graphic.
+Data visualization, or DataViz, concerns the visual representation of data in a variety of ways including graphs, plots, [maps](/_topics/HGIS.md), and other graphics like and illustration of a [network](/_topics/NetworkAnalysis.md). There are a variety of best practices to follow when visualizing data that can help readers better grasp what the author is trying to covey by means of the graphic.
 
 Examples of data visualization software include [QGIS](https://www.qgis.org/en/site/) and [ArcGIS](https://www.arcgis.com/index.html) for GIS mapping or [Gephi](https://gephi.org/) and [Pajek](http://vlado.fmf.uni-lj.si/pub/networks/pajek/) for network analysis. Data visualization can be accomplished with more traditional word processing applications as well such as Microsoft Excel or Google Sheets. There are also programs and services that can produce a variety of different visualizations in a polished fashion such as [Tableau](https://www.tableau.com/) or [Datawrapper](https://www.datawrapper.de/). 
 
