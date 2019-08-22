@@ -19,7 +19,7 @@ topics:
 - onlinearchive
 - digitalpublichistory
 creationdate: 2019-07-03
-source: contribution
+source: core
 youtubeid: xwWf5w1TwPY
 ---
 
