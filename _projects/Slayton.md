@@ -19,7 +19,7 @@ topics:
 - digitalhistory
 - datavisualization
 creationdate: 2019-07-03
-source: contribution
+source: core
 youtubeid: SYcpRj4YKBo
 ---
 
