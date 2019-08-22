@@ -402,7 +402,7 @@ code{
   font-size: 3em;
   font-weight: bold;
   &.landing{
-    margin-top: 5rem;
+    margin-top: 0;
   }
 }
 
@@ -763,7 +763,10 @@ body.frontpage{
     }
   }
   .projectbox {
-    min-height: 24rem;
+    min-height: 30rem;
+    >a{
+      margin: unset;
+    }
   }
   .similarprojects {
     .projectbox {

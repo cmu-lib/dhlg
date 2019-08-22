@@ -6,7 +6,7 @@ meta_title: "Getting Hired"
 permalink: "getting-hired/"
 ---
 <div class="row">
-	<div class="large-8 small-12 columns t30">
+	<div class="small-12 columns t30">
 			{% for interview in site.interviews limit:1000 %}
 				<div id="hiring_{{ interview.identifier }}" class="content">
                     <h4><a href="{{ site.url }}{{ site.baseurl }}{{ interview.url }}">{{ interview.title }}</a></h4>

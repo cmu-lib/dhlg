@@ -4,12 +4,14 @@
 		<h3 id="tocheader">Table of Contents</h3>
 		<ul id="toc">
 		{% if page.title == "Project Videos" %}
-			{% for project in site.projects limit:1000 %}
+			{% assign projects = site.projects | sort: 'title' %}
+			{% for project in projects limit:1000 %}
 				<li data-projectid="{{ project.identifier }}">{{ project.title }}</li>
 			{% endfor %}
 		{% endif %}
 		{% if page.title == "Topics in DH" %}
-			{% for topic in site.topics limit:1000 %}
+			{% assign topics = site.topics | sort: 'title' %}
+			{% for topic in topics limit:1000 %}
 				<li data-topicid="{{ topic.identifier }}">{{ topic.title }}</li>
 			{% endfor %}
 		{% endif %}

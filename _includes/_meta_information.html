@@ -1,6 +1,6 @@
 		<div id="page-meta" class="row t30 b60">
 			<div class="small-12 columns" id="contributor">
-				<p class="sourceinfo">{% if page.source == 'contribution' %}<img src="/assets/img/circle-cobalt.svg">{% else %}<img src="/assets/img/circle-brilliant-amber.svg">{% endif %} 
+				<p class="sourceinfo">{% if page.source == 'community' %}<img src="/assets/img/circle-cobalt.svg">{% else %}<img src="/assets/img/circle-brilliant-amber.svg">{% endif %} 
 				{% if page.creationdate %}
 				<time class="pr20" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"> {{ page.creationdate | date: "%B %-d, %Y" }}.</time>
 				{% endif %}
@@ -44,8 +44,8 @@
 										{% unless matcheddisciplineprojects contains finddisciplineprojects.identifier %}
 											<div id="disciplineproject_{{ finddisciplineprojects.identifier }}" class="large-4 medium-6 columns projectbox">
 												<a href="{{ site.url }}{{ site.baseurl }}{{ finddisciplineprojects.url }}" title="Play {{ finddisciplineprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ finddisciplineprojects.youtubeid}}/mqdefault.jpg"></a>
-												<h4><a href="{{ site.url }}{{ site.baseurl }}{{ finddisciplineprojects.url }}" title="Play {{ finddisciplineprojects.title | escape_once }}">{{ finddisciplineprojects.title | truncate: 67 }}</a></h4>
-												{% if finddisciplineprojects.teaser %}<p>{{ finddisciplineprojects.teaser | truncate: 85 }}</p>{% endif %}
+												<h4><a href="{{ site.url }}{{ site.baseurl }}{{ finddisciplineprojects.url }}" title="Play {{ finddisciplineprojects.title | escape_once }}">{{ finddisciplineprojects.title | truncate: 45 }}</a></h4>
+												{% if finddisciplineprojects.teaser %}<p>{{ finddisciplineprojects.teaser | truncate: 80 }}</p>{% endif %}
 											</div>
 											{% assign matcheddisciplineprojects = matcheddisciplineprojects | push: finddisciplineprojects.identifier %}
 										{% endunless %}

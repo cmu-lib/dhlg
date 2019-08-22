@@ -14,9 +14,9 @@ description:
 			{% for project in projects limit:1000 %}
 				<div id="project_{{ project.identifier }}" class="large-4 medium-6 columns projectbox">
 					<a href="{{ site.url }}{{ site.baseurl }}{{ project.url }}" title="View {{ project.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ project.youtubeid}}/mqdefault.jpg" class="videothumbnail"></a>
-					<h4><a href="{{ site.url }}{{ site.baseurl }}{{ project.url }}" title="View {{ project.title | escape_once }}">{{ project.title | truncate: 67 }}</a></h4>
-					{% if project.teaser %}<p>{{ project.teaser | truncate: 85 }}</p>{% endif %}
-					<p class="source_disciplines">{% if project.source == 'contribution' %}<img src="/assets/img/circle-cobalt.svg">{% else %}<img src="/assets/img/circle-brilliant-amber.svg">{% endif %}
+					<h4><a href="{{ site.url }}{{ site.baseurl }}{{ project.url }}" title="View {{ project.title | escape_once }}">{{ project.title | truncate: 45 }}</a></h4>
+					{% if project.teaser %}<p>{{ project.teaser | truncate: 80 }}</p>{% endif %}
+					<p class="source_disciplines">{% if project.source == 'community' %}<img src="/assets/img/circle-cobalt.svg">{% else %}<img src="/assets/img/circle-brilliant-amber.svg">{% endif %}
 					{% assign matcheddisciplines = site.emptyArray %}
 					{% unless project.disciplines == empty%}
 						{% for discipline in project.disciplines %}
