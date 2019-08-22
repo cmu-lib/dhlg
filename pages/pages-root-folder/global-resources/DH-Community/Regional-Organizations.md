@@ -3,6 +3,7 @@ layout: page
 title: "Regional Organizations"
 breadcrumb: true
 meta_title: "Global Resources - DH Community - Regional Organizations"
+source: community
 permalink: "global-resources/dh-community/regional-organizations/"
 ---
 Much of this information comes by courtesy of [Lauren Tilton](http://laurentilton.com/).
