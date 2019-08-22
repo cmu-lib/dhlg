@@ -3,6 +3,7 @@ layout: page
 title: "Conferences"
 breadcrumb: true
 meta_title: "Global Resources - DH Community - Conferences"
+source: community
 permalink: "global-resources/dh-community/conferences/"
 ---
 The majority of the information on this page comes courtersy of the [dhnotes Conferences page](https://github.com/dh-notes/dhnotes/blob/master/pages/conferences.md) as of August 2019. dhnotes is a collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with the added participation of [gabrielle92](https://github.com/gabrielle92), [Austin Mason](https://github.com/apjmason), [Jonathan Reeve](https://github.com/JonathanReeve), [Scott Weinngart](https://github.com/scottbot), [Roopika Risam](https://github.com/roopikarisam), [Vika Zafrin](https://github.com/vzafrin), [Toshikazo SETO](https://github.com/tosseto), [Paul Spence](https://github.com/pjspence), [kiyonoriNagasaki](https://github.com/kiyonoriNagasaki), [Jan G. Wieners](https://github.com/janwieners), [Grant Wythoff](https://github.com/gwijthoff), [The Gitter Badger](https://github.com/gitter-badger), [briancrogers](https://github.com/briancrogers), [Micky Lindlar](https://github.com/asciim0), and [Cole Crawford](https://github.com/ColeDCrawford0).
