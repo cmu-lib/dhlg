@@ -19,7 +19,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 - [Doktoratsstudium "Digitale Geisteswissenschaften"](https://gewi.uni-graz.at/de/studieren/doktoratsstudium/) (Doctoral programme "Digital Humanities"), University of Graz, Austria
 ### North America
 - [Texts & Technology Ph.D. Program](https://tandt.cah.ucf.edu/), University of Central Florida, USA
-### Masters
+## Masters
 ### Asia
 - MD in Digital Humanities, Srishti Institute of Art, Design and Technology, India
 - MS in Digital Humanities, IIT Indore, India
@@ -115,7 +115,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 - [Digital Humanities Graduate Certificate](https://dsu.edu/graduate-students/digital-humanities-graduate-certificate). Dakota State University, USA
 - [Digital Studies in Arts and Humanities, Graduate Certificate](http://dsah.umd.edu/), University of Maryland, USA
 - [Digital Humanities Specialization in Master of Information Science](https://www.sice.indiana.edu/graduate/degrees/information-library-science/dual-degrees/digital-humanities-mis.html), Indiana University Bloomington, USA
-### Undergraduate Major
+## Undergraduate Major
 ### Asia
 - BSc in Digital Humanities, Haifa University, Israel
 ### Australasia
