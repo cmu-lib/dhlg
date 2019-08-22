@@ -16,7 +16,7 @@ topics:
 - digitalhistory
 - hgis
 creationdate: 2019-07-03
-source: contribution
+source: core
 youtubeid: R8x5vUYKe3g
 ---
 
