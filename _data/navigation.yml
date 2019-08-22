@@ -3,18 +3,18 @@
   side: left
   alternate:
 
-- title: "Topics in DH"
-  url: "/topics-in-dh/"
+- title: "Topics"
+  url: "/topics/"
   side: left
   alternate:
 
-- title: "Scholarly Project Videos"
-  url: "/scholarly-project-videos/"
+- title: "Project Videos"
+  url: "/project-videos/"
   side: left
   alternate:
 
-- title: "Hiring Digital Humanists"
-  url: "/hiring-digital-humanists/"
+- title: "Getting Hired"
+  url: "/getting-hired/"
   side: left
   alternate:
 
@@ -38,7 +38,7 @@
     - title: "MA/PhD Programs"
       url: "/global-resources/educational-resources/ma-phd-programs/"
   - title: "DH Community"
-    url: "/global-resources/dhcommunity/"
+    url: "/global-resources/dh-community/"
     alternate:
     dropdown:
     - title: "Conferences"

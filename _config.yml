@@ -19,13 +19,14 @@ description: "An ongoing resource for locals and the world to get introduced to 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>A <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> site designed by <a href="http://www.agilehumanities.ca">Agile Humanities</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
 
-corecontent: 'Content marked in amber is contributed by CMU and is offered under a <a href="" target="_blank">Creative Commons Licence</a>.'
-contributedcontent: 'Content marked in blue is contributed by the community and offered under <a href="" target="_blank">The Same Creative Commons License</a>.'
+corecontent: 'Content marked in amber is contributed by CMU and is offered under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC-BY-NC license</a>.'
+contributedcontent: 'Content marked in blue is contributed by the community and offered under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC-BY-NC license</a>.'
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 url: 'https://dsharp-cmu.github.io/WhatAreDH'
 baseurl: ''
+repositoryurl: 'https://github.com/dSHARP-CMU/dh-literacy-web'
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
@@ -54,10 +55,10 @@ collections:
     permalink: /topics/:path/
   projects:
     output: true
-    permalink: /scholarly-project-videos/:path/
+    permalink: /project-videos/:path/
   interviews:
     output: true
-    permalink: /hiring-digital-humanists/:path/
+    permalink: /getting-hired/:path/
 
 
 # Theme works best with Kramdown (using the table of contents function)
@@ -210,7 +211,7 @@ socialmedia:
 #
 # used in _includes/comments
 
-disqus_shortname: feelingresponsive
+disqus_shortname: 
 
 
 #      _____

@@ -1,20 +1,21 @@
 ---
 layout: landing
 sidebar: left
-title: "Scholarly Video Projects"
+title: "Project Videos"
 breadcrumb: true
-meta_title: "Scholarly Video Projects"
-permalink: "scholarly-project-videos/"
+meta_title: "Project Videos"
+permalink: "project-videos/"
 description: 
 ---
 <div class="row">
 	<div class="small-12 columns t30">
 		<div class="row" id="listprojects">
-			{% for project in site.projects limit:1000 %}
+			{% assign projects = site.projects | sort: 'title' %}
+			{% for project in projects limit:1000 %}
 				<div id="project_{{ project.identifier }}" class="large-4 medium-6 columns projectbox">
-					<img src="https://img.youtube.com/vi/{{ project.youtubeid}}/mqdefault.jpg" class="videothumbnail">
-					<h4>{{ project.title }}</h4>
-					{% if project.teaser %}<p>{{ project.teaser }}</p>{% endif %}
+					<a href="{{ site.url }}{{ site.baseurl }}{{ project.url }}" title="View {{ project.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ project.youtubeid}}/mqdefault.jpg" class="videothumbnail"></a>
+					<h4><a href="{{ site.url }}{{ site.baseurl }}{{ project.url }}" title="View {{ project.title | escape_once }}">{{ project.title | truncate: 67 }}</a></h4>
+					{% if project.teaser %}<p>{{ project.teaser | truncate: 85 }}</p>{% endif %}
 					<p class="source_disciplines">{% if project.source == 'contribution' %}<img src="/assets/img/circle-cobalt.svg">{% else %}<img src="/assets/img/circle-brilliant-amber.svg">{% endif %}
 					{% assign matcheddisciplines = site.emptyArray %}
 					{% unless project.disciplines == empty%}
@@ -29,7 +30,6 @@ description:
 					{% for discipline in matcheddisciplines %}
 					<span>{{discipline}}</span>{% if forloop.last %}{% else %}, {% endif %}
 					{% endfor %}</p>
-					<p><a href="{{ site.url }}{{ site.baseurl }}{{ project.url }}" class="button radius" title="Play {{ project.title | escape_once }}">Play Video&nbsp;›</a></p>
 				</div>
 			{% endfor %}
 		</div>

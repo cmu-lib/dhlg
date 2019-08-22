@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Hiring Digital Humanists"
+title: "Getting Hired"
 breadcrumb: true
-meta_title: "Hiring Digital Humanists"
-permalink: "hiring-digital-humanists/"
+meta_title: "Getting Hired"
+permalink: "getting-hired/"
 ---
 <div class="row">
 	<div class="large-8 small-12 columns t30">

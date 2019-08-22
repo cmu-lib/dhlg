@@ -5,13 +5,28 @@
 {% endcomment %}
 
 <nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
-    <span><a href="{{ site.url }}{{ site.baseurl }}">Home</a>&nbsp;&gt;&nbsp;</span>
-     {% assign crumbs = page.url | split: '/' %}
-     {% assign lastcrumb = crumbs.size | minus: 2 %}
-     {% for crumb in crumbs %}
-       {% unless forloop.last %}
-       <span><a href="{{ site.url }}{{ site.baseurl }}/{% assign crumb_limit = forloop.index | plus: 1 %}{% for nextcrumb in crumbs limit: crumb_limit %}{{ nextcrumb }}/{% endfor %}">{{ crumb | replace:'-',' ' }}</a>{% unless crumbs[lastcrumb] %}&nbsp;&gt;&nbsp;{% endunless %}</span>
-       {% endunless %}
-     {% endfor %}
-   </nav>
-   
+  {% assign crumbs = page.permalink | split: '/' %}
+  {% assign lastcrumb = crumbs.size %}
+  <span><a href="{{ site.url }}{{ site.baseurl }}">Home</a>{% unless lastcrumb == 1 %}&nbsp;&gt;&nbsp;{% endunless %}</span>
+  {% for crumb in crumbs %}
+    {% unless crumb =='' %}
+    {% assign crumb_limit = forloop.index | plus: 1 %}{% for nextcrumb in crumbs limit: crumb_limit %}{% assign thisnextcrumb = nextcrumb | replace: '-', ' ' %}{% endfor %}
+      {% unless forloop.last %}
+        {% assign crumbfragment = crumb | append: '/' %}
+        {% assign crumburl = crumburl | append: crumbfragment %}
+        {% for crumbpage in site.pages %}
+          {% if crumbpage.permalink == crumburl %}
+            {% assign pagetitlelower = page.title | downcase %}
+            {% assign thisnextcrumblower = thisnextcrumb | downcase %}
+            {% assign thisnextcrumblowerurl = thisnextcrumb | replace: ' ', '-' %}
+            {% assign thisnextcrumblowerurl = crumburl | append: thisnextcrumblowerurl %}
+            {% assign thisnextcrumblowerurl = thisnextcrumblowerurl | append: '/' %}
+            {% assign thisnextpagelowerurl = page.permalink | downcase %}
+            <span><a href="/{{ crumburl }}">{{ crumbpage.title }}</a>{% unless thisnextcrumblowerurl == thisnextpagelowerurl %}&nbsp;&gt;&nbsp;{% endunless %}</span>
+            {% assign thiscrumb = crumburl %}
+          {% endif %}
+        {% endfor %}
+      {% endunless %}
+    {% endunless %}
+  {% endfor %}
+</nav>

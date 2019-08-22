@@ -103,7 +103,9 @@ code{
   background: unset;
   border: none;
 }
-
+.panel {
+  margin-bottom: 2rem;
+}
 #lunrsearchresults {
   width: 100%;
   p{
@@ -378,6 +380,9 @@ code{
     font-weight: bold;
     font-style: normal;
   }
+  >a{
+    margin: 1rem 2rem;
+  }
 }
 .button{
   color: $black!important;
@@ -388,8 +393,8 @@ code{
   font-weight: normal;
   font-family: $font-family-sans-light;
   &:hover{
-    color: $white;
-    background-color: $black;
+    color: $white!important;
+    background-color: $black!important;
   }
 }
 
@@ -404,6 +409,10 @@ code{
 .circlebg{
   background: url(/assets/img/circle-pale-amber.svg) no-repeat -10px -10px;
   background-size: 320px 320px;
+  &.contribution{
+    background: url(/assets/img/circle-cobalt-large.svg) no-repeat -10px -10px;
+    background-size: 320px 320px;
+  }
 }
 
 h1.title {
@@ -417,33 +426,55 @@ h1.title {
   }
 }
 
-#up-to-top{
+#pagebottom{
   padding: 60px 0 10px 0;
 }
 .selectedtocitem{
-  color: red;
+  color: $red;
 }
 #contributor{
-  text-transform: uppercase;
-  font-family: $font-family-monospace;
   margin-bottom: 5rem;
+  a{
+    font-weight:bold;
+    color: $red;
+    font-style: unset;
+  }
+  p{
+    margin-bottom: 0.5em;
+    padding: 0;
+  }
   .sourceinfo{
+    text-transform: uppercase;
+    font-family: $font-family-monospace;
+    color: $black;
+    margin-bottom: 2rem;
     img{
       height: 1.5rem;
       width: 1.5rem;
       vertical-align: middle;
     }
+    a{
+      font-weight:normal;
+      text-decoration: underline;
+      color: $black;
+    }
   }
   .authorbio{
-    text-transform: unset;
+    
   }
-  a{
-    font-weight:normal;
+}
+
+.githuburl{
+  font-family: $font-family-monospace;
+  font-size: 0.7rem;
+  color: $grey-6;
+  font-weight: normal;
+  padding: 5px 0;
+  display: block;
+  &:hover{
+    background: transparent;
+    color: $black;
     text-decoration: underline;
-  }
-  p{
-    margin-bottom: 0.5em;
-    padding: 0;
   }
 }
 
@@ -560,6 +591,17 @@ body.frontpage{
 }
 #topics{
   .content{
+    &.circlebg{
+      background: url(/assets/img/circle-pale-amber.svg) no-repeat 0px 20px;
+      background-size: 140px 140px;
+      &.contribution{
+        background: url(/assets/img/circle-cobalt-large.svg) no-repeat 0px 20px;
+        background-size: 140px 140px;
+      }
+    }
+    h3{
+      padding-left: 3rem;
+    }
     &:before {
       visibility: hidden;
       content: "\002A";
@@ -721,7 +763,7 @@ body.frontpage{
     }
   }
   .projectbox {
-    min-height: 38rem;
+    min-height: 24rem;
   }
   .similarprojects {
     .projectbox {
@@ -768,6 +810,10 @@ body.frontpage{
   .circlebg{
     background: url(/assets/img/circle-pale-amber.svg) no-repeat 80px 10px;
     background-size: 320px 320px;
+    &.contribution{
+      background: url(/assets/img/circle-cobalt-large.svg) no-repeat 80px 10px;
+      background-size: 320px 320px;
+    }
   }
   #sidemorse{
     overflow: hidden;
@@ -871,9 +917,6 @@ body.frontpage{
     }
   }
 
-  left: 0.3rem;
-    top: 0.7rem;
-
   #topics{
     .content{
       &:before {
@@ -886,8 +929,15 @@ body.frontpage{
       }
     }
   }
-  #up-to-top{
+  #pagebottom{
     padding: 160px 0 10px 0;
+  }
+  .similarprojects{
+    .projectbox{
+      >a{
+        margin: unset;
+      }
+    }
   }
 }
 

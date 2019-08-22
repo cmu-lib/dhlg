@@ -2,7 +2,7 @@
 layout: default
 format: video
 ---
-<div class="row circlebg" id="main">
+<div class="row circlebg {% if page.source == 'contribution' %}contribution{% endif %}" id="main">
 	<div class="large-8 large-offset-2 columns">
 		<article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
 			<div class="row">
@@ -20,6 +20,15 @@ format: video
 
 			<div class="flex-video t30">
 				<iframe width='970' height='546' src='//www.youtube.com/embed/{{ page.youtubeid }}' frameborder='0' allowfullscreen></iframe>
+			</div>
+			<div class="row">
+				<div class="large-10 large-offset-1 columns">
+				<h4>
+				{% for author in page.authors %}
+				<span class="authorname" itemprop="author" itemscope itemtype="http://schema.org/Person">{% if author.uri!='' %}<a href="{{ author.uri }}" target="_blank">{% endif %}{{ author.name }}{% if author.uri!='' %}</a>{% endif %} ({{ author.affiliation }})</span>{% if forloop.last %}{% else %}, {% endif %}
+				{% endfor %}
+				</h4>
+				</div>
 			</div>
 
 			<div class="row t30">

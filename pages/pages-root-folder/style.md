@@ -96,3 +96,4 @@ This is some text.[^1]. Other text.[^footnote].
 
 
 [^1]: Some *crazy* footnote definition.
+[^footnote]: another footnote

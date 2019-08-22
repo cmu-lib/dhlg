@@ -1,9 +1,9 @@
 <aside id="sidenav">
 	<div class="panel">
-		<p class="morse">{% if page.title == "Scholarly Video Projects" %}projects{% endif %}{% if page.title == "Topics in DH" %}topics{% endif %}</p>
+		<p class="morse">{% if page.title == "Project Videos" %}projects{% endif %}{% if page.title == "Topics in DH" %}topics{% endif %}</p>
 		<h3 id="tocheader">Table of Contents</h3>
 		<ul id="toc">
-		{% if page.title == "Scholarly Video Projects" %}
+		{% if page.title == "Project Videos" %}
 			{% for project in site.projects limit:1000 %}
 				<li data-projectid="{{ project.identifier }}">{{ project.title }}</li>
 			{% endfor %}
