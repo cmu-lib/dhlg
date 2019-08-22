@@ -21,7 +21,7 @@ topics:
 - distantreading
 - corpusanalysis
 creationdate: 2019-07-03
-source: contribution
+source: core
 youtubeid: lGHtq0XkMGY
 ---
 
