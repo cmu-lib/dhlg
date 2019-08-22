@@ -17,7 +17,7 @@ topics:
 - digitalhistory
 - distantreading
 creationdate: 2019-07-03
-source: contribution
+source: core
 youtubeid: sXNblxiZc8o
 ---
 
