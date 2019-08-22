@@ -20,7 +20,7 @@ topics:
 - stylometry
 - machinelearning
 creationdate: 2019-07-03
-source: contribution
+source: community
 youtubeid: 8cH5-AK9jLU
 ---
 
