@@ -28,8 +28,8 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 - [Master of Digital Humanities](https://www.westernsydney.edu.au/future/study/courses/postgraduate/master-of-digital-humanities.html), Western Sydney University, Australia
 ### Europe
 - MA in Digital Humanities, King's College London, UK
-- [M.Sc. Computing in the Humanities](https://www.uni-bamberg.de/ma-cith/), Otto-Friedrich-Universität Bamberg, Germany 
-- [MA Digital Humanities](https://www.uni-wuerzburg.de/studium/angebot/faecher/digihum), Universität Würzburg, Germany 
+- [M.Sc. Computing in the Humanities](https://www.uni-bamberg.de/ma-cith/), Otto-Friedrich-Universität Bamberg, Germany
+- [MA Digital Humanities](https://www.uni-wuerzburg.de/studium/angebot/faecher/digihum), Universität Würzburg, Germany
 - [MA Digital Humanities](http://www.uni-stuttgart.de/dh/studium/masterstudiengang/), Universität Stuttgart, Germany
 - [MA Digital Humanities](https://www.uni-trier.de/index.php?id=1175), Universität Trier, Germany
 - MPhil in Digital Humanities and Culture, Trinity College Dublin
@@ -76,7 +76,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 - [Maestría en Comunicación y Humanidades Digitales](http://elclaustro.edu.mx/licenciaturas/maestria-en-comunicacion-y-humanidades-digitales/), Universidad del Claustro de Sor Juana, Mexico
 ### South America and the Caribbean
 - Maestría en Humanidades Digitales, Universidad de los Andes, Bogota, Colombia
-### Graduate Specialization or Certificate
+## Graduate Specialization or Certificate
 ### Asia
 - Specialization in Digital Humnaities (PhD Art and Design), Srishti Institute of Art, Design and Technology, India
 - [Interdisciplinary Graduate Program in Digital Humanities](http://dh.iii.u-tokyo.ac.jp/), The University of Tokyo, Japan
@@ -122,14 +122,14 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 - [Major in Digital Humanities and Public Culture](http://cdhr.cass.anu.edu.au/students/future), Australian National University, Australia
 - [Major and Minor in Digital Humanities](http://monash.edu.au/pubs/2018handbooks/aos/digital-humanities/ug-arts-digital-humanities.html), Monash University, Australia
 ### Europe
-- [BA Digital Humanities](https://www.uni-wuerzburg.de/studium/angebot/faecher/digihum), Universität Würzburg, Germany 
-- [BA Digital Humanities and Social Studies](https://meinstudium.fau.de/studiengang/digitale-geistes-und-sozialwissenschaften-ba/), FAU Universität Erlangen-Nürnberg, Germany 
+- [BA Digital Humanities](https://www.uni-wuerzburg.de/studium/angebot/faecher/digihum), Universität Würzburg, Germany
+- [BA Digital Humanities and Social Studies](https://meinstudium.fau.de/studiengang/digitale-geistes-und-sozialwissenschaften-ba/), FAU Universität Erlangen-Nürnberg, Germany
 - [BSc Digital Humanities](http://www.dh.uni-leipzig.de/wo/), Universität Leipzig, Germany
 - BA in Digital Culture, King's College London, UK
 - BA in Digital Humanities and Information Technology, University College Cork, Ireland
 - [BA in Digital Humanities: two study programs](http://www.dh.uni-koeln.de), Institute for Digital Humanities at the University of Cologne, Germany
 - [BA in Digital Humanities](http://www.uni-wuerzburg.de/?id=87781), Julius-Maximilians-Universität Würzburg, Germany
-- [MA Digital Media & Information Studies](https://www.gla.ac.uk/undergraduate/degrees/digitalmedia/), University of Glasgow, UK 
+- [MA Digital Media & Information Studies](https://www.gla.ac.uk/undergraduate/degrees/digitalmedia/), University of Glasgow, UK
 ### North America
 - BS in Digital Humanities, Illinois Institute of Technology, USA
 - BA in Interactive Arts and Science, Brock University, Canada
@@ -141,7 +141,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 - BA in Comparative and Digital Humanities, Bucknell University, PA, USA
 ### South America and the Caribbean
 - (In design stage) BA in Digital Humanities, University of West Indies \- Mona Campus, Jamaica
-### Undergraduate Minor, Specialization or Certificate
+## Undergraduate Minor, Specialization or Certificate
 ### Asia
 - [Minor in DH](https://hass.sutd.edu.sg/education/minors/digital-humanities-minor/), Singapore University of Technology and Design, Singapore
 ### Australasia
@@ -194,7 +194,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 - [Minor in Digital Culture and Information](https://digitalhumanities.wlu.edu/blog/2018/05/08/minor-in-digital-culture-and-information/), Washington & Lee University, USA
 ### South America and the Caribbean
 - Digital Humanities Research and Service Learning Certificate, Create Caribbean, Dominica
-### Notes
+## Notes
 For a scholarly article comparing some of these programs, see Sula, Hackney and Cunningham. "[A Survey of Digital Humanities Programs](https://jitp.commons.gc.cuny.edu/a-survey-of-digital-humanities-programs/#Appendix_A)")
 
 Brett Bobley, Director of ODH, started a [Google Doc list](https://docs.google.com/document/d/1fogyvE2qvu0BOyqvqbmIJkQ-onYTed1t00D21gJMTtk/edit) focused on the US. That list is merged here.
