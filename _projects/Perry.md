@@ -17,7 +17,7 @@ topics:
 - topicmodeling
 - corpusanalysis
 creationdate: 2019-07-03
-source: contribution
+source: core
 youtubeid: 2BWC-uHo1Vk
 ---
 
