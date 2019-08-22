@@ -3,6 +3,7 @@ layout: page
 title: "Digital Humanities and the Job Market"
 breadcrumb: true
 meta_title: "Global Resources - Digital Humanities and the Job Market"
+source: community
 permalink: "global-resources/dh-job-market/"
 ---
 This page comes by courtsey of [Matthew Hannah's](https://github.com/m-n-hannah) GitHub page [Digital Humanities and the Job Market](https://github.com/m-n-hannah/Digital-Humanities-Job-Market/blob/master/index.md) as of August 2019.
