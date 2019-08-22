@@ -3,6 +3,7 @@ layout: page
 title: "Journals"
 breadcrumb: true
 meta_title: "Global Resources - DH Community - Journals"
+source: community
 permalink: "global-resources/dh-community/journals/"
 ---
 
