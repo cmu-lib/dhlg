@@ -22,7 +22,7 @@ topics:
 - digitalhistory
 - opendata
 creationdate: 2019-07-03
-source: contribution
+source: core
 youtubeid: Hd91OZU8Eck
 ---
 
