@@ -17,7 +17,7 @@ topics:
 - digitalhistory
 - oralhistory
 creationdate: 2019-07-03
-source: contribution
+source: core
 youtubeid: ir9fy2hD8XM
 ---
 
