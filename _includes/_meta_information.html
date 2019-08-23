@@ -43,8 +43,8 @@
 									{% if finddisciplineprojects.identifier != page.identifier %}
 										{% unless matcheddisciplineprojects contains finddisciplineprojects.identifier %}
 											<div id="disciplineproject_{{ finddisciplineprojects.identifier }}" class="large-4 medium-6 columns projectbox">
-												<a href="{{ '{{ finddisciplineprojects.url }}" title="Play {{ finddisciplineprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ finddisciplineprojects.youtubeid}}/mqdefault.jpg' | relative_url }}"></a>
-												<h4><a href="{{ '{{ finddisciplineprojects.url }}" title="Play {{ finddisciplineprojects.title | escape_once }}' | relative_url }}">{{ finddisciplineprojects.title | truncate: 45 }}</a></h4>
+												<a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ finddisciplineprojects.youtubeid}}/mqdefault.jpg"></a>
+												<h4><a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}">{{ finddisciplineprojects.title | truncate: 45 }}</a></h4>
 												{% if finddisciplineprojects.teaser %}<p>{{ finddisciplineprojects.teaser | truncate: 80 }}</p>{% endif %}
 											</div>
 											{% assign matcheddisciplineprojects = matcheddisciplineprojects | push: finddisciplineprojects.identifier %}
@@ -71,8 +71,8 @@
 									{% if findtopicprojects.identifier != page.identifier %}
 										{% unless matchedtopicprojects contains findtopicprojects.identifier %}
 											<div id="topicproject_{{ findtopicprojects.identifier }}" class="large-4 medium-6 columns projectbox">
-													<a href="{{ '{{ findtopicprojects.url }}" title="Play {{ findtopicprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ findtopicprojects.youtubeid}}/mqdefault.jpg' | relative_url }}"></a>
-													<h4><a href="{{ '{{ findtopicprojects.url }}" title="Play {{ findtopicprojects.title | escape_once }}' | relative_url }}">{{ findtopicprojects.title | truncate: 67 }}</a></h4>
+													<a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ findtopicprojects.youtubeid}}/mqdefault.jpg"></a>
+													<h4><a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}">{{ findtopicprojects.title | truncate: 67 }}</a></h4>
 													{% if findtopicprojects.teaser %}<p>{{ findtopicprojects.teaser | truncate: 85 }}</p>{% endif %}
 											</div>
 											{% assign matchedtopicproject = matchedtopicprojects | push: findtopicprojects.identifier %}
@@ -86,17 +86,4 @@
 				</div>
 			</div>
 			{% endunless %}
-			{% if page.collection == "posts" %}
-			<div id="post-nav" class="row">
-				{% if page.previous.url %}
-				<div class="small-5 columns"><a class="button small radius prev" href="{{ '{{page.previous.url}}' | relative_url }}">&laquo; {{page.previous.title}}</a></div><!-- /.small-4.columns -->
-				{% endif %}
-				<div class="small-2 columns text-center"><a class="radius button small" href="{{ '/blog/archive/" title="Blog Archive' | relative_url }}">Archive</a></div><!-- /.small-4.columns -->
-				{% if page.next.url %}
-				<div class="small-5 columns text-right"><a class="button small radius next" href="{{ '{{page.next.url}}' | relative_url }}">{{page.next.title}} &raquo;</a></div><!-- /.small-4.columns -->
-				{% else %}
-				<div class="small-5 columns text-right"></div><!-- /.small-4.columns -->
-				{% endif %}
-			</div>
-			{% endif %}
 			</div><!--  /.page-meta -->

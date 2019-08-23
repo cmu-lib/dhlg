@@ -30,7 +30,7 @@ repositoryurl: 'https://github.com/dSHARP-CMU/dh-literacy-web'
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: 
+improve_content:
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -198,7 +198,7 @@ og_type:                            'website'
 
 socialmedia:
     twitter: cmu_dSHARP
-    facebook: 
+    facebook:
     github: dSHARP-CMU
 
 
@@ -211,7 +211,7 @@ socialmedia:
 #
 # used in _includes/comments
 
-disqus_shortname: 
+disqus_shortname:
 
 
 #      _____
