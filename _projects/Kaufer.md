@@ -2,7 +2,7 @@
 layout: project
 title: "DocuScope: Computer Support for Close Reading and Textual Analysis in the Digital Humanities"
 breadcrumb: true
-teaser: "If you want to show videos in a large manner, the video template is the right choice."
+teaser: "This video explores software for textual analysis and close reading."
 meta_title: "DocuScope: Computer Support for Close Reading and Textual Analysis in the Digital Humanities"
 authors: 
 - name: David Kaufer
