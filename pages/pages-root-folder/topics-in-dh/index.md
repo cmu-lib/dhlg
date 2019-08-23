@@ -11,7 +11,7 @@ permalink: "topics/"
 			{% assign topics = site.topics | sort: 'title' %}
 			{% for topic in topics limit:1000 %}
 				<div id="topic_{{ topic.identifier }}" class="content circlebg {% if page.source == 'community' %}contribution{% endif %}">
-					<h3>{{ topic.title }}</h3>
+					<a href="#{{ topic.identifier }}"><h3 id="{{ topic.identifier }}">{{ topic.title }}</h3></a>
 					<p>{{ topic.content | markdownify }}</p>
 				</div>
 			{% endfor %}
