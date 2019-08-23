@@ -9,7 +9,7 @@
       <div id="footer">
         <div class="row">
             <div id="dhlogobox" class="large-2 small-4 columns">
-              <img src='/assets/img/marks/dhlg_logotype_vertical_rev.svg' id="dhlg-logo">
+              <img src="{{ '/assets/img/marks/dhlg_logotype_vertical_rev.svg' |relative_url }}" id="dhlg-logo">
             </div><!-- /.large-6.columns -->
 
           <div class="large-3 small-8 columns">
@@ -23,7 +23,7 @@
             <h5>Content Attribution</h5>
             <div class="row">
               <div class="small-3 columns">
-                  <img src='/assets/img/circle-brilliant-amber.svg' id="core-marker">
+                  <img src="{{ '/assets/img/circle-brilliant-amber.svg' | relative_url }}" id="core-marker">
               </div>
               <div class="small-9 columns">
                 <p>{{ site.corecontent }}</p>
@@ -31,7 +31,7 @@
             </div>
             <div class="row">
                 <div class="small-3 columns">
-                    <img src='/assets/img/circle-cobalt.svg' id="contributed-marker">
+                    <img src="{{ '/assets/img/circle-cobalt.svg' | relative_url }}" id="contributed-marker">
                 </div>
                 <div class="small-9 columns">
                   <p>{{ site.contributedcontent }}</p>
@@ -52,7 +52,7 @@
             </ul>
           </div><!-- /.large-3.columns -->
           <div class="large-2 medium-4 small-6 columns">
-              <a href="https://mellon.org/" target="_blank" title="The Mellon Foundation"><img src='/assets/img/mellon-logo-small.svg' id="mellon-logo"></a>
+              <a href="https://mellon.org/" target="_blank" title="The Mellon Foundation"><img src="{{ '/assets/img/mellon-logo-small.svg' | relative_url }}" id="mellon-logo"></a>
             </div>
         </div><!-- /.row -->
 
@@ -70,7 +70,7 @@
           </div>
 
           <div id="subfooter-right" class="medium-3 columns">
-            <img src='/assets/img/CMU_wordmark_1500px-min_white.png' id="cmu-logo">
+            <img src="{{ '/assets/img/CMU_wordmark_1500px-min_white.png' | relative_url }}" id="cmu-logo">
           </div>
         </div>
       </div><!-- /#subfooter -->

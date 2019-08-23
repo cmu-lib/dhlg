@@ -6,7 +6,7 @@ format: frontpage
 	<div class="medium-8 large-7 large-offset-1 columns">
 		<div class="row">
 			<div class="medium-10 medium-offset-1 large-12 columns">
-				<img src="/assets/img/marks/dhlg_logotype_full.png" id="frontpage_logo">
+				<img src="{{ 'assets/img/marks/dhlg_logotype_full.png' | relative_url }}" id="frontpage_logo">
 			</div>
 		</div>
 		<div class="row">
@@ -21,7 +21,7 @@ format: frontpage
 		</div>
 	</div>
 	<div class="medium-4 columns">
-		<a href="https://www.cmu.edu" target="_blank"><img src="/assets/img/CMU_wordmark_stack_1500px-min.png" id="frontpage_cmu_logo"></a>
+		<a href="https://www.cmu.edu" target="_blank"><img src="{{ 'assets/img/CMU_wordmark_stack_1500px-min.png' | relative_url }}" id="frontpage_cmu_logo"></a>
 		<ul id="frontmenu" class="left">
 			{% for link in site.data.navigation %}
 				{% if link.url contains 'http' %}
@@ -31,10 +31,10 @@ format: frontpage
 				{% else %}
 					{% assign domain = site.url %}
 				{% endif %}
-				
+
 				{% comment %}   If there are links for left side begin   {% endcomment %}
 				{% if link.side == 'left' %}
-				
+
 				{% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
 					{% if link.dropdown == nil %}
 						<li class="{% if link.url == page.url %}active {% elsif page.homepage == true and link.url == '/' %}active {% endif %}{% if link.alternate == '?' %} alternateprefix{% endif %}"><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
@@ -49,7 +49,7 @@ format: frontpage
 									{% else %}
 										{% assign domain = site.url %}
 									{% endif %}
-									
+
 									{% comment %}  START of SUBMENU If there are links for left side begin   {% endcomment %}
 									{% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
 									{% if dropdown_link.dropdown == nil %}

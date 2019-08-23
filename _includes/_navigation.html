@@ -8,7 +8,7 @@
   <nav class="top-bar row" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <a href="{{ site.url }}{{ site.baseurl }}" title="home"><img src='/assets/img/marks/dhlg_logotype_horizontal.svg' id="dhlg-menu-logo"></a>
+      <a href="{{ '" title="home"><img src="{{ '/assets/img/marks/dhlg_logotype_horizontal.svg' | relative_url }}" id="dhlg-menu-logo' | relative_url }}"></a>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>&nbsp;</span></a></li>
@@ -25,7 +25,7 @@
 
 {% endcomment %}
       <ul class="right">
-        <li class="logo"><a href="{{ site.url }}{{ site.baseurl }}" title="home"><img src='/assets/img/marks/dhlg_logotype_horizontal.svg' id="dhlg-menu-logo"></a></li>
+        <li class="logo"><a href="{{ '" title="home"><img src="{{ '/assets/img/marks/dhlg_logotype_horizontal.svg' | relative_url }}" id="dhlg-menu-logo' | relative_url }}"></a></li>
         {% for link in site.data.navigation %}
 
               {% if link.url contains 'http' %}
@@ -112,9 +112,9 @@
                         {% else %}
                         {% assign domain = site.url %}
                       {% endif %}
-                    
+
                       {% comment %}  START of SUBMENU If there are links for left side begin   {% endcomment %}
-    
+
 
                         {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
                         {% if dropdown_link.dropdown == nil %}
@@ -137,7 +137,7 @@
                                   {% endif %}
 
                                   {% comment %}  START of SUBSUBMENU If there are links for left side begin   {% endcomment %}
-    
+
 
                         {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
                         {% if subdropdown_link.dropdown == nil %}
@@ -165,15 +165,15 @@
 
                             </li>
                             <li class="divider"></li>
-             
+
                         {% endif %}
-                      {% comment %}  end of SUBsub menu {% endcomment %}    
+                      {% comment %}  end of SUBsub menu {% endcomment %}
                                 {% endfor %}
                               </ul>
 
                             </li>
                             <li class="divider"></li>
-             
+
                         {% endif %}
                       {% comment %}  end of sub menu {% endcomment %}
                     {% endfor %}

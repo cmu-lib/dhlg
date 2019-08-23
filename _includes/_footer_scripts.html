@@ -4,8 +4,8 @@ $('audio,video').mediaelementplayer();
 </script>
 {% endif %}
 
-<script src="{{ url }}/assets/js/morse.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}/assets/js/javascript.js"></script>
+<script src="{{ '/assets/js/morse.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/javascript.js' | relative_url }}"></script>
 <script>
   $('.morse').each(function(){
     var str=$(this).text();
@@ -17,7 +17,7 @@ $('audio,video').mediaelementplayer();
   if(window.matchMedia("(min-width: 40.063em)").matches){
 
 	}else if(window.matchMedia("(min-width: 64.063em)").matches){
-  
+
   }else if(window.matchMedia("(min-width: 90.063em)").matches){
     sidenavfooterspace=50;
     sidenavheaderspace=0;
@@ -90,7 +90,7 @@ $('audio,video').mediaelementplayer();
     var contentheight=$('#contents').outerHeight();
     $('#sidemorse').css('height',contentheight);
     var sidemorsecount=Math.ceil(contentheight/850);
-    for(i = 0; i == sidemorsecount; i++) { 
+    for(i = 0; i == sidemorsecount; i++) {
       var str=encodeMorse('what are dh?');
       $('#sidemorse').append('<p class="morse">'+str+'</p>');
     }

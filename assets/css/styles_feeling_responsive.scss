@@ -5,8 +5,9 @@ sitemap:
 ---
 @charset "utf-8";
 
-$splashimageurl: "{{ site.url }}{{ site.baseurl }}{{ site.splashimage }}";
-$modulesplashimageurl: "{{ site.url }}{{ site.baseurl }}{{ site.modulesplashimage }}";
+$baseurl: "{{ site.baseurl }}";
+$splashimageurl: "{{ site.splashimage | relative_url }}";
+$modulesplashimageurl: "{{ site.modulesplashimage | relative_url }}";
 
 @import "functions.scss";
 
@@ -20,7 +21,7 @@ $fontsfolder: '../fonts';
       src: url($filepath + $weight+"-webfont.eot?#iefix") format('embedded-opentype'), url($filepath + $weight+"-webfont.woff") format('woff'), url($filepath + $weight+".ttf")  format('truetype'), url($filepath + $weight+"-webfont.svg#" + $style-name + "") format('svg');
       @if($weight == 'bold') {
           font-weight: 700;
-      } 
+      }
       @else {
           font-weight: normal;
       }
@@ -129,7 +130,7 @@ code{
         color: $red;
         font-weight: bold;
         &:hover{
-          
+
         }
       }
     }
@@ -407,10 +408,10 @@ code{
 }
 
 .circlebg{
-  background: url(/assets/img/circle-pale-amber.svg) no-repeat -10px -10px;
+  background: url(#{$baseurl}/assets/img/circle-pale-amber.svg) no-repeat -10px -10px;
   background-size: 320px 320px;
   &.contribution{
-    background: url(/assets/img/circle-cobalt-large.svg) no-repeat -10px -10px;
+    background: url(#{$baseurl}/assets/img/circle-cobalt-large.svg) no-repeat -10px -10px;
     background-size: 320px 320px;
   }
 }
@@ -460,7 +461,7 @@ h1.title {
     }
   }
   .authorbio{
-    
+
   }
 }
 
@@ -592,10 +593,10 @@ body.frontpage{
 #topics{
   .content{
     &.circlebg{
-      background: url(/assets/img/circle-pale-amber.svg) no-repeat 0px 20px;
+      background: url(#{$baseurl}/assets/img/circle-pale-amber.svg) no-repeat 0px 20px;
       background-size: 140px 140px;
       &.contribution{
-        background: url(/assets/img/circle-cobalt-large.svg) no-repeat 0px 20px;
+        background: url(#{$baseurl}/assets/img/circle-cobalt-large.svg) no-repeat 0px 20px;
         background-size: 140px 140px;
       }
     }
@@ -642,7 +643,7 @@ body.frontpage{
     position: relative;
     width: auto;
     @include single-transition($default-float, $topbar-transition-speed);
-  
+
     padding: 5em 0 0;
     height: auto;
     display: block;
@@ -650,11 +651,11 @@ body.frontpage{
     margin: 0;
     list-style: none;
     &>li{
-      background:url('/assets/img/circle-pale-amber.svg') no-repeat -2px 2px;
+      background: url(#{$baseurl}/assets/img/circle-pale-amber.svg) no-repeat -2px 2px;
       padding-left: 1rem;
       &:hover{
         transition: none;
-        background:url('/assets/img/circle-brilliant-amber.svg') no-repeat -2px 2px;
+        background: url(#{$baseurl}/assets/img/circle-brilliant-amber.svg) no-repeat -2px 2px;
       }
       & > a {
         &:before {
@@ -690,7 +691,7 @@ body.frontpage{
         text-transform: $topbar-link-text-transform;
         text-decoration: underline;
       }
-  
+
       // Apply the hover link color when it has that class
       &:hover:not(.has-form) > a {
         color: $topbar-link-color-hover;
@@ -702,8 +703,8 @@ body.frontpage{
           color: $topbar-link-color-active-hover;
         }
       }
-      
-      &.alternateprefix { 
+
+      &.alternateprefix {
         & > a {
           &:before {
             content: "\003F" !important;
@@ -712,12 +713,12 @@ body.frontpage{
         }
       }
     }
-  
+
     // Styling for list items that have a dropdown within them.
     .has-dropdown {
       position: relative;
     }
-  
+
     // Styling elements inside of dropdowns
     .dropdown {
       padding: 0;
@@ -811,10 +812,10 @@ body.frontpage{
 
 @media #{$large-up} {
   .circlebg{
-    background: url(/assets/img/circle-pale-amber.svg) no-repeat 80px 10px;
+    background: url(#{$baseurl}/assets/img/circle-pale-amber.svg) no-repeat 80px 10px;
     background-size: 320px 320px;
     &.contribution{
-      background: url(/assets/img/circle-cobalt-large.svg) no-repeat 80px 10px;
+      background: url(#{$baseurl}/assets/img/circle-cobalt-large.svg) no-repeat 80px 10px;
       background-size: 320px 320px;
     }
   }
@@ -907,7 +908,7 @@ body.frontpage{
     }
     & > ul{
       & > li:not(.logo):not(.divider){
-        background: $white url(/assets/img/circle-10pblack.svg) no-repeat -2px 2px;
+        background: $white url('#{$baseurl}/assets/img/circle-10pblack.svg') no-repeat -2px 2px;
       }
     }
     .has-dropdown{
