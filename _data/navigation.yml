@@ -66,7 +66,7 @@
   - title: "Professionalization"
     url: "/global-resources/professionalization/"
   - title: "DH Job Markets"
-    url: "/global-resources/dh-job-markets/"
+    url: "/global-resources/dh-job-market/"
   - title: "Notable Critiques"
     url: "/global-resources/notable-critiques/"
 
@@ -75,7 +75,7 @@
   url: "/local-resources/"
   side: left
   alternate:
-  dropdown: 
+  dropdown:
   - title: Getting Involved
     url: "/local-resources/getting-involved/"
   - title: Universities
