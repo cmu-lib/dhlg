@@ -13,6 +13,7 @@ Interested in participating in a DH network in your area?
 Below are DH networks aggregated from [Twitter](https://twitter.com/nolauren/status/1130130743668203521). This list is not complete. To add a missing organization or edit incorrect information, please let me know by either tweeting (@nolauren) or emailing me (Lauren [dot] Tilton@gmail.com). The networks below are not members of the Association of Digital Humanities Organizations. For members of ADHO, visit [here](https://adho.org/). For a list of Twitter handles created by dh+lib, visit [here](https://twitter.com/DHandLib/lists/local-dh-groups/members). Thank you to the [twitter community](https://twitter.com/nolauren/status/1130130743668203521) for helping with this list. 
 
 ## Europe
+
  -  [AG Digital Humanities Mitteldeutschland](https://www.saw-leipzig.de/de/ueber-die-akademie/arbeitsgruppen/ag-digital-humanities-mitteldeutschland) DH Working Group
  -  [am Hochschulstandort Potsdam](https://www.saw-leipzig.de/de/ueber-die-akademie/arbeitsgruppen/ag-digital-humanities-mitteldeutschland) [(English site)](https://www.uni-potsdam.de/en/digital-humanities.html) \| @DH_Potsdam
  -  [Digital Humanities Müchen](https://dhmuc.hypotheses.org/) \| #dhmuc
@@ -22,8 +23,8 @@ Below are DH networks aggregated from [Twitter](https://twitter.com/nolauren/sta
  -  [The Mainz Centre for Digitality in the Humanities and Cultural Studies](https://mainzed.org/en/)
  -  [Network Digital Humanities Potsdam Universities/Netzwerk für Digitale Geisteswissenschaften](https://www.uni-potsdam.de/de/digital-humanities.html)
 
-
 ## North America
+
  -  Bay Area DH \| [Bay Area Meet-Up](https://t.co/iX8BHF1K2a) and #BayAreaDH
  -  [Boston DH Consortium](http://bostondh.org/) \| @Boston_DH
  -  Chesapeake DH Consortium \| Website coming soon.
@@ -42,6 +43,6 @@ Below are DH networks aggregated from [Twitter](https://twitter.com/nolauren/sta
  -  Texas - TxDHC \| @TxDHC
  -  [Triangle DH Network](http://triangledh.org/)
 
-
 ## South America
+
  -  [Asociación Argentina de Humanidades Digitales](aahd.net.ar)
