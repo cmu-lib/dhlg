@@ -55,8 +55,8 @@
       url: "/global-resources/dh-community/job-boards/"
   - title: "Funding Sources"
     url: "/global-resources/funding-sources/"
-    dropdown:
     alternate:
+    dropdown:
     - title: "Grants"
       url: "/global-resources/funding-sources/grants/"
     - title: "Fellowships"
