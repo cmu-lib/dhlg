@@ -9,5 +9,5 @@ callforaction:
   url: /what-are-dh/
   text: What are DH? ›
 ---
-# Some Tagline
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# Getting Started in Digital Humanities
+For newcomers, there’s a lot to be excited about at the intersection of technology and the humanities. The DHLG is your slim guidebook into this world, like the tourist map they give you when you check in at a hotel. Use it to get your bearings, plot your course, and find the resources that will help you explore further.
