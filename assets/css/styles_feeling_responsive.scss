@@ -359,7 +359,7 @@ code{
     font-size: 0.9rem;
     line-height: 1.6rem;
     letter-spacing: 0.03rem;
-    margin: 1rem 2rem;
+    margin: 1rem 0;
     &.source_disciplines{
       font-family: $font-family-monospace;
       text-transform: uppercase;
@@ -371,18 +371,24 @@ code{
         text-decoration: underline;
       }
     }
+    &+p{
+      margin-top: 0;
+    }
+    &.strong{
+      margin-top: 0;
+    }
   }
   h4{
     font-family: $font-family-sans-serif;
     text-transform: uppercase;
     line-height: 1.4rem;
     font-size: 1.1rem;
-    margin: 1rem 2rem;
+    margin: 1rem 0 0;
     font-weight: bold;
     font-style: normal;
   }
   >a{
-    margin: 1rem 2rem;
+    margin: 1rem 0;
   }
 }
 .button{
@@ -764,18 +770,26 @@ body.frontpage{
     }
   }
   .projectbox {
-    min-height: 30rem;
+    min-height: 25rem;
     >a{
       margin: unset;
     }
   }
   .similarprojects {
+    margin-bottom: 4rem;
     .projectbox {
+      min-height: 20rem;
       h4 {
-        margin: 1rem 0;
+        margin: 1rem 0 0;
       }
       p {
         margin: 1rem 0;
+        &+p{
+          margin-top: 0;
+        }
+        &.strong{
+          margin-top: 0;
+        }
       }
     }
   }

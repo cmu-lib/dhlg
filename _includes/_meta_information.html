@@ -34,28 +34,29 @@
 			{% assign matcheddisciplineprojects = site.emptyArray %}
 			<div class="small-12 columns">
 				<h3>Similar Projects by Discipline</h3>
-				<div class="row similarprojects">
 				{% for discipline in page.disciplines %}
 					{% for controldiscipline in site.data.disciplines %}
 						{% if controldiscipline.identifier == discipline %}
-							{% for finddisciplineprojects in site.projects %}
-								{% if finddisciplineprojects.disciplines contains controldiscipline.identifier %}
-									{% if finddisciplineprojects.identifier != page.identifier %}
-										{% unless matcheddisciplineprojects contains finddisciplineprojects.identifier %}
-											<div id="disciplineproject_{{ finddisciplineprojects.identifier }}" class="large-4 medium-6 columns projectbox">
-												<a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ finddisciplineprojects.youtubeid}}/mqdefault.jpg"></a>
-												<h4><a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}">{{ finddisciplineprojects.title | truncate: 45 }}</a></h4>
-												{% if finddisciplineprojects.teaser %}<p>{{ finddisciplineprojects.teaser | truncate: 80 }}</p>{% endif %}
-											</div>
-											{% assign matcheddisciplineprojects = matcheddisciplineprojects | push: finddisciplineprojects.identifier %}
-										{% endunless %}
-									{% endif %}
-								{% endif %}
-							{% endfor %}
+							{% assign matcheddisciplineprojects = matcheddisciplineprojects | push: controldiscipline %}
 						{% endif %}
 					{% endfor %}
 				{% endfor %}
+				{% for matcheddiscipline in matcheddisciplineprojects %}
+					<h4>{{ matcheddiscipline.name }}</h4>
+					<div class="row similarprojects">
+					{% for finddisciplineprojects in site.projects %}
+						{% if finddisciplineprojects.disciplines contains matcheddiscipline.identifier %}
+							{% if finddisciplineprojects.identifier != page.identifier %}
+								<div id="disciplineproject_{{ finddisciplineprojects.identifier }}" class="large-4 medium-6 columns projectbox">
+									<a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ finddisciplineprojects.youtubeid}}/mqdefault.jpg"></a>
+									<h4><a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}">{{ finddisciplineprojects.title | truncate: 45 }}</a></h4>
+									{% if finddisciplineprojects.teaser %}<p>{{ finddisciplineprojects.teaser | truncate: 80 }}</p>{% endif %}
+								</div>
+							{% endif %}
+						{% endif %}
+					{% endfor %}
 				</div>
+				{% endfor %}
 			</div>
 			{% endunless %}
 			{% unless page.topics == empty%}
