@@ -14,7 +14,7 @@ title: What are Digital Humanities?
 slogan: 'something'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "An ongoing resource for locals and the world to get introduced to the digital humanities, featuring short videos and written lessons on dozens of topics presented by experts from CMU and elsewhere; lists of resources including textbooks, online courses, summer institutes, and MA/PhD programs; and materials on how to engage in the digital humanities community. Visitors will learn what the digital humanities are, whether it's a route they want to pursue, and if so, how to take the first steps."
+description: "The DHLG introduces digital humanities (DH) to the interested newcomer, featuring introductory project videos; lists of resources including textbooks, online courses, summer institutes, and graduate programs; and materials on how to engage in the DH community. Visitors will learn about DH, whether it's a route they want to pursue, and if so, how to take the first steps. Read more about the site, including its authors and how to contribute, <a href="/about/">here</a>."
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>A <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> site designed by <a href="http://www.agilehumanities.ca">Agile Humanities</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
