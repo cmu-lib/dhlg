@@ -515,6 +515,19 @@ h1.title {
   max-height: 25em;
 }
 
+#frontpage_cmu_logo {
+  display: block;
+  width: 125px;
+}
+
+@media #{$large-up} {
+  #frontpage_cmu_logo {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+  }
+}
+
 #frontmenu{
   display: none;
 }
@@ -678,7 +691,7 @@ body.frontpage{
     width: auto;
     @include single-transition($default-float, $topbar-transition-speed);
 
-    padding: 5em 0 0;
+    padding: 6em 0 0;
     height: auto;
     display: block;
     font-size: $rem-base;
