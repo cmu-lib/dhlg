@@ -609,28 +609,46 @@ body.frontpage{
 #topics{
   .content{
     &.circlebg{
-      background: url(#{$baseurl}/assets/img/circle-pale-amber.svg) no-repeat 0px 20px;
-      background-size: 140px 140px;
+      background: unset;
+      &:before {
+        content: '';
+        position: absolute;
+        background-position: -140px;
+        height: 140px;
+        width: 140px;
+        background-image: url(/assets/img/circle-pale-amber.svg);
+        background-size: 100% 100%;
+        left: -35px;
+        z-index:-2;
+      }
       &.contribution{
-        background: url(#{$baseurl}/assets/img/circle-cobalt-large.svg) no-repeat 0px 20px;
-        background-size: 140px 140px;
+        background: unset;
+        &:before {
+          background-image: url(/assets/img/circle-cobalt-large.svg);
+        }
       }
     }
     h3{
-      padding-left: 3rem;
+      padding-top: 40px;
+      &:before {
+        visibility: hidden;
+        content: "\002A";
+        display:inline;
+        color: $red;
+        font-weight: bold;
+        font-size: 3rem;
+        line-height: 1em;
+        font-family: $font-family-sans-serif;
+        left: -20px;
+        position: absolute;
+      }
     }
-    &:before {
-      visibility: hidden;
-      content: "\002A";
-      display:inline;
-      color: $red;
-      font-weight: bold;
-      font-size: 3rem;
-      line-height: 1em;
-      font-family: $font-family-sans-serif;
-    }
-    &.selectedtopic:before {
-      visibility: visible;
+    &.selectedtopic{
+      h3{
+        &:before {
+          visibility: visible;
+        }
+      }
     }
   }
 }
@@ -953,13 +971,12 @@ body.frontpage{
 
   #topics{
     .content{
-      &:before {
-        top: 3rem;
-        left: -2.2rem;
-        position: relative;
-      }
-      &.selectedtopic:before {
-        visibility: visible;
+      &.selectedtopic{
+        h3{
+          &:before {
+            visibility: visible;
+          }
+        }
       }
     }
   }

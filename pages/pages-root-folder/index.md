@@ -4,7 +4,6 @@ title: "The Digital Humanities Literacy Guidebook"
 meta_title: "The Digital Humanities Literacy Guidebook"
 breadcrumb: false
 permalink: "/"
-skip_footer: true
 callforaction:
   url: /what-are-dh/
   text: What are DH? ›
