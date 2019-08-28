@@ -61,13 +61,17 @@ $('audio,video').mediaelementplayer();
   $('#toc li').each(function(){
     $(this).click(function(){
       $('html, body').animate({
-        {% if page.title == "Scholarly Video Projects" %}
+        {% if page.title == "Project Videos" %}
         scrollTop: ($('#project_'+$(this).data('projectid')).offset().top-sidenavheaderspace)
         {% endif %}
         {% if page.title == "Topics in DH" %}
         scrollTop: ($('#topic_'+$(this).data('topicid')).offset().top-sidenavheaderspace)
         {% endif %}
       },500);
+      {% if page.title == "Project Videos" %}
+      $('li','#toc').removeClass('selectedtocitem');
+      $(this).addClass('selectedtocitem');
+      {% endif %}
       {% if page.title == "Topics in DH" %}
       $('.content','#topics').removeClass('selectedtopic');
       $('li','#toc').removeClass('selectedtocitem');

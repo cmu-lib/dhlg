@@ -63,28 +63,29 @@
 			{% assign matchedtopicprojects = site.emptyArray %}
 			<div class="small-12 columns">
 				<h3>Similar Projects by Topics</h3>
-				<div class="row similarprojects">
 				{% for topic in page.topics %}
 					{% for controltopic in site.topics %}
 						{% if controltopic.identifier == topic %}
-							{% for findtopicprojects in site.projects %}
-								{% if findtopicprojects.topics contains controltopic.identifier %}
-									{% if findtopicprojects.identifier != page.identifier %}
-										{% unless matchedtopicprojects contains findtopicprojects.identifier %}
-											<div id="topicproject_{{ findtopicprojects.identifier }}" class="large-4 medium-6 columns projectbox">
-													<a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ findtopicprojects.youtubeid}}/mqdefault.jpg"></a>
-													<h4><a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}">{{ findtopicprojects.title | truncate: 67 }}</a></h4>
-													{% if findtopicprojects.teaser %}<p>{{ findtopicprojects.teaser | truncate: 85 }}</p>{% endif %}
-											</div>
-											{% assign matchedtopicproject = matchedtopicprojects | push: findtopicprojects.identifier %}
-										{% endunless %}
-									{% endif %}
-								{% endif %}
-							{% endfor %}
+							{% assign matchedtopicprojects = matchedtopicprojects | push: findtopicprojects.identifier %}
 						{% endif %}
 					{% endfor %}
 				{% endfor %}
+				{% for matchedtopic in matchedtopicprojects %}
+					<h4>{{ matchedtopic.name }}</h4>
+					<div class="row similarprojects">
+					{% for findtopicprojects in site.projects %}
+						{% if findtopicprojects.topics contains controltopic.identifier %}
+							{% if findtopicprojects.identifier != page.identifier %}
+								<div id="topicproject_{{ findtopicprojects.identifier }}" class="large-4 medium-6 columns projectbox">
+									<a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ findtopicprojects.youtubeid}}/mqdefault.jpg"></a>
+									<h4><a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}">{{ findtopicprojects.title | truncate: 45 }}</a></h4>
+									{% if findtopicprojects.teaser %}<p>{{ findtopicprojects.teaser | truncate: 80 }}</p>{% endif %}
+								</div>
+							{% endif %}
+						{% endif %}
+					{% endfor %}
 				</div>
+				{% endfor %}
 			</div>
 			{% endunless %}
 			</div><!--  /.page-meta -->

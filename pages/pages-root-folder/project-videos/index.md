@@ -14,8 +14,8 @@ description:
 			{% for project in projects limit:1000 %}
 				<div id="project_{{ project.identifier }}" class="large-4 medium-6 columns projectbox">
 					<a href="{{ project.url | relative_url }}" title="View {{ project.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ project.youtubeid}}/mqdefault.jpg" class="videothumbnail'"></a>
-					<h4><a href="{{ project.url | relative_url }}" title="View {{ project.title | escape_once }}">{{ project.title | truncate: 45 }}</a></h4>
-					<p class="strong">>{% for author in project.authors %}
+					<a href="{{ project.url | relative_url }}" title="View {{ project.title | escape_once }}"><h4>{{ project.title | truncate: 45 }}</h4></a>
+					<p class="strong">{% for author in project.authors %}
 						{{ author.name }} ({{ author.affiliation }}){% if forloop.last %}{% else %}, {% endif %}
 						{% endfor %}</p>
 					{% if project.teaser %}<p>{{ project.teaser | truncate: 80 }}</p>{% endif %}
