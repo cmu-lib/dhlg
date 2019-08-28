@@ -27,6 +27,19 @@ format: page
 			<div itemprop="articleSection">
 				{{ content }}
 			</div>
+			{% if page.authors %}
+			<div>
+			{% for author in page.authors %} 
+				<h4> 
+				<span class="authorname" itemprop="author" itemscope itemtype="http://schema.org/Person">{% if author.uri!='' %}<a href="{{ author.uri }}" target="_blank">{% endif %}{{ author.name }}{% if author.uri!='' %}</a>{% endif %} ({{ author.affiliation }})</span> 
+				</h4> 
+			{% if author.bio != empty %} 
+				<p class="authorbio">{{ author.bio | markdownify }}</p> 
+			{% endif %} 
+		{% endfor %} 
+	</div>
+		{% endif %} 
+			
 		</article>
 	</div><!-- /.medium-8.columns -->
 	{% if page.sidebar == NULL %}
