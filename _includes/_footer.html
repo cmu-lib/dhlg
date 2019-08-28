@@ -1,5 +1,5 @@
 <div id="pagebottom" class="row">
-    <div class="large-6 large-offset-2 columns"><a class="githuburl" href="{{ site.repositoryurl }}/blob/master/{{ page.path }}" target="_blank" title="Want to contribute to this page?">{{ site.repositoryurl }}/blob/master/{{ page.path }}</a>
+    <div id="pagemetadata" class="large-6 {% if page.layout=="landing" %}large-offset-4{% else %}large-offset-2{% endif %} columns">{% if page.date_updated %}Last updated: {{ page.date_updated | date: "%B %-d, %Y" }}<br>{% endif %}<a class="githuburl" href="{{ site.repositoryurl }}/blob/master/{{ page.path }}" target="_blank" title="Want to contribute to this page?">{{ site.repositoryurl }}/blob/master/{{ page.path }}</a>
     </div>
     <div id="up-to-top" class="large-2 columns" style="text-align: right;">
       <a class="iconfont" href="#top-of-page">&#xf108;</a>

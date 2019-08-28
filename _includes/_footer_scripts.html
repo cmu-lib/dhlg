@@ -93,8 +93,8 @@ $('audio,video').mediaelementplayer();
     {% if page.sidebar == NULL %}
     var contentheight=$('#contents').outerHeight();
     $('#sidemorse').css('height',contentheight);
-    var sidemorsecount=Math.ceil(contentheight/850);
-    for(i = 0; i == sidemorsecount; i++) {
+    var sidemorsecount=Math.ceil(contentheight/700);
+    for(i = 0; i < sidemorsecount; i++) {
       var str=encodeMorse('what are dh?');
       $('#sidemorse').append('<p class="morse">'+str+'</p>');
     }

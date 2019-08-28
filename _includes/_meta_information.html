@@ -38,10 +38,11 @@
 				{% for discipline in page.disciplines %}
 					{% for controldiscipline in site.data.disciplines %}
 						{% if controldiscipline.identifier == discipline %}
+						{% assign matcheddisciplines = matcheddisciplines | push: controldiscipline %}
 							{% for finddisciplineprojects in site.projects %}
 								{% if finddisciplineprojects.disciplines contains controldiscipline.identifier %}
 									{% if finddisciplineprojects.identifier != page.identifier %}
-										{% assign matcheddisciplines = matcheddisciplines | push: controldiscipline %}
+										
 										{% assign matcheddisciplineprojects = matcheddisciplineprojects | push: finddisciplineprojects %}
 									{% endif %}
 								{% endif %}
@@ -51,22 +52,35 @@
 				{% endfor %}
 				{% assign matcheddisciplines = matcheddisciplines | uniq %}
 				{% for matcheddiscipline in matcheddisciplines %}
+					{% assign renderedmatcheddisciplines = site.emptyArray %}
+					{% assign nomatch = false %}
 					<h4>{{ matcheddiscipline.name }}</h4>
 					<div class="row similarprojects">
 					{% for finddisciplineprojects in matcheddisciplineprojects %}
 						{% if finddisciplineprojects.disciplines contains matcheddiscipline.identifier %}
+						{% assign nomatch = false %}
 							{% if finddisciplineprojects.identifier != page.identifier %}
-								<div id="disciplineproject_{{ finddisciplineprojects.identifier }}" class="large-4 medium-6 columns projectbox">
-									<a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ finddisciplineprojects.youtubeid}}/mqdefault.jpg"></a>
-									<h4><a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}">{{ finddisciplineprojects.title | truncate: 45 }}</a></h4>
-									<p class="strong">{% for author in finddisciplineprojects.authors %}
-										{{ author.name }} ({{ author.affiliation }}){% if forloop.last %}{% else %}, {% endif %}
-										{% endfor %}</p>
-									{% if finddisciplineprojects.teaser %}<p>{{ finddisciplineprojects.teaser | truncate: 80 }}</p>{% endif %}
-								</div>
+								{% unless renderedmatcheddisciplines contains finddisciplineprojects.identifier %}
+									<div id="disciplineproject_{{ finddisciplineprojects.identifier }}" class="large-4 medium-6 columns projectbox">
+										<a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ finddisciplineprojects.youtubeid}}/mqdefault.jpg"></a>
+										<h4><a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}">{{ finddisciplineprojects.title | truncate: 45 }}</a></h4>
+										<p class="strong">{% for author in finddisciplineprojects.authors %}
+											{{ author.name }} ({{ author.affiliation }}){% if forloop.last %}{% else %}, {% endif %}
+											{% endfor %}</p>
+										{% if finddisciplineprojects.teaser %}<p>{{ finddisciplineprojects.teaser | truncate: 80 }}</p>{% endif %}
+									</div>
+								{% endunless %}
+								{% assign renderedmatcheddisciplines = renderedmatcheddisciplines | push: finddisciplineprojects.identifier %}
 							{% endif %}
+						{% else %}
+							{% assign nomatch = true %}
 						{% endif %}
 					{% endfor %}
+					{% if nomatch == true %}
+						<div id="topicprojectnomatch_{{ matcheddiscipline.identifier }}" class="columns">
+							No other videos for this discipline yet.
+						</div>
+					{% endif %}
 					</div>
 				{% endfor %}
 			</div>
@@ -74,15 +88,17 @@
 			{% unless page.topics == empty%}
 			{% assign matchedtopicprojects = site.emptyArray %}
 			{% assign matchedtopics = site.emptyArray %}
+			
 			<div class="small-12 columns">
 				<h3>Similar Projects by Topics</h3>
 				{% for topic in page.topics %}
 					{% for controltopic in site.topics %}
 						{% if controltopic.identifier == topic %}
+						{% assign matchedtopics = matchedtopics | push: controltopic %}
 							{% for findtopicprojects in site.projects %}
 								{% if findtopicprojects.topics contains controltopic.identifier %}
 									{% if findtopicprojects.identifier != page.identifier %}
-										{% assign matchedtopics = matchedtopics | push: controltopic %}
+										
 										{% assign matchedtopicprojects = matchedtopicprojects | push: findtopicprojects %}
 									{% endif %}
 								{% endif %}
@@ -92,22 +108,35 @@
 				{% endfor %}
 				{% assign matchedtopics = matchedtopics | uniq %}
 				{% for matchedtopic in matchedtopics %}
+					{% assign renderedmatchedtopics = site.emptyArray %}
+					{% assign nomatch = false %}
 					<h4>{{ matchedtopic.title }}</h4>
 					<div class="row similarprojects">
 					{% for findtopicprojects in matchedtopicprojects %}
 						{% if findtopicprojects.topics contains matchedtopic.identifier %}
+						{% assign nomatch = false %}
 							{% if findtopicprojects.identifier != page.identifier %}
-								<div id="topicproject_{{ findtopicprojects.identifier }}" class="large-4 medium-6 columns projectbox">
-									<a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ findtopicprojects.youtubeid}}/mqdefault.jpg"></a>
-									<h4><a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}">{{ findtopicprojects.title | truncate: 45 }}</a></h4>
-									<p class="strong">{% for author in findtopicprojects.authors %}
-										{{ author.name }} ({{ author.affiliation }}){% if forloop.last %}{% else %}, {% endif %}
-										{% endfor %}</p>
-									{% if findtopicprojects.teaser %}<p>{{ findtopicprojects.teaser | truncate: 80 }}</p>{% endif %}
-								</div>
+								{% unless renderedmatchedtopics contains findtopicprojects.identifier %}
+									<div id="topicproject_{{ findtopicprojects.identifier }}" class="large-4 medium-6 columns projectbox">
+										<a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ findtopicprojects.youtubeid}}/mqdefault.jpg"></a>
+										<h4><a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}">{{ findtopicprojects.title | truncate: 45 }}</a></h4>
+										<p class="strong">{% for author in findtopicprojects.authors %}
+											{{ author.name }} ({{ author.affiliation }}){% if forloop.last %}{% else %}, {% endif %}
+											{% endfor %}</p>
+										{% if findtopicprojects.teaser %}<p>{{ findtopicprojects.teaser | truncate: 80 }}</p>{% endif %}
+									</div>
+								{% endunless %}
+								{% assign renderedmatchedtopics = renderedmatchedtopics | push: findtopicprojects.identifier %}
 							{% endif %}
+						{% else %}
+							{% assign nomatch = true %}
 						{% endif %}
 					{% endfor %}
+					{% if nomatch == true %}
+					<div id="topicprojectnomatch_{{ matchedtopic.identifier }}" class="columns">
+						No other videos for this topic yet.
+					</div>
+					{% endif %}
 				</div>
 				{% endfor %}
 			</div>

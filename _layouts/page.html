@@ -15,8 +15,8 @@ format: page
 		
 	<div id="contents" class="large-8 small-12 columns {% if page.sidebar == "left" %} {% endif %}">
 		<article itemscope itemtype="http://schema.org/Article">
-			<header {% if page.title == "Projects" %}class="row"{% endif %}>
-				<div itemprop="name" {% if page.title == "Projects" %}class="small-8 small-offset-2 columns"{% endif %}>
+			<header>
+				<div itemprop="name">
 					<h1 class="title">{{ page.title }}</h1>
 					{% if page.breadcrumb == true %}
 						{% include _breadcrumb.html %}

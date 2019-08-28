@@ -86,12 +86,41 @@ $fontsfolder: '../fonts';
 
 @import "11_syntax-highlighting.scss";
 
+@function headings($from:1, $to:6) {
+  @if $from == $to {
+      @return 'h#{$from}';
+  } @else {
+      @return 'h#{$from},' + headings($from+1, $to);
+  }
+}
+
 p a,
 article a {
   font-weight: normal;
   &:hover{
     color: $red;
     text-decoration: underline;
+  }
+}
+#{headings(1,6)} {
+  margin-top: 1em;
+  &+h1{
+    margin-top: 0.25em;
+  }
+  &+h2{
+    margin-top: 0.25em;
+  }
+  &+h3{
+    margin-top: 0.25em;
+  }
+  &+h4{
+    margin-top: 0.25em;
+  }
+  &+h5{
+    margin-top: 0.25em;
+  }
+  &+h6{
+    margin-top: 0.25em;
   }
 }
 
@@ -107,6 +136,7 @@ article a {
 p{
   line-height: 1.8rem;
   padding: 0.5em 0;
+  margin-bottom: 0.25rem;
 }
 code{
   background-color: unset;
@@ -361,6 +391,7 @@ code{
   }
 }
 .projectbox{
+  float: left!important;
   .videothumbnail {
     display: block;
     margin: auto;
@@ -481,17 +512,20 @@ h1.title {
   }
 }
 
-.githuburl{
+#pagemetadata{
   font-family: $font-family-monospace;
   font-size: 0.7rem;
   color: $grey-6;
   font-weight: normal;
-  padding: 5px 0;
-  display: block;
-  &:hover{
-    background: transparent;
-    color: $black;
-    text-decoration: underline;
+  .githuburl{
+    color: $grey-6;
+    padding: 5px 0;
+    display: block;
+    &:hover{
+      background: transparent;
+      color: $black;
+      text-decoration: underline;
+    }
   }
 }
 
