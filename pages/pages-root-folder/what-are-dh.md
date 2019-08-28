@@ -34,7 +34,7 @@ If the DHLG is a map of that territory, it’s only the roughest sketch. Wide sw
 
 ## Local Resources
 
-In that spirit, we begin here with the view from Pittsburgh. Locals to the region will find helpful lists in the [Local Resources] section, including summaries of DH efforts at the various [Universities] and related [Communities], [Programs] and [Courses] to further your education, recurring [Events] worth attending, and [People] and [Projects] with whom you might want to familiarize yourself.
+In that spirit, we begin here with the view from Pittsburgh. Locals to the region will find helpful lists in the [Local Resources] section, including summaries of DH efforts at the various [Universities] and related [Communities], [Programs] and [Courses] to further your education, recurring [Events](../local-resources/events/) worth attending, and [People] and [Projects] with whom you might want to familiarize yourself.
 
 ## Global Resources
 
