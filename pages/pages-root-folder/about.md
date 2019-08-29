@@ -16,8 +16,7 @@ authors:
   bio:
   affiliation:
   uri:
-creationdate: 2019-08-28
-date_updated:2019-08-29
+date_updated: 2019-08-29
 ---
 # About The DHLG
 
