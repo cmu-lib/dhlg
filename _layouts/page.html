@@ -33,11 +33,11 @@ format: page
 			<div>
 			{% for author in page.authors %} 
 				<h4> 
-				<span class="authorname" itemprop="author" itemscope itemtype="http://schema.org/Person">{% if author.uri!='' %}<a href="{{ author.uri }}" target="_blank">{% endif %}{{ author.name }}{% if author.uri!='' %}</a>{% endif %} ({{ author.affiliation }})</span> 
+				<span class="authorname" itemprop="author" itemscope itemtype="http://schema.org/Person">{% unless author.uri==NULL%}<a href="{{ author.uri }}" target="_blank">{% endunless %}{{ author.name }}{% unless author.uri!='' %}</a>{% endunless %} {% unless author.affiliation==NULL%}({{ author.affiliation }}){% endunless %}</span> 
 				</h4> 
-			{% if author.bio != empty %} 
+			{% unless author.bio == NULL %} 
 				<p class="authorbio">{{ author.bio | markdownify }}</p> 
-			{% endif %} 
+			{% endunless %} 
 		{% endfor %} 
 	</div>
 		{% endif %} 

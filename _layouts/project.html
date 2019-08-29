@@ -25,7 +25,7 @@ format: video
 				<div class="large-10 large-offset-1 columns">
 				<h4>
 				{% for author in page.authors %}
-				<span class="authorname" itemprop="author" itemscope itemtype="http://schema.org/Person">{% if author.uri!='' %}<a href="{{ author.uri }}" target="_blank">{% endif %}{{ author.name }}{% if author.uri!='' %}</a>{% endif %} ({{ author.affiliation }})</span>{% if forloop.last %}{% else %}, {% endif %}
+				<span class="authorname" itemprop="author" itemscope itemtype="http://schema.org/Person">{% unless author.uri==NULL%}<a href="{{ author.uri }}" target="_blank">{% endunless %}{{ author.name }}{% unless author.uri!='' %}</a>{% endunless %} {% unless author.affiliation==NULL%}({{ author.affiliation }}){% endunless %}</span>{% if forloop.last %}{% else %}, {% endif %}
 				{% endfor %}
 				</h4>
 				</div>

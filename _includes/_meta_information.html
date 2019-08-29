@@ -22,7 +22,7 @@
 				<h3>Posted by</h3>
 				{% for author in page.authors %}
 						<h4>
-						<span class="authorname" itemprop="author" itemscope itemtype="http://schema.org/Person">{% if author.uri!='' %}<a href="{{ author.uri }}" target="_blank">{% endif %}{{ author.name }}{% if author.uri!='' %}</a>{% endif %} ({{ author.affiliation }})</span>
+						<span class="authorname" itemprop="author" itemscope itemtype="http://schema.org/Person">{% unless author.uri==NULL%}<a href="{{ author.uri }}" target="_blank">{% endunless %}{{ author.name }}{% unless author.uri!='' %}</a>{% endunless %} {% unless author.affiliation==NULL%}({{ author.affiliation }}){% endunless %}</span>
 						</h4>
 					{% if author.bio != empty %}
 						<p class="authorbio">{{ author.bio | markdownify }}</p>
@@ -65,7 +65,7 @@
 										<a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ finddisciplineprojects.youtubeid}}/mqdefault.jpg"></a>
 										<h4><a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}">{{ finddisciplineprojects.title | truncate: 45 }}</a></h4>
 										<p class="strong">{% for author in finddisciplineprojects.authors %}
-											{{ author.name }} ({{ author.affiliation }}){% if forloop.last %}{% else %}, {% endif %}
+											{{ author.name }} {% unless author.affiliation==NULL%}({{ author.affiliation }}){% endunless %}{% if forloop.last %}{% else %}, {% endif %}
 											{% endfor %}</p>
 										{% if finddisciplineprojects.teaser %}<p>{{ finddisciplineprojects.teaser | truncate: 80 }}</p>{% endif %}
 									</div>
@@ -121,7 +121,7 @@
 										<a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ findtopicprojects.youtubeid}}/mqdefault.jpg"></a>
 										<h4><a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}">{{ findtopicprojects.title | truncate: 45 }}</a></h4>
 										<p class="strong">{% for author in findtopicprojects.authors %}
-											{{ author.name }} ({{ author.affiliation }}){% if forloop.last %}{% else %}, {% endif %}
+											{{ author.name }} {% unless author.affiliation==NULL%}({{ author.affiliation }}){% endunless %}{% if forloop.last %}{% else %}, {% endif %}
 											{% endfor %}</p>
 										{% if findtopicprojects.teaser %}<p>{{ findtopicprojects.teaser | truncate: 80 }}</p>{% endif %}
 									</div>

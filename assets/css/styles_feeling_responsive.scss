@@ -346,6 +346,7 @@ code{
   position: fixed;
   #tocheader{
     margin-bottom: 0;
+    margin-top: 0;
     font-family: $font-family-sans-serif;
     font-size: 1.4rem;
     text-transform: uppercase;
@@ -541,6 +542,7 @@ h1.title {
 }
 #navigation{
   margin-top:0;
+  position:relative!important;
 }
 
 #frontpage_logo {
@@ -677,6 +679,7 @@ body.frontpage{
     }
     h3{
       padding-top: 40px;
+      position: relative;
       &:before {
         visibility: hidden;
         content: "\002A";
@@ -686,7 +689,8 @@ body.frontpage{
         font-size: 3rem;
         line-height: 1em;
         font-family: $font-family-sans-serif;
-        left: -20px;
+        left: 0px;
+        top: 8px;
         position: absolute;
       }
     }
@@ -1021,6 +1025,8 @@ body.frontpage{
       &.selectedtopic{
         h3{
           &:before {
+            top: unset;
+            left: -30px;
             visibility: visible;
           }
         }
