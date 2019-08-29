@@ -14,7 +14,7 @@ title: What are Digital Humanities?
 slogan: 'something'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "The DHLG introduces digital humanities (DH) to the interested newcomer, featuring introductory project videos; lists of resources including textbooks, online courses, summer institutes, and graduate programs; and materials on how to engage in the DH community. Visitors will learn about DH, whether it's a route they want to pursue, and if so, how to take the first steps. Read more about the site, including its authors and how to contribute, <a href="/about/">here</a>."
+description: "The DHLG introduces digital humanities (DH) to the interested newcomer, featuring introductory project videos; lists of resources including textbooks, online courses, summer institutes, and graduate programs; and materials on how to engage in the DH community. Visitors will learn about DH, whether it's a route they want to pursue, and if so, how to take the first steps. Read more about the site, including its authors and how to contribute, <a href='/about/'>here</a>."
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>A <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> site designed by <a href="http://www.agilehumanities.ca">Agile Humanities</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
@@ -31,14 +31,6 @@ repositoryurl: 'https://github.com/dSHARP-CMU/dh-literacy-web'
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
 improve_content:
-
-# This URL points directly to the images directory making
-# things easier to link to images in posts and templates. It needs a slash at the end.
-#
-# Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
-# Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
-#
-urlimg: 'images/'
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
@@ -95,7 +87,7 @@ compress_html:
   endings: all
   profile: false
   ignore:
-    envs: [development]
+    envs: [production]
 
 
 #
