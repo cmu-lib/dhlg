@@ -9,11 +9,13 @@ format: page
 	</div><!-- /.medium-4.columns -->
 	{% endif %}
 	{% if page.sidebar == NULL %}
+	{% unless page.title == "Search" %}
 	<div id="sidemorse" class="large-2 small-12 columns">
 	</div>
+	{% endunless %}
 	{% endif %}
 		
-	<div id="contents" class="large-8 small-12 columns {% if page.sidebar == "left" %} {% endif %}">
+	<div id="contents" class="large-8 small-12 columns {% if page.title == "Search" %} large-offset-2{% endif %}">
 		<article itemscope itemtype="http://schema.org/Article">
 			<header>
 				<div itemprop="name">

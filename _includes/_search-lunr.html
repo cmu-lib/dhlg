@@ -5,53 +5,51 @@
 var documents = [{% for page in site.pages %}{% unless page.permalink == 'topics/' %}{% if page.url contains '.xml' or page.url contains 'assets' %}{% else %}{
     "id": {{ counter }},
     "url": "{{ site.url }}{{ page.url }}",
-    "title": "{{ page.title }}",
+    "title": {{ page.title | jsonify }},
     "author": "{% for author in page.authors %}{{ author.name }} {{ author.bio | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }} {{ author.affiliation | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}{% endfor %}",
-    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+    "body": {{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify }}{% assign counter = counter | plus: 1 %}
     }, {% endif %}{% endunless %}{% endfor %}{% for interview in site.interviews %}{
     "id": {{ counter }},
     "url": "{{ site.url }}{{ interview.url }}",
-    "title": "{{ interview.title }}",
+    "title": {{ interview.title | jsonify }},
     "author": "{% for author in interview.authors %}{{ author.name }} {{ author.bio | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }} {{ author.affiliation | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}{% endfor %}",
-    "body": "{{ interview.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+    "body": {{ interview.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify }}{% assign counter = counter | plus: 1 %}
     }, {% endfor %}{% for project in site.projects %}{
     "id": {{ counter }},
     "url": "{{ site.url }}{{ project.url }}",
-    "title": "{{ project.title }}",
+    "title": {{ project.title | jsonify }},
     "author": "{% for author in project.authors %}{{ author.name }} {{ author.bio | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }} {{ author.affiliation | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}{% endfor %}",
-    "body": "{{ project.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+    "body": {{ project.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify }}{% assign counter = counter | plus: 1 %}
     }, {% endfor %}{% for topic in site.topics %}{
     "id": {{ counter }},
     "url": "{{ site.url }}/topics/#topic_{{ topic.identifier}}",
-    "title": "{{ topic.title }}",
+    "title": {{ topic.title | jsonify }},
     "author": "{% for author in topic.authors %}{{ author.name }} {{ author.bio | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }} {{ author.affiliation | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}{% endfor %}",
-    "body": "{{ topic.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+    "body": {{ topic.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify }}{% assign counter = counter | plus: 1 %}
     }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
-
+console.log(documents);
 var idx = lunr(function () {
-    this.ref('id')
-    this.field('title')
-    this.field('author')
-    this.field('body')
+    this.ref('id');
+    this.field('title');
+    this.field('author');
+    this.field('body');
 
     documents.forEach(function (doc) {
         this.add(doc)
     }, this)
 });
+
 function lunr_search(term) {
     document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
     if(term) {
         document.getElementById('lunrsearchresults').innerHTML = "<p>Search results for '" + term + "'</p>" + document.getElementById('lunrsearchresults').innerHTML;
-        //put results on the screen.
         var results = idx.search(term);
         if(results.length>0){
-            //console.log(idx.search(term));
-            //if results
             for (var i = 0; i < results.length; i++) {
-                // more statements
                 var ref = results[i]['ref'];
                 var url = documents[ref]['url'];
                 var title = documents[ref]['title'];
+                var author = documents[ref]['author'];
                 var body = documents[ref]['body'].substring(0,160)+'...';
                 document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><span class='title'><a href='" + url + "'>" + title + "</a></span><span class='body'>"+ body +"</span><span class='url'><a href='" + url + "'>"+ url +"</span></a></li>";
             }
