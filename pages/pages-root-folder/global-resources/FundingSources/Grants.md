@@ -4,6 +4,7 @@ title: "Grants"
 breadcrumb: true
 meta_title: "Global Resources - Funding Sources - Grants"
 permalink: "global-resources/funding-sources/grants/"
+date_updated: 2019-08-29
 ---
 
  -  [NEH Digital Humanities Advancement Grants](https://www.neh.gov/grants/odh/digital-humanities-advancement-grants)
@@ -12,4 +13,4 @@ permalink: "global-resources/funding-sources/grants/"
  -  [Sloan Foundation Digital Technology](https://sloan.org/programs/digital-technology)
  -  [CLIR Digitizing Hidden Special Collections and Archives](https://www.clir.org/hiddencollections/)
  -  [CLIR Recordings at Risk](https://www.clir.org/recordings-at-risk/)
- -  [Frictionless Data Tool Fund](https://toolfund.frictionlessdata.io/) 
+ -  [Frictionless Data Tool Fund](https://toolfund.frictionlessdata.io/)

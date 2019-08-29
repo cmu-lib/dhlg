@@ -12,6 +12,7 @@ identifier: digitalpublichistory
 disciplines:
 - history
 creationdate: 2019-07-31
+date_updated: 2019-08-29
 ---
 
 Computational History is a branch of [digital history](/_topics/DigitalHistory.md) that carries out historical studies via [machine learning](/_topics/MachineLearning.md) and other data-heavy and computational approaches like [network analysis](/_topics/NetworkAnalysis.md).

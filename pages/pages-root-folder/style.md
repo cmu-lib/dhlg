@@ -29,6 +29,7 @@ Maecenas malesuada nunc luctus condimentum maximus. Donec tortor ante, maximus p
   > Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut aliquam est non ligula tristique lobortis. Donec suscipit, nunc id egestas varius
   > {: class="tiptext"}
 {:refdef }
+date_updated: 2019-08-29
 ---
 
 * one
@@ -52,7 +53,7 @@ this is some code
 ~~~~~~~~
 
 This is a Ruby code fragment `x = Class.new`{:.language-ruby}
-  
+
 This is [a link](http://rubyforge.org) to a page.
 A [link](../test "local URI") can also have a title.
 And [spaces](link with spaces.html)!

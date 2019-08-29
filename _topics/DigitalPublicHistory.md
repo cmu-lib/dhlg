@@ -3,17 +3,18 @@ layout: page
 title:  "Digital Public History"
 meta_title:  "Digital Public History"
 breadcrumb: false
-authors: 
+authors:
 - name: Susan Grunewald
   bio: Susan Grunewald is the Digital History Postdoctoral Fellow at the University of Pittsburgh’s World History Center. She received her PhD from Carnegie Mellon University, where she was a two-time A.W. Mellon Fellow in Digital Humanities. Her research focuses on Soviet history, particularly German prisoners of war in the USSR during and after the Second World War.
   affiliation: University of Pittsburgh
   uri:
 identifier: digitalpublichistory
-disciplines: 
+disciplines:
 - history
 - publichistory
 - museums
 creationdate: 2019-07-31
+date_updated: 2019-08-29
 ---
 
-Public history consists of working with the field out history outside of the strictly academic setting, including tasks like historic preservation and collecting [oral histories](/_topics/OralHistory.md) as well as storing and disseminating historical information through archives and museums. Digital public history is a branch of [Digital history](/_topics/DigitalHistory.md) that includes the electronic collection, storage, or sifting of public history materials. In 2015, [the Joint Task Force on Public History Education and Employment](https://ncph.org/wp-content/uploads/2019/02/What-do-Public-History-Employers-Want-A-Report-of-the-Joint-Task-Force-on-Public-History-Education-and-Employment.pdf) found that while public history employers still highly value traditional historical skills such as research and writing, historiographical knowledge, and oral and written communication, employers in public history are increasingly seeking candidates that have skills related to digital media, fund-raising, and project management. Thus, those interested in public history should also have a knowledge of related digital applications of traditional public history collections and approaches such as [The History Makers](https://www.thehistorymakers.org/), [The US Holocaust Memorial Museum](https://www.ushmm.org/collections/the-museums-collections/about/oral-history), or [The Charles "Teenie" Harris Archive](https://cmoa.org/art/teenie-harris-archive/). 
+Public history consists of working with the field out history outside of the strictly academic setting, including tasks like historic preservation and collecting [oral histories](/_topics/OralHistory.md) as well as storing and disseminating historical information through archives and museums. Digital public history is a branch of [Digital history](/_topics/DigitalHistory.md) that includes the electronic collection, storage, or sifting of public history materials. In 2015, [the Joint Task Force on Public History Education and Employment](https://ncph.org/wp-content/uploads/2019/02/What-do-Public-History-Employers-Want-A-Report-of-the-Joint-Task-Force-on-Public-History-Education-and-Employment.pdf) found that while public history employers still highly value traditional historical skills such as research and writing, historiographical knowledge, and oral and written communication, employers in public history are increasingly seeking candidates that have skills related to digital media, fund-raising, and project management. Thus, those interested in public history should also have a knowledge of related digital applications of traditional public history collections and approaches such as [The History Makers](https://www.thehistorymakers.org/), [The US Holocaust Memorial Museum](https://www.ushmm.org/collections/the-museums-collections/about/oral-history), or [The Charles "Teenie" Harris Archive](https://cmoa.org/art/teenie-harris-archive/).

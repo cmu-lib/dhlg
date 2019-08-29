@@ -19,6 +19,7 @@ topics:
 creationdate: 2019-07-03
 source: core
 youtubeid: yo5DEZ2xO90
+date_updated: 2019-08-29
 ---
 
 This video discusses logistic regression as an entry point to machine learning for text and literary analysis. The video walks through how to train a model in a Google Drive spreadsheet for simplicity as well as how to run more complex logistical regressions in a [Jupyter Notebook](https://jupyter.org/) with [Python](https://www.python.org/). It also explores the results one can get when using these types of models for literary analysis.

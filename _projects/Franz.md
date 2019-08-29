@@ -21,6 +21,7 @@ creationdate: 2019-07-03
 source: core
 youtubeid: wQI6ajxCuV8
 date_updated: 2019-08-03
+date_updated: 2019-08-29
 ---
 
 This video discusses historical network analysis with the tools [Gephi](https://gephi.org/) and [Pajek](http://mrvar.fdv.uni-lj.si/pajek/). It explains the basics of network analysis and relational data including when to use network analysis and what types of questions you need to be able to ask and answer about your data for use in network analysis. It walks through the steps to make a similar project such as building a database, data cleaning, and using the network analysis tool.

@@ -5,12 +5,13 @@ breadcrumb: true
 meta_title: "Global Resources - DH Community - Journals"
 source: community
 permalink: "global-resources/dh-community/journals/"
+date_updated: 2019-08-29
 ---
 
 The majority of the information on this page comes courtersy of the [dhnotes Journals page](https://github.com/dh-notes/dhnotes/blob/master/pages/journals.md) as of August 2019. dhnotes is as collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with the added contributions of [gabrielle92](https://github.com/gabrielle92), [Austin Mason](https://github.com/apjmason), [Jonathan Reeve](https://github.com/JonathanReeve), [Scott Weinngart](https://github.com/scottbot), [Roopika Risam](https://github.com/roopikarisam), [Vika Zafrin](https://github.com/vzafrin), [Toshikazo SETO](https://github.com/tosseto), [Paul Spence](https://github.com/pjspence), [kiyonoriNagasaki](https://github.com/kiyonoriNagasaki), [Jan G. Wieners](https://github.com/janwieners), [Grant Wythoff](https://github.com/gwijthoff), [The Gitter Badger](https://github.com/gitter-badger), [briancrogers](https://github.com/briancrogers), [Micky Lindlar](https://github.com/asciim0), and [Cole Crawford](https://github.com/ColeDCrawford0).
 
-## DH- and New Media-friendly Journals*  
-*Indicates open access 
+## DH- and New Media-friendly Journals*
+*Indicates open access
 
 ## Directory
 [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) |
@@ -587,7 +588,7 @@ with the history of concepts of knowledge, the study of knowledge making practic
 institutions and sites of knowledge production, adjudication, and legitimation (including
 universities). Contributions which highlight the relevance of the history of knowledge to
 current policy concerns (for example, by historicizing and problematizing concepts such as the
-"knowledge society") are particularly welcome. 
+"knowledge society") are particularly welcome.
 
 [**Jahrbuch für
 Computerphilologie**](http://computerphilologie.digital-humanities.de/ejournal.html).
@@ -843,7 +844,7 @@ well as reviews of relevant  contributions (books, blogs, websites and the
 like) can be submitted  written in English, Danish, Swedish and Norwegian. The
 journal addresses  students, educators and researchers at relevant educational
 and research institutions as well as individuals working in the media
-business. 
+business.
 
 [**Media-N**](http://median.newmediacaucus.org/) is blind peer-reviewed,
 invitational, and open to submissions in the form of theoretical papers,
@@ -1094,7 +1095,7 @@ methodological approach. Manuscripts of all types of sociological scholarship
 are welcome, including but not restricted to interview-based and observational
 ethnography, comparative historical analysis, lab and field experiments,
 computational modeling and simulation, textual analysis, formal theory, and
-quantitative statistical analyses. 
+quantitative statistical analyses.
 
 [**Social Science Computer Review**](http://ssc.sagepub.com/) is an
 interdisciplinary journal covering social science instructional and research
@@ -1180,8 +1181,8 @@ permalink: "global-resources/dh-community/journals/"
 ---
 The majority of the information on this page comes courtersy of the [dhnotes Journals page](https://github.com/dh-notes/dhnotes/blob/master/pages/journals.md). Dhnotes was as collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with the added participation of [gabrielle92](https://github.com/gabrielle92), [Austin Mason](https://github.com/apjmason), [Jonathan Reeve](https://github.com/JonathanReeve), [Scott Weinngart](https://github.com/scottbot), [Roopika Risam](https://github.com/roopikarisam), [Vika Zafrin](https://github.com/vzafrin), [Toshikazo SETO](https://github.com/tosseto), [Paul Spence](https://github.com/pjspence), [kiyonoriNagasaki](https://github.com/kiyonoriNagasaki), [Jan G. Wieners](https://github.com/janwieners), [Grant Wythoff](https://github.com/gwijthoff), [The Gitter Badger](https://github.com/gitter-badger), [briancrogers](https://github.com/briancrogers), [Micky Lindlar](https://github.com/asciim0), and [Cole Crawford](https://github.com/ColeDCrawford0).
 
-## DH- and New Media-friendly Journals*  
-*Indicates open access 
+## DH- and New Media-friendly Journals*
+*Indicates open access
 
 ## Directory
 [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) |
@@ -1758,7 +1759,7 @@ with the history of concepts of knowledge, the study of knowledge making practic
 institutions and sites of knowledge production, adjudication, and legitimation (including
 universities). Contributions which highlight the relevance of the history of knowledge to
 current policy concerns (for example, by historicizing and problematizing concepts such as the
-"knowledge society") are particularly welcome. 
+"knowledge society") are particularly welcome.
 
 [**Jahrbuch für
 Computerphilologie**](http://computerphilologie.digital-humanities.de/ejournal.html).
@@ -2014,7 +2015,7 @@ well as reviews of relevant  contributions (books, blogs, websites and the
 like) can be submitted  written in English, Danish, Swedish and Norwegian. The
 journal addresses  students, educators and researchers at relevant educational
 and research institutions as well as individuals working in the media
-business. 
+business.
 
 [**Media-N**](http://median.newmediacaucus.org/) is blind peer-reviewed,
 invitational, and open to submissions in the form of theoretical papers,
@@ -2265,7 +2266,7 @@ methodological approach. Manuscripts of all types of sociological scholarship
 are welcome, including but not restricted to interview-based and observational
 ethnography, comparative historical analysis, lab and field experiments,
 computational modeling and simulation, textual analysis, formal theory, and
-quantitative statistical analyses. 
+quantitative statistical analyses.
 
 [**Social Science Computer Review**](http://ssc.sagepub.com/) is an
 interdisciplinary journal covering social science instructional and research

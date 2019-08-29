@@ -19,6 +19,7 @@ topics:
 creationdate: 2019-07-03
 source: core
 youtubeid: iiuX5DGIvIE
+date_updated: 2019-08-29
 ---
 
 The video discusses creating an online archive of Latin American comics in comic book markup language published with [Omeka](https://omeka.org/). The project allows students, teachers, and scholars to research and annotate comics. The video discusses how the project was made and how users can benefit from its dynamic interface.

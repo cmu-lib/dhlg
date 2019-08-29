@@ -17,6 +17,7 @@ topics:
 creationdate: 2019-07-03
 source: core
 youtubeid: 5fUKTPAvYDM
+date_updated: 2019-08-29
 ---
 
 The video explores how to build a dataset and analyze it with a series of DH tools from the perspective of journalism. It covers database building skills such as mapping data structures, choosing between manual versus optical character recognition assisted data entry, and keeping a data dictionary. It also discusses visualizing data such as with the tool Tableau.

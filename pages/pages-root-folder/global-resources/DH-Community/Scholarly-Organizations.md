@@ -4,9 +4,10 @@ title: "Scholarly Organizations"
 breadcrumb: true
 meta_title: "Global Resources - DH Community - Scholarly Organizations"
 permalink: "global-resources/dh-community/scholarly-organizations/"
+date_updated: 2019-08-29
 ---
 
-## The Alliance of Digital Humanities Organizations (ADHO) 
+## The Alliance of Digital Humanities Organizations (ADHO)
 [The Alliance of Digital Humanities Organizations (ADHO)](https://adho.org/) supports digital research across a variety of arts and humanities disciplines. A number of other professional organizations are part of the ADHO:
   -  [Association for Computers and the Humanities (ACH)](http://ach.org/).
   -  [Australasian Association for Digital Humanities (aaDH)](https://aa-dh.org/).
@@ -33,7 +34,7 @@ The following scholarly organizations are not exclusively focused on DH, but the
  -  [The International Society for the Study of Narrative (ISSN)](http://narrative.georgetown.edu/).
  -  [The Modern Language Association (MLA)](https://www.mla.org/).
  -  [The North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)](https://naacl2019.org/).
- -  [The Social Science History Association (SSHA)](https://ssha.org/) and its [Historical Geography and GIS network](https://ssha.org/networks/geography/). 
+ -  [The Social Science History Association (SSHA)](https://ssha.org/) and its [Historical Geography and GIS network](https://ssha.org/networks/geography/).
  -  [The Society for Cinema and Media Studies (SCMS)](https://www.cmstudies.org/).
  -  [The Society for Literature, Science, and the Arts (SLSA)](https://www.litsciarts.org/).
- -  [The Society for Textual Scholarship and Textual Cultures](https://textualsociety.org). 
+ -  [The Society for Textual Scholarship and Textual Cultures](https://textualsociety.org).

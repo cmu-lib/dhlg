@@ -4,14 +4,14 @@ title: "Stylometry and Authorship Analysis"
 breadcrumb: true
 teaser: "This video explains stylometry and authorship attribution."
 meta_title: "Stylometry and Authorship Analysis"
-authors: 
+authors:
 - name: Patrick Juola
   bio: |
     Patrick Juola (who hates writing about himself in the third person) is a computational linguist, stylometrist, digital humanist and forensic scientist.  He is currently Professor of Computer Science at Duquesne University.  He is best known for his identification of J.K. Rowling as the true author of Robert Galbraith's *The Cuckoo's Calling*, but was also principal violist of the Holmdel Symphony Orchestra in Holmdel, NJ.
   affiliation: Duquesne University
   uri:
 identifier: stylometry
-disciplines: 
+disciplines:
 - literature
 - lcs
 - english
@@ -22,10 +22,11 @@ topics:
 creationdate: 2019-07-03
 source: community
 youtubeid: 8cH5-AK9jLU
+date_updated: 2019-08-29
 ---
 
 
-This video discusses the question of authorship attribution and shows how stylometry and machine learning have been able to prove the true authorship of documents. It describes the process of using the tool [JGAAP](https://github.com/evllabs/JGAAP), which proved that *Harry Potter* author J.K. Rowling also wrote the Robert Galbraith detective novel *The Cuckoo's Calling*. 
+This video discusses the question of authorship attribution and shows how stylometry and machine learning have been able to prove the true authorship of documents. It describes the process of using the tool [JGAAP](https://github.com/evllabs/JGAAP), which proved that *Harry Potter* author J.K. Rowling also wrote the Robert Galbraith detective novel *The Cuckoo's Calling*.
 
 ## Further Reading and Resources
 
