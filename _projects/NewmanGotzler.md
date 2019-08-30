@@ -1,8 +1,8 @@
 ---
 layout: project
-title: "The Historical TV Guide: using digitized text to study television history"
+title: "The Historical TV Guide"
 breadcrumb: true
-teaser: "This video explores digitizing texts and then exploring them with distant reading."
+teaser: "Using digitized text to study television history."
 meta_title: "The Historical TV Guide: using digitized text to study television history"
 authors:
 - name: Kathy M. Newman
@@ -19,7 +19,9 @@ disciplines:
 - lcs
 topics:
 - distantreading
-- corpusanalysis
+- corpuslinguistics
+- digitization
+- textanalytics
 creationdate: 2019-07-03
 source: core
 youtubeid: lGHtq0XkMGY
