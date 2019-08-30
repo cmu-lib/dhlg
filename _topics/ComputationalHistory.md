@@ -15,7 +15,7 @@ creationdate: 2019-07-31
 date_updated: 2019-08-29
 ---
 
-Computational History is a branch of [digital history](/_topics/DigitalHistory.md) that carries out historical studies via [machine learning](/_topics/MachineLearning.md) and other data-heavy and computational approaches like [network analysis](/_topics/NetworkAnalysis.md).
+Computational History is a branch of [digital history](#topic_digitalhistory) that carries out historical studies via [machine learning](#topic_machinelearning) and other data-heavy and computational approaches like [network analysis](#topic_networkanalysis).
 
 For further information see:
  -  [How the New Science of Computational History Is Changing the Study of the Past](https://www.technologyreview.com/s/601763/how-the-new-science-of-computational-history-is-changing-the-study-of-the-past/) *MIT Technology Review* (June 23, 2016).
