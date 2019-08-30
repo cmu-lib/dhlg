@@ -2,7 +2,7 @@
 layout: project
 title: "Metadata Heatmaps for Distant Reading"
 breadcrumb: true
-teaser: "This video explores distant reading of a textual corpus."
+teaser: "Distant reading of a textual corpus."
 meta_title: "Metadata Heatmaps for Distant Reading"
 authors:
 - name: Benjamin Miller
@@ -16,6 +16,8 @@ disciplines:
 topics:
 - distantreading
 - textualanalysis
+- corpuslinguistics
+- computationallinguistics
 creationdate: 2019-07-03
 source: core
 youtubeid: yofqxY8QqXQ
