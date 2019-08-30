@@ -18,7 +18,7 @@ creationdate: 2019-07-31
 date_updated: 2019-08-29
 ---
 
-Digital Art History is the use of digital humanities tools to further traditional aspects of art history and to create new avenues for exploration. Using these methods, scholars can process large volumes of digitized images or texts that describe works of art. Scholars can also trace connections between artists, purchasers, and museums through [network analysis](/_topics/NetworkAnlysis.md) for example.
+Digital Art History is the use of digital humanities tools to further traditional aspects of art history and to create new avenues for exploration. Using these methods, scholars can process large volumes of digitized images or texts that describe works of art. Scholars can also trace connections between artists, purchasers, and museums through [network analysis](#topic_networkanalysis) for example.
 
 Further information can be found at:
 -  [The Getty Foundation Digital Art History](https://www.getty.edu/foundation/initiatives/current/dah/index.html).
