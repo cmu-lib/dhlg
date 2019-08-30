@@ -2,7 +2,7 @@
 layout: project
 title: "Shakespeare-VR"
 breadcrumb: true
-teaser: "This video discusses building immersive VR projects."
+teaser: "Building immersive VR projects."
 meta_title: "Shakespeare-VR"
 authors:
 - name: Stephen Wittek
@@ -16,6 +16,8 @@ disciplines:
 - lcs
 topics:
 - virtualreality
+- 3dmodeling
+- digitization
 creationdate: 2019-07-03
 source: core
 youtubeid: td6grI7wIds
