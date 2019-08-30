@@ -14,6 +14,7 @@ disciplines:
 - networkscience
 topics:
 - networkanalysis
+- computationallinguistics
 creationdate: 2019-07-03
 source: core
 youtubeid: gNq__1lwiQ4
