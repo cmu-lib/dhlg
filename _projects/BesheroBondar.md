@@ -2,7 +2,7 @@
 layout: project
 title: "How to grow data forests with XML trees"
 breadcrumb: true
-teaser: "This video discusses eXtensible Markup Language (XML)."
+teaser: "eXtensible Markup Language (XML)."
 meta_title: "How to grow data forests with XML trees"
 authors:
 - name: Elisa Besher-Bondar
