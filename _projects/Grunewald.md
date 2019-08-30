@@ -2,7 +2,7 @@
 layout: project
 title: "GIS Mapping"
 breadcrumb: true
-teaser: "This video examines GIS mapping with an emphasis on history projects."
+teaser: "GIS mapping with an emphasis on history projects."
 meta_title: "GIS Mapping"
 authors:
 - name: Susan Grunewald
