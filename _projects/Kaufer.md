@@ -1,8 +1,8 @@
 ---
 layout: project
-title: "DocuScope: Computer Support for Close Reading and Textual Analysis in the Digital Humanities"
+title: "DocuScope"
 breadcrumb: true
-teaser: "This video explores software for textual analysis and close reading."
+teaser: "Computer Support for Close Reading and Textual Analysis in DH."
 meta_title: "DocuScope: Computer Support for Close Reading and Textual Analysis in the Digital Humanities"
 authors:
 - name: David Kaufer
@@ -16,7 +16,8 @@ disciplines:
 - modernlanguages
 - english
 topics:
-- corpusanalysis
+- corpuslinguistics
+- textanalytics
 creationdate: 2019-07-03
 source: core
 youtubeid: SUr6VmkOmiY
