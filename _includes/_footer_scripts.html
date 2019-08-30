@@ -13,18 +13,17 @@ $('audio,video').mediaelementplayer();
   });
   {% if page.layout=="landing" %}
   var sidenavfooterspace=110;
-  var sidenavheaderspace=90;
-  if(window.matchMedia("(min-width: 40.063em)").matches){
-
-	}else if(window.matchMedia("(min-width: 64.063em)").matches){
-
-  }else if(window.matchMedia("(min-width: 90.063em)").matches){
+  var sidenavheaderspace=$('#navigation').outerHeight();
+  var tocspace=0;
+  if(window.matchMedia("(min-width: 120.063em)").matches){
     sidenavfooterspace=50;
-    sidenavheaderspace=0;
-  }else if(window.matchMedia("(min-width: 120.063em)").matches){
+	}else if(window.matchMedia("(min-width: 90.063em)").matches){
     sidenavfooterspace=50;
-    sidenavheaderspace=0;
-	}
+  }else if(window.matchMedia("(min-width: 64.063em)").matches){
+    tocspace=70;
+  }else if(window.matchMedia("(min-width: 40.063em)").matches){
+    tocspace=70;
+  }
 
   var sidenavwidth=$('#sidenav').parent().outerWidth()-26;
   $('#sidenav').css('width',sidenavwidth);
@@ -46,7 +45,7 @@ $('audio,video').mediaelementplayer();
       if ((bottom_of_screen > footertop_of_element) && (top_of_screen < footerbottom_of_element)){
         $('#sidenav').css({'position':'fixed','top':'unset','bottom':viewablefooter});
       } else {
-        $('#sidenav').css({'position':'fixed','top':'0','bottom':'unset'});
+        $('#sidenav').css({'position':'fixed','top': sidenavheaderspace,'bottom':'unset'});
       }
     }
   });
@@ -62,10 +61,10 @@ $('audio,video').mediaelementplayer();
     $(this).click(function(){
       $('html, body').animate({
         {% if page.title == "Project Videos" %}
-        scrollTop: ($('#project_'+$(this).data('projectid')).offset().top-sidenavheaderspace)
+        scrollTop: ($('#project_'+$(this).data('projectid')).offset().top-sidenavheaderspace-tocspace)
         {% endif %}
         {% if page.title == "Topics in DH" %}
-        scrollTop: ($('#topic_'+$(this).data('topicid')).offset().top-sidenavheaderspace)
+        scrollTop: ($('#topic_'+$(this).data('topicid')).offset().top-sidenavheaderspace-tocspace)
         {% endif %}
       },500);
       {% if page.title == "Project Videos" %}

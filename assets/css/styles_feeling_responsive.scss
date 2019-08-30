@@ -539,7 +539,6 @@ h1.title {
 }
 #navigation{
   margin-top:0;
-  position:relative!important;
 }
 
 #frontpage_logo {
@@ -963,7 +962,10 @@ body.frontpage{
   }
   #navigation {
     background-color: $white;
-    margin-top: 2rem;
+    padding-top: 2rem;
+    &.fixed {
+      border-bottom: solid 2px $grey-5;
+    }
   }
 
   .top-bar-section {
