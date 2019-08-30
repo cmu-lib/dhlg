@@ -2,7 +2,7 @@
 layout: project
 title: "Topic Modeling Subreddits"
 breadcrumb: true
-teaser: "This video uses computational techniques to topic model subreddits."
+teaser: "Computational techniques to topic model subreddits."
 meta_title: "Topic Modeling Subreddits"
 authors:
 - name: Chloe Perry
@@ -14,8 +14,9 @@ disciplines:
 - psychology
 - socialanddecisionsciences
 topics:
-- topicmodeling
-- corpusanalysis
+- textanalytics
+- corpuslinguistics
+- computationallinguistics
 creationdate: 2019-07-03
 source: core
 youtubeid: 2BWC-uHo1Vk
