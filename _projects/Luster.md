@@ -2,7 +2,7 @@
 layout: project
 title: "Archives, Museums & the Digital Humanities"
 breadcrumb: true
-teaser: "This video shows how DH methods can be used in public history museum projects."
+teaser: "DH methods for public history museum projects."
 meta_title: "Archives, Museums & the Digital Humanities"
 authors:
 - name: Dominique Luster
@@ -16,8 +16,9 @@ disciplines:
 - museums
 topics:
 - digitalhistory
-- onlinearchive
+- digitalarthistory
 - digitalpublichistory
+- digitaleditions
 creationdate: 2019-07-03
 source: core
 youtubeid: xwWf5w1TwPY
