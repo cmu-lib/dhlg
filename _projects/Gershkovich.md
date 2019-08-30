@@ -2,7 +2,7 @@
 layout: project
 title: "Beyond the Ant Brotherhood"
 breadcrumb: true
-teaser: "This project explores dynamic digital archives of writings and timelines."
+teaser: "Dynamic digital archives of writings and timelines."
 meta_title: "Beyond the Ant Brotherhood"
 authors:
 - name: Tatyana Gershkovich
@@ -14,7 +14,7 @@ disciplines:
 - literature
 - modernlanguages
 topics:
-- onlinearchive
+- digitaleditions
 - textualencoding
 creationdate: 2019-07-03
 source: core
