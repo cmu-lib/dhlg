@@ -17,7 +17,7 @@ creationdate: 2019-07-31
 date_updated: 2019-08-29
 ---
 
-Stylometry is the process of attributing authorship to anonymous or disputed documents. Although it it primarily used to attribute textual authorship, it can also be used to determine the authorship of music or paintings. Primarily, stylometry uses machine learning to determine authorship of a text, such as the writings of Shakespeare or the case of JK Rowling secretly authoring the novel *The Cuckoo's Calling* under they pseudonym Robert Galbraith. Stylometry can be used for [Digital Forensics](/_topics/DigitalForensics.md).
+Stylometry is the process of attributing authorship to anonymous or disputed documents. Although it it primarily used to attribute textual authorship, it can also be used to determine the authorship of music or paintings. Primarily, stylometry uses machine learning to determine authorship of a text, such as the writings of Shakespeare or the case of JK Rowling secretly authoring the novel *The Cuckoo's Calling* under they pseudonym Robert Galbraith. Stylometry can be used for [Digital Forensics](#topic_digitalforensics).
 
 Stylomety can be performed with the [JGAAP tool](https://github.com/evllabs/JGAAP).
 
