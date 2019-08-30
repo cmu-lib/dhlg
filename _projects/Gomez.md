@@ -2,7 +2,7 @@
 layout: project
 title: "The Latin American Comics Archive (LACA)"
 breadcrumb: true
-teaser: "The video discusses creating an online archive of Latin American comics in comic book markup language."
+teaser: "Online archives in comic book markup language."
 meta_title: "The Latin American Comics Archive (LACA)"
 authors:
 - name: Felipe Gómez
@@ -14,7 +14,7 @@ disciplines:
 - modernlanguages
 - literature
 topics:
-- onlinearchive
+- digitaleditions
 - textualencoding
 creationdate: 2019-07-03
 source: core
