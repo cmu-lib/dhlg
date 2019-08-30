@@ -16,6 +16,8 @@ disciplines:
 topics:
 - digitalhistory
 - distantreading
+- textanalytics
+- corpuslinguistics
 creationdate: 2019-07-03
 source: core
 youtubeid: sXNblxiZc8o
