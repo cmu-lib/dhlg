@@ -2,7 +2,7 @@
 layout: project
 title: "Structure-based Network Analysis"
 breadcrumb: true
-teaser: "This video examines structure-based network analysis."
+teaser: "Structure-based network analysis."
 meta_title: "Structure-based Network Analysis"
 authors:
 - name: S.E. Hackney
@@ -14,7 +14,6 @@ disciplines:
 - networkscience
 topics:
 - networkanalysis
-- datamanagement
 creationdate: 2019-07-03
 source: core
 youtubeid: gNq__1lwiQ4
