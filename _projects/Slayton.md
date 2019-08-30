@@ -2,7 +2,7 @@
 layout: project
 title: "Data Visualization: Tableau"
 breadcrumb: true
-teaser: "This video discusses data visualization."
+teaser: "Data visualization with Tableau."
 meta_title: "Data Visualization: Tableau"
 authors:
 - name: Emma Slayton
@@ -17,7 +17,8 @@ disciplines:
 - psychology
 topics:
 - digitalhistory
-- datavisualization
+- dataviz
+- humanitiesvisualization
 creationdate: 2019-07-03
 source: core
 youtubeid: SYcpRj4YKBo
