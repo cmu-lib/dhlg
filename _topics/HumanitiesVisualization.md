@@ -21,7 +21,7 @@ creationdate: 2019-08-06
 date_updated: 2019-08-29
 ---
 
-As humanists borrow more techniques from the social and natural sciences for research, there is the tendency to also borrow the conventions of [data visualization](/_topics/DataViz.md) from those fields. Many prominent figures in digital humanities, however, have argued that those conventions are not the best for the interpretive bases of humanistic inquiry. Thus, they call for humanities visualization in an attempt to produce visualizations that convey the uncertainties of this type of research such as ambiguity or contradiction.
+As humanists borrow more techniques from the social and natural sciences for research, there is the tendency to also borrow the conventions of [data visualization](#topic_dataviz) from those fields. Many prominent figures in digital humanities, however, have argued that those conventions are not the best for the interpretive bases of humanistic inquiry. Thus, they call for humanities visualization in an attempt to produce visualizations that convey the uncertainties of this type of research such as ambiguity or contradiction.
 
 For more information see:
  -  [Graphical Approaches to the Digital Humanities](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118680605.ch17) (2015) Johanna Drucker.
