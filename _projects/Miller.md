@@ -15,7 +15,7 @@ disciplines:
 - literature
 topics:
 - distantreading
-- textualanalysis
+- textanalytics
 - corpuslinguistics
 - computationallinguistics
 creationdate: 2019-07-03
