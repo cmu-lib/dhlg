@@ -26,6 +26,7 @@ Digital history is as multifaceted as history itself, but often aligns itself wi
 More information can be found in these sources:
 
  - [The Historian's Macroscope](https://books.google.com/books?id=r-U7DQAAQBAJ&printsec=frontcover&dq=historians+macroscope&hl=en&sa=X&ved=2ahUKEwiWlJbyxIrkAhVkxFkKHRSLAvQQ6AEwAHoECAMQAg#v=onepage&q=historians%20macroscope&f=false) (2015)  by Shawn Graham, Ian Milligan, and Scott B. Weingart.
+ - [The Inclusive Historian's Handbook | Digital History](https://inclusivehistorian.com/digital-history/) (2019) by Sheila Brennan.
  - [Wikipedia \| Digital History](https://en.wikipedia.org/wiki/Digital_history).
 
 
