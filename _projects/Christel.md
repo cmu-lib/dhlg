@@ -2,7 +2,7 @@
 layout: project
 title: "Improving Access to Video Oral Histories"
 breadcrumb: true
-teaser: "This video explores video oral history projects."
+teaser: "Video oral history projects."
 meta_title: "Improving Access to Video Oral Histories"
 authors:
 - name: Michael Christel
