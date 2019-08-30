@@ -2,7 +2,7 @@
 layout: project
 title: "The Marriage (and Divorce) of Capitalism & Democracy"
 breadcrumb: true
-teaser: "This video shows how well digital humanities methods lead to interdisciplinary studies and results."
+teaser: "DH methods for interdisciplinary studies and results."
 meta_title: "The Marriage (and Divorce) of Capitalism & Democracy"
 authors:
 - name: Simon DeDeo
