@@ -2,7 +2,7 @@
 layout: project
 title: "Finding the Klan with Network Analysis"
 breadcrumb: true
-teaser: "This video discusses historical network analysis."
+teaser: "Historical network analysis."
 meta_title: "Finding the Klan with Network Analysis"
 permalink: "project-videos/franz/"
 authors:
