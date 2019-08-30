@@ -17,7 +17,7 @@ creationdate: 2019-08-06
 date_updated: 2019-08-29
 ---
 
-Text analytics is the process of analyzing text after it has been already converted into a machine processable format, generally through the process of [text mining](/_topics/TextMining.md). Text analytics heavily relies upon natural language processing (NLP), a field of computer science that explores the interactions between computers and human (natural) languages. Some examples of applied analytics processes are information retrieval from a corpus, named entity recognition, or sentiment analysis.
+Text analytics is the process of analyzing text after it has been already converted into a machine processable format, generally through the process of [text mining](#topic_textmining). Text analytics heavily relies upon natural language processing (NLP), a field of computer science that explores the interactions between computers and human (natural) languages. Some examples of applied analytics processes are information retrieval from a corpus, named entity recognition, or sentiment analysis.
 
 Additional information can be found at:
  -  [Text Analytics with Python: A Practical Real-World Approach to Gaining Actionable Insights from your Data](https://books.google.com/books?id=IimgDQAAQBAJ&printsec=frontcover&dq=text+mining&hl=en&sa=X&ved=0ahUKEwj_1dr0xOzjAhXEg-AKHSIvAuUQ6AEIPjAD#v=onepage&q=text%20mining&f=false) (2016) Dipanjan Sarkar.
