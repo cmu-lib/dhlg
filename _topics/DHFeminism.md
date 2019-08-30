@@ -16,7 +16,7 @@ disciplines:
 - lcs
 creationdate: 2019-08-05
 ---
-DH feminism aims to emphasize and increase the role of women and feminists in technology and digital humanities. It started as a reaction to the criticism of how DH often had structures in place that kept women from engaging in the community. It also pushes back against DH furthering patriarchal discourses in the Academy. For similar approaches, but with an emphasis on post colonialism, see [DHPoCo](/_topics/DHPoCo.md). 
+DH feminism aims to emphasize and increase the role of women and feminists in technology and digital humanities. It started as a reaction to the criticism of how DH often had structures in place that kept women from engaging in the community. It also pushes back against DH furthering patriarchal discourses in the Academy. For similar approaches, but with an emphasis on post colonialism, see [DHPoCo](#topic_dhpoco). 
 
 For more information see:
  -  [Women in the digital humanities](https://docs.google.com/spreadsheets/d/1pPscJX7I7Vvuc4YIBbd38nbWgIjp-0FiI5yZ1sxG6Vk/edit#gid=0) started by Jacqueline Wernimont.
