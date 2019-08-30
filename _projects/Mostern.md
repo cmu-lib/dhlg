@@ -2,7 +2,7 @@
 layout: project
 title: "Historical Gazetteers"
 breadcrumb: true
-teaser: "This video discusses building historical gazetteers."
+teaser: "Building historical gazetteers."
 meta_title: "Historical Gazetteers"
 authors:
 - name: Ruth Mostern
@@ -15,6 +15,7 @@ disciplines:
 topics:
 - digitalhistory
 - hgis
+- digitaleditions
 creationdate: 2019-07-03
 source: core
 youtubeid: R8x5vUYKe3g
