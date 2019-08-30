@@ -2,7 +2,7 @@
 layout: project
 title: "Civic Data Intermediaries"
 breadcrumb: true
-teaser: "This video explores open data and what can be done with it."
+teaser: "Open data and what can be done with it."
 meta_title: "Civic Data Intermediaries"
 authors:
 - name: Bob Gradeck
