@@ -15,6 +15,7 @@ disciplines:
 - english
 topics:
 - textualencoding
+- digitaleditions
 creationdate: 2019-07-03
 source: core
 youtubeid: d9q3HrOxO04
