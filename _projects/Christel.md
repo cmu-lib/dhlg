@@ -16,6 +16,7 @@ disciplines:
 topics:
 - digitalhistory
 - oralhistory
+- digitalpublichistory
 creationdate: 2019-07-03
 source: core
 youtubeid: ir9fy2hD8XM
