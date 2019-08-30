@@ -1,8 +1,8 @@
 ---
 layout: project
-title: "Building your own data set: A Journalist's approach"
+title: "Building your own data set"
 breadcrumb: true
-teaser: "The video explores DH tools from the perspective of journalism."
+teaser: " A Journalist's approach"
 meta_title: "Building your own data set: A Journalist's approach"
 authors:
 - name: AmyJo Brown
@@ -13,7 +13,7 @@ identifier: journalism
 disciplines:
 - journalism
 topics:
-- dataindh
+- opendata
 creationdate: 2019-07-03
 source: core
 youtubeid: 5fUKTPAvYDM
