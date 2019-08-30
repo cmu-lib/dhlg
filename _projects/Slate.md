@@ -2,7 +2,7 @@
 layout: project
 title: "SocialChange101.org"
 breadcrumb: true
-teaser: "This video describes the online historical project SocialChange101.org."
+teaser: "The online historical project SocialChange101.org."
 meta_title: "SocialChange101.org"
 authors:
 - name: Nico Slate
@@ -16,6 +16,7 @@ disciplines:
 topics:
 - digitalhistory
 - digitalpedagogy
+- digitalpublichistory
 creationdate: 2019-07-03
 source: core
 youtubeid: r1nvnLbfIZE
