@@ -2,7 +2,7 @@
 layout: project
 title: "Stylometry and Authorship Analysis"
 breadcrumb: true
-teaser: "This video explains stylometry and authorship attribution."
+teaser: "Machine learning to identify authors."
 meta_title: "Stylometry and Authorship Analysis"
 authors:
 - name: Patrick Juola
