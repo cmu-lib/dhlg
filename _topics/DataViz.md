@@ -20,11 +20,11 @@ creationdate: 2019-07-31
 date_updated: 2019-08-29
 ---
 
-Data visualization, or DataViz, concerns the visual representation of data in a variety of ways including graphs, plots, [maps](/_topics/HGIS.md), and other graphics like and illustration of a [network](/_topics/NetworkAnalysis.md). There are a variety of best practices to follow when visualizing data that can help readers better grasp what the author is trying to covey by means of the graphic.
+Data visualization, or DataViz, concerns the visual representation of data in a variety of ways including graphs, plots, [maps](#topic_hgis), and other graphics like and illustration of a [network](#topic_networkanalysis). There are a variety of best practices to follow when visualizing data that can help readers better grasp what the author is trying to covey by means of the graphic.
 
 Examples of data visualization software include [QGIS](https://www.qgis.org/en/site/) and [ArcGIS](https://www.arcgis.com/index.html) for GIS mapping or [Gephi](https://gephi.org/) and [Pajek](http://vlado.fmf.uni-lj.si/pub/networks/pajek/) for network analysis. Data visualization can be accomplished with more traditional word processing applications as well such as Microsoft Excel or Google Sheets. There are also programs and services that can produce a variety of different visualizations in a polished fashion such as [Tableau](https://www.tableau.com/) or [Datawrapper](https://www.datawrapper.de/).
 
-NB that many of the approaches and tools for data viz come from the natural and social sciences. For some discussion of how best to apply visualization techniques to humanistic research see [humanities visualization](/_topics/HumanitiesVisualization.md).
+NB that many of the approaches and tools for data viz come from the natural and social sciences. For some discussion of how best to apply visualization techniques to humanistic research see [humanities visualization](#topic_humanitiesvisualization).
 
 Reference works on the best practices of data visualization include:
 -  [The Visual Display of Quantitative Information](https://books.google.com/books?id=BHazAAAAIAAJ&q=data+viz+tufte&dq=data+viz+tufte&hl=en&sa=X&ved=0ahUKEwitrsevweLjAhXtxlkKHTmlAJIQ6AEIKjAA) (1983) Edward R. Tufte.
