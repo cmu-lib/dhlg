@@ -19,6 +19,9 @@ disciplines:
 topics:
 - stylometry
 - machinelearning
+- digitalforensics
+- computationallinguistics
+- corpuslinguistics
 creationdate: 2019-07-03
 source: community
 youtubeid: 8cH5-AK9jLU
