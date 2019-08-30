@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Marriage (and Divorce) of Capitalism & Democracy"
+title: "Marriage & Divorce of Capitalism & Democracy"
 breadcrumb: true
 teaser: "DH methods for interdisciplinary studies and results."
 meta_title: "The Marriage (and Divorce) of Capitalism & Democracy"
