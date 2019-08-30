@@ -2,7 +2,7 @@
 layout: project
 title: "Logistic Regression"
 breadcrumb: true
-teaser: "This video explains logistic regression for literary analysis."
+teaser: "Machine learning for literary analysis."
 meta_title: "Logistic Regression"
 authors:
 - name: Matthew J. Lavin
@@ -16,6 +16,9 @@ disciplines:
 - english
 topics:
 - machinelearning
+- textanalytics
+- corpuslinguistics
+- computationallinguistics
 creationdate: 2019-07-03
 source: core
 youtubeid: yo5DEZ2xO90
