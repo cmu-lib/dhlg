@@ -4,6 +4,7 @@ title: "Measuring Art Historical Networks"
 breadcrumb: true
 teaser: "Network analysis in the context of art history."
 meta_title: "Measuring Art Historical Networks"
+permalink: "project-videos/lincoln/"
 authors:
 - name: Matthew Lincoln
   bio: |
