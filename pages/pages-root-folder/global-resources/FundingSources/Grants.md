@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Grants"
+title: "Grants and Fellowships"
 breadcrumb: true
-meta_title: "Global Resources - Funding Sources - Grants"
+meta_title: "Global Resources - Funding Sources - Grants and Fellowships"
 source: community
 permalink: "global-resources/funding-sources/grants/"
 date_updated: 2019-09-03
