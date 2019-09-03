@@ -4,6 +4,7 @@ title: "The Latin American Comics Archive (LACA)"
 breadcrumb: true
 teaser: "Online archives in comic book markup language."
 meta_title: "The Latin American Comics Archive (LACA)"
+permalink: "project-videos/gomez/"
 authors:
 - name: Felipe Gómez
   bio: Felipe Gómez Gutiérrez is teaching professor of Hispanic Studies at Carnegie Mellon University, Pittsburgh (USA). He is the author of numerous articles on recent and contemporary Latin American literature, films, and comics, and is the founder and curator of the Latin American Comics Archive (LACA), a digital humanities project. His current work includes the book project entitled “Utopia, Dystopia, and Affect in Recent Latin American Comics.”
