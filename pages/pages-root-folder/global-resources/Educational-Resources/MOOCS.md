@@ -5,7 +5,7 @@ breadcrumb: true
 meta_title: "Global Resources - Educational Resources - MOOCs and Other Online Courses"
 permalink: "global-resources/educational-resources/moocs/"
 ---
-## Online DH Courses
+## Online DH and DH Adjacent Courses
  -  [Harvard Introduction to Digital Humanities](https://online-learning.harvard.edu/course/introduction-digital-humanities)
  -  [Harvard Data Science: R Basics](https://online-learning.harvard.edu/course/data-science-r-basics?delta=0)
  -  [Harvard Data Science: Wrangling](https://www.edx.org/course/data-science-wrangling)
