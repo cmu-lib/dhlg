@@ -4,6 +4,7 @@ title: "Logistic Regression"
 breadcrumb: true
 teaser: "Machine learning for literary analysis."
 meta_title: "Logistic Regression"
+permalink: "project-videos/lavin/"
 authors:
 - name: Matthew J. Lavin
   bio: |
