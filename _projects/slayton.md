@@ -4,6 +4,7 @@ title: "Data Visualization: Tableau"
 breadcrumb: true
 teaser: "Data visualization with Tableau."
 meta_title: "Data Visualization: Tableau"
+permalink: "project-videos/slayton/"
 authors:
 - name: Emma Slayton
   bio: Emma Slayton currently serves as a Data Curation, Visualization, and GIS Specialist at the Carnegie Mellon University Libraries. She received her PhD in Archeology in 2018 from the University of Leiden. As an archaeologist, she focused on using computer modeling to hypothesize the location of early canoe routes in the Caribbean. She has experience working with GIS and other data visualization tools. This knowledge aids her work at CMU, where she plans workshops and other content to promote the use of various data visualization methods, tools, and techniques.
