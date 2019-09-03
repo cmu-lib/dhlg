@@ -4,6 +4,7 @@ title: "Historical Gazetteers"
 breadcrumb: true
 teaser: "Building historical gazetteers."
 meta_title: "Historical Gazetteers"
+permalink: "project-videos/mostern/"
 authors:
 - name: Ruth Mostern
   bio: "Ruth Mostern is Associate Professor of History and Director of the World History Center at the University of Pittsburgh.  She is a Chinese historian and world historian with specialties in spatial, digital, and environmental methods. She is the author of *Dividing the realm in Order to Govern: The Spatial Organization of the Song State (960-1276 CE)* (Harvard, 2011) and the forthcoming *Following the Tracks of Yu: The Imperial and Ecological Worlds of the Yellow River* (Yale, 2020).  She is also the co-editor of *Placing Names: Enriching and Integrating Gazetteers* (Indiana, 2016) and she is the P.I of the World Historical Gazetteer."
