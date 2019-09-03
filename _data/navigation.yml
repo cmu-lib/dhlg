@@ -55,11 +55,7 @@
       url: "/global-resources/dh-community/scholarly-organizations/"
     - title: "Online Communities"
       url: "/global-resources/dh-community/online-communities/"
-  - title: "Funding Sources"
-    url: "/global-resources/funding-sources/"
-    alternate:
-    dropdown:
-  - title: "Grants"
+  - title: "Grants and Fellowships"
     url: "/global-resources/funding-sources/grants/"
   - title: "Evaluating Digital Work"
     url: "/global-resources/evaluating-digital-work/"
