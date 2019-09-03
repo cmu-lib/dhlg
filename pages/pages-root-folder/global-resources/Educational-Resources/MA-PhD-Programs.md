@@ -109,7 +109,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 - [Certificate in Digital Humanities, Michigan State University, USA](https://reg.msu.edu/AcademicPrograms/ProgramDetail.aspx?Program=5742)
 - [Certificate in Digital Humanities, North Carolina State University, USA](https://dh.chass.ncsu.edu/grad/)
 - [Certificate in Digital Humanities, Stanford University, USA](https://cesta.stanford.edu/programs/graduate-programs/graduate-certificate-digital-humanities)
-- Certificate in Digital Humanities, Texas A&M University, USA
+- [Certificate in Digital Humanities](https://dhcertificate.tamu.edu/), Texas A&M University, USA
 - [Certificate in Book History and Digital Humanities, Texas Tech University, USA](https://www.depts.ttu.edu/english/grad_degrees/Book_History/BHDHcert_requirements.php)
 - [Graduate Certificate in Digital Humanities, UCLA, USA](http://dh.ucla.edu/graduate-certificate/)
 - [Concentration in Humanities Computing, University of Georgia, USA](https://www.english.uga.edu/areas-emphasis)
@@ -122,8 +122,8 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 - [Certificate in Digital Humanities, Pratt Institute, USA](https://www.pratt.edu/academics/information/advanced-certificates/digital-humanities/)
 - [Certificate in Digital Humanities, University of Victoria, USA](http://web.uvic.ca/~siemens/DH(SI)GradCertificateProposal.pdf) \[no longer offered\]
 - [Certificate in Digital Humanities, Northeastern University, USA](https://www.northeastern.edu/cssh/history/graduate/programs/graduate-certificate-in-digital-humanities/)
-- Specialization in Digital Humanities, Indiana University Bloomington, USA
-- Graduate Certificate in Digital Studies and Methods, University of Pittsburgh, USA
+- [Specialization in Digital Humanities](https://ils.indiana.edu/programs/specializations/digital-humanities.html), Indiana University Bloomington, USA
+- [Graduate Certificate in Digital Studies and Methods](https://www.dsam.pitt.edu/), University of Pittsburgh, USA
 - [Graduate Certificate in Digital Humanities](https://dh.virginia.edu/certificate), University of Virginia, USA
 - [Digital Public Humanities Graduate](https://masononline.gmu.edu/programs/digital-public-humanities-graduate-certificate/), George Mason University, USA
 - [Graduate Certificate in Digital Scholarship and Media Studies](http://digitalscholarship.emory.edu/partner/learn/certificate.html), Emory University, USA
@@ -210,7 +210,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 - [Digital and Public Humanities Emphasis](http://catalog.uwgb.edu/undergraduate/programs/humanistic-studies/major/digital-public-humanities/), University of Wisconsin \- Green Bay, USA
 - [Minor in Data Science in the Humanities](http://iph.wustl.edu/minor-data-science-humanities), Washington University in St. Louis, USA
 - [Digital Humanities Minor](https://wheatoncollege.edu/academics/programs/digital-humanities/), Wheaton College, USA
-- Minor in Digital Humanities, Western University, Canada
+- [Minor in Digital Humanities](https://www.uwo.ca/arts/digitalhumanities/minor_in_dh.html), Western University, Canada
 - [Humanities Analytics Minor](https://www.cmu.edu/dietrich/english/undergraduate/minors/humanities-analytics-minor.html), Carnegie Mellon, USA
 - [Digital Humanities Minor](https://www.newschool.edu/public-engagement/bachelors-program-digital-humanities-minor/), New School, New York, USA
 - [Minor in Digital Humanities](http://cnu.edu/academics/areasofstudy/minor-digitalhumanities/), Christopher Newport, USA
@@ -220,7 +220,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 - [Digital Humanities Minor](https://www.marshall.edu/dh/program/minor-declaration-form/), Marshall University, USA
 - [Digital Public Humanities Minor](https://www.messiah.edu/digital-public-humanities-minor-pennsylvania), Messiah College, USA
 - [Minor in Digital Humanities & Technology](https://catalog.byu.edu/humanities/digital-humanities-program/digital-humanities-and-technology-minor), Brigham Young University, USA
-- Minor in Interactive Arts and Science, Brock University, Canada
+- [Minor in Interactive Arts and Science](https://brocku.ca/programs/undergraduate/interactive-arts-and-science/), Brock University, Canada
 - [Minor in Digital Humanities](http://dh.cal.msu.edu/undergraduate-curriculum/digital-humanities-minor/), Michigan State University, USA
 - [Minor in Digital Humanities](http://dh.ucla.edu/), UCLA, USA
 - [Digital Humanities Minor](https://seaver.pepperdine.edu/humanities/undergraduate/digitalhumanities/), Pepperdine University, USA
