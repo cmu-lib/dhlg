@@ -6,7 +6,7 @@ meta_title: "Global Resources - DH Community - Conferences"
 source: community
 permalink: "global-resources/dh-community/conferences/"
 ---
-The majority of the information on this page comes courtersy of the [dhnotes Conferences page](https://github.com/dh-notes/dhnotes/blob/master/pages/conferences.md) as of August 2019. dhnotes is a collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with the added participation of [gabrielle92](https://github.com/gabrielle92), [Austin Mason](https://github.com/apjmason), [Jonathan Reeve](https://github.com/JonathanReeve), [Scott Weinngart](https://github.com/scottbot), [Roopika Risam](https://github.com/roopikarisam), [Vika Zafrin](https://github.com/vzafrin), [Toshikazo SETO](https://github.com/tosseto), [Paul Spence](https://github.com/pjspence), [kiyonoriNagasaki](https://github.com/kiyonoriNagasaki), [Jan G. Wieners](https://github.com/janwieners), [Grant Wythoff](https://github.com/gwijthoff), [The Gitter Badger](https://github.com/gitter-badger), [briancrogers](https://github.com/briancrogers), [Micky Lindlar](https://github.com/asciim0), and [Cole Crawford](https://github.com/ColeDCrawford0).
+The majority of the information on this page comes courtersy of the [dhnotes Conferences page](https://github.com/dh-notes/dhnotes/blob/master/pages/conferences.md) as of August 2019. [dhnotes](https://github.com/dh-notes/dhnotes) is a collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex). 
 
 
 ## Directory
@@ -17,11 +17,11 @@ The majority of the information on this page comes courtersy of the [dhnotes Con
 
 ## A
 
-[ACM CHI Conference on Human Factors in Computing Systems](https://chi2019.acm.org/) is the [Association for Computing Machinery (ACM)](https://www.acm.org/) international conference of Human-Computer Interaction. The conference also hosts [alt.chi](https://chi2019.acm.org/authors/alt-chi/) at the same time, which includes a seperate application process to have a distinct organization for controversial, risk-taking, and boundary pushing presentations. 
+**[ACM CHI Conference on Human Factors in Computing Systems]**(https://chi2019.acm.org/) is the [Association for Computing Machinery (ACM)](https://www.acm.org/) international conference of Human-Computer Interaction. The conference also hosts [alt.chi](https://chi2019.acm.org/authors/alt-chi/) at the same time, which includes a seperate application process to have a distinct organization for controversial, risk-taking, and boundary pushing presentations. 
 
-[ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW)](http://cscw.acm.org/2019/) is the [Association for Computing Machinery (ACM)](https://www.acm.org/) international conference for research in the design and use of technologies that affect groups, organizations, communities, and networks
+**[ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW)]**(http://cscw.acm.org/2019/) is the [Association for Computing Machinery (ACM)](https://www.acm.org/) international conference for research in the design and use of technologies that affect groups, organizations, communities, and networks
 
-[ACM Conference on Hypertext and Social Media](https://ht.acm.org/ht2018/#) is the [Association for Computing Machinery (ACM)](https://www.acm.org/) international conference on theory, systems and applications for hypertext and social media.  
+**[ACM Conference on Hypertext and Social Media](https://ht.acm.org/ht2018/#)** is the [Association for Computing Machinery (ACM)](https://www.acm.org/) international conference on theory, systems and applications for hypertext and social media.  
 
 [The ACM Symposium on User Interface Software and Technology (UIST)](http://uist.acm.org/uist2019/) is the [Association for Computing Machinery (ACM)](https://www.acm.org/) international conference on human-computer interfaces. The ACM special interest groups on computer-human interaction (SIGCHI) and computer graphics (SIGGRAPH) sponsor the conference.
 
