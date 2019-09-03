@@ -10,7 +10,6 @@
 						{% for controltopic in site.topics %}
 							{% if controltopic.identifier == topic %}
 							{% assign matchedtopics = matchedtopics | push: controltopic %}
-
 							{% endif %}
 						{% endfor %}
 					{% endfor %}
@@ -28,7 +27,6 @@
 						<p class="authorbio">{{ author.bio | markdownify }}</p>
 					{% endif %}
 				{% endfor %}
-
 			</div>
 			{% unless page.disciplines == empty%}
 			{% assign matcheddisciplineprojects = site.emptyArray %}
@@ -42,7 +40,6 @@
 							{% for finddisciplineprojects in site.projects %}
 								{% if finddisciplineprojects.disciplines contains controldiscipline.identifier %}
 									{% if finddisciplineprojects.identifier != page.identifier %}
-										
 										{% assign matcheddisciplineprojects = matcheddisciplineprojects | push: finddisciplineprojects %}
 									{% endif %}
 								{% endif %}
@@ -65,7 +62,7 @@
 										<a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ finddisciplineprojects.youtubeid}}/mqdefault.jpg"></a>
 										<h4><a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}">{{ finddisciplineprojects.title | truncate: 45 }}</a></h4>
 										<p class="strong">{% for author in finddisciplineprojects.authors %}
-											{{ author.name }} {% unless author.affiliation==NULL%}({{ author.affiliation }}){% endunless %}{% if forloop.last %}{% else %}, {% endif %}
+											{{ author.name }}{% if forloop.last %}{% else %}, {% endif %}
 											{% endfor %}</p>
 										{% if finddisciplineprojects.teaser %}<p>{{ finddisciplineprojects.teaser | truncate: 80 }}</p>{% endif %}
 									</div>
@@ -88,7 +85,6 @@
 			{% unless page.topics == empty%}
 			{% assign matchedtopicprojects = site.emptyArray %}
 			{% assign matchedtopics = site.emptyArray %}
-			
 			<div class="small-12 columns">
 				<h3>Similar Projects by Topics</h3>
 				{% for topic in page.topics %}
@@ -98,7 +94,6 @@
 							{% for findtopicprojects in site.projects %}
 								{% if findtopicprojects.topics contains controltopic.identifier %}
 									{% if findtopicprojects.identifier != page.identifier %}
-										
 										{% assign matchedtopicprojects = matchedtopicprojects | push: findtopicprojects %}
 									{% endif %}
 								{% endif %}
@@ -121,7 +116,7 @@
 										<a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ findtopicprojects.youtubeid}}/mqdefault.jpg"></a>
 										<h4><a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}">{{ findtopicprojects.title | truncate: 45 }}</a></h4>
 										<p class="strong">{% for author in findtopicprojects.authors %}
-											{{ author.name }} {% unless author.affiliation==NULL%}({{ author.affiliation }}){% endunless %}{% if forloop.last %}{% else %}, {% endif %}
+											{{ author.name }}{% if forloop.last %}{% else %}, {% endif %}
 											{% endfor %}</p>
 										{% if findtopicprojects.teaser %}<p>{{ findtopicprojects.teaser | truncate: 80 }}</p>{% endif %}
 									</div>
