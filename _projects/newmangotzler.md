@@ -4,6 +4,7 @@ title: "The Historical TV Guide"
 breadcrumb: true
 teaser: "Using digitized text to study television history."
 meta_title: "The Historical TV Guide: using digitized text to study television history"
+permalink: "project-videos/newmangotzler/"
 authors:
 - name: Kathy M. Newman
   bio: "Kathy M. Newman is Associate Professor of English/Literary and Cultural Studies at CMU. Her current book, in progress, is titled: *How the Fifties Worked: Mass Culture and the Decade the Unions Made*. Newman's areas of expertise include American Literature, Media Studies, and the relationship between class, politics and cultural forms."
