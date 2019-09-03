@@ -4,6 +4,7 @@ title: "Building your own data set"
 breadcrumb: true
 teaser: " A Journalist's approach"
 meta_title: "Building your own data set: A Journalist's approach"
+permalink: "project-videos/brown/"
 authors:
 - name: AmyJo Brown
   bio: AmyJo Brown's excitement for city and county budgets, committee meetings and dusty shelves of public records is matched only by her happiness in the day's first cup of coffee. An editor with more than 15 years experience as an investigative journalist, she is the principal and founder of War Streets Media, an information design firm that offers expertise in data and other nonfiction storytelling.
