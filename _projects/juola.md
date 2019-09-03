@@ -3,7 +3,8 @@ layout: project
 title: "Stylometry and Authorship Analysis"
 breadcrumb: true
 teaser: "Machine learning to identify authors."
-meta_title: "Stylometry and Authorship Analysis"
+meta_title: "Stylometry and Authorship Analysis
+permalink: "project-videos/juola/"
 authors:
 - name: Patrick Juola
   bio: |
