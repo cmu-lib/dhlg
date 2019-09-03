@@ -12,6 +12,22 @@ Interested in participating in a DH network in your area?
 
 Below are DH networks aggregated from [Twitter](https://twitter.com/nolauren/status/1130130743668203521). This list is not complete. To add a missing organization or edit incorrect information, please let me know by either tweeting (@nolauren) or emailing me (Lauren [dot] Tilton@gmail.com). The networks below are not members of the Association of Digital Humanities Organizations. For members of ADHO, visit [here](https://adho.org/). For a list of Twitter handles created by dh+lib, visit [here](https://twitter.com/DHandLib/lists/local-dh-groups/members). Thank you to the [twitter community](https://twitter.com/nolauren/status/1130130743668203521) for helping with this list. 
 
+ 
+## The Alliance of Digital Humanities Organizations (ADHO)
+
+[The Alliance of Digital Humanities Organizations (ADHO)](https://adho.org/) supports digital research across a variety of arts and humanities disciplines. A number of other professional organizations are part of the ADHO:
+  -  [Association for Computers and the Humanities (ACH)](http://ach.org/).
+  -  [Australasian Association for Digital Humanities (aaDH)](https://aa-dh.org/).
+  -  [Canadian Society for Digital Humanities / Société canadienne des humanités numériques (CSDH/SCHN)](http://csdh-schn.org/).
+  -  [centerNet](http://dhcenternet.org/).
+  -  [Digital Humanities Association of Southern Africa (DHASA)](http://digitalhumanities.org.za/).
+  -  [European Association for Digital Humanities (EADH)](http://eadh.org/).
+  -  [Humanistica, L'association francophone des humanités numériques/digitales (Humanistica)](http://www.humanisti.ca/).
+  -  [Japanese Association for Digital Humanites (JADH)](https://www.jadh.org/).
+  -  [Red de Humanidades Digitales (RedHD)](http://www.humanidadesdigitales.net/).
+  -  [Taiwanese Association for Digital Humanities (TADH)](http://tadh.org.tw/en/).
+  
+
 ## Europe
 
  -  [AG Digital Humanities Mitteldeutschland](https://www.saw-leipzig.de/de/ueber-die-akademie/arbeitsgruppen/ag-digital-humanities-mitteldeutschland) DH Working Group
@@ -46,21 +62,9 @@ Below are DH networks aggregated from [Twitter](https://twitter.com/nolauren/sta
 ## South America
 
  -  [Asociación Argentina de Humanidades Digitales](aahd.net.ar)
- 
-## The Alliance of Digital Humanities Organizations (ADHO)
-[The Alliance of Digital Humanities Organizations (ADHO)](https://adho.org/) supports digital research across a variety of arts and humanities disciplines. A number of other professional organizations are part of the ADHO:
-  -  [Association for Computers and the Humanities (ACH)](http://ach.org/).
-  -  [Australasian Association for Digital Humanities (aaDH)](https://aa-dh.org/).
-  -  [Canadian Society for Digital Humanities / Société canadienne des humanités numériques (CSDH/SCHN)](http://csdh-schn.org/).
-  -  [centerNet](http://dhcenternet.org/).
-  -  [Digital Humanities Association of Southern Africa (DHASA)](http://digitalhumanities.org.za/).
-  -  [European Association for Digital Humanities (EADH)](http://eadh.org/).
-  -  [Humanistica, L'association francophone des humanités numériques/digitales (Humanistica)](http://www.humanisti.ca/).
-  -  [Japanese Association for Digital Humanites (JADH)](https://www.jadh.org/).
-  -  [Red de Humanidades Digitales (RedHD)](http://www.humanidadesdigitales.net/).
-  -  [Taiwanese Association for Digital Humanities (TADH)](http://tadh.org.tw/en/).
 
 ## Broader Scholarly Organizations with Active DH Membership
+
 The following scholarly organizations are not exclusively focused on DH, but their members pratice DH methods. Some of these organizations sponsor DH networks or groups. Generally, annual conferences for these organizations will feature panels, roundtables, dicussions, or pre-conference events related to DH.
  -  [The Association for Computational Linguistics (ACL)](https://www.aclweb.org/portal/).
  -  [The Association for Computing Machinery (ACM)](https://www.acm.org/).
