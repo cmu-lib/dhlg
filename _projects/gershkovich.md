@@ -26,9 +26,7 @@ date_updated: 2019-08-29
 The project examines digital editions of scholarly work and using interactive timelines to further investigate how one particular author, the Russian great Leo Tolstoy, wrote about the process of writing his novels in his personal diaries and letters.
 
 ## Further Reading and Resources
-
-[*Beyond the Ant Brotherhood*](https://colloquy.us:8443/Tolstoy/#home)
-
-[Tolstoy Web Archive](http://tolstoy.ru/)
+ -  [*Beyond the Ant Brotherhood*](https://colloquy.us:8443/Tolstoy/#home)
+ -  [Tolstoy Web Archive](http://tolstoy.ru/)
 
 
