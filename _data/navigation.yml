@@ -17,11 +17,11 @@
   url: "/getting-hired/"
   side: left
   alternate:
- dropdown:
+  dropdown:
   - title: "Job Boards"
     url: "/getting-hired/job-boards/"
     alternate:
- dropdown:
+  dropdown:
   - title: "Job Market Advice"
     url: "/getting-hired/job-market-advice/"
     alternate:
@@ -59,10 +59,11 @@
     url: "/global-resources/funding-sources/"
     alternate:
     dropdown:
-    - title: "Grants"
+  - title: "Grants"
       url: "/global-resources/funding-sources/grants/"
   - title: "Evaluating Digital Work"
     url: "/global-resources/evaluating-digital-work/"
+    
 - title: "Local Resources"
   url: "/local-resources/"
   side: left
