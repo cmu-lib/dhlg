@@ -60,7 +60,7 @@
     alternate:
     dropdown:
   - title: "Grants"
-      url: "/global-resources/funding-sources/grants/"
+    url: "/global-resources/funding-sources/grants/"
   - title: "Evaluating Digital Work"
     url: "/global-resources/evaluating-digital-work/"
     
