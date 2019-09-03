@@ -29,5 +29,4 @@ date_updated: 2019-08-29
 This video describes the online historical project SocialChange101.org, which is a free, open access, online course on the history of social movements and social change. It also is a free workshop series aimed at high school students. It is an example of how open access web courses can provide the means to educate and inspire a wide range of people across the globe.
 
 ## Further Reading and Resources
-
-[SocialChange101.org](http://socialchange101.org/)
+ -  [SocialChange101.org](http://socialchange101.org/).
