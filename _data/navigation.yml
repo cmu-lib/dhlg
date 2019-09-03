@@ -17,6 +17,14 @@
   url: "/getting-hired/"
   side: left
   alternate:
+ dropdown:
+  - title: "Job Boards"
+    url: "/getting-hired/job-boards/"
+    alternate:
+ dropdown:
+  - title: "Job Market Advice"
+    url: "/getting-hired/job-market-advice/"
+    alternate:
 
 - title: "Global Resources"
   url: "/global-resources/"
@@ -27,8 +35,6 @@
     url: "/global-resources/educational-resources/"
     alternate:
     dropdown:
-    - title: "Instructional Blogs / Misc"
-      url: "/global-resources/educational-resources/instructional-blogs"
     - title: "Textbooks"
       url: "/global-resources/educational-resources/textbooks/"
     - title: "MOOCs and Other Online Courses"
@@ -47,30 +53,16 @@
       url: "/global-resources/dh-community/journals/"
     - title: "Scholarly Organizations"
       url: "/global-resources/dh-community/scholarly-organizations/"
-    - title: "Regional Organizations"
-      url: "/global-resources/dh-community/regional-organizations/"
     - title: "Online Communities"
       url: "/global-resources/dh-community/online-communities/"
-    - title: "Job Boards"
-      url: "/global-resources/dh-community/job-boards/"
   - title: "Funding Sources"
     url: "/global-resources/funding-sources/"
     alternate:
     dropdown:
     - title: "Grants"
       url: "/global-resources/funding-sources/grants/"
-    - title: "Fellowships"
-      url: "/global-resources/funding-sources/fellowships/"
-    - title: "Misc"
-      url: "/global-resources/funding-sources/misc/"
-  - title: "Professionalization"
-    url: "/global-resources/professionalization/"
-  - title: "DH Job Markets"
-    url: "/global-resources/dh-job-market/"
-  - title: "Notable Critiques"
-    url: "/global-resources/notable-critiques/"
-
-
+  - title: "Evaluating Digital Work"
+    url: "/global-resources/evaluating-digital-work/"
 - title: "Local Resources"
   url: "/local-resources/"
   side: left
