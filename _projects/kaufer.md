@@ -4,6 +4,7 @@ title: "DocuScope"
 breadcrumb: true
 teaser: "Computer Support for Close Reading and Textual Analysis in DH."
 meta_title: "DocuScope: Computer Support for Close Reading and Textual Analysis in the Digital Humanities"
+permalink: "project-videos/kaufer/"
 authors:
 - name: David Kaufer
   bio: |
