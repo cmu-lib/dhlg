@@ -29,5 +29,4 @@ date_updated: 2019-08-29
 This video describes the Shakespeare-VR project, a virtual reality education project that brings students face to face with professional actors performing soliloquies in a replica of Shakespeare's  Blackfriars Playhouse. It aims to introduce viewers to the conditions that Shakespeare had in mind when he wrote his plays. Virtual reality leads to a comprehensive and immersive experience that cannot be replicated in any other way.
 
 ## Further Reading and Resources
-
-[Google Jump VR Camera](https://vr.google.com/jump/)
+ -  [Google Jump VR Camera](https://vr.google.com/jump/).
