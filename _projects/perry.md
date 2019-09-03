@@ -4,6 +4,7 @@ title: "Topic Modeling Subreddits"
 breadcrumb: true
 teaser: "Computational techniques to topic model subreddits."
 meta_title: "Topic Modeling Subreddits"
+permalink: "project-videos/perry/"
 authors:
 - name: Chloe Perry
   bio: Chloe Perry is a Predoctoral Fellow in The Laboratory for Social Minds, run by Professor Simon DeDeo. She has a Master's Degree in Literary and Cultural Studies from Carnegie Mellon University. She is interested in digital humanities, information studies, global literature and interdisciplinary approaches to cultural analysis.
