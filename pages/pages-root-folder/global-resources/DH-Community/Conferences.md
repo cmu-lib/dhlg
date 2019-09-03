@@ -71,9 +71,9 @@ The majority of the information on this page comes courtersy of the [dhnotes Con
 
 ## H
 
-**[HCOMP]https://www.humancomputation.com/)** is the [the Association for the Advancement of Artificial Intelligence (AAAI)](https://www.aaai.org/) Conference on Human Computation and Crowdsourcing. It is concerned with human computation and crowdsourcing.
+**[HCOMP](https://www.humancomputation.com/)** is the [the Association for the Advancement of Artificial Intelligence (AAAI)](https://www.aaai.org/) Conference on Human Computation and Crowdsourcing. It is concerned with human computation and crowdsourcing.
 
-**[Humanities, Arts, Science, and Technology Alliance and Collaboratory(HASTAC)]https://www.hastac.org/tags/2019-hastac-conference)** is an interdisciplinary community of humanists, artists, social scientists, scientists, and technologists. HASTAC hosts a conference each year with a different theme, but it is always related to digital studies and pedagogy broadly. 
+**[Humanities, Arts, Science, and Technology Alliance and Collaboratory(HASTAC)](https://www.hastac.org/tags/2019-hastac-conference)** is an interdisciplinary community of humanists, artists, social scientists, scientists, and technologists. HASTAC hosts a conference each year with a different theme, but it is always related to digital studies and pedagogy broadly. 
 
 [[top]](#directory)
 
