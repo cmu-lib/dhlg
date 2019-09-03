@@ -12,6 +12,7 @@ This page comes by courtsey of [Matthew Hannah's](https://github.com/m-n-hannah)
 # Places to Look for Positions
 
 ## Academic Faculty Positions with DH Subfields
+
 - [Modern Language Association](https://www.mla.org/Resources/Career/Job-Information-List)
 - [American Historical Association Job List](https://careers.historians.org/jobs)
 - [CRTNET for Communications](https://www.natcom.org/academic-professional-resources/nca-career-center/advertise-nca/communication-research-and-theory)  
@@ -27,6 +28,7 @@ This page comes by courtsey of [Matthew Hannah's](https://github.com/m-n-hannah)
 - [Academic Jobs Europe](https://jobs.edu.eu/)  
 
 ## Digital Humanities Jobs/Postdocs (Outside Discipline)  
+
 - [Digital Humanities Now](http://digitalhumanitiesnow.org/category/news/job/)  
 - Google, seriously
 - [Digital Hum Jobs](https://twitter.com/jobsdh?lang=en)
@@ -42,5 +44,6 @@ This page comes by courtsey of [Matthew Hannah's](https://github.com/m-n-hannah)
 - [ALA JobLIST Library and LIS Jobs](https://twitter.com/ALA_JobLIST)
 
 ## Jobs outside the professoriate who may want digital skills  
+
 - [Federal Jobs](https://www.usajobs.gov/): There are jobs at institutions like the Smithsonian.    
 - [Alt Academy](http://mediacommons.futureofthebook.org/alt-ac/): Resource for considering great career moves.    
