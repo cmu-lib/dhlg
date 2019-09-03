@@ -4,6 +4,7 @@ title: "Marriage & Divorce of Capitalism & Democracy"
 breadcrumb: true
 teaser: "DH methods for interdisciplinary studies and results."
 meta_title: "The Marriage (and Divorce) of Capitalism & Democracy"
+permalink: "project-videos/dedeo/"
 authors:
 - name: Simon DeDeo
   bio: Simon DeDeo is an assistant professor in the Department of Social and Decision Sciences, and external faculty at the Santa Fe Institute. He leads the Laboratory for Social Minds.
