@@ -27,9 +27,6 @@ date_updated: 2019-08-29
 This video discusses historical gazetteers, essentially any databases of place names. Gazetteers are useful for spatial analysis, especially in the context of history, when the data is largely unstructured text. The video describes how to build a database from structured texts that discuss space and then ask historical questions of the sources. It also explains how a database of places can then be turned into a relational database that also links descriptions of events to the places in turn to create timelines.
 
 ## Further Reading and Resources
-
-Humphrey Southall, Ruth Mostern and Merrrick Lex Berman, "On Historical Gazetteers," *International Journal of Humanities and Arts Computing* 5.2 (2011), 127-145.
-
-Merrick Lex Berman, Ruth Mostern and Humphrey Southalol, eds., [*Placing Names: Enriching and Integrating Gazetteers*](https://books.google.com/books?id=6LD-DAAAQBAJ&dq=Placing+Names:+Enriching+and+Integrating+Gazetteers+(Indiana+University+Press,+2016).&source=gbs_navlinks_s) (Indiana University Press, 2016).
-
-[World Historical Gazetteer](http://whgazetteer.org/).
+ -  Humphrey Southall, Ruth Mostern and Merrrick Lex Berman, "On Historical Gazetteers," *International Journal of Humanities and Arts Computing* 5.2 (2011), 127-145.
+ -  Merrick Lex Berman, Ruth Mostern and Humphrey Southalol, eds., [*Placing Names: Enriching and Integrating Gazetteers*](https://books.google.com/books?id=6LD-DAAAQBAJ&dq=Placing+Names:+Enriching+and+Integrating+Gazetteers+(Indiana+University+Press,+2016).&source=gbs_navlinks_s) (Indiana University Press, 2016).
+ -  [World Historical Gazetteer](http://whgazetteer.org/).
