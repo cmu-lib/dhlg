@@ -11,6 +11,13 @@ This page comes by courtsey of [Matthew Hannah's](https://github.com/m-n-hannah)
 ## About
 A small collection of resources for navigating the academic job market with an eye toward Digital Humanities or Digital Scholarship positions. This is an ongoing collection begun in Fall 2019 for ILS 695: Introducing Digital Humanities, taught at Purdue University, but I will be adding to this page over time.
 
+### Things to Apply to in Grad School
+- [HASTAC Scholars](https://www.hastac.org/initiatives/hastac-scholars)  
+- [Digital Humanities Summer Institute](http://www.dhsi.org/): Offer scholarships to attend.    
+- Any administrative role in your college or department. Seriously, run for President!    
+- [Humanities Intensive Learning and Teaching](http://dhtraining.org/hilt/)  
+- [Association of Research Libraries Digital Scholarship Institute](https://www.arl.org/focus-areas/scholarly-communication/digital-scholarship/arl-digital-scholarship-institute)  
+
 ### Logistics
 Most academic job searchers begin in August and run through January/February. When most interviews were held at the major conferences, this marked the end of the job season. Increasingly academic searches are using Skype to interview in the first round, so the search can extend all through the year. Most academic jobs stop searching after the January/February deadline. For academic jobs, the offer will be to start the following academic year. For jobs in Libraries and “alt-ac” sectors, the campus visit is usually followed by an offer to start immediately, and this will have to be negotiated. For either type, you are allowed to negotiate for higher salary, spousal hire, sabbatical (research jobs), etc. but don’t overdo it. Know the job. Rejections will be sent usually (but not always) but you can sometimes find out sooner through a Twitter search or through the Academic Jobs Wiki.
   
