@@ -4,6 +4,7 @@ title: "Structure-based Network Analysis"
 breadcrumb: true
 teaser: "Structure-based network analysis."
 meta_title: "Structure-based Network Analysis"
+permalink: "project-videos/hackney/"
 authors:
 - name: S.E. Hackney
   bio: S.E. "Shack" Hackney is a PhD candidate in Library and Information Science at the University of Pittsburgh’s School of Computing and Information. They received their MSLIS with Advanced Certificate in Digital Humanities from Pratt Institute’s School of Information in 2016. Their research focuses on structural inequality within digital infrastructure systems, particularly within the realm of digital character-encoding standards, and the ways that knowledge organization systems create physical and virtual spaces that privilege certain bodies and experiences over others.
