@@ -18,7 +18,8 @@ creationdate: 2019-08-05
 date_updated: 2019-08-29
 ---
 
-DH post-colonialism is the application of key facets of post-colonial studies such as critiques of colonialism, imperialism, and globalization and their relationships to race, class, gender, sexuality, and disability to digital humanities. Much like [DH Feminism](#topic_dhfeminism) aims to bring more women and approaches of feminist studies to DH, DH post-colonialism aims to decolonize digital studies.
+DH postcolonialism is the application of key facets of postcolonial studies such as critiques of colonialism, imperialism, and globalization and their relationships to race, class, gender, sexuality, and disability to digital humanities. Much like [DH Feminism](#topic_dhfeminism) aims to bring more women and approaches of feminist studies to DH, DH post-colonialism aims to decolonize digital studies.
 
 For more information see:
--  [Postcolonial Digital Humanities](https://dhpoco.org/).
+-  [Postcolonial Digital Humanities](https://dhpoco.org/). Adeline Koh and Roopika Risam.
+-  [New Digital Worlds](http://www.nupress.northwestern.edu/content/new-digital-worlds) (2018). Roopika Risam.
