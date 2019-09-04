@@ -19,7 +19,7 @@ creationdate: 2019-07-31
 date_updated: 2019-08-29
 ---
 
-Computational linguistics is an interdisciplinary field that is interested in the rule-based modeling of any natural (human) language from a computational perspective. It is also interested in computational approaches to the study of traditional questions of linguistics research. Originally, computational linguistics was practiced by computer scientists, but today scholars of a variety of backgrounds are interested in the field including linguists, philosophers, and psychologists.
+Computational linguistics is an interdisciplinary field that is interested in the rule-based modeling of any natural (human) language from a computational perspective. It is also interested in computational approaches to the study of traditional questions of linguistics research. Computational linguistics is practiced by computer scientists, linguists, philosophers, psychologists, and a variety of other scholars.
 
 Further information can be found at:
  -  [Wikipedia Computational linguistics](https://en.wikipedia.org/wiki/Computational_linguistics).
