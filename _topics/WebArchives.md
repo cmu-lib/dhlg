@@ -23,3 +23,5 @@ Web archiving is the act of creating an archive of information stored on the Wor
 More information can b found in these sources:
 -  [The Internet Archive](https://archive.org/).
 -  [The Wayback Machine](https://archive.org/web/).
+-  [Web Archives for Historical Research Group](https://uwaterloo.ca/web-archive-group/).
+-  [SAGE Handbook of Web History](http://uk.sagepub.com/en-gb/eur/the-sage-handbook-of-web-history/book252251) (2018). eds. Niels Brügger and Ian Milligan.
