@@ -22,7 +22,6 @@ The NEH has several programs that offer grants appropriate for digital humanitie
 ## The Office of the Digital Humanities
 
 Main Website: http://www.neh.gov/divisions/odh<br/>
-Officers: Brett Bobley, Jen Serventi, Jason Rhody and Perry Collins<br/>
 Email: <odh@neh.gov>
 
 | Grant         | Range (USD)        | Deadline|
@@ -35,7 +34,6 @@ Email: <odh@neh.gov>
 
 ## Division of Public Programs
 Main Website: http://www.neh.gov/divisions/public<br/>
-Officers: Karen Mittelman, Director [See also staff page](http://www.neh.gov/divisions/public/staff)<br/>
 Email: <publicpgms@neh.gov>
 
 | Grant         | Range(USD)        | Deadline|
@@ -49,8 +47,6 @@ Email: <publicpgms@neh.gov>
 
 ## Division of Preservation and Access
 Main Website: http://www.neh.gov/divisions/preservation<br/>
-Officers: Nadina Gardner, Director [See also staff page](http://www.neh.gov/divisions/preservation/staff)<br/>
-Email: <jwurl@neh.gov> (Joel Wurl); <jsternfeld@neh.gov> (Joshua Sternfeld)
 
 
 | Grant         | Range(USD)        | Deadline|
@@ -60,7 +56,6 @@ Email: <jwurl@neh.gov> (Joel Wurl); <jsternfeld@neh.gov> (Joshua Sternfeld)
 
 ## Division of Research Programs
 Main Website: http://www.neh.gov/divisions/research<br/>
-Officers: Jane Aikin, Director [See also staff page](http://www.neh.gov/divisions/research/staff)<br/>
 
 | Grant         | Range(USD)        | Deadline|
 | ------------- | -------------| --------:|
@@ -72,7 +67,6 @@ Officers: Jane Aikin, Director [See also staff page](http://www.neh.gov/division
 
 ## Division of Education Programs
 Main Website: http://www.neh.gov/divisions/education<br/>
-Officers: William Craig Rice, Director [See also staff page](http://www.neh.gov/divisions/education/staff)<br/>
 
 | Grant         | Range(USD)        | Deadline|
 | ------------- | -------------| --------:|
@@ -85,7 +79,6 @@ Officers: William Craig Rice, Director [See also staff page](http://www.neh.gov/
 The Scholarly Communications and Information Technology Program was formed in 2010 through the merger of the Programs on Scholarly Communications and Research in Information Technology. The office has funded initiatives ranging from specific scholarly projects to institutional infrastructure.
 
 Main Website: http://www.mellon.org/grant_programs/programs/scit<br/>
-Officers: Donald J. Waters, Program Officer  [See also overview  page](http://www.mellon.org/grant_programs/programs/scit)<br/>
 
 **Mellon awards have a wide range. The Deadline for submission is usually 4 Months before one of the Board Meetings in March, June, September or December.**
 
@@ -206,9 +199,6 @@ Main website: http://www.nsf.gov/funding/
 |[Starr Foundation](http://www.starrfoundation.org/)|||
 |[Spencer Foundations](http://www.spencer.org/)|||
 
-# Google
-In 2010 Google committed 1M to support the Digital Humanities for 2 years. We don't know if they have renewed their commitment, but here's [some info](http://googleblog.blogspot.com/2010/07/our-commitment-to-digital-humanities.html).
-
 # Crowdfunding
 Why not?
 
@@ -217,10 +207,9 @@ Why not?
 
 # Other Lists of Funding Opportunities
 
-* [Foundation Center](http://foundationcenter.org/)
-* [Grants.gov](http://grants.gov/)
-* [DHNow Funding List](http://digitalhumanitiesnow.org/tag/funding/)
-* [Harvard Digital Humanities Cafe](http://guides.library.harvard.edu/content.php?pid=173015&sid=1544294)
-
-*[ACH]: Association for Computers and the Humanities
+ -  [Foundation Center](http://foundationcenter.org/)
+ -  [Grants.gov](http://grants.gov/)
+ -  [DHNow Funding List](http://digitalhumanitiesnow.org/tag/funding/)
+ -  [Harvard Digital Humanities Cafe](http://guides.library.harvard.edu/content.php?pid=173015&sid=1544294)
+ -  [ACH](https://ach.org/): Association for Computers and the Humanities
 
