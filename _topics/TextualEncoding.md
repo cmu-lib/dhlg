@@ -19,7 +19,7 @@ creationdate: 2019-07-31
 date_updated: 2019-08-29
 ---
 
-The Text Encoding Initiative (TEI) is a a large community of practice that defines a specific branch of eXtensible Markup Language (XML). A markup language is a text processing system that annotates documents in ways that they are both human and machine readable. Both XML and TEI support numerous languages through Unicode. The goal of TEI is to maintain a standard for representing texts in digital form in order to further their study by scholars from a variety of fields such as literary studies, history, and linguistics. TEI is extremely useful for annotating texts and presenting these annotated texts in [digital editions](#topic_digitaleditions).
+The Text Encoding Initiative (TEI) is a community of practice that defines a specific branch of eXtensible Markup Language (XML). A markup language is a text processing system that annotates documents in ways that are both human and machine readable. Both XML and TEI support numerous languages through Unicode. The goal of TEI is to maintain a standard for representing texts in digital form in order to further their study by scholars from a variety of fields such as literary studies, history, and linguistics. TEI is extremely useful for annotating texts and presenting these annotated texts in [digital editions](#topic_digitaleditions).
 
 More information can be found in these sources:
  -  [Text Encoding Initiative](https://tei-c.org/)
