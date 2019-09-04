@@ -17,9 +17,8 @@ creationdate: 2019-07-31
 date_updated: 2019-08-29
 ---
 
-Digital editions are instances of texts such as novels or news publications that are hosted digitally rather than in a traditional print format. Digital editions consist of websites or ebooks. When stylized as a website, digital editions allow scholars to easily include annotations and scholarly interpretations of a text through the use of [Textual Encoding](#topic_textualencoding).
+Digital editions are instances of physical objects, often texts like novels or news publications, that are rendered digitally rather than in their more common print format. Digital editions further allow scholars to include annotations and scholarly interpretations of a text using a number of technologies, including through the use of the [Textual Encoding Initiative](#topic_textualencoding).
 
 Further information can be found at:
  -  [Digital Mitford](https://digitalmitford.org/).
  -  [Frankenstein Variorum](https://pghfrankenstein.github.io/Pittsburgh_Frankenstein/).
- -  [Project Gutenberg](https://www.gutenberg.org/).
