@@ -17,6 +17,7 @@ permalink: "global-resources/educational-resources/textbooks/"
  -  [Text Analysis with R for Students of Literature](http://www.matthewjockers.net/text-analysis-with-r-for-students-of-literature/) (2014). Matthew Jockers.
  -  [The Art of Literary Text Analysis](https://github.com/sgsinclair/alta/blob/master/ipynb/ArtOfLiteraryTextAnalysis.ipynb) (ongoing). Stéfan Sinclair & Geoffrey Rockwell. 
  -  [Statistics for Corpus Linguistics](https://www.amazon.com/Statistics-Linguistics-Edinburgh-Textbooks-Empirical/dp/0748608176) (1998). Michael Oakes. 
+ -  [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) (2019). Dan Jurafsky & James H. Martin
  
 ## General Digital Humanities
  -  [Humanities Data in R](https://humanitiesdata.org/) (2015). Lauren Tilton & Taylor Arnold. 
