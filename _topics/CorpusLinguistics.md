@@ -22,3 +22,5 @@ Corpus linguistics involves the study of language from a corpus of texts. In cor
 Further information can be found at:
  -  [The Cambridge Handbook of English Corpus Linguistics](https://books.google.com/books?id=0b8yCgAAQBAJ&printsec=frontcover&dq=corpus+linguistics&hl=en&sa=X&ved=0ahUKEwjE9LXSxuzjAhVvUt8KHXKRCxUQ6AEIKjAA#v=onepage&q=corpus%20linguistics&f=false) (2015) edited by Douglas Biber and Randi Reppen.
  -  [Contemporary Corpus Linguistics](https://books.google.com/books?id=iPqzKNbZZlAC&printsec=frontcover&dq=corpus+linguistics&hl=en&sa=X&ved=0ahUKEwjE9LXSxuzjAhVvUt8KHXKRCxUQ6AEINDAC#v=onepage&q=corpus%20linguistics&f=false) (2009) edited by Paul Baker.
+ -  [Tools for Corpus Linguistics](https://corpus-analysis.com/?fbclid=IwAR1hk8eEh-ei8E8JTzwvp5k6t1AWQF2PvdbuBdw6nyU7VmpXLNMhYqIma_Y) by Kristin Berberich, Ingo Kleiber, and others.
+ -  [An Introductory Bibliography to Corpus Linguistics](https://hfroehli.ch/2014/05/11/intro-bibliography-corpus-linguistics/) by Heather Froehlich.
