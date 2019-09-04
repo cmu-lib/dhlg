@@ -15,22 +15,6 @@ of the funding opportunities included are meant to be used solely on digital hum
 
 Developed by **Alex Gil** and **Dennis Tenen**, with support from the ACH.
 
-# Unsorted
-
-Amazon has opened a call for proposals for the 2017 round of Amazon Research
-Awards in a number of areas, including MT, NLU, Search, Robotics and more. The
-program is open to faculty members in North America and Europe and awards up
-to 80,000 USD in cash and 20,000 USD in AWS credits. Proposal submissions are
-accepted until September 15, 2017.
-
-The Data Transparency Lab is a collaborative effort between universities,
-businesses and institutions to support research in tools, data, and
-methodologies for shedding light on the use of personal data by online
-services, and to empower users to be in control of their personal data online.
-DTL will award in 2017 up to 6 research grants as well as up to 3 postdoc
-positions to support the work of applicants from academic institutions
-worldwide.
-
 # The NEH
 
 The NEH has several programs that offer grants appropriate for digital humanities work, including the Division of Public Programs, the Division of Preservation and Access, the Division of Education Programs and the Division of Research Programs. The Office of Digital Humanities focuses specifically on supporting a wide range of digital humanities work at many stages of a project.
