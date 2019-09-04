@@ -25,3 +25,4 @@ Further information can be found at:
 -  [Global Resources: MOOCs/online courses](/_GlobalResources/MOOCs).
 -  [CMU Eberly Center Technology for Education](https://www.cmu.edu/teaching/technology/index.html).
 -  [Wikipedia Digital Pedagogy](https://en.wikipedia.org/wiki/Digital_pedagogy).
+-  [Hybrid Pedagogy](https://hybridpedagogy.org/). An open-access journal of learning, teaching, and technology
