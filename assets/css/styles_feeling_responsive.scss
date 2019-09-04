@@ -935,6 +935,11 @@ body.frontpage{
     max-height: unset;
     max-width: unset;
   }
+  body.frontpage{
+    #navigation{
+      display:none;
+    }
+  }
   #sidenav{
     z-index: unset;
     #tocheader{

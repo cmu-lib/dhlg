@@ -2,7 +2,7 @@
 layout: default
 format: page
 ---
-<div class="row {% if page.sidebar == NULL %}circlebg{% endif %}" id="main">
+<div class="row {% if page.sidebar == NULL %}circlebg{% endif %}{% if page.source == 'community' %} contribution{% endif %}" id="main">
 	{% if page.sidebar == "left" %}
 	<div class="large-4 small-12 columns">
 		{% include _sidebar.html %}
