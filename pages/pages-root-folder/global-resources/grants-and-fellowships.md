@@ -8,12 +8,10 @@ permalink: "global-resources/grants-and-fellowships/"
 date_updated: 2019-09-03
 ---
 
-The majority of the information on this page comes courtersy of the [dhnotes Funding page](https://github.com/dh-notes/dhnotes/blob/master/pages/funding.md) as of September 2019. [dhnotes](https://github.com/dh-notes/dhnotes) is as collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex).
+The majority of the information on this page comes courtersy of the [dhnotes Funding page](https://github.com/dh-notes/dhnotes/blob/master/pages/funding.md) as of September 2019. [dhnotes](https://github.com/dh-notes/dhnotes) is as collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with support from the [ACH](https://ach.org/). 
 
 Here is list of funding opportunities for Digital Humanities work. Some
 of the funding opportunities included are meant to be used solely on digital humanities, in other cases some general funding for the humanities can be applied towards digital humanities work. This simplified list derives from the more detailed list compiled with the help of the community using [this shared spreadsheet on GoogleDocs](https://docs.google.com/spreadsheet/ccc?key=0AmgLcm5jfVhSdDZjRXBEN21sLXhKYnpQa2ZVSFQ2cWc&usp=sharing).
-
-Developed by **Alex Gil** and **Dennis Tenen**, with support from the ACH.
 
 # The NEH
 
