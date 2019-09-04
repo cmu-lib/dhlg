@@ -21,3 +21,4 @@ Critical code studies is a broad field that brings together digital humanities, 
 For more information see:
  -  [Critical Code Studies](http://electronicbookreview.com/essay/critical-code-studies/) Mark C. Marino, *electronic book review* December 4, 2006.
  -  [Track Changes: A Literary History of Word Processing](https://books.google.com/books?id=5gUEDAAAQBAJ&printsec=frontcover&dq=matthew+kirschenbaum&hl=en&sa=X&ved=0ahUKEwjR5PHJwuzjAhXhSt8KHXBNDuwQ6AEIMDAB#v=onepage&q=matthew%20kirschenbaum&f=false) (2016) Matthew G. Kirschenbaum.
+ -  [10 Print](https://10print.org/) (2012). By Nick Montfort, Patsy Baudoin, John Bell, Ian Bogost, Jeremy Douglass, Mark C. Marino, Michael Mateas, Casey Reas, Mark Sample, and Noah Vawter.
