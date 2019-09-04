@@ -17,7 +17,7 @@ creationdate: 2019-07-31
 date_updated: 2019-08-29
 ---
 
-Digital forensics is a form of forensic science that seeks to recover and investigate materials stored on digital devices. A practitioner of digital forensics can take meta data, for example, and use to to determine authorship of documents. Similar techniques can also be used to determine if a digital document has been tampered with or falsified in any way.
+Digital forensics is a form of forensic science that seeks to recover and investigate materials stored on digital devices. A practitioner of digital forensics can take metadata, for example, and use it to determine authorship of documents. Similar techniques can also be used to determine if a digital document has been tampered with or falsified in any way.
 
 Further information can be found at:
  -  [Wikipedia Digital Forensics](https://en.wikipedia.org/wiki/Digital_forensics).
