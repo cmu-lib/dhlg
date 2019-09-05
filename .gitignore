@@ -8,3 +8,4 @@ _config_dev.yml
 .vscode/
 /_site_local
 .jekyll-metadata
+tmp/
