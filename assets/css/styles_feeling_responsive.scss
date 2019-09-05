@@ -661,7 +661,7 @@ body.frontpage{
         background-position: -140px;
         height: 140px;
         width: 140px;
-        background-image: url(/assets/img/circle-pale-amber.svg);
+        background-image: url(#{$baseurl}/assets/img/circle-pale-amber.svg);
         background-size: 100% 100%;
         left: -35px;
         z-index:-2;
@@ -669,7 +669,7 @@ body.frontpage{
       &.contribution{
         background: unset;
         &:before {
-          background-image: url(/assets/img/circle-cobalt-large.svg);
+          background-image: url(#{$baseurl}/assets/img/circle-cobalt-large.svg);
         }
       }
     }
