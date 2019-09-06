@@ -24,9 +24,9 @@ contributedcontent: 'Content marked in blue is contributed by the community and 
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://dsharp-cmu.github.io/WhatAreDH'
-baseurl: ''
-repositoryurl: 'https://github.com/dSHARP-CMU/dh-literacy-web'
+url: 'https://cmu-lib.github.io'
+baseurl: '/dhlg'
+repositoryurl: 'https://github.com/cmu-lib/dhlg'
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
