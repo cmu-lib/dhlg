@@ -1,6 +1,33 @@
-## Build and deployment TBD
+## Build and deployment
 
-## Adding a new page TBD
+Building this site requires ruby >= 2.5.3
+
+Ensure you have the bundler gem installed:
+
+```sh
+gem install bundler
+```
+
+Then install the other dependencies for this site:
+
+```sh
+bundle install
+```
+
+To preview the site locally:
+
+```sh
+bundle exec jekyll serve --watch --config _config.yml,_config_local.yml
+```
+
+To check for broken links:
+
+```sh
+bundle exec jekyll build  --config _config.yml,_config_local.yml
+bundle exec htmlproofer ./_site --assume-extension --empty-alt-ignore --timeframe '30d' --allow-hash-href
+```
+
+## Adding a new page
 
 ** TBD brief step-by-step on how to name the file, where to place it, what yaml fields (identifier? meta-title? permalink? etc.) are needed, and what needs to be updated in _data/navigation.yml for:
 
@@ -8,22 +35,22 @@
 
 The following are required fields for all new *.md files, including project videos, topics, and content pages.
 
-1. identifier - a unique lowercase HTML-compatible string (cannot begin with a number, and must contain only a-z characters, with no spaces) used to identify the project video page
-2. meta_title- - the page title which will be displayed in the HTML <head>
-3. title - the page title displayed within the page body itself (can be the same as meta_title, but please supply both)
-4. permalink - lower case url path relative to the baseurl / domain of the entire site, with a trailing slash / . This is used to generate the breadcrumbs in conjunction with the title field
-5. creationdate: YYYY-MM-DD
-6. date_updated: YYYY-MM-DD [this should be the last date the file was updated, only one value should be supplied]
+1. `identifier` - a unique lowercase HTML-compatible string (cannot begin with a number, and must contain only a-z characters, with no spaces) used to identify the project video page
+2. `meta_title`- - the page title which will be displayed in the HTML <head>
+3. `title` - the page title displayed within the page body itself (can be the same as `meta_title`, but please supply both)
+4. `permalink` - lower case url path relative to the baseurl / domain of the entire site, with a trailing slash / . This is used to generate the breadcrumbs in conjunction with the title field
+5. `creationdate`: YYYY-MM-DD
+6. `date_updated`: YYYY-MM-DD [this should be the last date the file was updated, only one value should be supplied]
 
 for any page it is possible to add multiple authors using the following format:
 
-~~~
+```yaml
 authors:
 - name: [enclose in double quotation marks "" if single quotations in the text ']
   bio: [enclose in double quotation marks "" and only use single quotations in the text ']
   affiliation: [enclose in double quotation marks "" if single quotations in the text ']
   uri:
-~~~
+```
 
 1. adding new project video
   required fields include:
@@ -42,17 +69,19 @@ authors:
   - breadcrumb: true
   - layout: page
 
-For new content pages, please update _data/navigation.yml and place the page in the menu under existing main items. entries require the menu item text and the associated permalink, e.g.:
-~~~
+For new content pages, please update `_data/navigation.yml` and place the page in the menu under existing main items. entries require the menu item text and the associated permalink, e.g.:
+
+```yaml
 title: "Instructional Blogs / Misc"
 url: "/global-resources/educational-resources/instructional-blogs"
-~~~
+```
 
-For new disciplines, please update _data/disciplines.yml with the discipline name and a unique lower case identifier (as per above). This data file acts as a control for disciplines across the site: in order for projects to match by discipline, the discipline must appear in this data file even if the discipline is declared in the yaml header of the project. Entries are formatted as follows:
-~~~
+For new disciplines, please update `_data/disciplines.yml` with the discipline name and a unique lower case identifier (as per above). This data file acts as a control for disciplines across the site: in order for projects to match by discipline, the discipline must appear in this data file even if the discipline is declared in the yaml header of the project. Entries are formatted as follows:
+
+```yaml
 - identifier: "modernlanguages"
   name: "Modern Languages"
-~~~
+```
 
 New topics are controlled by adding a new topic, with a unique identifier, and title.
 
