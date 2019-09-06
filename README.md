@@ -1,16 +1,16 @@
+## dhlg
+
+_The Digital Humanities Literacy Guidebook_ is an outcome of the A.W. Mellon Digital Humanities grant project with Carnegie Mellon University.
+This repository contains the source code for a [Jekyll](https://jekyllrb.com)-based static site.
+
 ## Build and deployment
 
 Building this site requires ruby >= 2.5.3
 
-Ensure you have the bundler gem installed:
+Ensure you have the bundler gem installed, then install the other dependencies for this site:
 
 ```sh
 gem install bundler
-```
-
-Then install the other dependencies for this site:
-
-```sh
 bundle install
 ```
 
@@ -85,10 +85,15 @@ For new disciplines, please update `_data/disciplines.yml` with the discipline n
 
 New topics are controlled by adding a new topic, with a unique identifier, and title.
 
-## Credits TBD
+## Credits
 
-- link to feeling responsive
-- link to Agile Humanities
-- link to Mellon
-- link to CMU lib
-- susan & contribs
+This site was developed by Scott Weingart, Susan Grunewald, Matthew Lincoln, and Agile Humanities team members Matt Milner and Bill Kennedy.
+
+Support for this project comes from the A.W. Mellon Foundation, Carnegie Mellon University Libraries, and Dietrich College for Humanities and Social Sciences.
+
+The theme is based on the openly-licensed Jekyll theme [Feeling Responsive]
+(https://github.com/Phlow/feeling-responsive)
+
+## Contact
+
+[Scott B. Weingart](https://library.cmu.edu/about/people/scott-weingart)
