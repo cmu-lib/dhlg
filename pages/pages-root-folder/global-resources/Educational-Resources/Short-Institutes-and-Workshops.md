@@ -20,3 +20,4 @@ The following is a short list of short institutes and worksops. The majoirty of 
  -  [Digital Humanities Research Institute (DHRI)](http://dhinstitutes.org/), CUNY. 
  -  [Digital Humanities Summer Institute Drew University](http://www.drew.edu/digital-humanities/about-us/summer-institute/), Madison, NJ.
  -  [Digital Fieldl Methods Institute](https://dfmi.dwrl.utexas.edu/), Austin, TX.
+ -  [Lancaster University](http://ucrel.lancs.ac.uk/summerschool/) in Lancaster, UK runs a series of summer institutes on various DH topics.
