@@ -37,7 +37,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Con
 
 [**The Association for Slavic, East European, and Eurasian Studies (ASEEES)**](https://www.aseees.org/convention) hosts an annual convention. For the past few years, the ASEEES affiliate group [SlavicDH](https://slavicdh.aseees.hcommons.org/) has hosted pre-conference workshops, panels, and roundtables that explore the uses of digital humanities for research and teaching. 
 
-[**The Association of Internet Researchers(AoIR)**](https://aoir.org/) holds an annual conference for those concerned with an interdisciplinary, multi-methodological look at the Internet. 
+[**The Association of Internet Researchers (AoIR)**](https://aoir.org/) holds an annual conference for those concerned with an interdisciplinary, multi-methodological look at the Internet. 
 
  
 
@@ -73,7 +73,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Con
 
 [**HCOMP**](https://www.humancomputation.com/) is the [the Association for the Advancement of Artificial Intelligence (AAAI)](https://www.aaai.org/) Conference on Human Computation and Crowdsourcing. It is concerned with human computation and crowdsourcing.
 
-[**Humanities, Arts, Science, and Technology Alliance and Collaboratory(HASTAC)**](https://www.hastac.org/tags/2019-hastac-conference) is an interdisciplinary community of humanists, artists, social scientists, scientists, and technologists. HASTAC hosts a conference each year with a different theme, but it is always related to digital studies and pedagogy broadly. 
+[**Humanities, Arts, Science, and Technology Alliance and Collaboratory (HASTAC)**](https://www.hastac.org/tags/2019-hastac-conference) is an interdisciplinary community of humanists, artists, social scientists, scientists, and technologists. HASTAC hosts a conference each year with a different theme, but it is always related to digital studies and pedagogy broadly. 
 
 [[top]](#directory)
 
@@ -81,7 +81,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Con
 
 [**iConference**](https://ischools.org/iConference) is for information scholars, researchers and professionals to share their insights on critical information issues in contemporary society.
 
-[**IEEE VIS**](http://ieeevis.org/year/2019/welcome) is a merging of three different [Institute of Electrical and Electronics Engineers(IEEE)](https://www.ieee.org/) conferences into one mega-conference of related themes. It includes IEEE Visual Analytics Science and Technology (VAST), IEEE Information Visualization (InfoVis), and IEEE Scientific Visualization (SciVis).
+[**IEEE VIS**](http://ieeevis.org/year/2019/welcome) is a merging of three different [Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org/) conferences into one mega-conference of related themes. It includes IEEE Visual Analytics Science and Technology (VAST), IEEE Information Visualization (InfoVis), and IEEE Scientific Visualization (SciVis).
 
 [**The International Communication Association (IAC)**](https://www.icahdq.org/page/2019Conference) holds an annual conference for scholars interest in the study, teaching, and application of all aspects of human and mediated communication.
 
