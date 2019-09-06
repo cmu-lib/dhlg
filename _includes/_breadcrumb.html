@@ -22,7 +22,7 @@
             {% assign thisnextcrumblowerurl = crumburl | append: thisnextcrumblowerurl %}
             {% assign thisnextcrumblowerurl = thisnextcrumblowerurl | append: '/' %}
             {% assign thisnextpagelowerurl = page.permalink | downcase %}
-            <span><a href="/{{ crumburl }}">{{ crumbpage.title }}</a>{% unless thisnextcrumblowerurl == thisnextpagelowerurl %}&nbsp;&gt;&nbsp;{% endunless %}</span>
+            <span><a href="{{ crumburl | relative_link }}">{{ crumbpage.title }}</a>{% unless thisnextcrumblowerurl == thisnextpagelowerurl %}&nbsp;&gt;&nbsp;{% endunless %}</span>
             {% assign thiscrumb = crumburl %}
           {% endif %}
         {% endfor %}
