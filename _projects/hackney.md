@@ -17,6 +17,7 @@ topics:
 - networkanalysis
 - computationallinguistics
 - corpuslinguistics
+- textminingandanalytics
 creationdate: 2019-07-03
 source: core
 youtubeid: gNq__1lwiQ4
