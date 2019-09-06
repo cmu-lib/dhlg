@@ -29,10 +29,6 @@ bundle exec htmlproofer ./_site --assume-extension --empty-alt-ignore --timefram
 
 ## Adding a new page
 
-** TBD brief step-by-step on how to name the file, where to place it, what yaml fields (identifier? meta-title? permalink? etc.) are needed, and what needs to be updated in _data/navigation.yml for:
-
-#### Required yaml fields
-
 The following are required fields for all new *.md files, including project videos, topics, and content pages.
 
 1. `identifier` - a unique lowercase HTML-compatible string (cannot begin with a number, and must contain only a-z characters, with no spaces) used to identify the project video page
