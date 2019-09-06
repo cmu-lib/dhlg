@@ -528,6 +528,7 @@ h1.title {
 }
 
 #frontpage{
+  margin-top: unset;
   #frontcontents{
     p{
       font-size: 0.9rem;
@@ -939,6 +940,9 @@ body.frontpage{
     #navigation{
       display:none;
     }
+  }
+  #frontpage{
+    margin-top: 6rem;
   }
   #sidenav{
     z-index: unset;
