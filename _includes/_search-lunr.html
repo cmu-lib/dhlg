@@ -1,28 +1,28 @@
-<script src="{{ '/assets/js/lunr.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/lunr.js' | absolute_url }}"></script>
 
 <script>
 {% assign counter = 0 %}
 var documents = [{% for page in site.pages %}{% unless page.permalink == 'topics/' %}{% if page.url contains '.xml' or page.url contains 'assets' %}{% else %}{
     "id": {{ counter }},
-    "url": "{{ site.url }}{{ page.url }}",
+    "url": "{{ page.url | absolute_url }}",
     "title": {{ page.title | jsonify }},
     "author": "{% for author in page.authors %}{{ author.name }} {{ author.bio | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }} {{ author.affiliation | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}{% endfor %}",
     "body": {{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify }}{% assign counter = counter | plus: 1 %}
     }, {% endif %}{% endunless %}{% endfor %}{% for interview in site.interviews %}{
     "id": {{ counter }},
-    "url": "{{ site.url }}{{ interview.url }}",
+    "url": "{{ interview.url | absolute_url }}",
     "title": {{ interview.title | jsonify }},
     "author": "{% for author in interview.authors %}{{ author.name }} {{ author.bio | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }} {{ author.affiliation | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}{% endfor %}",
     "body": {{ interview.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify }}{% assign counter = counter | plus: 1 %}
     }, {% endfor %}{% for project in site.projects %}{
     "id": {{ counter }},
-    "url": "{{ site.url }}{{ project.url }}",
+    "url": "{{ project.url | absolute_url }}",
     "title": {{ project.title | jsonify }},
     "author": "{% for author in project.authors %}{{ author.name }} {{ author.bio | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }} {{ author.affiliation | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}{% endfor %}",
     "body": {{ project.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify }}{% assign counter = counter | plus: 1 %}
     }, {% endfor %}{% for topic in site.topics %}{
     "id": {{ counter }},
-    "url": "{{ site.url }}/topics/#topic_{{ topic.identifier}}",
+    "url": "{{ '/topics' | absolute_url }}#topic_{{ topic.identifier}}",
     "title": {{ topic.title | jsonify }},
     "author": "{% for author in topic.authors %}{{ author.name }} {{ author.bio | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }} {{ author.affiliation | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}{% endfor %}",
     "body": {{ topic.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify }}{% assign counter = counter | plus: 1 %}
