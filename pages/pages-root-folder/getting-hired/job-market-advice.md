@@ -9,7 +9,7 @@ permalink: "getting-hired/job-market-advice/"
 This page comes by courtsey of [Matthew Hannah's](https://github.com/m-n-hannah) GitHub page [Digital Humanities and the Job Market](https://github.com/m-n-hannah/Digital-Humanities-Job-Market/blob/master/index.md) as of August 2019.
 
 ## About
-A small collection of resources for navigating the academic job market with an eye toward Digital Humanities or Digital Scholarship positions. This is an ongoing collection begun in Fall 2019 for ILS 695: Introducing Digital Humanities, taught at Purdue University, but I will be adding to this page over time.
+This a small collection of resources for navigating the academic job market with an eye toward Digital Humanities or Digital Scholarship positions. This is an ongoing collection begun in Fall 2019 for ILS 695: Introducing Digital Humanities, taught at Purdue University by Matthew Hannah.
 
 ### Things to Apply to in Grad School
 - [HASTAC Scholars](https://www.hastac.org/initiatives/hastac-scholars)  
