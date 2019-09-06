@@ -60,12 +60,6 @@
 	{% if page.image.title %}<meta name="twitter:image" content="{{ site.urlimg }}{{ page.image.title }}">{% endif %}
 	{% endif %}
 
-	{% if page.mediaplayer == true %}
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src="{{ '/assets/mediaelement_js/mediaelement-and-player.min.js' | relative_url }}"></script>
-		<link rel="stylesheet" href="{{ '/assets/mediaelement_js/mediaelementplayer.min.css' | relative_url }}">
-	{% endif %}
-
 	{% include _favicon.html %}
 
 	{% unless page.style == NULL %}
