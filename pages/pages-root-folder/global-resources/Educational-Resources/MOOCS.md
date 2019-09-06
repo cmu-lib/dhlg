@@ -17,6 +17,7 @@ permalink: "global-resources/educational-resources/moocs/"
  -  [Codeacademy Python Series](https://www.codecademy.com/catalog/language/python)
  -  [Codeacademy R Series](https://www.codecademy.com/catalog/language/r)
  -  [Codeacademy SQL Series](https://www.codecademy.com/catalog/language/sql)
+ -  [University of Lancaster Corpus Linguistics: Method, Analysis, Interpretation](https://www.futurelearn.com/courses/corpus-linguistics)
  
 
 ## General Sources for MOOCs and Online Self-Training
