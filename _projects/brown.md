@@ -15,6 +15,10 @@ disciplines:
 - journalism
 topics:
 - opendata
+- textminingandanalytics
+- corpuslinguistics
+- digitalforensics
+- stylometry
 creationdate: 2019-07-03
 source: core
 youtubeid: 5fUKTPAvYDM
