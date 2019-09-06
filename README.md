@@ -91,8 +91,7 @@ This site was developed by Scott Weingart, Susan Grunewald, Matthew Lincoln, and
 
 Support for this project comes from the A.W. Mellon Foundation, Carnegie Mellon University Libraries, and Dietrich College for Humanities and Social Sciences.
 
-The theme is based on the openly-licensed Jekyll theme [Feeling Responsive]
-(https://github.com/Phlow/feeling-responsive)
+The theme is based on the openly-licensed Jekyll theme [Feeling Responsive](https://github.com/Phlow/feeling-responsive)
 
 ## Contact
 
