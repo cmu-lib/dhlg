@@ -20,6 +20,7 @@ topics:
 - textanalytics
 - corpuslinguistics
 - computationallinguistics
+- textminingandanalytics
 creationdate: 2019-07-03
 source: core
 youtubeid: yo5DEZ2xO90
