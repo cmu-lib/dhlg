@@ -8,11 +8,7 @@ permalink: "global-resources/dh-community/scholarly-organizations/"
 date_updated: 2019-08-29
 ---
 
-Much of this information comes by courtesy of [Lauren Tilton](http://laurentilton.com/) and her [DH Networks List](https://docs.google.com/document/d/17-GfKU0qE6nq78Yk0_1rp8j5_yQZLUcF4Bwy_8-kK6I/edit#).
-
-Interested in participating in a DH network in your area?  
-
-Below are DH networks aggregated from [Twitter](https://twitter.com/nolauren/status/1130130743668203521). This list is not complete. To add a missing organization or edit incorrect information, please let me know by either tweeting (@nolauren) or emailing me (Lauren [dot] Tilton@gmail.com). The networks below are not members of the Association of Digital Humanities Organizations. For members of ADHO, visit [here](https://adho.org/). For a list of Twitter handles created by dh+lib, visit [here](https://twitter.com/DHandLib/lists/local-dh-groups/members). Thank you to the [twitter community](https://twitter.com/nolauren/status/1130130743668203521) for helping with this list. 
+Much of this information comes by courtesy of [Lauren Tilton](http://laurentilton.com/) and her [DH Networks List](https://docs.google.com/document/d/17-GfKU0qE6nq78Yk0_1rp8j5_yQZLUcF4Bwy_8-kK6I/edit#), which was largely aggregated from [Twitter](https://twitter.com/nolauren/status/1130130743668203521). 
 
  
 ## The Alliance of Digital Humanities Organizations (ADHO)
@@ -84,4 +80,3 @@ The following scholarly organizations are not exclusively focused on DH, but the
  -  [The Society for Cinema and Media Studies (SCMS)](https://www.cmstudies.org/).
  -  [The Society for Literature, Science, and the Arts (SLSA)](https://www.litsciarts.org/).
  -  [The Society for Textual Scholarship and Textual Cultures](https://textualsociety.org).
-
