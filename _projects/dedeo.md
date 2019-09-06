@@ -19,6 +19,7 @@ topics:
 - distantreading
 - textanalytics
 - corpuslinguistics
+- textminingandanalytics
 creationdate: 2019-07-03
 source: core
 youtubeid: sXNblxiZc8o
