@@ -19,6 +19,7 @@ disciplines:
 topics:
 - corpuslinguistics
 - textanalytics
+- textminingandanalytics
 creationdate: 2019-07-03
 source: core
 youtubeid: SUr6VmkOmiY
