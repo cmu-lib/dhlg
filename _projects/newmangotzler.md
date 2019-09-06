@@ -23,6 +23,7 @@ topics:
 - corpuslinguistics
 - digitization
 - textanalytics
+- textminingandanalytics
 creationdate: 2019-07-03
 source: core
 youtubeid: lGHtq0XkMGY
