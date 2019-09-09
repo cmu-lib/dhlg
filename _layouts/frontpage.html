@@ -14,7 +14,7 @@ format: frontpage
 				{{ content }}
 				{% if page.callforaction %}
 				<p>
-					<a class="button radius" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
+					<a class="button radius" href="{{ page.callforaction.url | relative_url }}">{{ page.callforaction.text }}</a>
 				</p>
 				{% endif %}
 			</div>
