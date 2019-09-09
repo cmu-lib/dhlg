@@ -4,7 +4,7 @@
 *  edit `_data/navigation.yml`.
 *
 {% endcomment %}
-<div id="navigation" class="sticky">
+<div id="navigation" class="{{ page.navigation_type | default: 'sticky' }}">
   <nav class="top-bar row" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
