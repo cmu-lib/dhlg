@@ -38,6 +38,8 @@ ___
 
 [[top]](#contents)
 
+___
+
 ## Masters Programs
 
 ### Asia
@@ -108,6 +110,8 @@ ___
 
 [[top]](#contents)
 
+___
+
 ## Graduate Specializations or Certificates
 
 ### Asia
@@ -154,6 +158,8 @@ ___
 
 [[top]](#contents)
 
+___
+
 ## Undergraduate Majors
 
 ### Asia
@@ -191,6 +197,8 @@ ___
 - (In design stage) BA in Digital Humanities, University of West Indies Mona Campus, Jamaica
 
 [[top]](#contents)
+
+___
 
 ## Undergraduate Minors, Specializations or Certificates
 
@@ -257,6 +265,8 @@ ___
 - [Digital Humanities Research and Service Learning Certificate](https://createcaribbean.org/create/internship/), Create Caribbean, Dominica
 
 [[top]](#contents)
+
+___
 
 ## Notes
 
