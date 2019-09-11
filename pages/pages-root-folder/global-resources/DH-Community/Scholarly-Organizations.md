@@ -26,7 +26,9 @@ Much of this information comes by courtesy of [Lauren Tilton](http://laurentilto
   -  [Taiwanese Association for Digital Humanities (TADH)](http://tadh.org.tw/en/).
   
 
-## Europe
+## Regional Organizations
+
+### Europe
 
  -  [AG Digital Humanities Mitteldeutschland](https://www.saw-leipzig.de/de/ueber-die-akademie/arbeitsgruppen/ag-digital-humanities-mitteldeutschland) DH Working Group
  -  [am Hochschulstandort Potsdam](https://www.saw-leipzig.de/de/ueber-die-akademie/arbeitsgruppen/ag-digital-humanities-mitteldeutschland) [(English site)](https://www.uni-potsdam.de/en/digital-humanities.html) \| @DH_Potsdam
@@ -37,7 +39,7 @@ Much of this information comes by courtesy of [Lauren Tilton](http://laurentilto
  -  [The Mainz Centre for Digitality in the Humanities and Cultural Studies](https://mainzed.org/en/)
  -  [Network Digital Humanities Potsdam Universities/Netzwerk für Digitale Geisteswissenschaften](https://www.uni-potsdam.de/de/digital-humanities.html)
 
-## North America
+### North America
 
  -  Bay Area DH \| [Bay Area Meet-Up](https://t.co/iX8BHF1K2a) and #BayAreaDH
  -  [Boston DH Consortium](http://bostondh.org/) \| @Boston_DH
@@ -57,7 +59,7 @@ Much of this information comes by courtesy of [Lauren Tilton](http://laurentilto
  -  Texas - TxDHC \| @TxDHC
  -  [Triangle DH Network](http://triangledh.org/)
 
-## South America
+### South America
 
  -  [Asociación Argentina de Humanidades Digitales](aahd.net.ar)
 
