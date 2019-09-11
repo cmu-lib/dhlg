@@ -30,6 +30,8 @@ Much as nobody’s an expert in “the humanities,” neither is anyone an exper
 
 If the DHLG is a map of that territory, it’s only the roughest sketch. Wide swaths of this map say only “here be dragons,” and beyond those the DH landscape is even more uncertain. DH is a global endeavor. It spans many languages and disciplinary communities, but the authors of this guidebook are a couple historians from Pittsburgh, with only so wide a view.
 
+Our hope is, as the community contributes to this resource, that view will widen with time.
+
 # Finding Your Way
 
 ## Local Resources
