@@ -34,7 +34,7 @@ Dead links, out-of-date information, and other issues will inevitably accrue. Th
 
 Please see the [contributing](#contributing) section below for details on how to give back to this resource.
 
-# Core vs. Contributed Content
+# Core vs. Community Content
 
 As the DHLG began as a Carnegie Mellon University project, the majority of its early content was created by employees or affiliates of the university. On account of some legal complexities, we need to separate this original "CMU" content from "Community" content, which is why the former is marked in amber, and the latter in blue. As the guidebook grows, our hope is majority of content will come from you, the community, and thus appear in blue.
 
