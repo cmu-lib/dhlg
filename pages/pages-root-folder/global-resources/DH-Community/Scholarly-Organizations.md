@@ -5,7 +5,7 @@ breadcrumb: true
 meta_title: "Global Resources - DH Community - Scholarly Organizations"
 source: community
 permalink: "global-resources/dh-community/scholarly-organizations/"
-date_updated: 2019-08-29
+date_updated: 2019-09-11
 ---
 
 Much of this information comes by courtesy of [Lauren Tilton](http://laurentilton.com/) and her [DH Networks List](https://docs.google.com/document/d/17-GfKU0qE6nq78Yk0_1rp8j5_yQZLUcF4Bwy_8-kK6I/edit#), which was largely aggregated from [Twitter](https://twitter.com/nolauren/status/1130130743668203521). 
@@ -13,7 +13,7 @@ Much of this information comes by courtesy of [Lauren Tilton](http://laurentilto
  
 ## The Alliance of Digital Humanities Organizations (ADHO)
 
-[The Alliance of Digital Humanities Organizations (ADHO)](https://adho.org/) supports digital research across a variety of arts and humanities disciplines. A number of other professional organizations are part of the ADHO:
+[The Alliance of Digital Humanities Organizations (ADHO)](https://adho.org/) supports digital research across a variety of arts and humanities disciplines. A number of constituent organizations make up ADHO:
   -  [Association for Computers and the Humanities (ACH)](http://ach.org/).
   -  [Australasian Association for Digital Humanities (aaDH)](https://aa-dh.org/).
   -  [Canadian Society for Digital Humanities / Société canadienne des humanités numériques (CSDH/SCHN)](http://csdh-schn.org/).
