@@ -5,7 +5,7 @@ breadcrumb: true
 meta_title: "Global Resources - Grants and Fellowships"
 source: community
 permalink: "global-resources/grants-and-fellowships/"
-date_updated: 2019-09-03
+date_updated: 2019-09-11
 ---
 
 The majority of the information on this page comes courtersy of the [dhnotes Funding page](https://github.com/dh-notes/dhnotes/blob/master/pages/funding.md) as of September 2019. [dhnotes](https://github.com/dh-notes/dhnotes) is as collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with support from the [ACH](https://ach.org/). 
@@ -24,7 +24,7 @@ Email: <odh@neh.gov>
 
 | Grant         | Range (USD)        | Deadline|
 | ------------- | -------------| --------:|
-| [Digital Humanities Advancement Grant](https://www.neh.gov/grants/odh/digital-humanities-advancement-grants)  | Up tp $325K | January and June |
+| [Digital Humanities Advancement Grant](https://www.neh.gov/grants/odh/digital-humanities-advancement-grants)  | Up to $325K | January and June |
 | [Institutes for Advanced Topics in the Digital Humanities](https://www.neh.gov/grants/odh/institutes-advanced-topics-in-the-digital-humanities) | Up to $250K | March |
 | [Digging into Data Challenge](http://www.diggingintodata.org/) | N/A | Passed |
 | [NEH-Mellon Fellowships for Digital Publication](https://www.neh.gov/grants/research/neh-mellon-fellowships-digital-publication)|$5K per month| April |
