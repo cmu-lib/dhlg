@@ -20,28 +20,28 @@ Parts of this page comes by courtsey of [Matthew Hannah's](https://github.com/m-
 - [Chronicle Vitae](https://chroniclevitae.com/job_search/new)  
 - [H-Net](https://www.h-net.org/)  
 - [Academic Jobs EU](http://www.academicjobseu.com/default.asp)  
-- [Jobs.ac.uk (British Jobs)](http://www.jobs.ac.uk/)   
+- [Jobs.ac.uk](http://www.jobs.ac.uk/) (British Jobs)
 - [National Council on Public History](https://ncph.org/jobs/)  
 - [Organization of American Historians](https://careers.oah.org/jobs)  
-- [Academic Jobs Wiki (You can also check on the status of jobs here i.e. have they requested materials, phone interviews, campus visits etc. Can take the waiting out)](http://academicjobs.wikia.com/wiki/Academic_Jobs_Wiki)  
+- [Academic Jobs Wiki](http://academicjobs.wikia.com/wiki/Academic_Jobs_Wiki) (You can also check on the status of jobs here i.e. have they requested materials, phone interviews, campus visits etc. Can take the waiting out)
 - [AcademicCareers.com](http://www.academiccareers.com/)  
 - [Academic Jobs Europe](https://jobs.edu.eu/)  
 
 ## Digital Humanities Jobs/Postdocs (Outside Discipline)  
 
 - [Digital Humanities Now](http://digitalhumanitiesnow.org/category/news/job/)  
-- Google, seriously
 - [Digital Hum Jobs](https://twitter.com/jobsdh?lang=en)
 - [Academic Jobs EU](http://www.academicjobseu.com/default.asp): European universities often invest more heavily in DH departments/programs.    
 - [Jobs.ac.uk](http://www.jobs.ac.uk/): British universities have some amazing DH departments/programs.  
 - [European Association for Digital Humanities](https://eadh.org/news/category/jobs)  
 - [Council of Libraries and Information Research (CLIR)](https://www.clir.org/fellowships/): Great postdoc opportunities.  
-- Any Andrew Mellon postdoctoral fellowship. These are institution specific, see [Postdoc Bill of Rights](https://docs.google.com/document/d/1bKpiqX9LPGJsKJsLopFW5vvEgwS3koXZJQU3nv-iuWw/edit) for questions to ask.   
 - [Digital Libraries Federation](https://jobs.diglib.org/): Many Digital Scholarship positions in Libraries don't require an MLIS. 
 - [American Libraries Association (see above)](https://joblist.ala.org/)  
 - [DH +Lib Jobs](https://acrl.ala.org/dh/category/jobs/) 
 - [Code4Lib](https://jobs.code4lib.org/)
 - [ALA JobLIST Library and LIS Jobs](https://twitter.com/ALA_JobLIST)
+- Any Andrew Mellon postdoctoral fellowship. These are institution-specific, see [Postdoc Bill of Rights](https://docs.google.com/document/d/1bKpiqX9LPGJsKJsLopFW5vvEgwS3koXZJQU3nv-iuWw/edit) for questions to ask.
+- Google, seriously
 
 ## Jobs outside the professoriate who may want digital skills  
 
