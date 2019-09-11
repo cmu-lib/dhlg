@@ -556,6 +556,8 @@ journal that, while centered in communication, is open and welcoming to
 contributions from the many disciplines and approaches that meet at the
 crossroads that is communication study. We encourage readers to REGISTER now.
 
+\*[**International Journal for Digital Art History**](http://www.dah-journal.org/) is an online, open access journal that welcomes articles from art historians, curators, conservators, artists, information scientists, and authors from other related disciplines who are concerned with questions around this topic. 
+
 [**International Journal of Digital Curation**](http://www.ijdc.net/) is
 entirely devoted to papers, articles and news items on curation of digital
 objects and related issues.
