@@ -16,7 +16,7 @@ authors:
   bio:
   affiliation: Carnegie Mellon University
   uri:
-date_updated: 2019-08-29
+date_updated: 2019-09-11
 ---
 The Digital Humanities Literacy Guidebook (DHLG) was first developed in the summer of 2019 as part of a 5-year A.W. Mellon Foundation grant to Carnegie Mellon University for the advancement of digital humanities and technology-enhanced learning on campus. Its goal is to offer its audience, newcomers to DH, a broad sense of the landscape of digital humanities, and a map to chart their course through it.
 
