@@ -70,4 +70,4 @@ Because DH is always growing and changing, we welcome changes and contributions 
 
 # About Us 
 
-To learn more about the site and its contributors, [read on](({{ site.baseurl }}/about).
+To learn more about the site and its contributors, [read on]({{ site.baseurl }}/about).
