@@ -1,11 +1,3 @@
 - name: GitHub
-  url: http://github.com/dSHARP-CMU
-  title: "CMU dSHARP"
-
-- name: YouTube
-  url: https://www.youtube.com/channel/UCd3OL6bMTcGZBrjcfK7rIuw
-  title: "Videos"
-
-- name: Twitter
-  url: http://twitter.com/cmu_dSHARP
-  title: "CMU Digital Humanities on Twitter"
+  url: https://github.com/cmu-lib/dhlg
+  title: "DHLG GitHub"
