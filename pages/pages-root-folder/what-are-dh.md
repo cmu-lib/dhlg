@@ -66,4 +66,8 @@ The [Topics]({{ site.baseurl }}/topics) page is a glossary of sub-communities wi
 
 # Contributing
 
-Because DH is always growing and changing, we welcome changes and contributions to this resource via pull requests to the github repository. You'll find links at the bottom of each page for its home on github, which can be used for editing pre-existing pages. If you'd like to contribute a video, a new topic description for the glossary, or anything else, don't hesitate to get in touch.
+Because DH is always growing and changing, we welcome changes and contributions to this resource via pull requests to the github repository. You'll find links at the bottom of each page for its home on github, which can be used for editing pre-existing pages. More details can be found at the README.md file in the [github root directory](https://github.com/cmu-lib/dhlg). If you'd like to contribute a video, a new topic description for the glossary, or anything else, don't hesitate to get in touch.
+
+# About Us 
+
+To learn more about the site and its contributors, [read on](({{ site.baseurl }}/about).
