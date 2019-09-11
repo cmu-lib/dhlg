@@ -81,6 +81,8 @@ For new disciplines, please update `_data/disciplines.yml` with the discipline n
 
 New topics are controlled by adding a new topic, with a unique identifier, and title.
 
+A [style guide](https://cmu-lib.github.io/dhlg/style/) is available.
+
 ## Credits
 
 This site was developed by Scott Weingart, Susan Grunewald, Matthew Lincoln, and Agile Humanities team members Matt Milner and Bill Kennedy.
