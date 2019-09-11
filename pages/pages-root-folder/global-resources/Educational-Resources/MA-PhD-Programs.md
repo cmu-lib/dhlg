@@ -15,6 +15,8 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 - [Undergraduate Majors](#undergraduate-majors)
 - [Undergraduate Minors, Specializations or Certificates](#undergraduate-minors-specializations-or-certificates)
 
+___
+
 ## PhD Programs
 
 ### Asia
