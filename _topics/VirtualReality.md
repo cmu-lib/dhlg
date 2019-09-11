@@ -18,7 +18,7 @@ creationdate: 2019-08-17
 date_updated: 2019-08-29
 ---
 
-Virtual reality, or VR, is a computer simulation that attempts to construct an imagined world, or reconstruct a physical world. Often today, VR involves putting on a headset so that a user is fully immersed in a situation. VR has additional subbranches, including augmented reality (in which a real world situation is enhanced by computer-generated information) and mixed reality (in which artificial things are displayed in the real world). VR works well with [3D modeling](#topic_3dmodeling) to allow a user to experience something that they otherwise cannot experience first-hand, such as attending a theatre production of Shakespeare's plays in a simulation of how they would have appeared when they were originally written and performed.
+Virtual reality, or VR, is a computer simulation that attempts to construct an imagined world, or reconstruct a physical world. Often today, VR involves putting on a headset so that a user is fully immersed in a situation. VR has additional siblings, including augmented reality (in which a real world situation is enhanced by computer-generated information) and mixed reality (in which artificial things are displayed in the real world). VR works well with [3D modeling](#topic_3dmodeling) to allow a user to experience something that they otherwise cannot experience first-hand, such as attending a theatre production of Shakespeare's plays in a simulation of how they would have appeared when they were originally written and performed.
 
 More information can be found at:
 
