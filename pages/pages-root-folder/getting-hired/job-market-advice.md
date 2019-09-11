@@ -45,15 +45,10 @@ Whatever you do for your presentation, DO NOT read it. Libraries want you to ado
 
 ### Documents to Prepare  
 - **Cover Letter**: On university letterhead. Should address research interests and publications in the first few paragraphs, teaching in the third, service in fourth. For teaching jobs, the letter will start with teaching, teaching philosophy, examples, etc. Should speak to advertisement as much as you are able to customize. Postdoc cover letter should speak to the specific project they’re hiring for by connecting your skills to the project. Are you a Medievalist who works on manuscripts applying for a text encoding project? Talk about how the two are related.  
-
 - **Curriculum Vitae**: Should address your education, academic work, service, AND skills. Start filling this out NOW and keep it updated. For DH positions, I especially highlight digital skills and tools with which I am familiar. I have a section that lists the kinds of tools/methods I can use, which demonstrates the kinds of workshops I can offer. Don't exaggerate your skills but don't downplay them either.   
-
 - **Resume**: Like a vitae, but much more focused on education, work history, and skills. Focuses on career history with an eye toward specific skills. Abstract you academic specialties: technical reading, critical thinking, project management, digital literacy, digital skills, leadership, entrepreneurship, collaboration, innovation, self-motivation, responsive to critique--all job skills.   
-
 - **Research Statement**: Modify this document to focus on digital tools/methods when applying for DH jobs. I usually tried to paint a picture of myself as a scholar with a coherent research agenda.  
-
 - **Teaching Statement**: For DH jobs, they will want to see that you’re thinking about implanting digital tools and methods into your courses in a substantial way. If you teach intro-level courses now, think about implementing digital assignments into the course so you can talk specifically about your experiences.  
-
 - **Diversity Statement**: Definitely requires practice. You don’t want to sound cliché while also demonstrating your efforts to promote diversity. I try to think of real, substantial initiatives to support diversity both in course content and classroom dynamic. I also discuss in the interveiew the ways in which I am committed to diversity beyond a buzzword. If you have experiences with diversity, either because of your own life experience or because of your pedagogy, bring those in...this is an opportunity to let them get to know you as a person who cares about pluralism and equality.    
   
 ### Strategies while in Grad School 
