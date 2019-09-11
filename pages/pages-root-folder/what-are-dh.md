@@ -12,11 +12,11 @@ permalink: "what-are-dh/"
 header:
   image_fullwidth: header_unsplash_12.jpg
 authors:
-- name: Scott Weingart
+- name: Scott B. Weingart
   bio:
-  affiliation:
+  affiliation: Carnegie Mellon University
   uri:
-creationdate: 2019-07-03
+creationdate: 2019-09-11
 ---
 # The DHLG
 
