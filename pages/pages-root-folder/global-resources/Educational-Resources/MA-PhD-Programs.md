@@ -34,7 +34,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 
 - [Texts & Technology Ph.D. Program](https://tandt.cah.ucf.edu/), University of Central Florida, USA
 
-[[top]](#directory)
+[[top]](#contents)
 
 ## Masters Programs
 
@@ -104,7 +104,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 
 - [Maestría en Humanidades Digitales, Universidad de los Andes, Bogota, Colombia](https://posgradosfacartes.uniandes.edu.co/programas/humanidades-digitales/)
 
-[[top]](#directory)
+[[top]](#contents)
 
 ## Graduate Specializations or Certificates
 
@@ -150,7 +150,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 - [Digital Studies in Arts and Humanities, Graduate Certificate](http://dsah.umd.edu/), University of Maryland, USA
 - [Digital Humanities Specialization in Master of Information Science](https://www.sice.indiana.edu/graduate/degrees/information-library-science/dual-degrees/digital-humanities-mis.html), Indiana University Bloomington, USA
 
-[[top]](#directory)
+[[top]](#contents)
 
 ## Undergraduate Majors
 
@@ -188,7 +188,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 
 - (In design stage) BA in Digital Humanities, University of West Indies Mona Campus, Jamaica
 
-[[top]](#directory)
+[[top]](#contents)
 
 ## Undergraduate Minors, Specializations or Certificates
 
@@ -253,6 +253,8 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 ### South America and the Caribbean
 
 - [Digital Humanities Research and Service Learning Certificate](https://createcaribbean.org/create/internship/), Create Caribbean, Dominica
+
+[[top]](#contents)
 
 ## Notes
 
