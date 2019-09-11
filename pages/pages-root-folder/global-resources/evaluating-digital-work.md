@@ -8,7 +8,7 @@ permalink: "global-resources/evaluating-digital-work/"
 date_updated: 2019-09-03
 ---
 
-The majority of the information on this page comes courtersy of the [dhnotes Evaluating Digital Work page](https://github.com/dh-notes/dhnotes/blob/master/pages/evaluating-digital-work.md) as of September 2019. [dhnotes](https://github.com/dh-notes/dhnotes) is as collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with the added contributions of Scott Weingart (https://github.com/scottbot).
+The majority of the information on this page comes courtersy of the [dhnotes Evaluating Digital Work page](https://github.com/dh-notes/dhnotes/blob/master/pages/evaluating-digital-work.md) as of September 2019. [dhnotes](https://github.com/dh-notes/dhnotes) is as collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with the added contributions of [Scott Weingart](https://github.com/scottbot).
 
 ## Peer Review Guidelines
 *Ed. Alex Gil*
