@@ -7,6 +7,10 @@ meta_title: "Project Videos"
 permalink: "project-videos/"
 description:
 ---
+The best way understand digital humanities is to dive right in and see what digital humanists are doing. These videos describe the what/why/how/who of a broad swath of DH projects, with the goal of helping you learn what's necessary to undertake similar endeavors.
+
+The videos are inspired by Miriam Posner's How Did They Make That [blog post](https://miriamposner.com/blog/how-did-they-make-that/) and [video](https://archive.org/details/howdidtheymakethat).
+
 <div class="row">
 	<div class="small-12 columns t30">
 		<div class="row" id="listprojects">
