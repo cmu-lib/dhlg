@@ -5,7 +5,7 @@ meta_title: "Black Digital Humanities"
 breadcrumb: false
 authors:
 - name: Hannah Alpert-Abrams
-  bio: Hannah Alpert-Abrams is a program specialist at the NEH Office of Digital Humanities.
+  bio: Hannah Alpert-Abrams is a program specialist working in the field of digital humanities.
   uri:
 identifier: blackdh
 disciplines:
