@@ -10,10 +10,9 @@ authors:
 identifier: blackdh
 disciplines:
 - history
+- english
 - lcs
-- arthistory
-- publichistory
-- museums
+- literature
 creationdate: 2019-07-31
 ---
 Black Digital Humanities is an approach to community, methodology, praxis, and theory in digital humanities that centers black thought and cultural production. In the words of [Jessica Marie Johnson and Mark Anthony Neal](https://www.tandfonline.com/doi/full/10.1080/00064246.2017.1329608), it "roots itself in the challenge of living in the wake of black people rendered inhuman, non-existent, and disposable by the slave ship, the plantation, the colonial state, the prison, the border." As [Marisa Parham](https://lareviewofbooks.org/article/digital-humanities-interview-marisa-parham/) says, "Black people deserve frivolity and the future."
