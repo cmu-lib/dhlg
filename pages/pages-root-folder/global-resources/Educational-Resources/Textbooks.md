@@ -42,8 +42,8 @@ permalink: "global-resources/educational-resources/textbooks/"
  -  [Statistics for the Humanities](http://statisticsforhumanities.net/book/) (2014). John Canning. 
  
 # Data Visualization, Web Development, & Related
+ -  [Data Visualization for Social Science: A practical introduction with R and ggplot2](http://socviz.co/) (2018). Kieran Healy.
  -  [The JavaScripting English Major](https://the-javascripting-english-major.org/v1/) (2017). Moacir P. de Sá Pereira. 
- -  [Data Visualization for Social Science: A practical introduction with R and ggplot2](http://socviz.co/) (2017). Kieran Healy.
  -  [Interactive Information Visualization](https://info474-s17.github.io/book/index.html) (2017). Michael Freeman. 
  -  [D3.js in Action, 2nd edition](https://www.manning.com/books/d3js-in-action-second-edition) (2017). Elijah Meeks. 
  -  [Drupal for Humanists](http://drupal.forhumanists.org/book) (2016). Quinn Dombrowski. 
