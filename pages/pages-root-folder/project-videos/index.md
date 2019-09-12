@@ -11,6 +11,8 @@ The best way understand digital humanities is to dive right in and see what digi
 
 The videos are inspired by Miriam Posner's How Did They Make That [blog post](https://miriamposner.com/blog/how-did-they-make-that/) and [video](https://archive.org/details/howdidtheymakethat).
 
+We are always accepting new videos, up to 10 minutes in length. Get in touch with [Scott B. Weingart](https://www.library.cmu.edu/about/people/scott-weingart) to contribute.
+
 <div class="row">
 	<div class="small-12 columns t30">
 		<div class="row" id="listprojects">
