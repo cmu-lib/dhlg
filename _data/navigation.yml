@@ -66,12 +66,8 @@
   dropdown:
   - title: Getting Involved
     url: "/local-resources/getting-involved/"
-  - title: Universities
-    url: "/local-resources/universities/"
-  - title: Communities
-    url: "/local-resources/communities/"
-  - title: Programs
-    url: "/local-resources/programs/"
+  - title: Communites and Programs
+    url: "/local-resources/communities-and-programs/"
   - title: Courses
     url: "/local-resources/courses/"
   - title: Projects
