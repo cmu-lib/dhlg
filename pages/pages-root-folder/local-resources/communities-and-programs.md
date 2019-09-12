@@ -36,9 +36,9 @@ A student in Pittsburgh has a variety of opportunities for receiving degrees and
 - [**Pitt-Greensburg Digital Studies Certificate**](https://www.greensburg.pitt.edu/academics/info/digital-studies): Undergraduates at Pitt-Greensburg can pursue a certificate in Digital Studies, combing digital media design, coding for the web, and applied research in the digital humanities.
 
 ## Research Groups
-- CMU's [**The Laboratory for Social Minds**](http://tuvalu.santafe.edu/~simon/): Studies the present and past of the human species to better understand its future.
-- CMU's [**The Frank-Ratchye STUDIO for Creative Inquiry**](http://studioforcreativeinquiry.org/): A laboratory for atypical, anti-disciplinary, and inter-institutional research at the intersections of arts, science, technology and culture.
-- Pitt's [**Visual Media Workshop**](https://www.haa.pitt.edu/visual-media-workshop): A humanities lab focused on the investigation of material and visual culture—whether historical or contemporary—in an environment that encourages technological experimentation.
+- [**The Laboratory for Social Minds**](http://tuvalu.santafe.edu/~simon/) at CMU: Studies the present and past of the human species to better understand its future.
+- [**The Frank-Ratchye STUDIO for Creative Inquiry**](http://studioforcreativeinquiry.org/) at CMU: A laboratory for atypical, anti-disciplinary, and inter-institutional research at the intersections of arts, science, technology and culture.
+- [**Visual Media Workshop**](https://www.haa.pitt.edu/visual-media-workshop) at Pitt: A humanities lab focused on the investigation of material and visual culture—whether historical or contemporary—in an environment that encourages technological experimentation.
 - More coming soon
 
 ## Other Communities
