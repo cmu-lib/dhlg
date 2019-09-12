@@ -107,8 +107,15 @@
     $(this).parent('.dropdown').css('height','unset');
     $(this).parent('.dropdown').show();
   });
-  {% endif %}
-  $('.back.js-generated','.top-bar-section ul').html('&#xf106;');
+{% endif %}
+$('.back.js-generated','.top-bar-section ul').html('&#xf106;');
+$(function(){
+  setTimeout(function(){ 
+    $(window).scroll(function (){
+      $('*:target').css('padding-top','unset');
+    });
+  }, 1000);
+});
 
 function tocresize(){
   var sidenavwidth=$('#sidenav').parent().outerWidth()-26;

@@ -175,7 +175,10 @@ code{
     }
   }
 }
-
+*:target{
+  padding-top:6rem;
+  transition: padding-top 1s ease-out;
+}
 .top-bar-section{
   z-index: 4;
   width: 100%;
@@ -971,7 +974,6 @@ body.frontpage{
   }
   #navigation {
     background-color: $white;
-    padding-top: 2rem;
     &.fixed {
       border-bottom: solid 2px $grey-5;
     }
