@@ -10,5 +10,5 @@ callforaction:
 navigation_type: none
 ---
 
-# Getting Started in DH
+# Getting Started
 For newcomers, there’s a lot to be excited about at the intersection of technology and the humanities. The DHLG is your slim guidebook into this world, like the tourist map they give you when you check in at a hotel. Use it to get your bearings, plot your course, and find the resources that will help you explore further.
