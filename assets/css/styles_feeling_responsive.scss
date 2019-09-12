@@ -448,7 +448,7 @@ code{
   font-size: 3em;
   font-weight: bold;
   &.landing{
-    margin-top: 0;
+    margin-top: 4rem;
   }
 }
 
@@ -528,7 +528,7 @@ h1.title {
 }
 
 #frontpage{
-  margin-top: unset;
+  margin-top: 4rem;
   #frontcontents{
     p{
       font-size: 0.9rem;

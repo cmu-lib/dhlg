@@ -11,11 +11,9 @@
   var tocspace=0;
   if(window.matchMedia("(min-width: 120.063em)").matches){
     sidenavfooterspace=50;
-	}else if(window.matchMedia("(min-width: 90.063em)").matches){
+	}else if(window.matchMedia("(min-width: 64.063em) and (max-width: 120em)").matches){
     sidenavfooterspace=50;
-  }else if(window.matchMedia("(min-width: 64.063em)").matches){
-    tocspace=70;
-  }else if(window.matchMedia("(min-width: 40.063em)").matches){
+  }else if(window.matchMedia("(min-width: 0) and (max-width:64em)").matches){
     tocspace=70;
   }
 
@@ -29,7 +27,7 @@
     var top_of_screen = $(window).scrollTop();
     if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
       $('#sidenav').css({'top':'unset','bottom':'unset'});
-      if(window.matchMedia("(min-width: 64.063em)").matches){
+      if(window.matchMedia("(min-width: 0) and (max-width:90em)").matches){
         $('#sidenav').css({'position':'relative'});
       }
     } else {
