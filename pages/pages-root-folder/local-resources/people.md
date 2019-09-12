@@ -9,7 +9,7 @@ date_updated: 2019-09-12
 ---
 Pittsburgh is full of interesting digital humanists. Find a selection of them here. If you're a local and your name doesn't appear, feel free to add it (in an alphabetically appropriate spot) via the GitHub link at the bottom of the page. 
 
-\[Editor's note: this page is still quite sparce, but will be updated soon\]
+\[Editor's note: this page is still quite sparse, but will be updated soon\]
 
 # Directory of Pittsburgh DHers
 
