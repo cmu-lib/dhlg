@@ -8,10 +8,12 @@ permalink: "local-resources/communities-and-programs/"
 Pittsburgh DH has many overlapping universities, programs, labs, groups, and other communities. A selection are listed here. Members of missing communities are encouraged to contribute via the github link at the bottom of the page.
 
 ## Coordinating Bodies
-There are (at least) three coordinating DH bodies in Pittsburgh, which are usually the best place to go first if you're looking for more information.
+There are several coordinating DH bodies in Pittsburgh, which are usually the best place to go first if you're looking for more information.
 - [**PGH\|DH**](http://pghdh.net/): A loose collaboration between CMU, Pitt, and occassionally other institutions for coordinating resources such as calendars.
 - [**dSHARP**](http://dsharp.library.cmu.edu/): A CMU campus-wide consortium dedicated to coordinating digitally-inflected events and research around campus.
 - [**DHRX**](https://dhrx.pitt.edu): A cross-campus faculty research network designed to highlight innovative, digitally-focused academic work at the University of Pittsburgh.
+- [**DMAP**](https://dmap.pitt.edu/about): Pitt English Department's Digital Media and Pedagogy initiative, facilitating departmental experimentation, connection, and collaboration with digital tools and methods.
+- [**Center for the Digital Text**](https://www.greensburg.pitt.edu/digital-humanities/center-digital-text): Pitt-Greensburg's center dedicated to faculty training, outreach, and student education.
 
 ## Institutions
 Several institutions around the city actively engage in DH work, with constituents often showing up at each other's events. Because institutions engage in quite a few activities, and most cannot be summarized, the list below is merely indicative of local involvement.
@@ -34,7 +36,10 @@ A student in Pittsburgh has a variety of opportunities for receiving degrees and
 - [**Pitt-Greensburg Digital Studies Certificate**](https://www.greensburg.pitt.edu/academics/info/digital-studies): Undergraduates at Pitt-Greensburg can pursue a certificate in Digital Studies, combing digital media design, coding for the web, and applied research in the digital humanities.
 
 ## Research Groups
-Coming soon
+- CMU's [**The Laboratory for Social Minds**](http://tuvalu.santafe.edu/~simon/): Studies the present and past of the human species to better understand its future.
+- CMU's [**The Frank-Ratchye STUDIO for Creative Inquiry**](http://studioforcreativeinquiry.org/): A laboratory for atypical, anti-disciplinary, and inter-institutional research at the intersections of arts, science, technology and culture.
+- Pitt's [**Visual Media Workshop**](https://www.haa.pitt.edu/visual-media-workshop): A humanities lab focused on the investigation of material and visual culture—whether historical or contemporary—in an environment that encourages technological experimentation.
+- More coming soon
 
 ## Other Communities
 Coming soon
