@@ -4,6 +4,7 @@ title: "Communities and Programs"
 breadcrumb: true
 meta_title: "Local Resources - Communities and Programs"
 permalink: "local-resources/communities-and-programs/"
+date_updated: 2019-09-12
 ---
 Pittsburgh DH has many overlapping universities, programs, labs, groups, and other communities. A selection are listed here. Members of missing communities are encouraged to contribute via the github link at the bottom of the page.
 
