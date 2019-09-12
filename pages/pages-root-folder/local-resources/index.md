@@ -9,7 +9,7 @@ permalink: "local-resources/"
 
 The extended Pittsburgh region has an active digital humanities community, centered primarily around Carnegie Mellon University and the University of Pittsburgh, but reaching to various museums, libraries, and other institutions around Western Pennsylvania. The community has hosted many DH events, including [ACH2019](http://ach2019.ach.org/), [NA+DAH 2019](https://sites.haa.pitt.edu/na-dah/about-the-workshop/), [Make _Your_ Edition 2017](https://pittsburgh-neh-institute.github.io/Institute-Materials-2017/), [KeystoneDH 2016](http://keystonedh.network/2016/), and various iterations of the [Digital Mitford Coding School](https://digitalmitford.org/workshop.html). 
 
-![ACH2019 Logo]({{ site.baseurl }}/assets/img/ach-logo.png)
+![ACH2019 Logo]({{ site.baseurl }}/assets/img/ach-logo.png){: .center-image }
 
 Pittsburgh was in fact home to a workshop funded by the first-ever digital humanities grand awarded by the NEH, the 1967 EDUCOM Symposium on the Computer and Humanistic Studies.
 
