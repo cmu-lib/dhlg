@@ -68,14 +68,10 @@
     url: "/local-resources/getting-involved/"
   - title: Communities and Programs
     url: "/local-resources/communities-and-programs/"
-  - title: Courses
-    url: "/local-resources/courses/"
   - title: Projects
     url: "/local-resources/projects/"
   - title: People
     url: "/local-resources/people/"
-  - title: Events
-    url: "/local-resources/events/"
 
 
 - title: "Search"
