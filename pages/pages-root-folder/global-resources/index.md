@@ -4,6 +4,7 @@ title: "Global Resources"
 breadcrumb: true
 meta_title: "Global Resources"
 permalink: "global-resources/"
+date_updated: 2019-09-12
 ---
 Those within and outside of Pittsburgh will find [Global Resources]({{ site.baseurl }}/global-resources) useful for getting involved in DH. 
 
