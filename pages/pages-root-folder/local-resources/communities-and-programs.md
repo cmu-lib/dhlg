@@ -9,7 +9,7 @@ Pittsburgh DH has many overlapping universities, programs, labs, groups, and oth
 
 ## Coordinating Bodies
 There are (at least) three coordinating DH bodies in Pittsburgh, which are usually the best place to go first if you're looking for more information.
-- [**PGH|DH**](http://pghdh.net/): A loose collaboration between CMU, Pitt, and occassionally other institutions for coordinating resources such as calendars.
+- [**PGH\|DH**](http://pghdh.net/): A loose collaboration between CMU, Pitt, and occassionally other institutions for coordinating resources such as calendars.
 - [**dSHARP**](http://dsharp.library.cmu.edu/): A CMU campus-wide consortium dedicated to coordinating digitally-inflected events and research around campus.
 - [**DHRX**](https://dhrx.pitt.edu): A cross-campus faculty research network designed to highlight innovative, digitally-focused academic work at the University of Pittsburgh.
 
