@@ -5,13 +5,13 @@ breadcrumb: true
 meta_title: "Global Resources - DH Community - Scholarly Organizations"
 source: community
 permalink: "global-resources/dh-community/scholarly-organizations/"
-date_updated: 2019-09-11
+date_updated: 2019-09-12
 ---
 
 Much of this information comes by courtesy of [Lauren Tilton](http://laurentilton.com/) and her [DH Networks List](https://docs.google.com/document/d/17-GfKU0qE6nq78Yk0_1rp8j5_yQZLUcF4Bwy_8-kK6I/edit#), which was largely aggregated from [Twitter](https://twitter.com/nolauren/status/1130130743668203521). 
 
  
-## The Alliance of Digital Humanities Organizations (ADHO)
+# The Alliance of Digital Humanities Organizations (ADHO)
 
 [The Alliance of Digital Humanities Organizations (ADHO)](https://adho.org/) supports digital research across a variety of arts and humanities disciplines. A number of constituent organizations make up ADHO:
   -  [Association for Computers and the Humanities (ACH)](http://ach.org/).
@@ -26,9 +26,9 @@ Much of this information comes by courtesy of [Lauren Tilton](http://laurentilto
   -  [Taiwanese Association for Digital Humanities (TADH)](http://tadh.org.tw/en/).
   
 
-## Regional Organizations
+# Regional Organizations
 
-### Europe
+## Europe
 
  -  [AG Digital Humanities Mitteldeutschland](https://www.saw-leipzig.de/de/ueber-die-akademie/arbeitsgruppen/ag-digital-humanities-mitteldeutschland) DH Working Group
  -  [am Hochschulstandort Potsdam](https://www.saw-leipzig.de/de/ueber-die-akademie/arbeitsgruppen/ag-digital-humanities-mitteldeutschland) [(English site)](https://www.uni-potsdam.de/en/digital-humanities.html) \| @DH_Potsdam
@@ -39,7 +39,7 @@ Much of this information comes by courtesy of [Lauren Tilton](http://laurentilto
  -  [The Mainz Centre for Digitality in the Humanities and Cultural Studies](https://mainzed.org/en/)
  -  [Network Digital Humanities Potsdam Universities/Netzwerk für Digitale Geisteswissenschaften](https://www.uni-potsdam.de/de/digital-humanities.html)
 
-### North America
+## North America
 
  -  Bay Area DH \| [Bay Area Meet-Up](https://t.co/iX8BHF1K2a) and #BayAreaDH
  -  [Boston DH Consortium](http://bostondh.org/) \| @Boston_DH
@@ -59,11 +59,11 @@ Much of this information comes by courtesy of [Lauren Tilton](http://laurentilto
  -  Texas - TxDHC \| @TxDHC
  -  [Triangle DH Network](http://triangledh.org/)
 
-### South America
+## South America
 
  -  [Asociación Argentina de Humanidades Digitales](aahd.net.ar)
 
-## Broader Scholarly Organizations with Active DH Membership
+# Broader Scholarly Organizations with Active DH Membership
 
 The following scholarly organizations are not exclusively focused on DH, but their members pratice DH methods. Some of these organizations sponsor DH networks or groups. Generally, annual conferences for these organizations will feature panels, roundtables, dicussions, or pre-conference events related to DH.
  -  [The Association for Computational Linguistics (ACL)](https://www.aclweb.org/portal/).
