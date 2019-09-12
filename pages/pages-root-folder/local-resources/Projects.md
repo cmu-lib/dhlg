@@ -9,7 +9,7 @@ date_updated: 2019-09-12
 ---
 Pittsburgh is full of interesting DH projects. Find a selection of them here. If your Pittsburgh-affiliated project doesn't appear, feel free to add it (in an alphabetically appropriate spot) via the GitHub link at the bottom of the page.
 
-\[Editor's note: this page is still quite sparce, but will be updated soon\]
+\[Editor's note: this page is still quite sparse, but will be updated soon\]
 
 # Directory
 A | B | C | [D](#d) | [E](#e) | F | G | H | I | J | K | L | M | N | O | P | Q | R | [S](#s) | T | U | V | W | X | Y | Z
