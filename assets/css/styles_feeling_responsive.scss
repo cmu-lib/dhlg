@@ -175,7 +175,10 @@ code{
     }
   }
 }
-
+*:target{
+  padding-top:6rem;
+  transition: padding-top 1s ease-out;
+}
 .top-bar-section{
   z-index: 4;
   width: 100%;
@@ -448,7 +451,7 @@ code{
   font-size: 3em;
   font-weight: bold;
   &.landing{
-    margin-top: 0;
+    margin-top: 4rem;
   }
 }
 
@@ -528,7 +531,7 @@ h1.title {
 }
 
 #frontpage{
-  margin-top: unset;
+  margin-top: 4rem;
   #frontcontents{
     p{
       font-size: 0.9rem;
@@ -971,7 +974,6 @@ body.frontpage{
   }
   #navigation {
     background-color: $white;
-    padding-top: 2rem;
     &.fixed {
       border-bottom: solid 2px $grey-5;
     }
