@@ -36,7 +36,7 @@ Our hope is, as the community contributes to this resource, that view will widen
 
 ## Local Resources
 
-In that spirit, we begin here with the view from Pittsburgh. Locals to the region will find helpful lists in the [Local Resources]({{ site.baseurl }}/local-resources/) section, including summaries of DH efforts at the various [Universities]({{ site.baseurl }}/local-resources/universities) and related [Communities]({{ site.baseurl }}/local-resources/communities), [Programs]({{ site.baseurl }}/local-resources/programs) and [Courses]({{ site.baseurl }}/local-resources/courses) to further your education, recurring [Events]({{ site.baseurl }}/local-resources/events) worth attending, and [People]({{ site.baseurl }}/local-resources/people) and [Projects]({{ site.baseurl }}/local-resources/projects) with whom you might want to familiarize yourself.
+In that spirit, we begin here with the view from Pittsburgh. Locals to the region will find helpful lists in the [Local Resources]({{ site.baseurl }}/local-resources/) section, including summaries of DH efforts at the various [Communities and Programs]({{ site.baseurl }}/local-resources/communities-and-programs) to further your education, and [People]({{ site.baseurl }}/local-resources/people) and [Projects]({{ site.baseurl }}/local-resources/projects) with whom you might want to familiarize yourself in the greater Pittsburgh area. Find out how to learn more in [Getting Involved]({{ site.baseurl }}/local-resources/getting-involved/)
 
 ## Global Resources
 
@@ -47,6 +47,8 @@ In [Educational Resources]({{ site.baseurl }}/global-resources/educational-resou
 To participate in the DH community, you’ll want to know the [Conferences]({{ site.baseurl }}/global-resources/dh-community/conferences), [Journals]({{ site.baseurl }}/global-resources/dh-community/journals), [Scholarly Organizations]({{ site.baseurl }}/global-resources/dh-community/scholarly-organizations), and [Online Communities]({{ site.baseurl }}/global-resources/dh-community/online-communities).
 
 Once you have begun pursuing research, check out the list of [Grants and Fellowships]({{ site.baseurl }}/global-resources/grants-and-fellowships) available for DH initiatives. Those just starting in DH might want to explore who has received such funding, and for what purposes.
+
+How peer review and credit works for DH is still in active debate. Find a list of resources to learn more at [Evaluating Digital Work]({{ site.baseurl }}/global-resources/evaluating-digital-work/).
 
 ## Getting Hired
 
