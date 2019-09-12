@@ -10,7 +10,7 @@ date_updated: 2019-08-29
 
 The majority of the information on this page comes courtersy of the [dhnotes Journals page](https://github.com/dh-notes/dhnotes/blob/master/pages/journals.md) as of August 2019. [dhnotes](https://github.com/dh-notes/dhnotes) is as collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with the added contributions of [Vika Zafrin](https://github.com/vzafrin). 
 
-## DH- and New Media-friendly Journals
+# DH- and New Media-friendly Journals
 *Indicates open access
 
 ## Directory
