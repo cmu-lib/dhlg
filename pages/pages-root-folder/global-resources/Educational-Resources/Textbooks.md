@@ -8,9 +8,10 @@ permalink: "global-resources/educational-resources/textbooks/"
 # Historical Analysis
  -  [The Programming Historian, 2nd edition](https://programminghistorian.org/) (ongoing). Afanador-Llach, Maria José, Antonio Rojas Castro, Adam Crymble, Víctor Gayol, Fred Gibbs, Caleb McDaniel, Ian Milligan, Amanda Visconti, and Jeri Wieringa, eds. 
  -  [Computational Historical Thinking with Applications in R](http://dh-r.lincolnmullen.com/) (ongoing). Lincoln Mullen.
- -  [The Historian’s Macroscope](http://www.themacroscope.org/2.0/) (2015). Graham, Milligan, & Weingart.   -  [Natural Language Processing for Historical Texts](https://nlphist.hypotheses.org/) (2012). Michael Piotrowski. 
+ -  [The Historian’s Macroscope](http://www.themacroscope.org/2.0/) (2015). Graham, Milligan, & Weingart.
+ -  [The Rubyist Historian](http://hepplerj.github.io/rubyist-historian/) (2014). Jason Heppler. 
+ -  [Natural Language Processing for Historical Texts](https://nlphist.hypotheses.org/) (2012). Michael Piotrowski. 
  -  [The Programming Historian, 1st edition](http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf) (2007). William J. Turkel and Alan MacEachern. 
- -  [The Rubyist Historian](http://hepplerj.github.io/rubyist-historian/) (2004). Jason Heppler. 
 
  
 # Literary & Linguistic Analysis
