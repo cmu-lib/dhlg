@@ -42,7 +42,7 @@ A | B | [C](c#) | [D](#d) | [E](#e) | [F](#f) | G | [H](#h) | I | J | K | [L](#l
 
 ## H
 
-[**Humanitiesdata.com**](https://humanitiesdata.com). A collection of links and metadata for open data relevant to humanities scholarship (https://humanitiesdata.com) to help increase the overall number of digital pathways to humanities data, and to make it easier to search for datasets by their relevance to specific subfields.
+[**Humanitiesdata.com**](https://humanitiesdata.com). A collection of links and metadata for open data relevant to humanities scholarship (https://humanitiesdata.com) to help increase the overall number of digital pathways to humanities data, and to make it easier to search for datasets by their relevance to specific subfields. Maintained by Matthew J. Lavin.
 
 [[top]](#directory)
 
@@ -54,7 +54,7 @@ A | B | [C](c#) | [D](#d) | [E](#e) | [F](#f) | G | [H](#h) | I | J | K | [L](#l
 
 ## S
 
-[**Secret Pittsburgh**](https://secretpittsburgh.org). An online guidebook to Pittsburgh’s "secret" places created by undergraduate students in the University of Pittsburgh's _Secret Pittsburgh_ Literature classes. The course was inspired by the series of Secret city guidebooks published by Jonglez Press, marketed as "local guides by local people." Each semester, more places are added to this online guide to reflect the work of recent participants in the course. 
+[**Secret Pittsburgh**](https://secretpittsburgh.org). An online guidebook to Pittsburgh’s "secret" places created by undergraduate students in the University of Pittsburgh's _Secret Pittsburgh_ Literature classes. The course was inspired by the series of Secret city guidebooks published by Jonglez Press, marketed as "local guides by local people." Each semester, more places are added to this online guide to reflect the work of recent participants in the course. Technically led by Matthew J. Lavin.
 
 [**Six Degrees of Francis Bacon**](http://sixdegreesoffrancisbacon.com). Six Degrees of Francis Bacon is a digital reconstruction of the early modern social network that scholars and students from all over the world can collaboratively expand, revise, curate, and critique. Unlike published prose, Six Degrees is extensible, collaborative, and interoperable: extensible in that people and associations can always be added, modified, developed, or, removed; collaborative in that it synthesizes the work of many scholars; interoperable in that new work on the network is put into immediate relation to previously studied relationships. The project team includes Christopher Warren (CMU), Daniel Shore (Georgetown), Jessica Otis (GMU), Scott Weingart (CMU), John Ladd (WashU), and many others.
 
