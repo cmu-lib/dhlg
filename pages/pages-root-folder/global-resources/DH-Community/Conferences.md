@@ -33,7 +33,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Con
 
 [**The American Studies Association (ASA)**](https://theasa.net/) hosts an annual conference for scholars of interdisciplinary research focusing of U.S. cultura and history. There is an increasing number of presentations related to DH. 
 
-[**The Association for Computers in the Humanities (ACH)**](https://ach.org/conferences/) held its first conference in 2019. It plans to host conferenes every other year. ACH is a major professional society for the digital humanities that supports research and the cultivation of a vibrant professional community through conferences, publications, and outreach activities. Although based in the US, ACH has an international membership. 
+[**The Association for Computers in the Humanities (ACH)**](https://ach.org/conferences/) held its first conference in 2019. It will host conferenes every other year. ACH is a major professional society for the digital humanities that supports research and the cultivation of a vibrant professional community through conferences, publications, and outreach activities. Although based in the US, ACH has an international membership. 
 
 [**The Association for Slavic, East European, and Eurasian Studies (ASEEES)**](https://www.aseees.org/convention) hosts an annual convention. For the past few years, the ASEEES affiliate group [SlavicDH](https://slavicdh.aseees.hcommons.org/) has hosted pre-conference workshops, panels, and roundtables that explore the uses of digital humanities for research and teaching. 
 
