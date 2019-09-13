@@ -9,7 +9,8 @@ date_updated: 2019-09-12
 ---
 The majority of the information on this page comes courtersy of the [dhnotes Advanced Degrees in the Digital Humanities page](https://github.com/dh-notes/dhnotes/blob/master/pages/dh-programs.md) as of August 2019. [dhnotes](https://github.com/dh-notes/dhnotes) is as collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with the added participation of [Austin Mason](https://github.com/apjmason), [Roopika Risam](https://github.com/roopikarisam), [Toshikazo SETO](https://github.com/tosseto), [Paul Spence](https://github.com/pjspence), [kiyonoriNagasaki](https://github.com/kiyonoriNagasaki), [Jan G. Wieners](https://github.com/janwieners), [briancrogers](https://github.com/briancrogers), and [Cole Crawford](https://github.com/ColeDCrawford0).
 
-## Contents
+# Contents
+
 - [PhD Programs](#phd-programs)
 - [Masters Programs](#masters-programs)
 - [Graduate Specializations or Certificates](#graduate-specializations-or-certificates)
@@ -18,22 +19,22 @@ The majority of the information on this page comes courtersy of the [dhnotes Adv
 
 ___
 
-## PhD Programs
+# PhD Programs
 
-### Asia
+## Asia
 
 - PHD in Digital Humanities, IIT Indore, India \[In design stage\]
 
-### Europe
+## Europe
 
-- [MPhil/PhD in Digital Humanities Research, King's College London, UK](https://www.kcl.ac.uk/study/postgraduate/research-courses/digital-humanities-research-mphil-phd)
-- [PhD in Digital Arts and Humanities, National University of Ireland Maynooth, Ireland](https://www.maynoothuniversity.ie/centre-for-digital-humanities/research/digital-arts-and-humanities-phd)
-- [PhD Digital Arts & Humanities, University College Cork (UCC), Ireland](https://www.ucc.ie/en/dah/current/phddigitalartsandhumanities/)
-- [PhD in Digital Humanities, University College London, UK](https://www.ucl.ac.uk/digital-humanities/courses/doctorates)
-- [PhD in Digital Humanities, Institute for Digital Humanities at the University of Cologne, Germany](http://www.dh.uni-koeln.de)
+- [MPhil/PhD in Digital Humanities Research](https://www.kcl.ac.uk/study/postgraduate/research-courses/digital-humanities-research-mphil-phd), King's College London, UK
+- [PhD in Digital Arts and Humanities](https://www.maynoothuniversity.ie/centre-for-digital-humanities/research/digital-arts-and-humanities-phd), National University of Ireland Maynooth, Ireland]
+- [PhD Digital Arts & Humanities](https://www.ucc.ie/en/dah/current/phddigitalartsandhumanities/), University College Cork (UCC), Ireland
+- [PhD in Digital Humanities](https://www.ucl.ac.uk/digital-humanities/courses/doctorates), University College London, UK
+- [PhD in Digital Humanities](http://www.dh.uni-koeln.de), Institute for Digital Humanities at the University of Cologne, Germany
 - [Doktoratsstudium "Digitale Geisteswissenschaften"](https://gewi.uni-graz.at/de/studieren/doktoratsstudium/) (Doctoral programme "Digital Humanities"), University of Graz, Austria
 
-### North America
+## North America
 
 - [Texts & Technology Ph.D. Program](https://tandt.cah.ucf.edu/), University of Central Florida, USA
 
@@ -41,28 +42,28 @@ ___
 
 ___
 
-## Masters Programs
+# Masters Programs
 
-### Asia
+## Asia
 
-- [MD in Digital Humanities, Srishti Institute of Art, Design and Technology, India](http://srishti.ac.in/schools/school-of-new-humanities-and-design)
-- [MS in Digital Humanities, IIT Indore, India](http://people.iiti.ac.in/~dhiiti/)
+- [MD in Digital Humanities](http://srishti.ac.in/schools/school-of-new-humanities-and-design), Srishti Institute of Art, Design and Technology, India
+- [MS in Digital Humanities](http://people.iiti.ac.in/~dhiiti/), IIT Indore, India
 
-### Australasia
+## Australasia
 
 - [Masters of Digital Humanities and Public Culture](http://cdhr.cass.anu.edu.au/students/future), Australian National University, Australia
 - [Master of Digital Humanities](https://www.westernsydney.edu.au/future/study/courses/postgraduate/master-of-digital-humanities.html), Western Sydney University, Australia
 
-### Europe
+## Europe
 
-- [MA in Digital Humanities, King's College London, UK](https://www.kcl.ac.uk/artshums/depts/ddh/study/handbook/programmes/pgt/madh)
+- [MA in Digital Humanities](https://www.kcl.ac.uk/artshums/depts/ddh/study/handbook/programmes/pgt/madh), King's College London, UK
 - [M.Sc. Computing in the Humanities](https://www.uni-bamberg.de/ma-cith/), Otto-Friedrich-Universität Bamberg, Germany
 - [MA Digital Humanities](https://www.uni-wuerzburg.de/studium/angebot/faecher/digihum), Universität Würzburg, Germany
 - [MA Digital Humanities](http://www.uni-stuttgart.de/dh/studium/masterstudiengang/), Universität Stuttgart, Germany
 - [MA Digital Humanities](https://www.uni-trier.de/index.php?id=1175), Universität Trier, Germany
-- [MPhil in Digital Humanities and Culture, Trinity College Dublin](https://www.tcd.ie/courses/postgraduate/az/course.php?id=DPTEN-DHCU-1P09)
+- [MPhil in Digital Humanities and Culture](https://www.tcd.ie/courses/postgraduate/az/course.php?id=DPTEN-DHCU-1P09), Trinity College Dublin
 - [Master of Digital Humanities](https://set.kuleuven.be/mdh), KU Leuven, Belgium
-- [MA/MSc in Digital Humanities, University College London, UK](http://www.ucl.ac.uk/dh/courses/mamsc)
+- [MA/MSc in Digital Humanities](http://www.ucl.ac.uk/dh/courses/mamsc), University College London, UK
 - [MA in Digital Humanities](http://www.dh.uni-koeln.de), Institute for Digital Humanities at the University of Cologne, Germany
 - [Masters Humanités Numériques](https://esipat.univ-tours.fr/masters/), Université Francois-Rabelais, France
 - [Master of Arts (MA) in Digital Humanities](https://www.unil.ch/formations/en/home/menuinst/masters/humanites-numeriques.html), Université de Lausanne, Switzerland
@@ -85,7 +86,7 @@ ___
 - [M.Sc. in Spatial eHumanities](https://www.maynoothuniversity.ie/centre-for-digital-humanities), Maynooth University, Ireland
 - [M.A. Digital Arts & Humanities](https://www.ucc.ie/en/cke09/), University College Cork (UCC), Ireland
 - [Master di I livello in Digital Humanities](http://www.unive.it/pag/11340/), Università Ca’ Foscari Venezia, Italy
-- [Laurea Magistrale Degree in Digital Humanities](), Università di Pisa, Italy
+- [Laurea Magistrale Degree in Digital Humanities](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge), Università di Pisa, Italy
 - [Master in History and Digital Humanities](https://www.upo.es/postgrado/en/Master-History-and-Digital-Humanities), Universidad Pablo de Olavide Sevilla, Spain
 - [Master's Degree in Digital Humanities](http://www.uab.cat/web/postgraduate/master-in-digital-humanities/general-information-1217916968009.html/param1-3202_en/param2-2006/), Universitat Autònoma de Barcelona, Spain
 - [Master's programme 'Computational Linguistics'](https://www.hse.ru/en/ma/ling/), University Higher School of Economics, Russia
@@ -93,7 +94,7 @@ ___
 - [Master's Programme in Digital Humanities](https://lir.gu.se/english/education/masters-second-cycle/master-s-programme-in-digital-humanities), University of Gothenburg, Sweeden
 - [MA by Research, Digital Humanities](https://www.swansea.ac.uk/postgraduate/research/arts-and-humanities/ma-by-research-in-digital-humanities), Swansea University, UK
 
-### North America
+## North America
 
 - [Ad Hoc MA in Digital Humanities](https://www.mcgill.ca/digital-humanities/ma-digital-humanities), McGill University, Canada
 - [MA in Digital Humanities](https://www.luc.edu/ctsdh/academics/maindigitalhumanities/), Loyola University Chicago, USA
@@ -105,7 +106,7 @@ ___
 - [Master of Arts in Digital Tools for Premodern Studies](https://ase.tufts.edu/classics/graduate/digitalTools.htm), Tufts University, USA
 - [Maestría en Comunicación y Humanidades Digitales](http://elclaustro.edu.mx/licenciaturas/maestria-en-comunicacion-y-humanidades-digitales/), Universidad del Claustro de Sor Juana, Mexico
 
-### South America and the Caribbean
+## South America and the Caribbean
 
 - [Maestría en Humanidades Digitales, Universidad de los Andes, Bogota, Colombia](https://posgradosfacartes.uniandes.edu.co/programas/humanidades-digitales/)
 
@@ -113,39 +114,39 @@ ___
 
 ___
 
-## Graduate Specializations or Certificates
+# Graduate Specializations or Certificates
 
-### Asia
+## Asia
 
 - Specialization in Digital Humnaities (PhD Art and Design), Srishti Institute of Art, Design and Technology, India
 - [Interdisciplinary Graduate Program in Digital Humanities](http://dh.iii.u-tokyo.ac.jp/), The University of Tokyo, Japan
 - [Post-Graduate Diploma Course in Digital Humanities and Cultural Informatics](https://sctrdhci.wordpress.com/), School of Cultural Texts and Records, Jadavpur University, Kolkata, India
 - [(Future Graduate Certificate?) Digital Humanities: Methodology and Praxis](http://www.lang.osaka-u.ac.jp/lc/wp-content/uploads/%E7%A7%91%E7%9B%AE%E7%AD%89%EF%BC%88%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%EF%BC%89.pdf), Osaka University, Japan
 
-### North America
+## North America
 
-- [Certificate in Digital Humanities, Michigan State University, USA](https://reg.msu.edu/AcademicPrograms/ProgramDetail.aspx?Program=5742)
-- [Certificate in Digital Humanities, North Carolina State University, USA](https://dh.chass.ncsu.edu/grad/)
-- [Certificate in Digital Humanities, Stanford University, USA](https://cesta.stanford.edu/programs/graduate-programs/graduate-certificate-digital-humanities)
+- [Certificate in Digital Humanities](https://reg.msu.edu/AcademicPrograms/ProgramDetail.aspx?Program=5742), Michigan State University, USA
+- [Certificate in Digital Humanities](https://dh.chass.ncsu.edu/grad/), North Carolina State University, USA
+- [Certificate in Digital Humanities](https://cesta.stanford.edu/programs/graduate-programs/graduate-certificate-digital-humanities), Stanford University, USA
 - [Certificate in Digital Humanities](https://dhcertificate.tamu.edu/), Texas A&M University, USA
-- [Certificate in Book History and Digital Humanities, Texas Tech University, USA](https://www.depts.ttu.edu/english/grad_degrees/Book_History/BHDHcert_requirements.php)
-- [Graduate Certificate in Digital Humanities, UCLA, USA](http://dh.ucla.edu/graduate-certificate/)
-- [Concentration in Humanities Computing, University of Georgia, USA](https://www.english.uga.edu/areas-emphasis)
-- [Undergraduate Certificate in Digital Humanities, University of Georgia, USA](https://digi.uga.edu/certificate/)
-- [Certificate in Public Digital Humanities, University of Iowa, USA](https://pdh-certificate.grad.uiowa.edu/)
-- [Certificate in Digital Humanities, University of Nebraska-Lincoln, USA](https://www.unl.edu/dhcert/home)
-- [Certificate in Digital Humanities, University of North Carolina at Chapel Hill, USA](https://cdh.unc.edu/programs/dh-graduate-certificate/)
-- [Certificate in Public Scholarship, University of Washington, USA](https://simpsoncenter.org/programs/curriculum/certificate-in-public-scholarship)
-- [Graduate Certificate in Textual and Digital Studies, University of Washington, USA](https://depts.washington.edu/text/about/graduate-certificate-in-textual-and-digital-studies/)
-- [Certificate in Digital Humanities, Pratt Institute, USA](https://www.pratt.edu/academics/information/advanced-certificates/digital-humanities/)
-- [Certificate in Digital Humanities, University of Victoria, USA](http://web.uvic.ca/~siemens/DH(SI)GradCertificateProposal.pdf) \[no longer offered\]
-- [Certificate in Digital Humanities, Northeastern University, USA](https://www.northeastern.edu/cssh/history/graduate/programs/graduate-certificate-in-digital-humanities/)
+- [Certificate in Book History and Digital Humanities](https://www.depts.ttu.edu/english/grad_degrees/Book_History/BHDHcert_requirements.php), Texas Tech University, USA
+- [Graduate Certificate in Digital Humanities](http://dh.ucla.edu/graduate-certificate/), UCLA, USA
+- [Concentration in Humanities Computing](https://www.english.uga.edu/areas-emphasis), University of Georgia, USA
+- [Undergraduate Certificate in Digital Humanities](https://digi.uga.edu/certificate/), University of Georgia, USA
+- [Certificate in Public Digital Humanities](https://pdh-certificate.grad.uiowa.edu/), University of Iowa, USA
+- [Certificate in Digital Humanities](https://www.unl.edu/dhcert/home), University of Nebraska-Lincoln, USA
+- [Certificate in Digital Humanities](https://cdh.unc.edu/programs/dh-graduate-certificate/), University of North Carolina at Chapel Hill, USA
+- [Certificate in Public Scholarship](https://simpsoncenter.org/programs/curriculum/certificate-in-public-scholarship), University of Washington, USA
+- [Graduate Certificate in Textual and Digital Studies](https://depts.washington.edu/text/about/, University of Washington, USAgraduate-certificate-in-textual-and-digital-studies/)
+- [Certificate in Digital Humanities](https://www.pratt.edu/academics/information/advanced-certificates/digital-humanities/), Pratt Institute, USA
+- [Certificate in Digital Humanities](http://web.uvic.ca/~siemens/DH(SI)GradCertificateProposal.pdf) \[no longer offered\], University of Victoria, USA
+- [Certificate in Digital Humanities](https://www.northeastern.edu/cssh/history/graduate/programs/graduate-certificate-in-digital-humanities/), Northeastern University, USA
 - [Specialization in Digital Humanities](https://ils.indiana.edu/programs/specializations/digital-humanities.html), Indiana University Bloomington, USA
 - [Graduate Certificate in Digital Studies and Methods](https://www.dsam.pitt.edu/), University of Pittsburgh, USA
 - [Graduate Certificate in Digital Humanities](https://dh.virginia.edu/certificate), University of Virginia, USA
 - [Digital Public Humanities Graduate](https://masononline.gmu.edu/programs/digital-public-humanities-graduate-certificate/), George Mason University, USA
 - [Graduate Certificate in Digital Scholarship and Media Studies](http://digitalscholarship.emory.edu/partner/learn/certificate.html), Emory University, USA
-- [Graduate Certificate in Digital Humanities, Arizona State University](https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/LACDHGRCT/graduate/false?init=false&nopassive=true)
+- [Graduate Certificate in Digital Humanities](https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/LACDHGRCT/graduate/false?init=false&nopassive=true), Arizona State University
 - [Graduate Certificate in Digital Humanities](https://www.depaul.edu/university-catalog/colleges-and-schools/class/certificates/graduate-certificate/Pages/digital-humanities.aspx), DePaul University, USA
 - [Advanced Certificate in Digital Humanities](http://dhss.hosting.nyu.edu/advanced-certificate/), New York University, USA
 - [Graduate Certificate in Digital Studies](https://www.salemstate.edu/academics/colleges-and-schools/college-arts-and-sciences/english/graduate-certificate-digital), Salem State University, USA
@@ -161,18 +162,18 @@ ___
 
 ___
 
-## Undergraduate Majors
+# Undergraduate Majors
 
-### Asia
+## Asia
 
 - [BSc in Digital Humanities](http://dighum.haifa.ac.il/index.php/en/home), Haifa University, Israel
 
-### Australasia
+## Australasia
 
 - [Major in Digital Humanities and Public Culture](http://cdhr.cass.anu.edu.au/students/future), Australian National University, Australia
 - [Major and Minor in Digital Humanities](http://monash.edu.au/pubs/2018handbooks/aos/digital-humanities/ug-arts-digital-humanities.html), Monash University, Australia
 
-### Europe
+## Europe
 
 - [BA Digital Humanities](https://www.uni-wuerzburg.de/studium/angebot/faecher/digihum), Universität Würzburg, Germany
 - [BA Digital Humanities and Social Studies](https://meinstudium.fau.de/studiengang/digitale-geistes-und-sozialwissenschaften-ba/), FAU Universität Erlangen-Nürnberg, Germany
@@ -183,7 +184,7 @@ ___
 - [BA in Digital Humanities](http://www.uni-wuerzburg.de/?id=87781), Julius-Maximilians-Universität Würzburg, Germany
 - [MA Digital Media & Information Studies](https://www.gla.ac.uk/undergraduate/degrees/digitalmedia/), University of Glasgow, UK
 
-### North America
+## North America
 
 - [BS in Digital Humanities](https://humansciences.iit.edu/humanities/programs/undergraduate-programs/bachelor-science-digital-humanities), Illinois Institute of Technology, USA
 - [BA in Interactive Arts and Science](https://brocku.ca/programs/undergraduate/interactive-arts-and-science/), Brock University, Canada
@@ -193,7 +194,7 @@ ___
 - [Digital Technology and Culture](https://dtc.wsu.edu/), Washington State University, USA
 - [BA in Comparative and Digital Humanities](https://www.bucknell.edu/academics/college-arts-sciences/academic-departments-programs/comparative-digital-humanities), Bucknell University, PA, USA
 
-### South America and the Caribbean
+## South America and the Caribbean
 
 - (In design stage) BA in Digital Humanities, University of West Indies Mona Campus, Jamaica
 
@@ -201,22 +202,22 @@ ___
 
 ___
 
-## Undergraduate Minors, Specializations or Certificates
+# Undergraduate Minors, Specializations or Certificates
 
-### Asia
+## Asia
 
 - [Minor in DH](https://hass.sutd.edu.sg/education/minors/digital-humanities-minor/), Singapore University of Technology and Design, Singapore
 
-### Australasia
+## Australasia
 
 - [Minor in Digital Humanities and Public Culture](http://cdhr.cass.anu.edu.au/students/future), Australian National University, Australia
 
-### Europe
+## Europe
 
 - [Minor in Digital Humanities](https://studiegids.leidenuniv.nl/studies/show/6699/digital-humanities), Universiteit Leiden, Netherlands
 - [Module Information Modelling](https://informationsmodellierung.uni-graz.at/de/studieren/modul-informationsmodellierung/), University of Graz, Austria
 
-### North America
+## North America
 
 - [Digital Studies Certificate](https://digitalstudies.camden.rutgers.edu/digital-studies-certificate/), Rutgers University, USA
 - [Digital Studies Certificate](http://greensburg.pitt.edu/academics/info/digital-studies), University of Pittsburgh-Greensburg, USA
@@ -261,7 +262,7 @@ ___
 - [Digital Studies Minor](https://www.davidson.edu/academics/digital-studies), Davidson College, USA
 - [Minor in Digital Culture and Information](https://digitalhumanities.wlu.edu/blog/2018/05/08/minor-in-digital-culture-and-information/), Washington & Lee University, USA
 
-### South America and the Caribbean
+## South America and the Caribbean
 
 - [Digital Humanities Research and Service Learning Certificate](https://createcaribbean.org/create/internship/), Create Caribbean, Dominica
 
@@ -276,5 +277,3 @@ For a scholarly article comparing some of these programs, see Sula, Hackney and 
 Brett Bobley, Director of ODH, started a [Google Doc list](https://docs.google.com/document/d/1fogyvE2qvu0BOyqvqbmIJkQ-onYTed1t00D21gJMTtk/edit) focused on the US. That list is merged here.
 
 DARIAH has a useful list of courses and programs in their [Digital Humanities Courses Registry](https://registries.clarin-dariah.eu/courses/).
-
-
