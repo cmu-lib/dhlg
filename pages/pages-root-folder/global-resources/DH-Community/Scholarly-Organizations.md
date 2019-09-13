@@ -44,32 +44,46 @@ Much of this information comes by courtesy of [Lauren Tilton](http://laurentilto
 
  -  [AG Digital Humanities Mitteldeutschland](https://www.saw-leipzig.de/de/ueber-die-akademie/arbeitsgruppen/ag-digital-humanities-mitteldeutschland) DH Working Group.
  -  [am Hochschulstandort Potsdam](https://www.saw-leipzig.de/de/ueber-die-akademie/arbeitsgruppen/ag-digital-humanities-mitteldeutschland) [(English site)](https://www.uni-potsdam.de/en/digital-humanities.html) \| @DH_Potsdam.
+ -  [Associazione Informatica Umanistica e Cultura Digitale](http://www.aiucd.it/).
+ -  [Czech Association for Digital Humanities](https://www.czadh.cz/en/).
+ -  [DH Benelux](http://2019.dhbenelux.org/).
+ -  [Digital Humanities Cooperation](https://www.digitalhumanitiescooperation.de/en/) @DHCooperation.
+ -  [Digital Humanities Darmstadt](https://www.digitalhumanities.tu-darmstadt.de/) @DHDarmstadt.
+ -  [Digital Humanities im deutschsprachigen Raum (DHd)](http://dig-hum.de/).
  -  [Digital Humanities Müchen](https://dhmuc.hypotheses.org/) \| #dhmuc.
- -  [digital humanities im deutschsprachigen raum (DHd)](http://dig-hum.de/).
+ -  [Digital Humanities Network, University of Bergen (Norway)](https://www.uib.no/en/digitalhumanities).
+ -  [Digital Humanities in the Nordic Countries](http://dig-hum-nord.eu/).
+ -  [Estonian Digital Humanities Society](https://dh.org.ee/).
  -  [Forum für Digital Humanities Leipzig (FDHL)](https://t.co/VMwUjqtHhN).
  -  [Interdisciplinary Forum of Digital Textual Science (InFoDiTex)  \| @InFoDiTex](https://t.co/ADDyWb1teO).
+ -  [IZ-Digital/ Interdisciplinary Center for Digital Humanities and Social Sciences, FAU](https://www.izdigital.fau.de/).
  -  [The Mainz Centre for Digitality in the Humanities and Cultural Studies](https://mainzed.org/en/).
  -  [Network Digital Humanities Potsdam Universities/Netzwerk für Digitale Geisteswissenschaften](https://www.uni-potsdam.de/de/digital-humanities.html).
+ -  [Russian Association for Digital Humanities](http://dhrussia.ru/).
 
 ## North America
 
- -  Bay Area DH \| [Bay Area Meet-Up](https://t.co/iX8BHF1K2a) and #BayAreaDH
- -  [Boston DH Consortium](http://bostondh.org/) \| @Boston_DH
+ -  Bay Area DH \| [Bay Area Meet-Up](https://t.co/iX8BHF1K2a) and #BayAreaDH.
+ -  [Boston DH Consortium](http://bostondh.org/) \| @Boston_DH.
  -  Chesapeake DH Consortium \| Website coming soon.
- -  [Detroit DH](detroitdh.org) \| @DetroitDH
- -  DH-Minnesota \| #dh-minnesota subchannel in the [#dh slack](https://digitalhumanities.slack.com/) 
- -  [DH SoCal](http://dhsocal.blogspot.com/) \| @dhsocal (inactive)
- -  Digital Cultural Heritage DC \| @DCH_DC
- -  [Florida DH](https://fldh.org/)
- -  Five Colleges Blended Learning and Digital Humanities \| @5collBLDH
- -  [Greater Philadelphia Digital Humanities Group](https://groups.google.com/forum/#!forum/phillydigitalhumanities) \| @PhillyDHtweets
- -  [Keystone DH](http://keystonedh.network/2018/) \| @KeystoneDH
- -  NY DH (New York State) \| Slack Channel 
- -  [NYC DH](https://nycdh.org/) \| @nycdh
- -  [NYC Islandora](https://github.com/rnaughtonwk/NYCIslandora)
- -  [Pittsburgh Digital Humanities](http://pghdh.net/) \| PGH\|DH
- -  Texas - TxDHC \| @TxDHC
- -  [Triangle DH Network](http://triangledh.org/)
+ -  [CT DH](https://ctdh.io/).
+ -  [Detroit DH](detroitdh.org) \| @DetroitDH.
+ -  [DHITH: Digital Humanities in the Heartland \| Mailing List](https://listserv.ksu.edu/?SUBED1=dhith&A=1).
+ -  DH-Minnesota \| #dh-minnesota subchannel in the [#dh slack](https://digitalhumanities.slack.com/) .
+ -  [DH SoCal](http://dhsocal.blogspot.com/) \| @dhsocal (inactive).
+ -  Digital Cultural Heritage DC \| @DCH_DC.
+ -  [Digital Frontiers | @DigiFront (Texas)]().
+ -  [Florida DH](https://fldh.org/).
+ -  Five Colleges Blended Learning and Digital Humanities \| @5collBLDH.
+ -  [Greater Philadelphia Digital Humanities Group](https://groups.google.com/forum/#!forum/phillydigitalhumanities) \| @PhillyDHtweets.
+ -  [Keystone DH](http://keystonedh.network/2018/) \| @KeystoneDH.
+ -  [New England Humanities Consortium- DH](https://nehc.uconn.edu/digital-humanities/).
+ -  NY DH (New York State) \| Slack Channel .
+ -  [NYC DH](https://nycdh.org/) \| @nycdh.
+ -  [NYC Islandora](https://github.com/rnaughtonwk/NYCIslandora).
+ -  [Pittsburgh Digital Humanities](http://pghdh.net/) \| PGH\|DH.
+ -  Texas - TxDHC \| @TxDHC (On hiatus).
+ -  [Triangle DH Network](http://triangledh.org/).
 
 ## South America
 
