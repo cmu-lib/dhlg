@@ -5,12 +5,12 @@ breadcrumb: true
 meta_title: "Global Resources -Evaluating Digital Work"
 source: community
 permalink: "global-resources/evaluating-digital-work/"
-date_updated: 2019-09-03
+date_updated: 2019-09-13
 ---
 
 The majority of the information on this page comes courtersy of the [dhnotes Evaluating Digital Work page](https://github.com/dh-notes/dhnotes/blob/master/pages/evaluating-digital-work.md) as of September 2019. [dhnotes](https://github.com/dh-notes/dhnotes) is as collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with the added contributions of [Scott Weingart](https://github.com/scottbot).
 
-## Peer Review Guidelines
+# Peer Review Guidelines
 *Ed. Alex Gil*
 
 - [DH Commons: Review Guidelines](http://dhcommons.org/journal/review-guidelines)
@@ -26,13 +26,13 @@ Research at ISAW” (2012)](http://isaw.nyu.edu/research/AssessingresearchatISAW
 - [ADA Review Process](http://adanewmedia.org/beta-reader-and-review-policy/)
 - [UCLA Digital Humanities, “A Student Collaborators’ Bill of Rights,”](http://www.cdh.ucla.edu/news-events/a-student-collaborators-bill-of-rights/)
 
-## Tenure & Promotion Guidelines
+# Tenure & Promotion Guidelines
 - [MLA: Guidelines for Evaluating Work in Digital Humanities and Digital Media](https://www.mla.org/About-Us/Governance/Committees/Committee-Listings/Professional-Issues/Committee-on-Information-Technology/Guidelines-for-Evaluating-Work-in-Digital-Humanities-and-Digital-Media)
 - [AHA: Guidelines for the Evaluation of Digital Scholarship in History](http://historians.org/teaching-and-learning/digital-history-resources/evaluation-of-digital-scholarship-in-history/guidelines-for-the-evaluation-of-digital-scholarship-in-history)
 - [University of Nebraska-Lincoln: Promotion & Tenure Criteria for Assessing Digital Research in the Humanities](http://cdrh.unl.edu/articles/promotion)
 - [Memorandum From The Emory College Humanities Council Regarding The Evaluation Of Digital Scholarship](http://college.emory.edu/home/assets/documents/faculty/Digital-Scholarship-Memo-Nov2013.pdf)
 
-## Readings
+# Readings
 - [Closing the Evaluation Gap](http://journalofdigitalhumanities.org/1-4/closing-the-evaluation-gap/). Special Issue of JDH. Vol. 1, No. 4 Fall 2012
 - [Schreibman, Susan, et al. Evaluating Digital Scholarship: Introduction](http://www.mlajournals.org/doi/pdf/10.1632/prof.2011.2011.1.123)
 - [Anderson, Steve and Tara McPherson. Engaging Digital Scholarship: Thoughts on Evaluating Multimedia Scholarship](http://www.mlajournals.org/doi/pdf/10.1632/prof.2011.2011.1.136)
