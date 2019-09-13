@@ -72,7 +72,7 @@ Much of this information comes by courtesy of [Lauren Tilton](http://laurentilto
  -  DH-Minnesota \| #dh-minnesota subchannel in the [#dh slack](https://digitalhumanities.slack.com/) .
  -  [DH SoCal](http://dhsocal.blogspot.com/) \| @dhsocal (inactive).
  -  Digital Cultural Heritage DC \| @DCH_DC.
- -  [Digital Frontiers | @DigiFront (Texas)]().
+ -  [Digital Frontiers \| @DigiFront (Texas)]().
  -  [Florida DH](https://fldh.org/).
  -  Five Colleges Blended Learning and Digital Humanities \| @5collBLDH.
  -  [Greater Philadelphia Digital Humanities Group](https://groups.google.com/forum/#!forum/phillydigitalhumanities) \| @PhillyDHtweets.
