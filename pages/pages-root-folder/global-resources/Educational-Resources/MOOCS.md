@@ -4,8 +4,9 @@ title: "MOOCs and Other Online Courses"
 breadcrumb: true
 meta_title: "Global Resources - Educational Resources - MOOCs and Other Online Courses"
 permalink: "global-resources/educational-resources/moocs/"
+date_updated: 2019-09-13
 ---
-## Online DH and DH Adjacent Courses
+# Online DH and DH Adjacent Courses
  -  [Harvard Introduction to Digital Humanities](https://online-learning.harvard.edu/course/introduction-digital-humanities)
  -  [Harvard Data Science: R Basics](https://online-learning.harvard.edu/course/data-science-r-basics?delta=0)
  -  [Harvard Data Science: Wrangling](https://www.edx.org/course/data-science-wrangling)
@@ -20,7 +21,7 @@ permalink: "global-resources/educational-resources/moocs/"
  -  [University of Lancaster Corpus Linguistics: Method, Analysis, Interpretation](https://www.futurelearn.com/courses/corpus-linguistics)
  
 
-## General Sources for MOOCs and Online Self-Training
+# General Sources for MOOCs and Online Self-Training
  -  [Codeacademy](https://www.codecademy.com/)
  -  [Lynda.com](https://www.lynda.com/)
  -  [Coursera](https://www.coursera.org/)
