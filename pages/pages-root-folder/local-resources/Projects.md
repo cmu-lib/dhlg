@@ -36,6 +36,14 @@ A | B | [C](c#) | [D](#d) | [E](#e) | [F](#f) | G | H | I | J | K | [L](#l) | M 
 
 [**Frankenstein Variorum**](https://pghfrankenstein.github.io/Pittsburgh_Frankenstein/). A digital collation of five distinct versions of the novel produced between 1816 and 1831, appearing alongside annotations. The project team includes Elisa E. Beshero-Bondar (Pitt-Greensburg), Steven Gotzler (CMU), Jon Klancher (CMU), Matthew Lincoln (CMU), Rikk Mulligan (CMU), John Quirk (CMU), Emma Slayton (CMU), Raffaele Viglianti (UMD), Scott B. Weingart (CMU), and Avery J. Wiscomb (CMU).
 
+[**From Collection Records to Data Layers: A Critical Experiment in Collaborative Practice**](https://cadatpitt.github.io/). A collaboration among Matthew J. Lavin, Tyrica Terry Kapral, Aaron Brenner, Gesina Phillips, and University Library Services at the University of Pittsburgh. _Collections as Data: Part to Whole_ is an Andrew K. Mellon funded initiative that aims to encourage implementation and use of museum and library collections as data, and to foster the development of broadly viable models that support these endeavors. This _Part to Whole_ implementation supports experimental pedagogy to engage students in creating "data layers" to augment serials and ephemera representing traditionally excluded or marginalized perspectives.
+
+[[top]](#directory)
+
+## H
+
+[**Humanitiesdata.com**](https://humanitiesdata.com). A collection of links and metadata for open data relevant to humanities scholarship (https://humanitiesdata.com) to help increase the overall number of digital pathways to humanities data, and to make it easier to search for datasets by their relevance to specific subfields.
+
 [[top]](#directory)
 
 ## L
@@ -45,6 +53,8 @@ A | B | [C](c#) | [D](#d) | [E](#e) | [F](#f) | G | H | I | J | K | [L](#l) | M 
 [[top]](#directory)
 
 ## S
+
+[**Secret Pittsburgh**](https://secretpittsburgh.org). An online guidebook to Pittsburgh’s "secret" places created by undergraduate students in the University of Pittsburgh's _Secret Pittsburgh_ Literature classes. The course was inspired by the series of Secret city guidebooks published by Jonglez Press, marketed as "local guides by local people." Each semester, more places are added to this online guide to reflect the work of recent participants in the course. 
 
 [**Six Degrees of Francis Bacon**](http://sixdegreesoffrancisbacon.com). Six Degrees of Francis Bacon is a digital reconstruction of the early modern social network that scholars and students from all over the world can collaboratively expand, revise, curate, and critique. Unlike published prose, Six Degrees is extensible, collaborative, and interoperable: extensible in that people and associations can always be added, modified, developed, or, removed; collaborative in that it synthesizes the work of many scholars; interoperable in that new work on the network is put into immediate relation to previously studied relationships. The project team includes Christopher Warren (CMU), Daniel Shore (Georgetown), Jessica Otis (GMU), Scott Weingart (CMU), John Ladd (WashU), and many others.
 
