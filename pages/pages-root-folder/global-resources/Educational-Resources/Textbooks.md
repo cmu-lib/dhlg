@@ -5,7 +5,7 @@ breadcrumb: true
 meta_title: "Global Resources - Educational Resources - Textbooks"
 permalink: "global-resources/educational-resources/textbooks/"
 ---
-# Historical Analysis
+# History
  -  [The Programming Historian, 2nd edition](https://programminghistorian.org/) (ongoing). Afanador-Llach, Maria José, Antonio Rojas Castro, Adam Crymble, Víctor Gayol, Fred Gibbs, Caleb McDaniel, Ian Milligan, Amanda Visconti, and Jeri Wieringa, eds. 
  -  [Computational Historical Thinking with Applications in R](http://dh-r.lincolnmullen.com/) (ongoing). Lincoln Mullen.
  -  [The Historian’s Macroscope](http://www.themacroscope.org/2.0/) (2015). Graham, Milligan, & Weingart.
@@ -14,7 +14,7 @@ permalink: "global-resources/educational-resources/textbooks/"
  -  [The Programming Historian, 1st edition](http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf) (2007). William J. Turkel and Alan MacEachern. 
 
  
-# Literary & Linguistic Analysis
+# Literature & Linguistics
  -  [The Art of Literary Text Analysis](https://github.com/sgsinclair/alta/blob/master/ipynb/ArtOfLiteraryTextAnalysis.ipynb) (ongoing). Stéfan Sinclair & Geoffrey Rockwell. 
  -  [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) (2019). Dan Jurafsky & James H. Martin
  -  [Text Analysis with R for Students of Literature](http://www.matthewjockers.net/text-analysis-with-r-for-students-of-literature/) (2014). Matthew Jockers.
