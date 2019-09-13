@@ -5,17 +5,18 @@ breadcrumb: true
 meta_title: "Global Resources - DH Community - Conferences"
 source: community
 permalink: "global-resources/dh-community/conferences/"
+date_updated: 2019-09-13
 ---
 The majority of the information on this page comes courtersy of the [dhnotes Conferences page](https://github.com/dh-notes/dhnotes/blob/master/pages/conferences.md) as of August 2019. [dhnotes](https://github.com/dh-notes/dhnotes) is a collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex). 
 
 
-## Directory
+# Directory
 [A](#a) | B | [C](#c) | D | [E](#e) | F |
 [G](#g) | [H](#h) | [I](#i) | J | [K](#k) | L |
 [M](#m) | [N](#n) | O | P | Q | R |
 [S](#s) | T | U | V | W | X | Y | Z
 
-## A
+# A
 
 [**ACM CHI Conference on Human Factors in Computing Systems**](https://chi2019.acm.org/) is the [Association for Computing Machinery (ACM)](https://www.acm.org/) international conference of Human-Computer Interaction. The conference also hosts [alt.chi](https://chi2019.acm.org/authors/alt-chi/) at the same time, which includes a seperate application process to have a distinct organization for controversial, risk-taking, and boundary pushing presentations. 
 
@@ -44,7 +45,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Con
 [[top]](#directory)
 
 
-## C
+# C
 
 [**Chicago Colloquium on Digital Humanities and Computer Science (DHCS)**](https://voices.uchicago.edu/dhcs2019/) is a conference for researchers, scholars, librarians, and technologists in the humanities and computer science. It aims to bring together people from across the country and around the world to discuss the current state of digital humanities and explore the future of research. 
 
@@ -56,20 +57,20 @@ The majority of the information on this page comes courtersy of the [dhnotes Con
 
 
 
-## E
+# E
 
 [**ETHICOMP**](https://www.dmu.ac.uk/research/research-faculties-and-institutes/technology/centre-for-computing-and-social-responsibility/ethicomp-series.aspx) is a conference searies that examines the ethical and social issues associated with the development and application of information and communication technology. The conferences happy every 18 months in different locations around the world. 
 
 [[top]](#directory)
 
 
-## G
+# G
 
 [**The German Studies Association (GSA)**](https://www.thegsa.org/) is an association of scholars in German, Austrian, and Swiss history, literature, culture studies, political science, and economics. The GSA has its own [Digital Humanities Network](https://hsprojects.mit.edu/dhnetwork/), which sponsors events at each annual convention. 
 
 [[top]](#directory)
 
-## H
+# H
 
 [**HCOMP**](https://www.humancomputation.com/) is the [the Association for the Advancement of Artificial Intelligence (AAAI)](https://www.aaai.org/) Conference on Human Computation and Crowdsourcing. It is concerned with human computation and crowdsourcing.
 
@@ -77,7 +78,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Con
 
 [[top]](#directory)
 
-## I
+# I
 
 [**iConference**](https://ischools.org/iConference) is for information scholars, researchers and professionals to share their insights on critical information issues in contemporary society.
 
@@ -93,7 +94,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Con
 
 [[top]](#directory)
 
-## K
+# K
 
 [**KeystoneDH**](http://keystonedh.network/2018/) is an annual conference and a network of institutions and practitioners committed to advancing collaborative scholarship in digital humanities research and pedagogy across the Mid-Atlantic.
 
@@ -101,13 +102,13 @@ The majority of the information on this page comes courtersy of the [dhnotes Con
 [[top]](#directory)
 
 
-## M
+# M
 
 [**The Modern Language Association (MLA)**](https://www.mla.org/Convention) hosts a massive annual convention that brings together scholars and teachers of languages and literatures. 
 
 [[top]](#directory)
 
-## N
+# N
 
 [**New Directions in the Humanities**](https://thehumanities.com/) is a research network that merges established humanities traditions with innovative practices. At the annual conference, it brings together emerging scholars and leaders in the field from across the globe to discuss key issues. 
 
@@ -116,7 +117,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Con
 [[top]](#directory)
 
 
-## S
+# S
 
 [**The Social Science History Association (SSHA)**](https://ssha.org/) hosts an annual conference. Many members present research that uses quantitative methods, increasingly ones from DH. There is no specific DH network within the SSHA, but there is a network dedicated to [Historical Geography and GIS](https://ssha.org/networks/geography/). 
 
