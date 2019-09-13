@@ -12,7 +12,7 @@ Pittsburgh is full of interesting DH projects. Find a selection of them here. If
 \[Editor's note: this page is still quite sparse, but will be updated soon\]
 
 # Directory
-A | B | [C](c#) | [D](#d) | [E](#e) | [F](#f) | G | H | I | J | K | [L](#l) | M | N | O | P | Q | R | [S](#s) | T | U | V | W | X | Y | Z
+A | B | [C](c#) | [D](#d) | [E](#e) | [F](#f) | G | [H](#h) | I | J | K | [L](#l) | M | N | O | P | Q | R | [S](#s) | T | U | V | W | X | Y | Z
 
 ## C
 
@@ -36,7 +36,7 @@ A | B | [C](c#) | [D](#d) | [E](#e) | [F](#f) | G | H | I | J | K | [L](#l) | M 
 
 [**Frankenstein Variorum**](https://pghfrankenstein.github.io/Pittsburgh_Frankenstein/). A digital collation of five distinct versions of the novel produced between 1816 and 1831, appearing alongside annotations. The project team includes Elisa E. Beshero-Bondar (Pitt-Greensburg), Steven Gotzler (CMU), Jon Klancher (CMU), Matthew Lincoln (CMU), Rikk Mulligan (CMU), John Quirk (CMU), Emma Slayton (CMU), Raffaele Viglianti (UMD), Scott B. Weingart (CMU), and Avery J. Wiscomb (CMU).
 
-[**From Collection Records to Data Layers: A Critical Experiment in Collaborative Practice**](https://cadatpitt.github.io/). A collaboration among Matthew J. Lavin, Tyrica Terry Kapral, Aaron Brenner, Gesina Phillips, and University Library Services at the University of Pittsburgh. _Collections as Data: Part to Whole_ is an Andrew K. Mellon funded initiative that aims to encourage implementation and use of museum and library collections as data, and to foster the development of broadly viable models that support these endeavors. This _Part to Whole_ implementation supports experimental pedagogy to engage students in creating "data layers" to augment serials and ephemera representing traditionally excluded or marginalized perspectives.
+[**From Collection Records to Data Layers: A Critical Experiment in Collaborative Practice**](https://cadatpitt.github.io/). _Collections as Data: Part to Whole_ is an Andrew K. Mellon funded initiative that aims to encourage implementation and use of museum and library collections as data, and to foster the development of broadly viable models that support these endeavors. This _Part to Whole_ implementation supports experimental pedagogy to engage students in creating "data layers" to augment serials and ephemera representing traditionally excluded or marginalized perspectives. A collaboration among Matthew J. Lavin, Tyrica Terry Kapral, Aaron Brenner, Gesina Phillips, and University Library Services at the University of Pittsburgh.
 
 [[top]](#directory)
 
