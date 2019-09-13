@@ -111,8 +111,36 @@
 $('.back.js-generated','.top-bar-section ul').html('&#xf106;');
 $(function(){
   setTimeout(function(){ 
+    $('*:target').addClass('selectedtopic');
     $(window).scroll(function (){
-      $('*:target').css('padding-top','unset');
+      $('*:target').removeClass('selectedtopic').css('padding-top','unset');
+    });
+    $('a[href*="#"]')
+    .not('[href="#"]')
+    .not('[href="#0"]')
+    .click(function(event) {
+      if ( location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname ) {
+        var target = $($(this).attr('href'));
+        if (target.length) {
+          event.preventDefault();
+          $('html, body').animate({
+            scrollTop: target.offset().top-50
+          }, 1000, function() {
+            {% if page.title == "Topics in DH" %}
+            $('.content','#topics').removeClass('selectedtopic');
+            $('li','#toc').removeClass('selectedtocitem');
+            $(target).addClass('selectedtopic');
+            {% endif %}
+            target.focus();
+            if (target.is(":focus")) {
+              return false;
+            } else {
+              target.attr('tabindex','-1');
+              target.focus();
+            }
+          });
+        }
+      }
     });
   }, 1000);
 });
