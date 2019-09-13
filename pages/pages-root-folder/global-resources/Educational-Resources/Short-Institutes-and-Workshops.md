@@ -4,6 +4,7 @@ title: "Short institutes & Workshops"
 breadcrumb: true
 meta_title: "Global Resources - Educational Resources - Short institutes & Workshops"
 permalink: "global-resources/educational-resources/short-institutes-and-workshops/"
+date_updated: 2019-09-13
 ---
 
 The following is a short list of short institutes and worksops. The majoirty of them run during the summer months. 
