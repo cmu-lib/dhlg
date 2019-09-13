@@ -13,6 +13,16 @@ The majority of the information on this page comes courtersy of the [dhnotes Fun
 Here is list of funding opportunities for Digital Humanities work. Some
 of the funding opportunities included are meant to be used solely on digital humanities, in other cases some general funding for the humanities can be applied towards digital humanities work. This simplified list derives from the more detailed list compiled with the help of the community using [this shared spreadsheet on GoogleDocs](https://docs.google.com/spreadsheet/ccc?key=0AmgLcm5jfVhSdDZjRXBEN21sLXhKYnpQa2ZVSFQ2cWc&usp=sharing).
 
+# The Council on Library and Information Resources (CLIR)
+
+The Council on Library and Information Resources is an independent, nonprofit organization that forges strategies to enhance research, teaching, and learning environments in collaboration with libraries, cultural institutions, and communities of higher learning. They have two grants that are adjacent to Digital Humanities.
+
+| Grant         | Range (USD)        | Deadline|
+| ------------- | -------------| --------:|
+| [Digitizing Hidden Special Collections and Archives: Enabling New Scholarship through Increasing Access to Unique Materials](https://www.clir.org/hiddencollections/)  | $50K to $250K | March or April |
+| [Recordings at Risk](https://www.clir.org/recordings-at-risk/) | $10K to $50K | May and November |
+
+
 # The NEH
 
 The NEH has several programs that offer grants appropriate for digital humanities work, including the Division of Public Programs, the Division of Preservation and Access, the Division of Education Programs and the Division of Research Programs. The Office of Digital Humanities focuses specifically on supporting a wide range of digital humanities work at many stages of a project.
@@ -117,6 +127,14 @@ HASTAC (Humanities, Arts, Science, and Technology Alliance and Collaboratory) is
 |[HASTAC Scholars](https://www.hastac.org/initiatives/hastac-scholars)|$300|Oct 15|
 
 
+# The Institute for Advanced Technology in the Humanities (IATH)
+The Institute for Advanced Technology in the Humanities (IATH) offers Visiting Fellowships for non-UVA faculty. Visiting Fellows are not required to be in residence in Charlottesville. Fellowships can take a variety of forms: a month-long residency in Charlottesville, a year-long networked editing project, an international conference to discuss metadata standards, and so forth. Visiting Fellows might spend all or part of the Fellowship period in resident at the IATH offices or conducting research at other institutions. The actual fellowship period, work performed, and end product will vary from one project to another.
+
+
+| Grant         | Range(USD)        | Deadline|
+| ------------- | -------------| --------:|
+|[The Institute for Advanced Technology in the Humanities (IATH)](http://www.iath.virginia.edu/other_fellows.html)|Unfunded|Rolling|
+
 # The Kress Foundation
 Through its Grant Programs, the Kress Foundation supports scholarly projects that promote the appreciation, interpretation, preservation, study and teaching of European art from antiquity to the early 19th century. These areas are also supported through our Fellowships.  These competitive grants are awarded to institutions only.
 
@@ -160,4 +178,3 @@ Why not?
  -  [Grants.gov](http://grants.gov/)
  -  [DHNow Funding List](http://digitalhumanitiesnow.org/category/news/funding/)
  -  [ACH](https://ach.org/): Association for Computers and the Humanities
-
