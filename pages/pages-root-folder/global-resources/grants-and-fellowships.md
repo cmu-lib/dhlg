@@ -5,7 +5,7 @@ breadcrumb: true
 meta_title: "Global Resources - Grants and Fellowships"
 source: community
 permalink: "global-resources/grants-and-fellowships/"
-date_updated: 2019-09-13
+date_updated: 2019-09-11
 ---
 
 The majority of the information on this page comes courtersy of the [dhnotes Funding page](https://github.com/dh-notes/dhnotes/blob/master/pages/funding.md) as of September 2019. [dhnotes](https://github.com/dh-notes/dhnotes) is as collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with support from the [ACH](https://ach.org/). 
@@ -48,6 +48,16 @@ The Institute for Advanced Technology in the Humanities (IATH) offers Visiting F
 | Grant         | Range(USD)        | Deadline|
 | ------------- | -------------| --------:|
 |[The Institute for Advanced Technology in the Humanities (IATH)](http://www.iath.virginia.edu/other_fellows.html)|Unfunded|Rolling|
+
+# Institute of Museum and Library Services
+From the IMLS home page: "The mission of IMLS is to inspire libraries and museums to advance innovation, lifelong learning, and cultural and civic engagement."
+
+Main website: [https://www.imls.gov/](http://www.imls.gov/)
+
+| Grant         | Range(USD)        | Deadline|
+| ------------- | -------------| --------:|
+|[National Leadership Grants for Museums](http://www.imls.gov/applicants/detail.aspx?GrantId=22)|$5K-1M|November|
+|[National Leadership Grants for Libraries](http://www.imls.gov/applicants/detail.aspx?GrantId=14)|Up to $1M|September|
 
 # The Kress Foundation
 Through its Grant Programs, the Kress Foundation supports scholarly projects that promote the appreciation, interpretation, preservation, study and teaching of European art from antiquity to the early 19th century. These areas are also supported through our Fellowships.  These competitive grants are awarded to institutions only.
@@ -117,16 +127,6 @@ Main Website: [http://www.neh.gov/divisions/education](http://www.neh.gov/divisi
 |[Humanities Initiatives at Hispanic-Serving Institutions](http://www.neh.gov/grants/education/humanities-initiatives-hispanic-serving-institutions)|max $100K|June|
 |[Humanities Initiatives at Historically Black Colleges and Universities](http://www.neh.gov/grants/education/humanities-initiatives-historically-black-colleges-and-universities)|max $100K|June|
 |[Humanities Initiatives at Tribal Colleges and Universities ](http://www.neh.gov/grants/education/humanities-initiatives-tribal-colleges-and-universities)|max $100K|June|
-
-# Institute of Museum and Library Services
-From the IMLS home page: "The mission of IMLS is to inspire libraries and museums to advance innovation, lifelong learning, and cultural and civic engagement."
-
-Main website: [https://www.imls.gov/](http://www.imls.gov/)
-
-| Grant         | Range(USD)        | Deadline|
-| ------------- | -------------| --------:|
-|[National Leadership Grants for Museums](http://www.imls.gov/applicants/detail.aspx?GrantId=22)|$5K-1M|November|
-|[National Leadership Grants for Libraries](http://www.imls.gov/applicants/detail.aspx?GrantId=14)|Up to $1M|September|
 
 
 # National Historical Publications and Records Commission (National Archives)
