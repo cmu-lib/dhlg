@@ -5,7 +5,7 @@ breadcrumb: true
 meta_title: "Global Resources - DH Community - Journals"
 source: community
 permalink: "global-resources/dh-community/journals/"
-date_updated: 2019-08-29
+date_updated: 2019-09-13
 ---
 
 The majority of the information on this page comes courtersy of the [dhnotes Journals page](https://github.com/dh-notes/dhnotes/blob/master/pages/journals.md) as of August 2019. [dhnotes](https://github.com/dh-notes/dhnotes) is as collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with the added contributions of [Vika Zafrin](https://github.com/vzafrin). 
@@ -21,7 +21,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Jou
 
 ## A
 
-[**ADA: A Journal of Gender, New Media &
+\*[**ADA: A Journal of Gender, New Media &
 Technology**](http://adanewmedia.org/) is an open-access peer reviewed
 journal, published twice a year. The first issue highlighted contributions
 from the field and was an invited issue. Issue 2 was our first peer reviewed
@@ -31,7 +31,7 @@ Oregon Libraries. The University of Oregon’s Center for the Study of Women in
 Society and the School of Journalism and Communication provided seed funding
 and staff for Ada.
 
-[**Amodern**](http://amodern.net/) is a peer-reviewed, open-access scholarly
+\*[**Amodern**](http://amodern.net/) is a peer-reviewed, open-access scholarly
 journal  devoted to the study of media, culture, and poetics. Its purpose is
 to  provide a forum for interdisciplinary conversations about the role of
 media and technology in contemporary cultural practices. We are  particularly
@@ -208,7 +208,7 @@ and methodological innovation in digital media studies. It invites reflection
 on how culture unfolds through the use of digital technology, and how it
 conversely influences the development of digital technology itself.
 
-[**Digital Culture & Education**](http://www.digitalcultureandeducation.com/)
+\*[**Digital Culture & Education**](http://www.digitalcultureandeducation.com/)
 is an international inter-disciplinary peer-reviewed journal. This interactive,
 open-access web-published journal is for those interested in digital culture
 and education. The journal is devoted to analysing the impact of digital
@@ -371,7 +371,7 @@ different authors. First Monday is indexed in Communication Abstracts, Computer 
 Communications Security Abstracts, DoIS, eGranary Digital Library, INSPEC, Information Science
 & Technology Abstracts, LISA, PAIS, and other services.
 
-[**Frontiers in Digital
+\*[**Frontiers in Digital
 Humanities**](http://journal.frontiersin.org/journal/digital-humanities) publishes articles on
 the most outstanding discoveries in all the research areas where computer science and the
 humanities intersect, with the aim to bring all relevant Digital Humanities areas together on a
@@ -581,16 +581,6 @@ linguistic and scientific traditions.
 
 ## J
 
-[**The Journal for the History of Knowledge**](https://journalhistoryknowledge.org/) is an open access, peer-reviewed journal devoted to
-the history of knowledge in its broadest sense. This includes the study of science, but also of
-indigenous, artisanal, and other types of knowledge as well as the history of knowledge
-developed in the humanities and social sciences. Special attention is paid to interactions and
-processes of demarcation between science and other forms of knowledge. Contributions may deal
-with the history of concepts of knowledge, the study of knowledge making practices and
-institutions and sites of knowledge production, adjudication, and legitimation (including
-universities). Contributions which highlight the relevance of the history of knowledge to
-current policy concerns (for example, by historicizing and problematizing concepts such as the
-"knowledge society") are particularly welcome.
 
 [**Jahrbuch für
 Computerphilologie**](http://computerphilologie.digital-humanities.de/ejournal.html).
@@ -612,6 +602,17 @@ journal is dedicated to publishing articles in  each edition, which address a
 specific topic of broader interest.  Scholars from various fields are expected
 not to dispense with the robes  of their specialty but to allow their
 disciplinary expertise to make an  impact beyond its customary bounds.
+
+[**The Journal for the History of Knowledge**](https://journalhistoryknowledge.org/) is an open access, peer-reviewed journal devoted to
+the history of knowledge in its broadest sense. This includes the study of science, but also of
+indigenous, artisanal, and other types of knowledge as well as the history of knowledge
+developed in the humanities and social sciences. Special attention is paid to interactions and
+processes of demarcation between science and other forms of knowledge. Contributions may deal
+with the history of concepts of knowledge, the study of knowledge making practices and
+institutions and sites of knowledge production, adjudication, and legitimation (including
+universities). Contributions which highlight the relevance of the history of knowledge to
+current policy concerns (for example, by historicizing and problematizing concepts such as the
+"knowledge society") are particularly welcome.
 
 [**Journal of the Association for Information Science and
 Technology**](http://onlinelibrary.wiley.com/journal/10.1002/%28ISSN%291097-4571)
@@ -648,23 +649,7 @@ qualitative or quantitative analyses. The Journal also publishes research
 notes, review articles, theoretical essays, and book reviews relevant for
 comparative research.
 
-[**Journal on Computing and Cultural Heritage**](http://jocch.acm.org) (JOCCH)
-publishes papers of significant and lasting value in all areas relating to the
-use of information and communication technologies (ICT) in support of Cultural
-Heritage. The journal encourages the submission of manuscripts that
-demonstrate innovative use of technology for the discovery, analysis,
-interpretation and presentation of cultural material, as well as manuscripts
-that illustrate applications in the Cultural Heritage sector that challenge
-the computational technologies and suggest new research opportunities in
-computer science.  (JOCCH) publishes papers of significant and lasting value
-in all areas relating to the use of information and communication technologies
-(ICT) in support of Cultural Heritage. The journal encourages the submission
-of manuscripts that demonstrate innovative use of technology for the
-discovery, analysis, interpretation and presentation of cultural material, as
-well as manuscripts that illustrate applications in the Cultural Heritage
-sector that challenge the computational technologies and suggest new research
-opportunities in computer science. JOCCH is published by the Association for
-Computing Machinery.
+\*[**Journal of Cultural Analytics**](https://culturalanalytics.org/) is an open-access journal about the study of culture using computational and quantitative methods.
 
 [**Journal of Data Mining and Digital
 Humanities**](http://jdmdh.episciences.org/) is concerned with the
@@ -778,11 +763,29 @@ religion and digital media. Published articles should contribute new insights
 to debates in the social sciences or digital humanities. Studies of any
 religious tradition are welcomed.
 
+[**Journal on Computing and Cultural Heritage**](http://jocch.acm.org) (JOCCH)
+publishes papers of significant and lasting value in all areas relating to the
+use of information and communication technologies (ICT) in support of Cultural
+Heritage. The journal encourages the submission of manuscripts that
+demonstrate innovative use of technology for the discovery, analysis,
+interpretation and presentation of cultural material, as well as manuscripts
+that illustrate applications in the Cultural Heritage sector that challenge
+the computational technologies and suggest new research opportunities in
+computer science.  (JOCCH) publishes papers of significant and lasting value
+in all areas relating to the use of information and communication technologies
+(ICT) in support of Cultural Heritage. The journal encourages the submission
+of manuscripts that demonstrate innovative use of technology for the
+discovery, analysis, interpretation and presentation of cultural material, as
+well as manuscripts that illustrate applications in the Cultural Heritage
+sector that challenge the computational technologies and suggest new research
+opportunities in computer science. JOCCH is published by the Association for
+Computing Machinery.
+
 [[top]](#directory)
 
 ## K
 
-[**Kairos: A Journal of Rhetoric, Technology, and
+\*[**Kairos: A Journal of Rhetoric, Technology, and
 Pedagogy**](http://kairos.technorhetoric.net/about.html) is a refereed
 open-access online journal exploring the intersections of rhetoric,
 technology, and pedagogy. The journal reaches a wide audience—currently 45,000
