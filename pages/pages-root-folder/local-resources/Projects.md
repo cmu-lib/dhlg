@@ -16,7 +16,7 @@ A | B | [C](c#) | [D](#d) | [E](#e) | [F](#f) | G | H | I | J | K | [L](#l) | M 
 
 ## C
 
-[**Center for Midnight**](https://www.robinsloan.com/center-for-midnight/). A three-day writing experiment to produce a short account of the Center for Midnight, a fictional artistic movement of the late twentieth century. Each sentence represents a meticulously-crafted collaboration between humans and a recurrent neural network trained on artists’ biographies and other corpora. Led by author Robin Sloan and Scott B. Weingart, hosted at the STUDIO for Creative Inquiry in October, 2018.
+[**Center for Midnight**](https://www.robinsloan.com/center-for-midnight/). A three-day writing experiment to produce a short account of the Center for Midnight, a fictional artistic movement of the late twentieth century. Each sentence represents a meticulously-crafted collaboration between humans and a recurrent neural network trained on artists’ biographies and other corpora. Led by author Robin Sloan and Scott B. Weingart, hosted at the STUDIO for Creative Inquiry in 2018.
 
 [[top]](#directory)
 
