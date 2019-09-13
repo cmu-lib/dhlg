@@ -137,7 +137,7 @@ ___
 - [Certificate in Digital Humanities](https://www.unl.edu/dhcert/home), University of Nebraska-Lincoln, USA
 - [Certificate in Digital Humanities](https://cdh.unc.edu/programs/dh-graduate-certificate/), University of North Carolina at Chapel Hill, USA
 - [Certificate in Public Scholarship](https://simpsoncenter.org/programs/curriculum/certificate-in-public-scholarship), University of Washington, USA
-- [Graduate Certificate in Textual and Digital Studies](https://depts.washington.edu/text/about/), University of Washington, USAgraduate-certificate-in-textual-and-digital-studies/
+- [Graduate Certificate in Textual and Digital Studies](https://depts.washington.edu/text/about/graduate-certificate-in-textual-and-digital-studies/), University of Washington, USA
 - [Certificate in Digital Humanities](https://www.pratt.edu/academics/information/advanced-certificates/digital-humanities/), Pratt Institute, USA
 - [Certificate in Digital Humanities](http://web.uvic.ca/~siemens/DH(SI)GradCertificateProposal.pdf) \[no longer offered\], University of Victoria, USA
 - [Certificate in Digital Humanities](https://www.northeastern.edu/cssh/history/graduate/programs/graduate-certificate-in-digital-humanities/), Northeastern University, USA
