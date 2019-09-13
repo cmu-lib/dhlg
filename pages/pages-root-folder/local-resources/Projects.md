@@ -12,7 +12,7 @@ Pittsburgh is full of interesting DH projects. Find a selection of them here. If
 \[Editor's note: this page is still quite sparse, but will be updated soon\]
 
 # Directory
-A | B | C | [D](#d) | [E](#e) | F | G | H | I | J | K | L | M | N | O | P | Q | R | [S](#s) | T | U | V | W | X | Y | Z
+A | B | C | [D](#d) | [E](#e) | [F](#f) | G | H | I | J | K | [L](#l) | M | N | O | P | Q | R | [S](#s) | T | U | V | W | X | Y | Z
 
 ## D
 
@@ -23,6 +23,18 @@ A | B | C | [D](#d) | [E](#e) | F | G | H | I | J | K | L | M | N | O | P | Q | 
 ## E
 
 [**Encyclopedia of the History of Science**](https://histofsci.org). The Encyclopedia of the History of Science (ETHOS) publishes up-to-date, peer-reviewed articles on topics in the history of science and technology, broadly construed. All articles focus on a single topic in the field, presenting an interpretive overview of the subject while also surveying relevant published literature. The project development team included Chris Phillips (CMU), Amanda Katz (CMU), Jonathan Kiritharan (CMU), Matt Lincoln (CMU), Drew Stimpson (CMU), Dan Evans (CMU), Heidi Bartlett (CMU), Patrick Fulton, and Scott Weingart (CMU).
+
+[[top]](#directory)
+
+## F
+
+[**Frankenstein Variorum**](https://pghfrankenstein.github.io/Pittsburgh_Frankenstein/). A digital collation of five distinct versions of the novel produced between 1816 and 1831, appearing alongside annotations. The project team includes Elisa E. Beshero-Bondar (Pitt-Greensburg), Steven Gotzler (CMU), Jon Klancher (CMU), Matthew Lincoln (CMU), Rikk Mulligan (CMU), John Quirk (CMU), Emma Slayton (CMU), Raffaele Viglianti (UMD), Scott B. Weingart (CMU), and Avery J. Wiscomb (CMU).
+
+[[top]](#directory)
+
+## L
+
+[**Latin American Comics Archive**](http://mlrcdev.hss.cmu.edu/omeka/). A curated exhibit of comic strips and comic books created in Argentina, Colombia, and Mexico between the 1920s and the present. The project team includes Felipe Gómez Gutiérrez, Rikk Mulligan, Daniel Evans, Allison Paige Kuester, Olivia Wikle, and Scott Weingart. 
 
 [[top]](#directory)
 
