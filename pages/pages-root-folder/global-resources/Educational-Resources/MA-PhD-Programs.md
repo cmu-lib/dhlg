@@ -108,7 +108,7 @@ ___
 
 ## South America and the Caribbean
 
-- [Maestría en Humanidades Digitales, Universidad de los Andes, Bogota, Colombia](https://posgradosfacartes.uniandes.edu.co/programas/humanidades-digitales/)
+- [Maestría en Humanidades Digitales](https://posgradosfacartes.uniandes.edu.co/programas/humanidades-digitales/), Universidad de los Andes, Bogota, Colombia
 
 [[top]](#contents)
 
@@ -137,7 +137,7 @@ ___
 - [Certificate in Digital Humanities](https://www.unl.edu/dhcert/home), University of Nebraska-Lincoln, USA
 - [Certificate in Digital Humanities](https://cdh.unc.edu/programs/dh-graduate-certificate/), University of North Carolina at Chapel Hill, USA
 - [Certificate in Public Scholarship](https://simpsoncenter.org/programs/curriculum/certificate-in-public-scholarship), University of Washington, USA
-- [Graduate Certificate in Textual and Digital Studies](https://depts.washington.edu/text/about/, University of Washington, USAgraduate-certificate-in-textual-and-digital-studies/)
+- [Graduate Certificate in Textual and Digital Studies](https://depts.washington.edu/text/about/), University of Washington, USAgraduate-certificate-in-textual-and-digital-studies/
 - [Certificate in Digital Humanities](https://www.pratt.edu/academics/information/advanced-certificates/digital-humanities/), Pratt Institute, USA
 - [Certificate in Digital Humanities](http://web.uvic.ca/~siemens/DH(SI)GradCertificateProposal.pdf) \[no longer offered\], University of Victoria, USA
 - [Certificate in Digital Humanities](https://www.northeastern.edu/cssh/history/graduate/programs/graduate-certificate-in-digital-humanities/), Northeastern University, USA
