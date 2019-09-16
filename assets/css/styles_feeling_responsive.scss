@@ -317,7 +317,7 @@ code{
   margin: auto;
   max-width: 80%;
 }
-#dhlg-menu-logo {
+.dhlg-menu-logo {
   height: 100%;
   padding: 0.5em 1em;
 }
@@ -645,7 +645,7 @@ blockquote.tip {
 }
 
 body.frontpage{
-	#dhlg-menu-logo{
+	.dhlg-menu-logo{
 		display:none;
 	}
 	#navigation{
@@ -897,13 +897,44 @@ body.frontpage{
     transition: all 0.5s ease 0s;
   }
 }
+.right li.logo{
+  height: 50px;
+  &>a {
+    height: 50px;
+  }
+}
+@media only screen and (min-width: 64.063em){
+  .right li.logo {
+      width: 100px;
+  }
+}
+@media only screen and (min-width: 66.063em){
+  .right li.logo {
+      width: 140px;
+  }
+}
+@media only screen and (min-width: 68.563em){
+  .right li.logo {
+      width: 180px;
+  }
+}
+@media only screen and (min-width: 70.363em){
+  .right li.logo {
+      width: 210px;
+  }
+}
+@media only screen and (min-width: 72.363em){
+  .right li.logo {
+      width: 240px;
+  }
+}
+@media only screen and (min-width: 74.063em){
+  .right li.logo {
+      width: 270px;
+  }
+}
 
 @media #{$large-up} {
-  .right{
-    li.logo {
-      width: 280px;
-    }
-  }
   .circlebg{
     background: url(#{$baseurl}/assets/img/circle-pale-amber.svg) no-repeat 80px 10px;
     background-size: 320px 320px;
@@ -1056,5 +1087,9 @@ body.frontpage{
 }
 
 @media #{$xlarge-up} {
-
+  .right{
+    li.logo {
+      width: 280px;
+    }
+  }
 }
