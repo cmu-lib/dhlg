@@ -54,7 +54,7 @@ The majority of the list content on the site as of September 2019 originated wit
 
 The job resources section includes editorial advice written by **Matthew Hannah** (Purdue University), slightly modified on import to the DHLG. **Lauren Tilton** (University of Richmond) offered the initial list of DH organizations. **Zoe LeBlanc** (Princeton University) and **Scott B. Weingart** collaborated on curating the hiring interviews.
 
-Although the majority of DH topic descriptions were written by **Susan Grunewald**, some were written by **Hannah Alpert-Abrams** (Program Officer in DH). More details on who contributed what content is available in the [markdown files on github](https://github.com/cmu-lib/dhlg/tree/master/_topics).
+Although the majority of DH topic descriptions were written by **Susan Grunewald**, some were written by **Hannah Alpert-Abrams** (Program Officer in DH). More details on who contributed what content is available in the [markdown files on github](https://github.com/cmu-lib/dhlg/tree/master/_topics) and the github [list of contributors](https://github.com/cmu-lib/dhlg/graphs/contributors).
 
 # Contributing
 
