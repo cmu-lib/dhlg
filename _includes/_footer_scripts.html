@@ -74,12 +74,6 @@
       }
     });
   });
-  $(window).resize(function() {
-    tocresize();
-  });
-  $(function(){
-    tocresize();
-  });
   {% endif %}
   {% if page.layout=="page" %}
     {% if page.sidebar == NULL %}
@@ -109,12 +103,15 @@
   });
 {% endif %}
 $('.back.js-generated','.top-bar-section ul').html('&#xf106;');
+$(window).resize(function() {
+  {% if page.layout=="landing" %}
+  tocresize();
+  {% endif %}
+});
 $(function(){
-  if(window.matchMedia("(min-width: 64.063em) and (max-width: 72em)").matches){
-    $('.dhlg-menu-logo').attr('src',"{{ '/assets/img/marks/dhlg_mark.png' | relative_url }}");
-  }else{
-    $('.dhlg-menu-logo').attr('src',"{{ '/assets/img/marks/dhlg_logotype_horizontal.svg' | relative_url }}");
-  }
+  {% if page.layout=="landing" %}
+  tocresize();
+  {% endif %}
   setTimeout(function(){ 
     $('*:target').addClass('selectedtopic');
     $(window).scroll(function (){

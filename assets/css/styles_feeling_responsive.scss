@@ -63,6 +63,24 @@ $fontsfolder: '../fonts';
 @import "foundation-components/flex-video";
 @import "foundation-components/forms";
 @import "foundation-components/grid";
+
+@include exports("grid") {
+  @if $include-html-grid-classes {
+    @media #{$middlebar-up} {
+      @include grid-html-classes($size:medium);
+      // Old push and pull classes
+      @for $i from 0 through $total-columns - 1 {
+        .push-#{$i} {
+          @include grid-column($push:$i, $collapse:null, $float:false);
+        }
+        .pull-#{$i} {
+          @include grid-column($pull:$i, $collapse:null, $float:false);
+        }
+      }
+    }
+  }
+}
+
 @import "foundation-components/inline-lists";
 @import "foundation-components/keystrokes";
 @import "foundation-components/panels";
@@ -897,42 +915,6 @@ body.frontpage{
     transition: all 0.5s ease 0s;
   }
 }
-.right li.logo{
-  height: 50px;
-  &>a {
-    height: 50px;
-  }
-}
-@media only screen and (min-width: 64.063em){
-  .right li.logo {
-      width: 100px;
-  }
-}
-@media only screen and (min-width: 66.063em){
-  .right li.logo {
-      width: 140px;
-  }
-}
-@media only screen and (min-width: 68.563em){
-  .right li.logo {
-      width: 180px;
-  }
-}
-@media only screen and (min-width: 70.363em){
-  .right li.logo {
-      width: 210px;
-  }
-}
-@media only screen and (min-width: 72.363em){
-  .right li.logo {
-      width: 240px;
-  }
-}
-@media only screen and (min-width: 74.063em){
-  .right li.logo {
-      width: 270px;
-  }
-}
 
 @media #{$large-up} {
   .circlebg{
@@ -1000,6 +982,31 @@ body.frontpage{
       margin-top: 0;
     }
   }
+  #topics{
+    .content{
+      &.selectedtopic{
+        h3{
+          &:before {
+            top: unset;
+            left: -30px;
+            visibility: visible;
+          }
+        }
+      }
+    }
+  }
+  #pagebottom{
+    padding: 160px 0 10px 0;
+  }
+  .similarprojects{
+    .projectbox{
+      >a{
+        margin: unset;
+      }
+    }
+  }
+}
+@media #{$middlebar-up} {
   .logo{
     display:inline-block;
   }
@@ -1009,7 +1016,6 @@ body.frontpage{
       border-bottom: solid 2px $grey-5;
     }
   }
-
   .top-bar-section {
     ul{
       background-color: $white;
@@ -1057,30 +1063,6 @@ body.frontpage{
           left: 0.3em;
           top: 0.1em;
         }
-      }
-    }
-  }
-
-  #topics{
-    .content{
-      &.selectedtopic{
-        h3{
-          &:before {
-            top: unset;
-            left: -30px;
-            visibility: visible;
-          }
-        }
-      }
-    }
-  }
-  #pagebottom{
-    padding: 160px 0 10px 0;
-  }
-  .similarprojects{
-    .projectbox{
-      >a{
-        margin: unset;
       }
     }
   }
