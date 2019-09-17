@@ -24,7 +24,7 @@ The Text Encoding Initiative (TEI) is a community of practice that defines a spe
 More information can be found in these sources:
  -  [Text Encoding Initiative](https://tei-c.org/)
  -  [Digital Mitford](https://digitalmitford.org/about.html)
- -  [What is the Text Encoding Initiative?: How to add intelligent marksup to digital resources](https://books.google.com/books?id=-foXCwAAQBAJ&dq=TEI+xml&hl=en&sa=X&ved=0ahUKEwjJ3Z6Zvd_jAhWLmlkKHVDDDWEQ6AEIKjAA) (2014) Lou Burnard.
+ -  [What is the Text Encoding Initiative?: How to add intelligent markup to digital resources](https://books.google.com/books?id=-foXCwAAQBAJ&dq=TEI+xml&hl=en&sa=X&ved=0ahUKEwjJ3Z6Zvd_jAhWLmlkKHVDDDWEQ6AEIKjAA) (2014) Lou Burnard.
  -  [XML in a Nutshell: A Desktop Quick Reference](https://books.google.com/books?id=NBwnSfoCStAC&pg=PT112&dq=TEI+xml&hl=en&sa=X&ved=0ahUKEwjJ3Z6Zvd_jAhWLmlkKHVDDDWEQ6AEILzAB#v=onepage&q=TEI%20xml&f=false) (3rd Edition, 2004) Elliottee Rusty Harold and W. Scott Means.
  -  [Learning XML: Creating Self-Describing Data](https://books.google.com/books?id=Zilck1_0c5QC&pg=PT301&dq=TEI+xml&hl=en&sa=X&ved=0ahUKEwjJ3Z6Zvd_jAhWLmlkKHVDDDWEQ6AEINjAC#v=onepage&q=TEI%20xml&f=false) (2nd Edition, 2003) Erik T. Ray.
  -  [The Programming Historian Transforming Data for Reuse and Re-publication with XML and XSL](https://programminghistorian.org/en/lessons/transforming-xml-with-xsl).
