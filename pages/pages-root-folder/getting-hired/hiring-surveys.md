@@ -3,7 +3,7 @@ layout: page
 title: "Hiring Surveys"
 breadcrumb: true
 meta_title: "Hiring Surveys"
-permalink: "getting-hired/hiring-surveys"
+permalink: "getting-hired/hiring-surveys/"
 ---
 The Hiring Surveys, coming soon, are responses to a survey by people who are in positions to hire digital humanists. Each respondent describes a hypothetical ideal candidate for a plausible position at their institution. Use the answers to help set some goals for yourself. Also, see in these answers that while job ads often ask for everything, the person who gets hired rarely checks every box. It’s usually better to spend your time becoming an expert in a few things than trying to stretch yourself across the wide expanse of DH.
 
