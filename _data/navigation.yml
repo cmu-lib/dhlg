@@ -13,22 +13,6 @@
   side: left
   alternate:
 
-- title: "Getting Hired"
-  url: "/getting-hired/"
-  side: left
-  alternate:
-  dropdown:
-  - title: "Job Boards"
-    url: "/getting-hired/job-boards/"
-    alternate:
-  - title: "Job Market Advice"
-    url: "/getting-hired/job-market-advice/"
-    alternate:
-  - title: "Hiring Surveys"
-    url: "/getting-hired/hiring-surveys/"
-    alternate:
-    
-
 - title: "Global Resources"
   url: "/global-resources/"
   side: left
@@ -58,6 +42,20 @@
       url: "/global-resources/dh-community/scholarly-organizations/"
     - title: "Online Communities"
       url: "/global-resources/dh-community/online-communities/"
+  - title: "Getting Hired"
+    url: "/global-resources/getting-hired/"
+    side: left
+    alternate:
+    dropdown:
+    - title: "Job Boards"
+      url: "/global-resources/getting-hired/job-boards/"
+       alternate:
+    - title: "Job Market Advice"
+      url: "/global-resources/getting-hired/job-market-advice/"
+      alternate:
+    - title: "Hiring Surveys"
+      url: "/global-resources/getting-hired/hiring-surveys/"
+      alternate:
   - title: "Grants and Fellowships"
     url: "/global-resources/grants-and-fellowships/"
   - title: "Evaluating Digital Work"
