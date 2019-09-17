@@ -1007,6 +1007,11 @@ body.frontpage{
   }
 }
 @media #{$middlebar-up} {
+  .right{
+    li.logo {
+      width: 270px;
+    }
+  }
   .logo{
     display:inline-block;
   }
@@ -1069,9 +1074,5 @@ body.frontpage{
 }
 
 @media #{$xlarge-up} {
-  .right{
-    li.logo {
-      width: 280px;
-    }
-  }
+
 }
