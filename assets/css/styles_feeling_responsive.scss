@@ -982,36 +982,6 @@ body.frontpage{
       margin-top: 0;
     }
   }
-  #topics{
-    .content{
-      &.selectedtopic{
-        h3{
-          &:before {
-            top: unset;
-            left: -30px;
-            visibility: visible;
-          }
-        }
-      }
-    }
-  }
-  #pagebottom{
-    padding: 160px 0 10px 0;
-  }
-  .similarprojects{
-    .projectbox{
-      >a{
-        margin: unset;
-      }
-    }
-  }
-}
-@media #{$middlebar-up} {
-  .right{
-    li.logo {
-      width: 270px;
-    }
-  }
   .logo{
     display:inline-block;
   }
@@ -1061,6 +1031,14 @@ body.frontpage{
       & > li:not(.logo):not(.divider){
         background: $white url('#{$baseurl}/assets/img/circle-10pblack.svg') no-repeat -2px 2px;
       }
+      &.right{
+        &>li.logo{
+          width: 240px;
+          &>a{
+            padding:0!important;
+          }
+        }
+      }
     }
     .has-dropdown{
       & > a{
@@ -1071,6 +1049,32 @@ body.frontpage{
       }
     }
   }
+  #topics{
+    .content{
+      &.selectedtopic{
+        h3{
+          &:before {
+            top: unset;
+            left: -30px;
+            visibility: visible;
+          }
+        }
+      }
+    }
+  }
+  #pagebottom{
+    padding: 160px 0 10px 0;
+  }
+  .similarprojects{
+    .projectbox{
+      >a{
+        margin: unset;
+      }
+    }
+  }
+}
+@media #{$middlebar-up} {
+  
 }
 
 @media #{$xlarge-up} {

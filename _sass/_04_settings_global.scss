@@ -1435,7 +1435,7 @@ $topbar-menu-link-transform: uppercase;
 // Transitions and breakpoint styles
 // $topbar-transition-speed: 300ms;
 // Using rem-calc for the below breakpoint causes issues with top bar
-$topbar-breakpoint: $middle-large; // Change to 9999px for always mobile layout
+$topbar-breakpoint: #{lower-bound($large-range)}; // Change to 9999px for always mobile layout
 $topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})" !default;
 
 // Divider Styles
