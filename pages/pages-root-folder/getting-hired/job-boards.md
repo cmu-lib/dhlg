@@ -4,7 +4,7 @@ title: "Job Boards"
 breadcrumb: true
 meta_title: "Getting Hired - Job Boards"
 source: community
-permalink: "getting-hired/job-boards/"
+permalink: "global-resources/getting-hired/job-boards/"
 date_updated: 2019-09-13
 ---
  
