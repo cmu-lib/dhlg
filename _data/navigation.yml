@@ -49,7 +49,7 @@
     dropdown:
     - title: "Job Boards"
       url: "/global-resources/getting-hired/job-boards/"
-       alternate:
+      alternate:
     - title: "Job Market Advice"
       url: "/global-resources/getting-hired/job-market-advice/"
       alternate:
