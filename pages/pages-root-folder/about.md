@@ -46,7 +46,7 @@ Much of the original content was written or edited by Online Workshop Coordinato
 
 **Matthew Lincoln**, a research software engineer and digital humanities developer at Carnegie Mellon University Libraries, oversaw the technical components of the DHLG. The majority of the technical implementation itself was contracted to **Agile Humanities Agency**. Their team included **Dean Irvine**, **Bill Kennedy**, and **Matt Milner**.
 
-Other core contributors include Dominique Luster, Tatyana Gershkovich, AmyJo Brown, Bob Gradeck, Emma Slayton, David Kaufer, Elaine Frantz, Ruth Mostern, Elia Beshero-Bonda, Michael Christel, Matthew J. Lavin, Simon DeDeo, Benjamin Miller, Elizabeth Archibald, Stephen Wittek, Nico Slate, S.E. Hackney, Patrick Juola, Kathy Newman, Steven Gotzler, Felipe Gómez, and Chloe Perry.
+Other core contributors include Dominique Luster, Tatyana Gershkovich, AmyJo Brown, Bob Gradeck, Emma Slayton, David Kaufer, Elaine Frantz, Ruth Mostern, Elisa Beshero-Bondar, Michael Christel, Matthew J. Lavin, Simon DeDeo, Benjamin Miller, Elizabeth Archibald, Stephen Wittek, Nico Slate, S.E. Hackney, Patrick Juola, Kathy Newman, Steven Gotzler, Felipe Gómez, and Chloe Perry.
 
 # Community Contributors
 
