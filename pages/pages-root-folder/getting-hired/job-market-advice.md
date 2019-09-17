@@ -4,7 +4,7 @@ title: "Job Market Advice"
 breadcrumb: true
 meta_title: "Getting Hired - Job Market Advice"
 source: community
-permalink: "getting-hired/job-market-advice/"
+permalink: "global-resources/getting-hired/job-market-advice/"
 date_updated: 2019-09-13
 ---
 This page comes courtsey of [Matthew Hannah's](https://github.com/m-n-hannah) GitHub page [Digital Humanities and the Job Market](https://github.com/m-n-hannah/Digital-Humanities-Job-Market/blob/master/index.md) as of August 2019.
