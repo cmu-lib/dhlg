@@ -3,7 +3,7 @@ layout: page
 title: "Getting Hired"
 breadcrumb: true
 meta_title: "Getting Hired"
-permalink: "/global-resources/getting-hired/"
+permalink: "global-resources/getting-hired/"
 ---
 Although these resources will be helpful for those completing their graduate work, these pages are also useful for those just starting out. Use the [Job Markets Advice]({{ site.baseurl }}/getting-hired/job-market-advice) page to learn more about the DH job market process in general, and the [Job Boards]({{ site.baseurl }}/getting-hired/job-boards) to find recent job ads that might help you shape your training curriculum for the next several years. In the near future, we will also include a list of old relevant Job Ads that might be helpful for those trying to hone their career trajectories.
 
