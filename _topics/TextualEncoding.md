@@ -1,7 +1,7 @@
 ---
 layout: page
-title:  "Textual Encoding"
-meta_title: "Textual Encoding"
+title:  "Textual Encoding Initiative"
+meta_title: "Textual Encoding Initiative"
 breadcrumb: false
 authors:
 - name: Susan Grunewald
