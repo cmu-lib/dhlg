@@ -25,3 +25,4 @@ Further information can be found at:
  -  [Wikipedia Stylometry](https://en.wikipedia.org/wiki/Stylometry).
  -  [The Programming Historian Introduction to stylometry with Python](https://programminghistorian.org/en/lessons/introduction-to-stylometry-with-python).
  -  [Stylometry: A Statistical Method for Determening Authorship, Textual Intergrity, and Chronology](https://books.google.com/books?id=fSF4YgEACAAJ&dq=stylometry&hl=en&sa=X&ved=0ahUKEwiutJDDvt3jAhVvvlkKHeCVAIEQ6AEIKjAA) (1988) Holly Franking.
+ -  [stylo R Package](https://sites.google.com/site/computationalstylistics/stylo). Complete stylometry package in R, by Eder, Rybicki, & Kestemont.
