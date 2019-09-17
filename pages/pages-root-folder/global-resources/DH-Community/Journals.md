@@ -74,7 +74,7 @@ relations, expertise, methods, concepts and knowledge.
 
 ## C
 
-[**C-Theory**](http://www.ctheory.net/home.aspx) is a peer-reviewed academic
+[**C-Theory**](http://ctheory.net/ctheory_wp/) is a peer-reviewed academic
 journal published since 1996. It focuses on technology, media theory, and
 culture, publishing articles, interviews, book reviews and "event-scenes." It
 is edited by Arthur and Marilouise Kroker. The journal is published by the
@@ -276,7 +276,7 @@ results of research projects,  description and evaluation of techniques and
 methodologies, and reports  on work in progress.
 
 [**Digital Studies / Le champ
-numérique**](http://www.digitalstudies.org/ojs/index.php/digital_studies) is a
+numérique**](https://www.digitalstudies.org/) is a
 refereed academic journal serving as a formal arena for scholarly  activity
 and as an academic resource for researchers in the digital  humanities. DS/CN
 is published by the [Society for Digital Humanities / Société pour l'étude des
@@ -627,7 +627,7 @@ historical, socio-technical, policy-analytic, or critical-theoretical nature.
 JASIST also commissions in-depth review articles (“Advances in Information
 Science”) and reviews of print and other media.
 
-[**Journal of Broadcasting & Electronic Media**](http://beaweb.org/jobem.htm)
+[**Journal of Broadcasting & Electronic Media**](https://www.tandfonline.com/loi/hbem20)
 is the scholarly journal published quarterly by the Broadcast Education
 Association. Considered one of the leading publications in the Communication
 field, the Journal contains timely articles about new developments, trends and
@@ -691,7 +691,7 @@ have broad interest, and are written to be intelligible to a wide range of
 audiences.
 
 \*[**Journal of Interactive
-Humanities**](http://Journal%20of%20Interactive%20Humanities) is a
+Humanities**](https://scholarworks.rit.edu/jih/) is a
 peer-reviewed, open access  journal that provides an important forum for the
 development of new  methods of outreach such as interactive games and media
 for museums,  digitizing archives, cultural heritage preservation, and other
@@ -749,11 +749,6 @@ production. We understand peer  production as a mode of commons-based and
 oriented production in which  participation is voluntary and predicated on the
 self-selection of tasks. Notable examples are the collaborative development of
 Free  Software projects and of the Wikipedia online encyclopedia.
-
-[**Journal of Public Interest IP**](http://www.piipajournal.org/) is a
-repository of knowledge from  thought leaders around the world that addresses
-the need for pragmatic  intellectual property solutions to the challenges
-faced by people in  developing countries.
 
 The [**Journal of Religion, Media and Digital
 Culture**](https://www.jrmdc.com/journal/index) is an open access,
@@ -817,7 +812,7 @@ expression. In short, Lateral is interested in recasting both the form and
 content of what cultural studies can be.
 
 [**Lexicon
-Philosophicum**](http://www.socolfil.org/noticias/328-lexicon-philosophicum-a-new-online-journal-rome.html)
+Philosophicum**](http://lexicon.cnr.it/)
 is new online journal edited by the CNR’s Institute for the European
 Intellectual Lexicon and the History of Ideas, Rome. The Institute for the
 European Intellectual Lexicon and the History of Ideas (ILIESI) is  going to
@@ -970,7 +965,7 @@ y crítico, soportado en el humanismo y con claros aportes al desarrollo y a la
 solución, desde la comunicación, de los problemas de la sociedad.
 
 [**Philological
-Encounters**](http://www.brill.com/products/journal/philological-encounters)
+Encounters**](https://brill.com/view/journals/phen/phen-overview.xml)
 is a double-blind peer-reviewed journal dedicated to the historical and
 philosophical critique of philology. The journal encourages critical and
 comparative perspectives that integrate textual scholarship and the study of
@@ -1148,7 +1143,7 @@ de artículos destinados a la comunicación de resultados de investigaciones
 originales y ensayos innovadores.
 
 [**TEXT: An Interdisciplinary Annual of Textual
-Studies**](http://www.textual.org/)  endeavors to investigate the meaning and
+Studies**](https://muse.jhu.edu/journal/392) endeavors to investigate the meaning and
 implications of textuality is designed to widen our understanding of how  new
 developments in fields like codicology, material philology, art  history,
 musicology and cultural studies are redefining and integrating  our notions of
@@ -1198,7 +1193,7 @@ approaches.
 
 ## V
 
-[**Vectors**](http://www.vectorsjournal.org/issues/index.php) maps the
+[**Vectors**](http://vectors.usc.edu/issues/index.php?issue=7) maps the
 multiple contours of daily life in an unevenly digital  era, crystallizing
 around themes that highlight the social, political,  and cultural stakes of
 our increasingly technologically-mediated  existence. As such, the journal
