@@ -48,7 +48,7 @@ Aimed at teaching code, methods, etc.
  -  [Drupal for Humanists](http://drupal.forhumanists.org/book) (2016). Quinn Dombrowski. 
  -  [(Xe)LaTeX appliqué aux sciences humaines](http://geekographie.maieul.net/95) (2012). Maïeul Rouquette, Brendan Chabannes et Enimie Rouquette. 
  
- # General DH Textbooks 
+# General DH Textbooks 
 Books and textbooks often used in the teaching of digital humanities, but not necessarily intentionally instructional.
 
  -  [New Digital Worlds](http://www.nupress.northwestern.edu/content/new-digital-worlds) (2018) Roopika Risam.
