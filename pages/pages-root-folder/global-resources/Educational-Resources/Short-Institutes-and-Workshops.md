@@ -7,7 +7,7 @@ permalink: "global-resources/educational-resources/short-institutes-and-workshop
 date_updated: 2019-09-13
 ---
 
-The following is a short list of short institutes and worksops. The majoirty of them run during the summer months. 
+The following is a short list of short institutes and workshops. The majority of them run during the summer months. 
 
  -  [**DH@Guelph Summer Workshops**](https://www.uoguelph.ca/arts/dhguelph/summer2019), Guelph, ON. Four-day summer workshops on DH research and teaching.
  -  [**DHSite**](https://dhsite.org/) Ottowa, ON. Week-long summer workshop.
@@ -22,5 +22,5 @@ The following is a short list of short institutes and worksops. The majoirty of 
  -  [**Humanities Intensive Learning and Teaching (HILT)**](http://dhtraining.org/hilt/). Five-day training institute on DH theory, practice, and culture. Held in summer, sometimes as early as May.
  -  [**IliADS**](https://iliads.org/) Los Angeles, CA. A week-long traveling summer institute on scholarly and pedagogical impact of the digital liberal arts. 
  -  [**Lancaster University**](http://ucrel.lancs.ac.uk/summerschool/), Lancaster, UK.  A series of short summer institutes on various DH topics.
- -  [**Software Carpentry**](https://software-carpentry.org/). Hands-on workshops of 2+ days held around the world.
+ -  [**The Carpentries**](https://carpentries.org/), worldwide. Hands-on 2+ day workshops teaching coding and data skills held worldwide. The Carpentries is a parent organization for Software Carpentry, Data Carpentry, and Library Carpentry, supporting a global community that collaboratively develops open learning resources and hosts workshops using evidence-based teaching practices. 
  -  [**THATCamp, The Humanities and Technology Camp**](http://thatcamp.org/). Franchised DIY unconferences hosted all over the world, usually 0-2 days.
