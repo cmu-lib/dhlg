@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Short institutes & Workshops"
+title: "Short Institutes & Workshops"
 breadcrumb: true
-meta_title: "Global Resources - Educational Resources - Short institutes & Workshops"
+meta_title: "Global Resources - Educational Resources - Short Institutes & Workshops"
 permalink: "global-resources/educational-resources/short-institutes-and-workshops/"
 date_updated: 2019-09-13
 ---
