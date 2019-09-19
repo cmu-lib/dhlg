@@ -65,7 +65,7 @@ Much of this information comes by courtesy of [Lauren Tilton](http://laurentilto
 
  -  Bay Area DH \| [Bay Area Meet-Up](https://t.co/iX8BHF1K2a) and #BayAreaDH.
  -  [Boston DH Consortium](http://bostondh.org/) \| @Boston_DH.
- -  Chesapeake DH Consortium \| Website coming soon.
+ -  [Chesapeake DH Consortium](https://chesapeakedh.github.io/).
  -  [CT DH](https://ctdh.io/).
  -  [Detroit DH](detroitdh.org) \| @DetroitDH.
  -  [DHITH: Digital Humanities in the Heartland \| Mailing List](https://listserv.ksu.edu/?SUBED1=dhith&A=1).
