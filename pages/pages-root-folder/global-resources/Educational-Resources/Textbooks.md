@@ -30,8 +30,9 @@ Aimed at teaching code, methods, etc.
  -  [Technical Foundations of Informatics](https://info201.github.io/index.html) (2017). Michael Freeman and Joel Ross.
  -  [Exploratory Programming for the Arts and Humanities](https://www.amazon.com/Exploratory-Programming-Arts-Humanities-Press/dp/0262034204/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1488129778&sr=1-1) (2016). Nick Montfort. 
  -  [An Introduction to Text Analysis: A Coursebook](http://walshbr.com/textanalysiscoursebook/) (2016). Brandon Walsh & Sarah Horowitz.
+  - [New Digital Worlds](http://www.nupress.northwestern.edu/content/new-digital-worlds) (2018). Roopika Risam. 
  -  [Humanities Data in R](https://humanitiesdata.org/) (2015). Lauren Tilton & Taylor Arnold. 
- -  [Digital Research Methods with Mathematica](https://williamjturkel.net/digital-research-methods-with-mathematica/) (2015). William J. Turkel. 
+ -  [Digital Research Methods with Mathematica](https://williamjturkel.net/digital-research-methods-with-mathematica/) (2015). William J. Turkel.
 
 ## Statistical Methods & Machine Learning
  -  [Text Mining with R](https://www.tidytextmining.com/) (2017). Julia Silge and David Robinson. 
