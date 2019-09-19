@@ -7,7 +7,7 @@ permalink: "global-resources/educational-resources/short-institutes-and-workshop
 date_updated: 2019-09-13
 ---
 
-The following is a short list of short institutes and worksops. The majoirty of them run during the summer months. 
+The following is a short list of short institutes and workshops. The majority of them run during the summer months. 
 
  -  [**DH@Guelph Summer Workshops**](https://www.uoguelph.ca/arts/dhguelph/summer2019), Guelph, ON. Four-day summer workshops on DH research and teaching.
  -  [**DHSite**](https://dhsite.org/) Ottowa, ON. Week-long summer workshop.
