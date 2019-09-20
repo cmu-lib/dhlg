@@ -992,7 +992,7 @@ fruitful and sustainable developments. The journal welcomes high-quality
 submissions, regardless of the tradition, school of thought or disciplinary
 background from which they derive.
 
-[**PLOS ONE**](http://www.plosone.org/) features reports of original research
+\*[**PLOS ONE**](http://www.plosone.org/) features reports of original research
 from all disciplines within science and medicine. By not excluding papers on
 the basis of subject area, PLOS ONE facilitates the discovery of the
 connections between papers whether within or between disciplines.
@@ -1218,7 +1218,7 @@ studies.
 
 ## Z
 
-Die [**Zeitschrift für digitale Geisteswissenschaften**](http://www.zfdg.de/)
+\*Die [**Zeitschrift für digitale Geisteswissenschaften**](http://www.zfdg.de/)
 ist ein innovatives Forschungsperiodikum, das sich Themen an der Schnittstelle
 von geisteswissenschaftlicher und digitaler Forschung widmet. Adaptionen von
 Informatik und Informationswissenschaft eröffnen der Gesamtheit der
