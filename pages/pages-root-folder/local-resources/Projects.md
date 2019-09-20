@@ -5,14 +5,14 @@ breadcrumb: true
 source: community
 meta_title: "Local Resources - Projects"
 permalink: "local-resources/projects/"
-date_updated: 2019-09-12
+date_updated: 2019-09-20
 ---
 Pittsburgh is full of interesting DH projects. Find a selection of them here. If your Pittsburgh-affiliated project doesn't appear, feel free to add it (in an alphabetically appropriate spot) via the GitHub link at the bottom of the page.
 
 \[Editor's note: this page is still quite sparse, but will be updated soon\]
 
 # Directory
-A | B | [C](c#) | [D](#d) | [E](#e) | [F](#f) | G | [H](#h) | I | J | K | [L](#l) | M | N | O | P | Q | R | [S](#s) | T | U | V | W | X | Y | Z
+A | B | [C](c#) | [D](#d) | [E](#e) | [F](#f) | G | [H](#h) | [I](#i) | J | K | [L](#l) | M | N | O | P | Q | R | [S](#s) | T | U | V | W | X | Y | Z
 
 ## C
 
