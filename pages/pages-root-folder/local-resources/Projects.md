@@ -46,6 +46,11 @@ A | B | [C](c#) | [D](#d) | [E](#e) | [F](#f) | G | [H](#h) | I | J | K | [L](#l
 
 [[top]](#directory)
 
+## I
+[**InPhO**](https://inphoproject.org) and [**InPhO Topic Explorer**](https://hypershelf.org). Formerly known as the Indiana Philosophy Ontology project, we took the metaphysics out of ontology, using machine reasoning to build and dynamically update a human-oriented but machine-readable taxonomy of philosophical ideas (and related thinkers) using the Stanford Encyclopedia of Philosophy (SEP). Then we took the ontology out of InPhO with our Topic Explorer project, which grew out of our attempt to build usable interfaces to topic models of the SEP. Members of the InPhO group are currently working on projects involving corpora from the HathiTrust Digital Library, Darwin's readings and writings, the ancient Chinese "Handian", and Thomas Jefferson's library and correspondence, as well as providing quarterly updates to the SEP models. Maintained by Colin Allen (Pitt) and Jaimie Murdock (Sandia National Labs), the InPhO project has been generously supported in the past by the NEH Office of Digital Humanities.
+
+[[top]](#directory)
+
 ## L
 
 [**Latin American Comics Archive**](http://mlrcdev.hss.cmu.edu/omeka/). A curated exhibit of comic strips and comic books created in Argentina, Colombia, and Mexico between the 1920s and the present. The project team includes Felipe Gómez Gutiérrez, Rikk Mulligan, Daniel Evans, Allison Paige Kuester, Olivia Wikle, and Scott Weingart. 
