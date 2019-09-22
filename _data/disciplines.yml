@@ -28,3 +28,7 @@
   name: "Art History"
 - identifier: "publichistory"
   name: "Public History"
+- identifier: "classics"
+  name: "Classics"
+- identifier: "neareastern"
+  name: "Near Eastern Studies"
