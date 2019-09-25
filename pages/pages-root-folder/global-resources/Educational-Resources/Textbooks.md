@@ -18,12 +18,12 @@ Aimed at teaching code, methods, etc.
  -  [The Programming Historian, 1st edition](http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf) (2007). William J. Turkel and Alan MacEachern. 
 
 ## Literature & Linguistics
+ -  [Critical Digital Humanities: The Search for a Methodology](https://www.press.uillinois.edu/books/catalog/48xfp2zp9780252042270.html) (2019). James E. Dobson 
  -  [The Art of Literary Text Analysis](https://github.com/sgsinclair/alta/blob/master/ipynb/ArtOfLiteraryTextAnalysis.ipynb) (ongoing). Stéfan Sinclair & Geoffrey Rockwell. 
  -  [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) (2019). Dan Jurafsky & James H. Martin
  -  [Text Analysis with R for Students of Literature](http://www.matthewjockers.net/text-analysis-with-r-for-students-of-literature/) (2014). Matthew Jockers.
- -  [Statistics for Corpus Linguistics](https://www.amazon.com/Statistics-Linguistics-Edinburgh-Textbooks-Empirical/dp/0748608176) (1998). Michael Oakes. 
  -  [Reading Machines: Toward an Algorithmic Criticism](https://www.press.uillinois.edu/books/catalog/75tms2pw9780252036415.html) (2011). Stephen Ramsay.
- -  [Critical Digital Humanities: The Search for a Methodology](https://www.press.uillinois.edu/books/catalog/48xfp2zp9780252042270.html) (2019). James E. Dobson 
+ -  [Statistics for Corpus Linguistics](https://www.amazon.com/Statistics-Linguistics-Edinburgh-Textbooks-Empirical/dp/0748608176) (1998). Michael Oakes. 
 
 ## General Digital Humanities
  -  [Python Programming for Humanists](http://www.karsdorp.io/python-course/) (ongoing). Folgert Karsdorp and Maarten van Gompel.  
@@ -31,9 +31,9 @@ Aimed at teaching code, methods, etc.
  -  [Technical Foundations of Informatics](https://info201.github.io/index.html) (2017). Michael Freeman and Joel Ross.
  -  [Exploratory Programming for the Arts and Humanities](https://www.amazon.com/Exploratory-Programming-Arts-Humanities-Press/dp/0262034204/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1488129778&sr=1-1) (2016). Nick Montfort. 
  -  [An Introduction to Text Analysis: A Coursebook](http://walshbr.com/textanalysiscoursebook/) (2016). Brandon Walsh & Sarah Horowitz.
+ -  [Hermeneutica: Computer-Assisted Interpretation in the Humanities](https://mitpress.mit.edu/books/hermeneutica) (2016). Geoffrey Rockwell and Stéfan Sinclair
  -  [Humanities Data in R](https://humanitiesdata.org/) (2015). Lauren Tilton & Taylor Arnold. 
  -  [Digital Research Methods with Mathematica](https://williamjturkel.net/digital-research-methods-with-mathematica/) (2015). William J. Turkel. 
- -  [Hermeneutica: Computer-Assisted Interpretation in the Humanities](https://mitpress.mit.edu/books/hermeneutica) (2016). Geoffrey Rockwell and Stéfan Sinclair
 
 ## Statistical Methods & Machine Learning
  -  [Text Mining with R](https://www.tidytextmining.com/) (2017). Julia Silge and David Robinson. 
