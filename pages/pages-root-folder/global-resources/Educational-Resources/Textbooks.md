@@ -18,8 +18,8 @@ Aimed at teaching code, methods, etc.
  -  [The Programming Historian, 1st edition](http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf) (2007). William J. Turkel and Alan MacEachern. 
 
 ## Literature & Linguistics
- -  [Critical Digital Humanities: The Search for a Methodology](https://www.press.uillinois.edu/books/catalog/48xfp2zp9780252042270.html) (2019). James E. Dobson 
  -  [The Art of Literary Text Analysis](https://github.com/sgsinclair/alta/blob/master/ipynb/ArtOfLiteraryTextAnalysis.ipynb) (ongoing). Stéfan Sinclair & Geoffrey Rockwell. 
+ -  [Critical Digital Humanities: The Search for a Methodology](https://www.press.uillinois.edu/books/catalog/48xfp2zp9780252042270.html) (2019). James E. Dobson 
  -  [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) (2019). Dan Jurafsky & James H. Martin
  -  [Text Analysis with R for Students of Literature](http://www.matthewjockers.net/text-analysis-with-r-for-students-of-literature/) (2014). Matthew Jockers.
  -  [Reading Machines: Toward an Algorithmic Criticism](https://www.press.uillinois.edu/books/catalog/75tms2pw9780252036415.html) (2011). Stephen Ramsay.
