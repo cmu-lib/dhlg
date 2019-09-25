@@ -10,7 +10,7 @@ date_updated: 2019-09-12
 Pittsburgh is full of interesting digital humanists. Find a selection of them here. If you're a local and your name doesn't appear, feel free to add it (in an alphabetically appropriate spot) via the GitHub link at the bottom of the page.
 
 # Directory
-[A](#a) | B | C | D | E | F | [G](#g) | H | I | J | K | [L](#l) | M | N | O | P | Q | R | S | T | U | V | [W](#w) | X | Y | Z
+[A](#a) | B | C | D | E | F | [G](#g) | H | I | J | K | [L](#l) | [M](#m) | N | O | P | Q | R | S | T | U | V | [W](#w) | X | Y | Z
 
 ## A
 [**Allen, Colin**](http://colinallen.dnsalias.org) is professor of History & Philosophy of Science at the University of Pittsburgh. His adventures in digital humanities include being associate editor of the [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu) and directing the [Internet Philosophy Ontology project](https://inphoproject.org), and a number of topic modeling projects using the [InPho Topic Explorer](https://hypershelf.org). The related work is published or forthcoming in journals including  _PLOSONE_, _Cognition_, _Cultural Analytics_, _Current Research in Digital History_, and _Digital Humanities Quarterly_.
