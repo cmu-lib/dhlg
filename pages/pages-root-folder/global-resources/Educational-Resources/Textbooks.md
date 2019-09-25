@@ -22,8 +22,9 @@ Aimed at teaching code, methods, etc.
  -  [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) (2019). Dan Jurafsky & James H. Martin
  -  [Text Analysis with R for Students of Literature](http://www.matthewjockers.net/text-analysis-with-r-for-students-of-literature/) (2014). Matthew Jockers.
  -  [Statistics for Corpus Linguistics](https://www.amazon.com/Statistics-Linguistics-Edinburgh-Textbooks-Empirical/dp/0748608176) (1998). Michael Oakes. 
+ -  [Reading Machines: Toward an Algorithmic Criticism](https://www.press.uillinois.edu/books/catalog/75tms2pw9780252036415.html) (2011). Stephen Ramsay.
+ -  [Critical Digital Humanities: The Search for a Methodology](https://www.press.uillinois.edu/books/catalog/48xfp2zp9780252042270.html) (2019). James E. Dobson 
 
- 
 ## General Digital Humanities
  -  [Python Programming for Humanists](http://www.karsdorp.io/python-course/) (ongoing). Folgert Karsdorp and Maarten van Gompel.  
  -  [Hacking the Humanities](https://www.youtube.com/playlist?list=PL6kqrM2i6BPIpEF5yHPNkYhjHm-FYWh17) (2018). Paul Vierthaler. 
@@ -32,6 +33,7 @@ Aimed at teaching code, methods, etc.
  -  [An Introduction to Text Analysis: A Coursebook](http://walshbr.com/textanalysiscoursebook/) (2016). Brandon Walsh & Sarah Horowitz.
  -  [Humanities Data in R](https://humanitiesdata.org/) (2015). Lauren Tilton & Taylor Arnold. 
  -  [Digital Research Methods with Mathematica](https://williamjturkel.net/digital-research-methods-with-mathematica/) (2015). William J. Turkel. 
+ -  [Hermeneutica: Computer-Assisted Interpretation in the Humanities](https://mitpress.mit.edu/books/hermeneutica) (2016). Geoffrey Rockwell and Stéfan Sinclair
 
 ## Statistical Methods & Machine Learning
  -  [Text Mining with R](https://www.tidytextmining.com/) (2017). Julia Silge and David Robinson. 
