@@ -15,6 +15,8 @@ Pittsburgh is full of interesting digital humanists. Find a selection of them he
 ## A
 [**Allen, Colin**](http://colinallen.dnsalias.org) is professor of History & Philosophy of Science at the University of Pittsburgh. His adventures in digital humanities include being associate editor of the [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu) and directing the [Internet Philosophy Ontology project](https://inphoproject.org), and a number of topic modeling projects using the [InPho Topic Explorer](https://hypershelf.org). The related work is published or forthcoming in journals including  _PLOSONE_, _Cognition_, _Cultural Analytics_, _Current Research in Digital History_, and _Digital Humanities Quarterly_.
 
+[[top]](#directory)
+
 ## G
 
 [**Grunewald, Susan**](http://susangrunewald.com/) is the Digital History Postdoctoral Fellow at the University of Pittsburgh World History Center. She finished her PhD at the CMU History Department in 2019, where she served twice as an A.W. Mellon Digital Humanities Graduate Research Fellow.
