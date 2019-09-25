@@ -33,6 +33,12 @@ Pittsburgh is full of interesting digital humanists. Find a selection of them he
 
 [[top]](#directory)
 
+## M
+
+[**Mulligan, Rikk**](https://rikkmulligan.com) is the Digital Scholarship Strategist in the University Libraries of Carnegie Mellon University. He consults on digital projects, specializing in text encoding, digital exhibits, and user interface design. He also studies how research libraries are evolving their support of digital scholarship infrastructure, digital publishing platforms, digital humanities project and tool development, and digital preservation. He holds a PhD in American Studies from Michigan State University and MA in History with a focus in Digital Humanities from George Mason University. Current digital collaborations include the Latin American Comic Archive, the Frankenstein Variorum, and the Speculative Fiction Nexus. His other research focuses on intersections between popular culture and social criticism in genre literature and multimedia. 
+
+[[top]](#directory)
+
 ## W
 
 [**Weingart, Scott B.**](http://scottbot.net/) is the Program Director of Digital Humanities at Carnegie Mellon University. He is a historian of early modern science who specializes in computational methods, particularly network analysis. His past projects include the [Six Degrees of Francis Bacon](http://sixdegreesoffrancisbacon.com), [The Historian's Macroscope](http://www.themacroscope.org/2.0/), and [this site](https://cmu-lib.github.io/dhlg).
