@@ -5,14 +5,12 @@ breadcrumb: true
 meta_title: "Global Resources -Evaluating Digital Work"
 source: community
 permalink: "global-resources/evaluating-digital-work/"
-date_updated: 2019-09-13
+date_updated: 2019-09-26
 ---
 
 The majority of the information on this page comes courtersy of the [dhnotes Evaluating Digital Work page](https://github.com/dh-notes/dhnotes/blob/master/pages/evaluating-digital-work.md) as of September 2019. [dhnotes](https://github.com/dh-notes/dhnotes) is as collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with the added contributions of [Scott Weingart](https://github.com/scottbot).
 
 # Peer Review Guidelines
-*Ed. Alex Gil*
-
 - [DH Commons: Review Guidelines](http://dhcommons.org/journal/review-guidelines)
 - [Institut für Dokumentologie und Editorik: Kriterien für die Besprechung digitaler Editionen, Version 1.0](http://www.i-d-e.de/publikationen/weitereschriften/kriterien-version-1-0/)
 - [Basic Principles for Modernist Networks Peer Review](http://www.modnets.org/about/peer_review/)
@@ -27,6 +25,7 @@ Research at ISAW” (2012)](http://isaw.nyu.edu/research/AssessingresearchatISAW
 - [UCLA Digital Humanities, “A Student Collaborators’ Bill of Rights,”](http://www.cdh.ucla.edu/news-events/a-student-collaborators-bill-of-rights/)
 
 # Tenure & Promotion Guidelines
+- [ACH Guidelines for Assessment of Digital Scholarship in Tenure and Promotion](http://ach.org/blog/2019/08/05/ach-guidelines-for-assessment-of-digital-scholarship-in-tenure-and-promotion/)
 - [MLA: Guidelines for Evaluating Work in Digital Humanities and Digital Media](https://www.mla.org/About-Us/Governance/Committees/Committee-Listings/Professional-Issues/Committee-on-Information-Technology/Guidelines-for-Evaluating-Work-in-Digital-Humanities-and-Digital-Media)
 - [AHA: Guidelines for the Evaluation of Digital Scholarship in History](http://historians.org/teaching-and-learning/digital-history-resources/evaluation-of-digital-scholarship-in-history/guidelines-for-the-evaluation-of-digital-scholarship-in-history)
 - [University of Nebraska-Lincoln: Promotion & Tenure Criteria for Assessing Digital Research in the Humanities](http://cdrh.unl.edu/articles/promotion)
