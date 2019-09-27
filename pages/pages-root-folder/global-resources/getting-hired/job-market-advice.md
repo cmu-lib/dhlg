@@ -84,4 +84,4 @@ Get organized. Calendar the heck out of your search and use a spreadsheet to tra
 - [The Professor is In](http://theprofessorisin.com/) Includes a ton of great resources on the blog, and her book details all the elements of the job process when you’re ready.  
 - [Imagine PhD](https://www.imaginephd.com/)  
 - [Inside Higher Ed](https://www.insidehighered.com/blogs/gradhacker/going-alt-ac-how-begin) is an exploration tool for PhDs looking for resources for alternative careers.  
-- [Postdoctoral Bill of Rights](https://docs.google.com/document/d/1bKpiqX9LPGJsKJsLopFW5vvEgwS3koXZJQU3nv-iuWw/edit) is a brand new document outlining some things to consider and ask about when considering a postdoc offer.
+- [Postdoctoral Bill of Rights](https://hcommons.org/deposits/item/hc:26741/) is a document outlining some things to consider and ask about when considering a postdoc offer.
