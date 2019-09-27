@@ -41,7 +41,7 @@ Parts of this page comes by courtsey of [Matthew Hannah's](https://github.com/m-
 - [DH +Lib Jobs](https://acrl.ala.org/dh/category/jobs/) 
 - [Code4Lib](https://jobs.code4lib.org/)
 - [ALA JobLIST Library and LIS Jobs](https://twitter.com/ALA_JobLIST)
-- Any Andrew Mellon postdoctoral fellowship. These are institution-specific, see [Postdoc Bill of Rights](https://docs.google.com/document/d/1bKpiqX9LPGJsKJsLopFW5vvEgwS3koXZJQU3nv-iuWw/edit) for questions to ask.
+- Any Andrew Mellon postdoctoral fellowship. These are institution-specific, see [Postdoc Bill of Rights](https://hcommons.org/deposits/item/hc:26741/) for questions to ask.
 - Google, seriously
 
 ## Jobs outside the professoriate who may want digital skills  
