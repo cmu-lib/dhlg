@@ -11,7 +11,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Con
 
 
 # Directory
-[A](#a) | B | [C](#c) | D(#d) | [E](#e) | F |
+[A](#a) | B | [C](#c) | [D](#d) | [E](#e) | F |
 [G](#g) | [H](#h) | [I](#i) | J | [K](#k) | L |
 [M](#m) | [N](#n) | O | P | Q | R |
 [S](#s) | T | U | V | W | X | Y | Z
