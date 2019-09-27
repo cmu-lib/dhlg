@@ -11,7 +11,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Con
 
 
 # Directory
-[A](#a) | B | [C](#c) | D | [E](#e) | F |
+[A](#a) | B | [C](#c) | D(#d) | [E](#e) | F |
 [G](#g) | [H](#h) | [I](#i) | J | [K](#k) | L |
 [M](#m) | [N](#n) | O | P | Q | R |
 [S](#s) | T | U | V | W | X | Y | Z
@@ -26,7 +26,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Con
 
 [**The ACM Symposium on User Interface Software and Technology (UIST)**](http://uist.acm.org/uist2019/) is the [Association for Computing Machinery (ACM)](https://www.acm.org/) international conference on human-computer interfaces. The ACM special interest groups on computer-human interaction (SIGCHI) and computer graphics (SIGGRAPH) sponsor the conference.
 
-[**The Alliance of Digital Humanities (ADHO)**](http://adho.org/conference) holds a now annual conference at a different city around the world. ADHO is an organization that aims to promote and support digital research and teaching across arts and humanities disciplines.
+[**The Alliance of Digital Humanities Organizations (ADHO)**](http://adho.org/conference) holds an annual conference at a different city around the world. ADHO is an organization that aims to promote and support digital research and teaching across arts and humanities disciplines.
 
 [**The American Comparative Literature Association (ACLA)**](https://www.acla.org/annual-meeting) has a unique conference structure in which most papers are grouped into twelve-person seminars that meet for two hours a day over three days to foster extended discussions. 
 
@@ -56,6 +56,9 @@ The majority of the information on this page comes courtersy of the [dhnotes Con
 [[top]](#directory)
 
 
+# D
+
+[**The Digital Library Federation Forum**](https://www.diglib.org/) is a conference to advance research, learning, social justice, and the public good through the creative design and wise application of digital library technologies.
 
 # E
 
