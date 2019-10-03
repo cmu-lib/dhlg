@@ -6,7 +6,7 @@ teaser: "Historical network analysis."
 meta_title: "Finding the Klan with Network Analysis"
 permalink: "project-videos/franz/"
 authors:
-- name: Elaine Franz
+- name: Elaine Frantz
   bio: Elaine Frantz is a Professor of History at Kent State University. She has published articles in academic journals including the *Journal of American History*, the *Journal of Southern History*, *Reviews in American History*, and the *Journal of Social History*. She is currently working on a book project on the history of paid violence work in Pittsburgh.
   affiliation: Kent State University
   uri:
@@ -28,4 +28,4 @@ This video discusses historical network analysis with the tools [Gephi](https://
 
 ## Further Reading and Resources
 
-To look more closely at Elaine's work with violent social networks in Union County, South Carolina, read her book, [*Ku-Klux: The Birth of the Klan during Reconstruction*](https://books.google.com/books?id=Gl60CAAAQBAJ&dq=elaine+parsons+ku+klux+birth+of+the+klan&source=gbs_navlinks_s) (Charlotte: University of North Carolina Press 2016). For a concise and informed introduction to the use of Network Analysis in historical scholarship, see Chapter Six of Shawn Graham, Ian Milligan, and Scott Weingart, [*Exploring Big Historical Data: The Historian's Macroscope*](https://books.google.com/books?id=r-U7DQAAQBAJ&dq=weingart+milligan+exploring+big+historical+data&source=gbs_navlinks_s) (2015).
+To look more closely at Dr. Frantz's work with violent social networks in Union County, South Carolina, read her book, [*Ku-Klux: The Birth of the Klan during Reconstruction*](https://books.google.com/books?id=Gl60CAAAQBAJ&dq=elaine+parsons+ku+klux+birth+of+the+klan&source=gbs_navlinks_s) (Charlotte: University of North Carolina Press 2016). For a concise and informed introduction to the use of Network Analysis in historical scholarship, see Chapter Six of Shawn Graham, Ian Milligan, and Scott Weingart, [*Exploring Big Historical Data: The Historian's Macroscope*](https://books.google.com/books?id=r-U7DQAAQBAJ&dq=weingart+milligan+exploring+big+historical+data&source=gbs_navlinks_s) (2015).
