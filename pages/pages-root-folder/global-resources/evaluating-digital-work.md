@@ -41,4 +41,5 @@ Research at ISAW” (2012)](http://isaw.nyu.edu/research/AssessingresearchatISAW
 - [Kristine M. Bartanen, “Digital Scholarship and the Tenure and Promotion Process,” The Academic Commons (July 24, 2014)](http://www.academiccommons.org/2014/07/24/digital-scholarship-and-the-tenure-and-promotion-process/)
 - [Diana Hicks, Paul Wouters, et al., “The Leiden Manifesto for Research Metrics,” Nature 520 (April 23, 2015): 429–31](http://www.nature.com/polopoly_fs/1.17351!/menu/main/topColumns/topLeftColumn/pdf/520429a.pdf)
 - [Todd Presner, “How to Evaluate Digital Scholarship” (2011)](http://humanitiesblast.com/Evaluating_digital_scholarship.pdf)
+- [Sarah E. Bond and Kevin Gannon, "Public Writing and the Junio Scholar (2019)](https://www.chronicle.com/article/Public-Writingthe-Junior/247342?cid=wcontentgrid_hp_9)
 
