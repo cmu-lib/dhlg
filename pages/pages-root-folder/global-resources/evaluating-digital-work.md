@@ -22,6 +22,7 @@ The majority of the information on this page comes courtersy of the [dhnotes Eva
 Research at ISAW” (2012)](http://isaw.nyu.edu/research/AssessingresearchatISAW.pdf)
 - [ADA Review Process](http://adanewmedia.org/beta-reader-and-review-policy/)
 - [UCLA Digital Humanities, “A Student Collaborators’ Bill of Rights,”](http://www.cdh.ucla.edu/news-events/a-student-collaborators-bill-of-rights/)
+- [Review Process for Reviews in DH](https://reviewsindh.pubpub.org/review-process)
 
 # Tenure & Promotion Guidelines
 - [ACH Guidelines for Assessment of Digital Scholarship in Tenure and Promotion](http://ach.org/blog/2019/08/05/ach-guidelines-for-assessment-of-digital-scholarship-in-tenure-and-promotion/)
