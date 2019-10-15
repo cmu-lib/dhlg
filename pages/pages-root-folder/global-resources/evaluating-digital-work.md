@@ -20,7 +20,6 @@ The majority of the information on this page comes courtersy of the [dhnotes Eva
 - [Guidelines for the Evaluation of Digital Scholarship in Art and Architectural History](http://www.collegeart.org/pdf/evaluating-digital-scholarship-in-art-and-architectural-history.pdf)
 - [Institute for the Study of the Ancient World, New York University (ISAW), “Assessing 
 Research at ISAW” (2012)](http://isaw.nyu.edu/research/AssessingresearchatISAW.pdf)
-- [Institute for the Study of the Ancient World New York University (ISAW), “Research at ISAW,”](http://isaw.nyu.edu/research)
 - [ADA Review Process](http://adanewmedia.org/beta-reader-and-review-policy/)
 - [UCLA Digital Humanities, “A Student Collaborators’ Bill of Rights,”](http://www.cdh.ucla.edu/news-events/a-student-collaborators-bill-of-rights/)
 
