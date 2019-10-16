@@ -11,7 +11,7 @@ date_updated: 2019-09-26
 The majority of the information on this page comes courtersy of the [dhnotes Evaluating Digital Work page](https://github.com/dh-notes/dhnotes/blob/master/pages/evaluating-digital-work.md) as of September 2019. [dhnotes](https://github.com/dh-notes/dhnotes) is as collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with the added contributions of [Scott Weingart](https://github.com/scottbot).
 
 # Peer Review Guidelines
-- [DH Commons: Review Guidelines](http://dhcommons.org/journal/review-guidelines)
+- [DH Commons: Review Guidelines](http://web.archive.org/web/20180712221547/http://dhcommons.org/journal/review-guidelines)
 - [Institut für Dokumentologie und Editorik: Kriterien für die Besprechung digitaler Editionen, Version 1.0](http://www.i-d-e.de/publikationen/weitereschriften/kriterien-version-1-0/)
 - [Basic Principles for Modernist Networks Peer Review](http://www.modnets.org/about/peer_review/)
 - [Towards a Peer Review of GeoHumanities Projects](http://geohum.djwrisley.com/)
