@@ -11,6 +11,7 @@ The following is a short list of short institutes and workshops. The majority of
 
  -  [**DH@Guelph Summer Workshops**](https://www.uoguelph.ca/arts/dhguelph/summer2019), Guelph, ON. Four-day summer workshops on DH research and teaching.
  -  [**DHSite**](https://dhsite.org/) Ottowa, ON. Week-long summer workshop.
+ -  [**DH Downunder**](https://www.westernsydney.edu.au/dhrg/dh_downunder/) Sydney, Australia. The Australasian Digital Humanities Summer Institute. Week-long institute with many parallel classes, held in December.
  -  [**Digital Field Methods Institute**](https://dfmi.dwrl.utexas.edu/), Austin, TX. Workshops on collecting, analyzing, organizing, and publishing digital data. One week online, one week in person. 
  -  [**Digital Humanities at Oxford Summer School**](http://digital.humanities.ox.ac.uk/dhoxss/), Oxford, UK. Five-day summer workshop.
 -  [**Digital Humanities Research Institute (DHRI)**](http://dhinstitutes.org/), CUNY. 10-day residential, interdisciplinary summer workshop on DH research and teaching.
