@@ -125,6 +125,7 @@ ___
 
 ## North America
 
+- [Digital Humanities Graduate Certificate](https://www.colorado.edu/crdds/dhgc), CU Boulder, USA.
 - [Certificate in Digital Humanities](https://reg.msu.edu/AcademicPrograms/ProgramDetail.aspx?Program=5742), Michigan State University, USA
 - [Certificate in Digital Humanities](https://dh.chass.ncsu.edu/grad/), North Carolina State University, USA
 - [Certificate in Digital Humanities](https://cesta.stanford.edu/programs/graduate-programs/graduate-certificate-digital-humanities), Stanford University, USA
@@ -132,7 +133,6 @@ ___
 - [Certificate in Book History and Digital Humanities](https://www.depts.ttu.edu/english/grad_degrees/Book_History/BHDHcert_requirements.php), Texas Tech University, USA
 - [Graduate Certificate in Digital Humanities](http://dh.ucla.edu/graduate-certificate/), UCLA, USA
 - [Concentration in Humanities Computing](https://www.english.uga.edu/areas-emphasis), University of Georgia, USA
-- [Undergraduate Certificate in Digital Humanities](https://digi.uga.edu/certificate/), University of Georgia, USA
 - [Certificate in Public Digital Humanities](https://pdh-certificate.grad.uiowa.edu/), University of Iowa, USA
 - [Certificate in Digital Humanities](https://www.unl.edu/dhcert/home), University of Nebraska-Lincoln, USA
 - [Certificate in Digital Humanities](https://cdh.unc.edu/programs/dh-graduate-certificate/), University of North Carolina at Chapel Hill, USA
@@ -219,6 +219,7 @@ ___
 
 ## North America
 
+- [Undergraduate Certificate in Digital Humanities](https://digi.uga.edu/certificate/), University of Georgia, USA
 - [Digital Studies Certificate](https://digitalstudies.camden.rutgers.edu/digital-studies-certificate/), Rutgers University, USA
 - [Digital Studies Certificate](http://greensburg.pitt.edu/academics/info/digital-studies), University of Pittsburgh-Greensburg, USA
 - [Advanced Certificate in Digital Humanities](http://dhss.hosting.nyu.edu/advanced-certificate/), New York University, USA
