@@ -19,7 +19,7 @@ format: video
 			</div>
 
 			<div class="flex-video t30">
-				<iframe width='970' height='546' src='https://www.youtube-nocookie.com/embed/{{ page.youtubeid }}' frameborder='0' allow="encrypted-media" allowfullscreen></iframe>
+				<video src="/assets/videos/{{ page.youtubeid }}.mp4" poster="/assets/screencaps/{{ page.youtubeid }}.jpg" controls></video>
 			</div>
 			<div class="row">
 				<div class="large-10 large-offset-1 columns">
@@ -33,9 +33,8 @@ format: video
 
 			<div class="row t30">
 				<div class="large-10 large-offset-1 columns">
-					<meta itemprop="thumbnailUrl" content="https://img.youtube.com/vi/{{ page.youtubeid}}/0.jpg" />
-					<meta itemprop="contentURL" content="https://www.youtube.com/watch?v={{ page.youtubeid}}" />
-					<meta itemprop="embedURL" content="https://www.youtube.com/embed/{{ page.youtubeid}}" />
+					<meta itemprop="thumbnailUrl" content="/assets/screencaps/{{ page.youtubeid }}.jpg" />
+					<meta itemprop="contentURL" content="/assets/videos/{{ page.youtubeid }}.mp4" />
 
 					{{ content }}
 					{% include _meta_information.html %}

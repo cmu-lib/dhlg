@@ -19,7 +19,7 @@ We are always accepting new videos, up to 10 minutes in length. Get in touch wit
 			{% assign projects = site.projects | sort: 'title' %}
 			{% for project in projects limit:1000 %}
 				<div id="project_{{ project.identifier }}" class="large-4 medium-6 columns projectbox">
-					<a href="{{ project.url | relative_url }}" title="View {{ project.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ project.youtubeid}}/mqdefault.jpg" class="videothumbnail"></a>
+					<a href="{{ project.url | relative_url }}" title="View {{ project.title | escape_once }}"><img src="/assets/screencaps/{{ project.youtubeid}}.jpg" class="videothumbnail"></a>
 					<a href="{{ project.url | relative_url }}" title="View {{ project.title | escape_once }}"><h4>{{ project.title | truncate: 45 }}</h4></a>
 					<p class="strong">{% for author in project.authors %}
 						{{ author.name }} {% unless author.affiliation==NULL%}({{ author.affiliation }}){% endunless %}{% if forloop.last %}{% else %}, {% endif %}

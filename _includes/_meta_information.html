@@ -59,7 +59,7 @@
 							{% if finddisciplineprojects.identifier != page.identifier %}
 								{% unless renderedmatcheddisciplines contains finddisciplineprojects.identifier %}
 									<div id="disciplineproject_{{ finddisciplineprojects.identifier }}" class="large-4 medium-6 columns projectbox">
-										<a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ finddisciplineprojects.youtubeid}}/mqdefault.jpg"></a>
+										<a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}"><img src="/assets/screencaps/{{ finddisciplineprojects.youtubeid}}.jpg"></a>
 										<h4><a href="{{ finddisciplineprojects.url | relative_url }}" title="Play {{ finddisciplineprojects.title | escape_once }}">{{ finddisciplineprojects.title | truncate: 45 }}</a></h4>
 										<p class="strong">{% for author in finddisciplineprojects.authors %}
 											{{ author.name }}{% if forloop.last %}{% else %}, {% endif %}
@@ -113,7 +113,7 @@
 							{% if findtopicprojects.identifier != page.identifier %}
 								{% unless renderedmatchedtopics contains findtopicprojects.identifier %}
 									<div id="topicproject_{{ findtopicprojects.identifier }}" class="large-4 medium-6 columns projectbox">
-										<a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}"><img src="https://img.youtube.com/vi/{{ findtopicprojects.youtubeid}}/mqdefault.jpg"></a>
+										<a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}"><img src="/assets/screencaps/{{ findtopicprojects.youtubeid}}.jpg"></a>
 										<h4><a href="{{ findtopicprojects.url | relative_url }}" title="Play {{ findtopicprojects.title | escape_once }}">{{ findtopicprojects.title | truncate: 45 }}</a></h4>
 										<p class="strong">{% for author in findtopicprojects.authors %}
 											{{ author.name }}{% if forloop.last %}{% else %}, {% endif %}
