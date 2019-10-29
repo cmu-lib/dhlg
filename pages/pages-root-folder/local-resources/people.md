@@ -39,6 +39,12 @@ Pittsburgh is full of interesting digital humanists. Find a selection of them he
 
 [[top]](#directory)
 
+## T
+
+[**Terry Kapral, Tyrica**](https://www.library.pitt.edu/tyrica-terry-kapral) is the Humanities Data Librarian in the Digital Scholarship Services unit in the University Library System at the University of Pittsburgh (Pitt). She consults with faculty and students on creating, accessing, transforming, analyzing, visualizing, and sharing data and digital content in support of research and learning in the humanities. She is currently leading a collections as data project, [From Collection Records to Data Layers: A Critical Experiment in Collaborative Practice](https://cadatpitt.github.io/), which aims to develop effective strategies for enabling scholars to access and enrich existing library-generated data through research-driven and critically interpretive layers of additional data that are conducive to computational use. She is also an English PhD candidate in the Critical and Cultural Studies program at Pitt and working on her dissertation, "A Thin Line between Love and Hate: Affective Politics and the Color Line in U.S. Race Relations."
+
+[[top]](#directory)
+
 ## W
 
 [**Weingart, Scott B.**](http://scottbot.net/) is the Program Director of Digital Humanities at Carnegie Mellon University. He is a historian of early modern science who specializes in computational methods, particularly network analysis. His past projects include the [Six Degrees of Francis Bacon](http://sixdegreesoffrancisbacon.com), [The Historian's Macroscope](http://www.themacroscope.org/2.0/), and [this site](https://cmu-lib.github.io/dhlg).
