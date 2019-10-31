@@ -61,3 +61,9 @@ Although the majority of DH topic descriptions were written by **Susan Grunewald
 Because DH is always growing and changing, we welcome changes and contributions to this resource via pull requests to the github repository. You'll find links at the bottom of each page for its home on github, which can be used for editing pre-existing pages. More details on how to contribute can be found at the README.md file in the [github root directory](https://github.com/cmu-lib/dhlg). 
 
 If you'd like to contribute a video, a new topic description for the glossary, or entirely new pages, the process is a little more complicated than a simple edit of a github page, unless you're a seasoned jekyll user. Feel free to get in touch with Scott B. Weingart if you'd like more information.
+
+# Cite the DHLG
+
+Cite the DHLG as:
+
+Weingart, Scott B., Susan Grunewald, Matthew Lincoln et al. (eds.). <i>The Digital Humanities Literacy Guidebook</i>. Carnegie Mellon University, 2019. https://cmu-lib.github.io/dhlg/. Accessed [today's date].
