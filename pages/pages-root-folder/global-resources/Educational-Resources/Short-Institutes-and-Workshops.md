@@ -4,7 +4,7 @@ title: "Short Institutes & Workshops"
 breadcrumb: true
 meta_title: "Global Resources - Educational Resources - Short Institutes & Workshops"
 permalink: "global-resources/educational-resources/short-institutes-and-workshops/"
-date_updated: 2019-09-13
+date_updated: 2019-10-31
 ---
 
 The following is a short list of short institutes and workshops. The majority of them run during the summer months. 
@@ -15,7 +15,8 @@ The following is a short list of short institutes and workshops. The majority of
  -  [**Digital Field Methods Institute**](https://dfmi.dwrl.utexas.edu/), Austin, TX. Workshops on collecting, analyzing, organizing, and publishing digital data. One week online, one week in person. 
  -  [**Digital Humanities at Oxford Summer School**](http://digital.humanities.ox.ac.uk/dhoxss/), Oxford, UK. Five-day summer workshop.
 -  [**Digital Humanities Research Institute (DHRI)**](http://dhinstitutes.org/), CUNY. 10-day residential, interdisciplinary summer workshop on DH research and teaching.
- -  [**Digital Humanities Summer Institute (DHSI**)](http://www.dhsi.org/) at the Univeristy of Victoria, BC. Annual set of week-long workshops held over the summer at the University of Victoria.  
+ -  [**Digital Humanities Summer Institute (DHSI)**](http://www.dhsi.org/) at the Univeristy of Victoria, BC. Annual set of week-long workshops held over the summer at the University of Victoria.  
+ -  [**Digital Humanities Summer Institute Atlantic (DHSI Atlantic)**](https://www.ucc.ie/en/dhsiatlantic/) at University College Cork, Ireland. Several parallel week-long workshops on topics such as stylometry, topic modeling, and GIS.
  -  [**Digital Humanities Summer Institute Drew University**](http://www.drew.edu/digital-humanities/about-us/summer-institute/), Madison, NJ. 4-week summer institute that pairs students with faculty and offers practical experience working on a research project.
  -  [**Digital Humanities Winter School, Pune**](https://cdhpune.com/dh-winter-school/) Biennial two-day DH winter school held in Pune, India. 
  -  [**Digital Methods Summer School**](https://summerschool.uva.nl/content/summer-courses/digital-methods-summer-school/digital-methods-summer-school.html?0=&1568900666236) Annual month-long summer school in digital methods at the University of Amsterdam. 
