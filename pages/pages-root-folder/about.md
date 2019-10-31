@@ -66,4 +66,4 @@ If you'd like to contribute a video, a new topic description for the glossary, o
 
 Cite the DHLG as:
 
-Weingart, Scott B., Susan Grunewald, Matthew Lincoln et al. (eds.). <i>The Digital Humanities Literacy Guidebook</i>. Carnegie Mellon University, 2019. https://cmu-lib.github.io/dhlg/. Accessed [today's date].
+Weingart, Scott B., Susan Grunewald, Matthew Lincoln et al. (eds.). <i>The Digital Humanities Literacy Guidebook</i>. Carnegie Mellon University, 2019. https://cmu-lib.github.io/dhlg/. Accessed {{ site.time | date: '%B %d, %Y' }}.
