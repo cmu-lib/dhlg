@@ -60,7 +60,7 @@
     url: "/global-resources/grants-and-fellowships/"
   - title: "Evaluating Digital Work"
     url: "/global-resources/evaluating-digital-work/"
-    
+
 - title: "Local Resources"
   url: "/local-resources/"
   side: left
@@ -74,9 +74,3 @@
     url: "/local-resources/projects/"
   - title: People
     url: "/local-resources/people/"
-
-
-- title: "Search"
-  url: "/search/"
-  side: left
-  alternate: "?"
