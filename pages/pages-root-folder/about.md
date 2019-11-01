@@ -16,7 +16,7 @@ authors:
   bio:
   affiliation: Carnegie Mellon University
   uri:
-date_updated: 2019-09-11
+date_updated: 2019-10-31
 ---
 The Digital Humanities Literacy Guidebook (DHLG) was first developed in the summer of 2019 as part of a 5-year A.W. Mellon Foundation grant to Carnegie Mellon University for the advancement of digital humanities and technology-enhanced learning on campus. Its goal is to offer its audience, newcomers to DH, a broad sense of the landscape of digital humanities, and a map to chart their course through it.
 
@@ -61,3 +61,9 @@ Although the majority of DH topic descriptions were written by **Susan Grunewald
 Because DH is always growing and changing, we welcome changes and contributions to this resource via pull requests to the github repository. You'll find links at the bottom of each page for its home on github, which can be used for editing pre-existing pages. More details on how to contribute can be found at the README.md file in the [github root directory](https://github.com/cmu-lib/dhlg). 
 
 If you'd like to contribute a video, a new topic description for the glossary, or entirely new pages, the process is a little more complicated than a simple edit of a github page, unless you're a seasoned jekyll user. Feel free to get in touch with Scott B. Weingart if you'd like more information.
+
+# Cite the DHLG
+
+Cite the DHLG as:
+
+Weingart, Scott B., Susan Grunewald, Matthew Lincoln et al. (eds.). <i>The Digital Humanities Literacy Guidebook</i>. Carnegie Mellon University, 2019. https://cmu-lib.github.io/dhlg/. Accessed {{ site.time | date: '%B %d, %Y' }}.

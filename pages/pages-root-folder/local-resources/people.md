@@ -10,7 +10,7 @@ date_updated: 2019-09-12
 Pittsburgh is full of interesting digital humanists. Find a selection of them here. If you're a local and your name doesn't appear, feel free to add it (in an alphabetically appropriate spot) via the GitHub link at the bottom of the page.
 
 # Directory
-[A](#a) | B | C | D | E | F | [G](#g) | H | I | J | K | [L](#l) | [M](#m) | N | O | P | Q | R | S | T | U | V | [W](#w) | X | Y | Z
+[A](#a) | B | C | D | E | F | [G](#g) | H | I | J | K | [L](#l) | [M](#m) | N | O | P | Q | R | S | [T](#t) | U | V | [W](#w) | X | Y | Z
 
 ## A
 [**Allen, Colin**](http://colinallen.dnsalias.org) is professor of History & Philosophy of Science at the University of Pittsburgh. His adventures in digital humanities include being associate editor of the [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu) and directing the [Internet Philosophy Ontology project](https://inphoproject.org), and a number of topic modeling projects using the [InPho Topic Explorer](https://hypershelf.org). The related work is published or forthcoming in journals including  _PLOSONE_, _Cognition_, _Cultural Analytics_, _Current Research in Digital History_, and _Digital Humanities Quarterly_.
@@ -36,6 +36,12 @@ Pittsburgh is full of interesting digital humanists. Find a selection of them he
 ## M
 
 [**Mulligan, Rikk**](https://rikkmulligan.com) is the Digital Scholarship Strategist in the University Libraries of Carnegie Mellon University. He consults on digital projects, specializing in text encoding, digital exhibits, and user interface design. He also studies how research libraries are evolving their support of digital scholarship infrastructure, digital publishing platforms, digital humanities project and tool development, and digital preservation. He holds a PhD in American Studies from Michigan State University and MA in History with a focus in Digital Humanities from George Mason University. Current digital collaborations include the Latin American Comic Archive, the Frankenstein Variorum, and the Speculative Fiction Nexus. His other research focuses on intersections between popular culture and social criticism in genre literature and multimedia. 
+
+[[top]](#directory)
+
+## T
+
+[**Terry Kapral, Tyrica**](https://www.library.pitt.edu/tyrica-terry-kapral) is the Humanities Data Librarian in the Digital Scholarship Services unit in the University Library System at the University of Pittsburgh (Pitt). She consults with faculty and students on creating, accessing, transforming, analyzing, visualizing, and sharing data and digital content in support of research and learning in the humanities. She is currently leading a collections as data project, [From Collection Records to Data Layers: A Critical Experiment in Collaborative Practice](https://cadatpitt.github.io/), which aims to develop effective strategies for enabling scholars to access and enrich existing library-generated data through research-driven and critically interpretive layers of additional data that are conducive to computational use. She is also an English PhD candidate in the Critical and Cultural Studies program at Pitt and working on her dissertation, "A Thin Line between Love and Hate: Affective Politics and the Color Line in U.S. Race Relations."
 
 [[top]](#directory)
 
