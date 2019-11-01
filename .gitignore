@@ -9,3 +9,5 @@ _config_dev.yml
 /_site_local
 .jekyll-metadata
 tmp/
+assets/screencaps
+assets/videos
