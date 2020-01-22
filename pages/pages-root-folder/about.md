@@ -32,6 +32,8 @@ Because a resource like this will necessarily always be incomplete, out of date,
 
 Dead links, out-of-date information, and other issues will inevitably accrue. The site's caretaker, Scott B. Weingart, will to keep on top of these, but the DHLG also needs your help to keep it fresh and useful for the next cohort of digital humanists.
 
+A locally-viewable version of this website as of 2019-11-04, including all the project video files, has been deposited in CMU's institutional repository: https://doi.org/10.1184/R1/10250381
+
 Please see the [contributing](#contributing) section below for details on how to give back to this resource.
 
 # Core vs. Community Content
