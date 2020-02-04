@@ -30,7 +30,8 @@ Much of this information comes by courtesy of [Lauren Tilton](http://laurentilto
 
 ## Australia
 
- -  DH Pathways Perth 
+ -  [DH Pathways Perth](https://tinker.edu.au/).
+ -  [Digital Humanities Adelaide](https://groups.google.com/forum/#!forum/digital-humanities-adelaide).
 
 ## Asia
 
