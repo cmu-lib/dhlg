@@ -24,6 +24,7 @@ The mission of the American Council of Learned Societies is "the advancement of 
 | ------------- | -------------| --------:|
 |[ACLS Fellowships](http://www.acls.org/programs/acls/)| $35-65K based on rank |September|
 |[ACLS Collaborative Research Fellowships](http://www.acls.org/programs/collaborative/)|Max 140K|September|
+|[ACLS Digital Extension Grants](https://www.acls.org/Competitions-and-Deadlines/ACLS-Digital-Extension-Grants)| Mak $150k |December|  
 
 # The Council on Library and Information Resources (CLIR)
 The Council on Library and Information Resources is an independent, nonprofit organization that forges strategies to enhance research, teaching, and learning environments in collaboration with libraries, cultural institutions, and communities of higher learning. They have two grants that are adjacent to Digital Humanities.
