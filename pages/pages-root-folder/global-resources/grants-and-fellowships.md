@@ -67,6 +67,13 @@ Through its Grant Programs, the Kress Foundation supports scholarly projects tha
 | ------------- | -------------| --------:|
 |[Digital Resources Grants Program](http://www.kressfoundation.org/grants/default.aspx?id=150)||April 1 and October 1|
 
+# The Library of Congress
+The Library of Congress offers a number of fellowships for access toand research on its extensive collections. 
+
+| Grant         | Range(USD)        | Deadline|
+| ------------- | -------------| --------:|
+|Kluge Fellowships in Digital Studies](https://www.loc.gov/programs/john-w-kluge-center/chairs-fellowships/fellowships/kluge-fellowships-in-digital-studies/| $5k/month |December|
+
 # The Mellon Foundation
 ## Scholarly Communications and Information Technology
 The Scholarly Communications and Information Technology Program was formed in 2010 through the merger of the Programs on Scholarly Communications and Research in Information Technology. The office has funded initiatives ranging from specific scholarly projects to institutional infrastructure.
