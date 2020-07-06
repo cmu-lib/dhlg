@@ -72,7 +72,7 @@ The Library of Congress offers a number of fellowships for access toand research
 
 | Grant         | Range(USD)        | Deadline|
 | ------------- | -------------| --------:|
-|Kluge Fellowships in Digital Studies](https://www.loc.gov/programs/john-w-kluge-center/chairs-fellowships/fellowships/kluge-fellowships-in-digital-studies/)| $5k/month |December|
+|[Kluge Fellowships in Digital Studies](https://www.loc.gov/programs/john-w-kluge-center/chairs-fellowships/fellowships/kluge-fellowships-in-digital-studies/)| $5k/month |December|
 
 # The Mellon Foundation
 ## Scholarly Communications and Information Technology
