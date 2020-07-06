@@ -5,7 +5,7 @@ breadcrumb: true
 meta_title: "Global Resources - Grants and Fellowships"
 source: community
 permalink: "global-resources/grants-and-fellowships/"
-date_updated: 2019-09-11
+date_updated: 2020-07-16
 ---
 
 The majority of the information on this page comes courtersy of the [dhnotes Funding page](https://github.com/dh-notes/dhnotes/blob/master/pages/funding.md) as of September 2019. [dhnotes](https://github.com/dh-notes/dhnotes) is as collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with support from the [ACH](https://ach.org/). 
