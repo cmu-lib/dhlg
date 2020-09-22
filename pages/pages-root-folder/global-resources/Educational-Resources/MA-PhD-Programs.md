@@ -247,7 +247,6 @@ ___
 - [Digital Humanities Minor](https://soic.iupui.edu/undergraduate/degrees/digital-humanities-minor/), Purdue University Indianapolis, USA
 - [Digital Humanities Minor](https://www.marshall.edu/dh/program/minor-declaration-form/), Marshall University, USA
 - [Digital Public Humanities Minor](https://www.messiah.edu/digital-public-humanities-minor-pennsylvania), Messiah College, USA
-- [Minor in Digital Humanities & Technology](https://catalog.byu.edu/humanities/digital-humanities-program/digital-humanities-and-technology-minor), Brigham Young University, USA
 - [Minor in Interactive Arts and Science](https://brocku.ca/programs/undergraduate/interactive-arts-and-science/), Brock University, Canada
 - [Minor in Digital Humanities](http://dh.cal.msu.edu/undergraduate-curriculum/digital-humanities-minor/), Michigan State University, USA
 - [Minor in Digital Humanities](http://dh.ucla.edu/), UCLA, USA
