@@ -12,6 +12,7 @@ Aimed at teaching code, methods, etc.
 ## History
  -  [The Programming Historian, 2nd edition](https://programminghistorian.org/) (ongoing). Afanador-Llach, Maria José, Antonio Rojas Castro, Adam Crymble, Víctor Gayol, Fred Gibbs, Caleb McDaniel, Ian Milligan, Amanda Visconti, and Jeri Wieringa, eds. 
  -  [Computational Historical Thinking with Applications in R](http://dh-r.lincolnmullen.com/) (ongoing). Lincoln Mullen.
+ -  [A Short Guide to Historical Newspaper Data, Using R](https://bookdown.org/yann_ryan/r-for-newspaper-data/) (2020). Yann Ryan.
  -  [The Historian’s Macroscope](http://www.themacroscope.org/2.0/) (2015). Graham, Milligan, & Weingart.
  -  [The Rubyist Historian](http://hepplerj.github.io/rubyist-historian/) (2014). Jason Heppler. 
  -  [Natural Language Processing for Historical Texts](https://nlphist.hypotheses.org/) (2012). Michael Piotrowski. 
@@ -27,13 +28,13 @@ Aimed at teaching code, methods, etc.
 
 ## General Digital Humanities
  -  [Python Programming for Humanists](http://www.karsdorp.io/python-course/) (ongoing). Folgert Karsdorp and Maarten van Gompel.  
+ -  [Digital Research Methods with Mathematica (2nd edition)](https://williamjturkel.net/digital-research-methods-with-mathematica/) (2020). William J. Turkel. 
  -  [Hacking the Humanities](https://www.youtube.com/playlist?list=PL6kqrM2i6BPIpEF5yHPNkYhjHm-FYWh17) (2018). Paul Vierthaler. 
  -  [Technical Foundations of Informatics](https://info201.github.io/index.html) (2017). Michael Freeman and Joel Ross.
  -  [Exploratory Programming for the Arts and Humanities](https://www.amazon.com/Exploratory-Programming-Arts-Humanities-Press/dp/0262034204/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1488129778&sr=1-1) (2016). Nick Montfort. 
  -  [An Introduction to Text Analysis: A Coursebook](http://walshbr.com/textanalysiscoursebook/) (2016). Brandon Walsh & Sarah Horowitz.
  -  [Hermeneutica: Computer-Assisted Interpretation in the Humanities](https://mitpress.mit.edu/books/hermeneutica) (2016). Geoffrey Rockwell and Stéfan Sinclair
- -  [Humanities Data in R](https://humanitiesdata.org/) (2015). Lauren Tilton & Taylor Arnold. 
- -  [Digital Research Methods with Mathematica](https://williamjturkel.net/digital-research-methods-with-mathematica/) (2015). William J. Turkel. 
+ -  [Humanities Data in R](https://humanitiesdata.org/) (2015). Lauren Tilton & Taylor Arnold.  
 
 ## Statistical Methods & Machine Learning
  -  [Text Mining with R](https://www.tidytextmining.com/) (2017). Julia Silge and David Robinson. 
