@@ -48,6 +48,7 @@ ___
 
 - [MD in Digital Humanities](http://srishti.ac.in/schools/school-of-new-humanities-and-design), Srishti Institute of Art, Design and Technology, India
 - [MS in Digital Humanities](http://people.iiti.ac.in/~dhiiti/), IIT Indore, India
+- MA in Digital Humanities, Renmin University of China, China
 
 ## Australasia
 
@@ -207,6 +208,7 @@ ___
 ## Asia
 
 - [Minor in DH](https://hass.sutd.edu.sg/education/minors/digital-humanities-minor/), Singapore University of Technology and Design, Singapore
+- [Honours Minor in DH](http://irm.ruc.edu.cn/displaynews.php?id=6428), Renmin University of China, China
 
 ## Australasia
 
