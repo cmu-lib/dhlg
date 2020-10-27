@@ -141,10 +141,10 @@ ___
 - [Certificate in Public Scholarship](https://simpsoncenter.org/programs/curriculum/certificate-in-public-scholarship), University of Washington, USA
 - [Graduate Certificate in Textual and Digital Studies](https://depts.washington.edu/text/about/graduate-certificate-in-textual-and-digital-studies/), University of Washington, USA
 - [Certificate in Digital Humanities](https://www.pratt.edu/academics/information/advanced-certificates/digital-humanities/), Pratt Institute, USA
-- [Certificate in Digital Humanities](http://web.uvic.ca/~siemens/DH(SI)GradCertificateProposal.pdf) \[no longer offered\], University of Victoria, USA
+- [Certificate in Digital Humanities](http://web.uvic.ca/~siemens/DH(SI)GradCertificateProposal.pdf) \[no longer offered\], University of Victoria, Canada
 - [Certificate in Digital Humanities](https://www.northeastern.edu/cssh/history/graduate/programs/graduate-certificate-in-digital-humanities/), Northeastern University, USA
-- [Ph.D. Graduate Certificate or Minor in Digital Arts & Humanities](https://idah.indiana.edu/training/certificate.html), Institute for Digital Arts & Humanities, Indiana University Bloomington, USA
-- [M.I.S./M.L.S. Specialization in Digital Humanities](https://ils.indiana.edu/programs/specializations/digital-humanities.html), Department of Information & Library Science, Indiana University Bloomington, USA
+- [Ph.D. Graduate Certificate or Minor in Digital Arts & Humanities](https://idah.indiana.edu/training/certificate.html), Indiana University Bloomington, USA
+- [M.I.S./M.L.S. Specialization in Digital Humanities](https://ils.indiana.edu/programs/specializations/digital-humanities.html), Indiana University Bloomington, USA
 - [Graduate Certificate in Digital Studies and Methods](https://www.dsam.pitt.edu/), University of Pittsburgh, USA
 - [Graduate Certificate in Digital Humanities](https://dh.virginia.edu/certificate), University of Virginia, USA
 - [Digital Public Humanities Graduate](https://masononline.gmu.edu/programs/digital-public-humanities-graduate-certificate/), George Mason University, USA
@@ -159,7 +159,6 @@ ___
 - [Graduate Certificate in Data Science in the Humanities](https://iph.wustl.edu/graduate-certificate-data-science-humanities), Washington University in St. Louis, USA
 - [Digital Humanities Graduate Certificate](https://dsu.edu/graduate-students/digital-humanities-graduate-certificate). Dakota State University, USA
 - [Digital Studies in Arts and Humanities, Graduate Certificate](http://dsah.umd.edu/), University of Maryland, USA
-- [Digital Humanities Specialization in Master of Information Science](https://www.sice.indiana.edu/graduate/degrees/information-library-science/dual-degrees/digital-humanities-mis.html), Indiana University Bloomington, USA
 
 [[top]](#contents)
 
