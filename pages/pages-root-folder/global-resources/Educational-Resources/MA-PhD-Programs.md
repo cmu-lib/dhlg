@@ -258,7 +258,6 @@ ___
 - [Specialization in Literature & the Culture of Information](http://transcriptions.english.ucsb.edu/lci/), University of California, Santa Barbara, USA
 - [Minor in Digital Humanities](http://arts.uottawa.ca/en/programs/digital-humanities), University of Ottawa, Canada
 - [Minor in Digital Humanities](http://coursecatalog.bucknell.edu/collegeofartsandsciencescurricula/areasofstudy/digitalhumanities/), Bucknell University, USA
-- [Digital Arts and Humanities Certificate and Minor](https://idah.indiana.edu/training/certificate.html), Indiana University Bloomington, USA
 - [Experimental Humanities Minor](http://eh.bard.edu/courses/), Bard College, USA
 - [Digital and Computational Studies Minor](https://www.bates.edu/digital-computational-studies/), Bates College, USA
 - [Digital Humanities Minor](http://cnu.edu/academics/areasofstudy/minor-digitalhumanities/), Christopher Newport University, USA
