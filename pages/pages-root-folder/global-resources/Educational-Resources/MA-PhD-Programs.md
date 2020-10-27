@@ -5,7 +5,7 @@ breadcrumb: true
 meta_title: "Global Resources - Educational Resources - MA/PhD Programs, Certificates, and Undergraduate Programs"
 source: community
 permalink: "global-resources/educational-resources/ma-phd-programs/"
-date_updated: 2020-09-21
+date_updated: 2020-10-27
 ---
 The majority of the information on this page comes courtersy of the [dhnotes Advanced Degrees in the Digital Humanities page](https://github.com/dh-notes/dhnotes/blob/master/pages/dh-programs.md) as of August 2019. [dhnotes](https://github.com/dh-notes/dhnotes) is as collaborative web projected created by [Dennis Tenen](https://github.com/denten) and [Alex Gil](https://github.com/elotroalex) with the added participation of [Austin Mason](https://github.com/apjmason), [Roopika Risam](https://github.com/roopikarisam), [Toshikazo SETO](https://github.com/tosseto), [Paul Spence](https://github.com/pjspence), [kiyonoriNagasaki](https://github.com/kiyonoriNagasaki), [Jan G. Wieners](https://github.com/janwieners), [briancrogers](https://github.com/briancrogers), and [Cole Crawford](https://github.com/ColeDCrawford).
 
@@ -106,6 +106,7 @@ ___
 - [MA Digital Humanities](https://www.ualberta.ca/interdisciplinary-studies/digital-humanities), University of Alberta
 - [Master of Arts in Digital Tools for Premodern Studies](https://ase.tufts.edu/classics/graduate/digitalTools.htm), Tufts University, USA
 - [Maestría en Comunicación y Humanidades Digitales](http://www.ucsj.edu.mx/licenciaturas/maestr%C3%ADas/maestria-en-comunicacion-y-humanidades-digitales/), Universidad del Claustro de Sor Juana, Mexico
+- [MA in Digital Art History/Computational Media](https://gradschool.duke.edu/academics/programs-degrees/digital-art-historycomputational-media), Duke University, USA
 
 ## South America and the Caribbean
 
