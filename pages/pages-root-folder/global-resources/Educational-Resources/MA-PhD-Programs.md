@@ -143,7 +143,8 @@ ___
 - [Certificate in Digital Humanities](https://www.pratt.edu/academics/information/advanced-certificates/digital-humanities/), Pratt Institute, USA
 - [Certificate in Digital Humanities](http://web.uvic.ca/~siemens/DH(SI)GradCertificateProposal.pdf) \[no longer offered\], University of Victoria, USA
 - [Certificate in Digital Humanities](https://www.northeastern.edu/cssh/history/graduate/programs/graduate-certificate-in-digital-humanities/), Northeastern University, USA
-- [Specialization in Digital Humanities](https://ils.indiana.edu/programs/specializations/digital-humanities.html), Indiana University Bloomington, USA
+- [Ph.D. Graduate Certificate or Minor in Digital Arts & Humanities](https://idah.indiana.edu/training/certificate.html), Institute for Digital Arts & Humanities, Indiana University Bloomington, USA
+- [M.I.S./M.L.S. Specialization in Digital Humanities](https://ils.indiana.edu/programs/specializations/digital-humanities.html), Department of Information & Library Science, Indiana University Bloomington, USA
 - [Graduate Certificate in Digital Studies and Methods](https://www.dsam.pitt.edu/), University of Pittsburgh, USA
 - [Graduate Certificate in Digital Humanities](https://dh.virginia.edu/certificate), University of Virginia, USA
 - [Digital Public Humanities Graduate](https://masononline.gmu.edu/programs/digital-public-humanities-graduate-certificate/), George Mason University, USA
