@@ -4,7 +4,7 @@ title: "Textbooks"
 breadcrumb: true
 meta_title: "Global Resources - Educational Resources - Textbooks"
 permalink: "global-resources/educational-resources/textbooks/"
-date_updated: 2019-09-13
+date_updated: 2020-12-18
 ---
 # Technical Textbooks
 Aimed at teaching code, methods, etc. 
@@ -15,6 +15,7 @@ Aimed at teaching code, methods, etc.
  -  [A Short Guide to Historical Newspaper Data, Using R](https://bookdown.org/yann_ryan/r-for-newspaper-data/) (2020). Yann Ryan.
  -  [The Historian’s Macroscope](http://www.themacroscope.org/2.0/) (2015). Graham, Milligan, & Weingart.
  -  [The Rubyist Historian](http://hepplerj.github.io/rubyist-historian/) (2014). Jason Heppler. 
+ -  [Designing Databases for Historical Research](https://port.sas.ac.uk/mod/book/view.php?id=75&chapterid=124) (2014). Mark Merry.
  -  [Natural Language Processing for Historical Texts](https://nlphist.hypotheses.org/) (2012). Michael Piotrowski. 
  -  [The Programming Historian, 1st edition](http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf) (2007). William J. Turkel and Alan MacEachern. 
 
