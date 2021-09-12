@@ -15,7 +15,7 @@ creationdate: 2019-09-11
 date_updated: 2019-09-11
 ---
 
-An effort to put the global digital humanities community in conversation with itself, particularly focused on making space for communities orthogonal to global power structures. The effort often elevates the technical and critical contributions of communities at various peripheries.
+An effort to put the global digital humanities community in conversation with itself, particularly focused on making space for communities orthogonal to global power structures. The effort often elevates the technical and critical contributions of communities beyond those that are commonly known or well-resourced.
 
 For more information see:
  -  [Global Outlook::Digital Humanities](http://www.globaloutlookdh.org/).
