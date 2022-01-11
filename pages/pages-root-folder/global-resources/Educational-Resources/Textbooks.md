@@ -4,7 +4,7 @@ title: "Textbooks"
 breadcrumb: true
 meta_title: "Global Resources - Educational Resources - Textbooks"
 permalink: "global-resources/educational-resources/textbooks/"
-date_updated: 2021-02-04
+date_updated: 2022-01-11
 ---
 # Technical Textbooks
 Aimed at teaching code, methods, etc. 
@@ -28,6 +28,7 @@ Aimed at teaching code, methods, etc.
  -  [Statistics for Corpus Linguistics](https://www.amazon.com/Statistics-Linguistics-Edinburgh-Textbooks-Empirical/dp/0748608176) (1998). Michael Oakes. 
 
 ## General Digital Humanities
+ -  [Humanities Data Analysis in Modern R](http://benschmidt.org/HDA/index.html) (ongoing). Ben Schmidt.
  -  [Python Programming for Humanists](http://www.karsdorp.io/python-course/) (ongoing). Folgert Karsdorp and Maarten van Gompel.  
  -  [Tutorials and Other Curricular Material](http://miriamposner.com/blog/tutorials-ive-written/) (2021). Miriam Posner.
  -  [Humanities Data Analysis: Case Studies with Python](https://press.princeton.edu/books/hardcover/9780691172361/humanities-data-analysis) (2021). Folgert Karsdorp, Mike Kestemont, & Allen Riddell.
