@@ -4,7 +4,7 @@ title: "Textbooks"
 breadcrumb: true
 meta_title: "Global Resources - Educational Resources - Textbooks"
 permalink: "global-resources/educational-resources/textbooks/"
-date_updated: 2022-01-11
+date_updated: 2022-01-17
 ---
 # Technical Textbooks
 Aimed at teaching code, methods, etc. 
@@ -31,7 +31,7 @@ Aimed at teaching code, methods, etc.
  -  [Humanities Data Analysis in Modern R](http://benschmidt.org/HDA/index.html) (ongoing). Ben Schmidt.
  -  [Python Programming for Humanists](http://www.karsdorp.io/python-course/) (ongoing). Folgert Karsdorp and Maarten van Gompel.  
  -  [Tutorials and Other Curricular Material](http://miriamposner.com/blog/tutorials-ive-written/) (2021). Miriam Posner.
- -  [Humanities Data Analysis: Case Studies with Python](https://press.princeton.edu/books/hardcover/9780691172361/humanities-data-analysis) (2021). Folgert Karsdorp, Mike Kestemont, & Allen Riddell.
+ -  [Humanities Data Analysis: Case Studies with Python](https://www.humanitiesdataanalysis.org/) (2021). Folgert Karsdorp, Mike Kestemont, & Allen Riddell.
  -  [Introduction to Named Entity Recognition](http://ner.pythonhumanities.com/) (2020). W.J.B. Mattingly.
  -  [Introduction to Cultural Analytics & Python](https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html) (2020). Melanie Walsh.
  -  [Digital Research Methods with Mathematica (2nd edition)](https://williamjturkel.net/digital-research-methods-with-mathematica/) (2020). William J. Turkel. 
