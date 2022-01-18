@@ -29,13 +29,13 @@ Aimed at teaching code, methods, etc.
 
 ## General Digital Humanities
  -  [Humanities Data Analysis in Modern R](http://benschmidt.org/HDA/index.html) (ongoing). Ben Schmidt.
- -  [Python Programming for Humanists](http://www.karsdorp.io/python-course/) (ongoing). Folgert Karsdorp and Maarten van Gompel.  
- -  [Tutorials and Other Curricular Material](http://miriamposner.com/blog/tutorials-ive-written/) (2021). Miriam Posner.
+  -  [Tutorials and Other Curricular Material](http://miriamposner.com/blog/tutorials-ive-written/) (2021). Miriam Posner.
  -  [Humanities Data Analysis: Case Studies with Python](https://www.humanitiesdataanalysis.org/) (2021). Folgert Karsdorp, Mike Kestemont, & Allen Riddell.
  -  [Introduction to Named Entity Recognition](http://ner.pythonhumanities.com/) (2020). W.J.B. Mattingly.
  -  [Introduction to Cultural Analytics & Python](https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html) (2020). Melanie Walsh.
  -  [Digital Research Methods with Mathematica (2nd edition)](https://williamjturkel.net/digital-research-methods-with-mathematica/) (2020). William J. Turkel. 
  -  [Hacking the Humanities](https://www.youtube.com/playlist?list=PL6kqrM2i6BPIpEF5yHPNkYhjHm-FYWh17) (2018). Paul Vierthaler. 
+ -  [Python Programming for Humanists](http://www.karsdorp.io/python-course/) (2017). Folgert Karsdorp and Maarten van Gompel.  
  -  [Technical Foundations of Informatics](https://info201.github.io/index.html) (2017). Michael Freeman and Joel Ross.
  -  [Exploratory Programming for the Arts and Humanities](https://www.amazon.com/Exploratory-Programming-Arts-Humanities-Press/dp/0262034204/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1488129778&sr=1-1) (2016). Nick Montfort. 
  -  [An Introduction to Text Analysis: A Coursebook](http://walshbr.com/textanalysiscoursebook/) (2016). Brandon Walsh & Sarah Horowitz.
