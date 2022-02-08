@@ -28,8 +28,8 @@ Aimed at teaching code, methods, etc.
  -  [Statistics for Corpus Linguistics](https://www.amazon.com/Statistics-Linguistics-Edinburgh-Textbooks-Empirical/dp/0748608176) (1998). Michael Oakes. 
 
 ## General Digital Humanities
- -  [Humanities Data Analysis in Modern R](http://benschmidt.org/HDA/index.html) (ongoing). Ben Schmidt.
-  -  [Tutorials and Other Curricular Material](http://miriamposner.com/blog/tutorials-ive-written/) (2021). Miriam Posner.
+ -  [Humanities Data Fundamentals](http://hdf.benschmidt.org/) (ongoing). Ben Schmidt.
+ -  [Tutorials and Other Curricular Material](http://miriamposner.com/blog/tutorials-ive-written/) (2021). Miriam Posner.
  -  [Humanities Data Analysis: Case Studies with Python](https://www.humanitiesdataanalysis.org/) (2021). Folgert Karsdorp, Mike Kestemont, & Allen Riddell.
  -  [Introduction to Named Entity Recognition](http://ner.pythonhumanities.com/) (2020). W.J.B. Mattingly.
  -  [Introduction to Cultural Analytics & Python](https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html) (2020). Melanie Walsh.
