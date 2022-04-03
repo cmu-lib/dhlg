@@ -10,7 +10,6 @@ date_updated: 2022-01-17
 Aimed at teaching code, methods, etc. 
 
 ## History
- -  [Introduction to Python for Digital Humanities](https://python-textbook.pythonhumanities.com/intro.html). W.J.B. Mattingly.
  -  [The Programming Historian, 2nd edition](https://programminghistorian.org/) (ongoing). Afanador-Llach, Maria José, Antonio Rojas Castro, Adam Crymble, Víctor Gayol, Fred Gibbs, Caleb McDaniel, Ian Milligan, Amanda Visconti, and Jeri Wieringa, eds. 
  -  [Computational Historical Thinking with Applications in R](http://dh-r.lincolnmullen.com/) (ongoing). Lincoln Mullen.
  -  [A Short Guide to Historical Newspaper Data, Using R](https://bookdown.org/yann_ryan/r-for-newspaper-data/) (2020). Yann Ryan.
@@ -30,6 +29,7 @@ Aimed at teaching code, methods, etc.
 
 ## General Digital Humanities
  -  [Humanities Data Fundamentals](http://hdf.benschmidt.org/) (ongoing). Ben Schmidt.
+ -  [Introduction to Python for Digital Humanities](https://python-textbook.pythonhumanities.com/intro.html) (2022). W.J.B. Mattingly.
  -  [Tutorials and Other Curricular Material](http://miriamposner.com/blog/tutorials-ive-written/) (2021). Miriam Posner.
  -  [Humanities Data Analysis: Case Studies with Python](https://www.humanitiesdataanalysis.org/) (2021). Folgert Karsdorp, Mike Kestemont, & Allen Riddell.
  -  [Introduction to Named Entity Recognition](http://ner.pythonhumanities.com/) (2020). W.J.B. Mattingly.
