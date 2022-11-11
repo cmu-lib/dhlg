@@ -12,7 +12,7 @@ Pittsburgh is full of interesting DH projects. Find a selection of them here. If
 \[Editor's note: this page is still quite sparse, but will be updated soon\]
 
 # Directory
-A | B | [C](c#) | [D](#d) | [E](#e) | [F](#f) | G | [H](#h) | [I](#i) | J | K | [L](#l) | M | N | O | P | Q | R | [S](#s) | T | U | V | W | X | Y | Z
+A | B | [C](c#) | [D](#d) | [E](#e) | [F](#f) | G | [H](#h) | [I](#i) | J | K | [L](#l) | M | N | O | [P](#p) | Q | R | [S](#s) | T | U | V | W | X | Y | Z
 
 ## C
 
@@ -36,6 +36,8 @@ A | B | [C](c#) | [D](#d) | [E](#e) | [F](#f) | G | [H](#h) | [I](#i) | J | K | 
 
 [**Frankenstein Variorum**](https://pghfrankenstein.github.io/Pittsburgh_Frankenstein/). A digital collation of five distinct versions of the novel produced between 1816 and 1831, appearing alongside annotations. The project team includes Elisa E. Beshero-Bondar (Pitt-Greensburg), Steven Gotzler (CMU), Jon Klancher (CMU), Matthew Lincoln (CMU), Rikk Mulligan (CMU), John Quirk (CMU), Emma Slayton (CMU), Raffaele Viglianti (UMD), Scott B. Weingart (CMU), and Avery J. Wiscomb (CMU).
 
+**Freedom and the Press Before Freedom of the Press**. See [**Print and Probability**](#p). 
+
 [**From Collection Records to Data Layers: A Critical Experiment in Collaborative Practice**](https://cadatpitt.github.io/). _Collections as Data: Part to Whole_ is an Andrew K. Mellon funded initiative that aims to encourage implementation and use of museum and library collections as data, and to foster the development of broadly viable models that support these endeavors. This _Part to Whole_ implementation supports experimental pedagogy to engage students in creating "data layers" to augment serials and ephemera representing traditionally excluded or marginalized perspectives. A collaboration among Matthew J. Lavin, Tyrica Terry Kapral, Aaron Brenner, Gesina Phillips, and University Library Services at the University of Pittsburgh.
 
 [[top]](#directory)
@@ -54,6 +56,12 @@ A | B | [C](c#) | [D](#d) | [E](#e) | [F](#f) | G | [H](#h) | [I](#i) | J | K | 
 ## L
 
 [**Latin American Comics Archive**](http://mlrcdev.hss.cmu.edu/omeka/). A curated exhibit of comic strips and comic books created in Argentina, Colombia, and Mexico between the 1920s and the present. The project team includes Felipe Gómez Gutiérrez, Rikk Mulligan, Daniel Evans, Allison Paige Kuester, Olivia Wikle, and Scott Weingart. 
+
+[[top]](#directory)
+
+## P
+
+[**Print and Probability**](http://www.bookhistory.rocks/) is an interdisciplinary, NEH- and NSF-funded project at the intersection of book history, computer vision, and machine learning that seeks to discover letterpress printers whose identities have eluded scholars for several hundred years.  Led by [Christopher Warren](https://www.cmu.edu/dietrich/english/about-us/faculty/bios/warren-christopher.html) and [Sam Lemley](https://www.library.cmu.edu/about/people/samuel-lemley) at CMU, the team of book historians, statisticians, computer scientists, and librarians tackles bibliographical mysteries by modeling the material conditions of early modern print shops.
 
 [[top]](#directory)
 
