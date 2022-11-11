@@ -19,7 +19,7 @@ Pittsburgh is full of interesting digital humanists. Find a selection of them he
 
 ## G
 
-[**Grunewald, Susan**](http://susangrunewald.com/) is the Digital History Postdoctoral Fellow at the University of Pittsburgh World History Center. She finished her PhD at the CMU History Department in 2019, where she served twice as an A.W. Mellon Digital Humanities Graduate Research Fellow.
+[**Grunewald, Susan**](http://susangrunewald.com/) was a Digital History Postdoctoral Fellow at the University of Pittsburgh World History Center. She finished her PhD at the CMU History Department in 2019, where she served twice as an A.W. Mellon Digital Humanities Graduate Research Fellow.
 
 [**Gunderman, Hannah C.**](https://hannahcgunderman.github.io/personal-site/) is the Research Data Management Consultant at Carnegie Mellon University Libraries. Her background is in cultural geography, using ethnography, GIS, and quantitative data to understand the impact of popular culture phenomena on the landscape around us. Her PhD dissertation was a mixed methods cultural geography survey of the _Doctor Who_ universe.
 
@@ -27,9 +27,9 @@ Pittsburgh is full of interesting digital humanists. Find a selection of them he
 
 ## L
 
-[**Lavin, Matthew J.**](https://matthew-lavin.com) is a Clinical Assistant Professor of English at the University of Pittsburgh, and Director of the department's Digital Media Lab. His scholarship focuses on points of contact between book history and digital humanities, especially the use of quantitative and computational methods to revisit core research questions of late-nineteenth and early twentieth-century American literature and culture. Lavin’s scholarship has appeared in or is forthcoming from _Auto\|Biography Studies_, _Cather Studies 9: Willa Cather and Modern Cultures_, _Legacy: A Journal of American Women Writers_, _Literary and Linguistic Computing_, _The Programming Historian_, _Studies in the Novel_, and _Western American Literature_. 
+[**Lavin, Matthew J.**](https://matthew-lavin.com) was a Clinical Assistant Professor of English at the University of Pittsburgh, and Director of the department's Digital Media Lab. His scholarship focuses on points of contact between book history and digital humanities, especially the use of quantitative and computational methods to revisit core research questions of late-nineteenth and early twentieth-century American literature and culture. Lavin’s scholarship has appeared in or is forthcoming from _Auto\|Biography Studies_, _Cather Studies 9: Willa Cather and Modern Cultures_, _Legacy: A Journal of American Women Writers_, _Literary and Linguistic Computing_, _The Programming Historian_, _Studies in the Novel_, and _Western American Literature_. 
 
-[**Lincoln, Matthew**](https://matthewlincoln.net) is a Research Software Engineer at Carnegie Mellon University Libraries. He holds a PhD in art history, and he specializes in cultural heritage information modeling and computational analytical techniques. He has previously worked as a data specialist at [The Getty Provenance Index](http://www.getty.edu/research/tools/provenance/), and is the lead technical editor of [_The Programming Historian_](https://programminghistorian.org).
+[**Lincoln, Matthew**](https://matthewlincoln.net) was a Research Software Engineer at Carnegie Mellon University Libraries. He holds a PhD in art history, and he specializes in cultural heritage information modeling and computational analytical techniques. He has previously worked as a data specialist at [The Getty Provenance Index](http://www.getty.edu/research/tools/provenance/), and is the lead technical editor of [_The Programming Historian_](https://programminghistorian.org).
 
 [[top]](#directory)
 
@@ -46,7 +46,8 @@ Pittsburgh is full of interesting digital humanists. Find a selection of them he
 [[top]](#directory)
 
 ## W
+[**Warren, Christopher**](https://www.cmu.edu/dietrich/english/about-us/faculty/bios/warren-christopher.html) is Associate Professor of English and History (by courtesy) at Carnegie Mellon.  His research spans digital humanities, law and literature, political theory, early modern literature, print culture, and the history of political thought.  His current research project focuses on ["Freedom and the Press before Freedom of the Press,"](http://www.bookhistory.rocks/) using machine learning and artificial intelligence to discover and center the anonymous craftsmen and -women responsible for printing controversial clandestine materials.  Warren co-founded the [Six Degrees of Francis Bacon](http://sixdegreesoffrancisbacon.com) project and directs the undergraduate minor in [Humanities Analytics (HumAn)](https://www.cmu.edu/dietrich/english/academic-programs/humanities-analytics/index.html).
 
-[**Weingart, Scott B.**](http://scottbot.net/) is the Program Director of Digital Humanities at Carnegie Mellon University. He is a historian of early modern science who specializes in computational methods, particularly network analysis. His past projects include the [Six Degrees of Francis Bacon](http://sixdegreesoffrancisbacon.com), [The Historian's Macroscope](http://www.themacroscope.org/2.0/), and [this site](https://cmu-lib.github.io/dhlg).
+[**Weingart, Scott B.**](http://scottbot.net/) was the Program Director of Digital Humanities at Carnegie Mellon University until 2021. He is a historian of early modern science who specializes in computational methods, particularly network analysis. His past projects include the [Six Degrees of Francis Bacon](http://sixdegreesoffrancisbacon.com), [The Historian's Macroscope](http://www.themacroscope.org/2.0/), and [this site](https://cmu-lib.github.io/dhlg).
 
 [[top]](#directory)
